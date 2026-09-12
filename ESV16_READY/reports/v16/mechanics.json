@@ -1,0 +1,406 @@
+{
+  "tests": [
+    {
+      "name": "Baseline preserved: 85 rooms, 10 professions, 120 skills, 18 shelters",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "No MP / arrows and Z X retain original controls",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "All eight alternate modes can be selected without resource debit",
+      "pass": true,
+      "data": [
+        [
+          "echo",
+          true,
+          40,
+          60,
+          "B"
+        ],
+        [
+          "forecast",
+          true,
+          40,
+          60,
+          "B"
+        ],
+        [
+          "cold",
+          true,
+          40,
+          60,
+          "B"
+        ],
+        [
+          "heat",
+          true,
+          40,
+          60,
+          "B"
+        ],
+        [
+          "macro",
+          true,
+          40,
+          60,
+          "B"
+        ],
+        [
+          "micro",
+          true,
+          19,
+          29,
+          "B"
+        ],
+        [
+          "sliceA",
+          true,
+          40,
+          60,
+          "A"
+        ],
+        [
+          "sliceC",
+          true,
+          40,
+          60,
+          "C"
+        ]
+      ]
+    },
+    {
+      "name": "Starting shelter idle 10 seconds takes no damage",
+      "pass": true,
+      "data": {
+        "before": 180,
+        "after": 180
+      }
+    },
+    {
+      "name": "Empty swing records real active-frame geometry",
+      "pass": true,
+      "data": [
+        {
+          "at": 10.38463333333343,
+          "layer": "B",
+          "kind": "box",
+          "x": 29422.51515151516,
+          "y": 13953,
+          "w": 82,
+          "h": 64,
+          "damage": 8.48,
+          "dir": 1,
+          "kx": 75,
+          "ky": -20,
+          "element": "raw"
+        }
+      ]
+    },
+    {
+      "name": "Echo hits an enemy entering the previously empty hitbox",
+      "pass": true,
+      "data": {
+        "actions": 1,
+        "hits": 1
+      }
+    },
+    {
+      "name": "Replay does not recursively create summons or mastery rewards",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "At most one echo object / replacement instead of recursive copies",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Actual jump path produces standable echo ledges",
+      "pass": true,
+      "data": {
+        "rails": 10
+      }
+    },
+    {
+      "name": "Player collision really lands on an echo ledge",
+      "pass": true,
+      "data": {
+        "y": 13911.433333333334,
+        "railY": 13911.433333333334
+      }
+    },
+    {
+      "name": "Teleport discontinuity does not become a wall-spanning light bridge",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Forecast represents a committed plan with ID and 2s ETA",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Moving elemental projectile actually destroys its causal node",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Cancelled future shot never spawns",
+      "pass": true,
+      "data": {
+        "shots": 0
+      }
+    },
+    {
+      "name": "Post-intercept real hit records exposure window",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Cold fixes enemy shot position AND lifetime while player stays active",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Frozen shot is a real collision platform",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Element shot marks frozen enemy projectile rather than spawning fake anchor",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Same element key swaps to marked frozen bullet, creates normal flame fields",
+      "pass": true,
+      "data": {
+        "metrics": {
+          "freezeShot": 1,
+          "switch": 1,
+          "frozenSwap": 1,
+          "swap": 1
+        },
+        "player": {
+          "x": 30290,
+          "y": 11405
+        }
+      }
+    },
+    {
+      "name": "Thaw restores hostile motion after an explicit warm-up",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Cold freezes lava surface and crusher timer",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Frozen target stores finite impulse instead of moving",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Heat releases stored impulse and applies armor break",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Only designated steel softens; ordinary walls do not disappear",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Player really traverses softened gate",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Heat elastic collision rebounds velocity and launches",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Macro wind shot moves heavy material at least 90px",
+      "pass": true,
+      "data": {
+        "delta": 197.69965368988414
+      }
+    },
+    {
+      "name": "Macro really zooms the camera, not just tint",
+      "pass": true,
+      "data": {
+        "zoom": 0.7447620661110709
+      }
+    },
+    {
+      "name": "Micro changes actual collision dimensions",
+      "pass": true,
+      "data": {
+        "w": 19,
+        "h": 29
+      }
+    },
+    {
+      "name": "Small body physically walks through the lattice gap",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Molecule is a standable platform, not decorative dots",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Unsafe scale restoration is rejected atomically",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "B slice has its solid wall",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "A slice removes B wall and player traverses it",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Normal C attack cannot damage B enemy",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Light really damages cross-layer target and opens timed link",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Same-coordinate B beam misses C player",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "ALL-layer attack still damages C; no permanent invincibility",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Wrong-layer enemy does not consume an elemental projectile",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "A fired B projectile keeps hitting B after player changes to C",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Player + echo real hit opens one convergence window",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Intersection gate prevents same-frame unlimited rewards / cooldown resets",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Parallax phase 2 mitigates unlinked damage",
+      "pass": true,
+      "data": {
+        "plainDamage": 12.799999999999955,
+        "lightDamage": 9
+      }
+    },
+    {
+      "name": "Parallax BREAK creates vulnerable stagger",
+      "pass": true,
+      "data": {
+        "breakStun": 2.6
+      }
+    },
+    {
+      "name": "Stable large boss cannot be dragged with swap",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Phase 3 schedules actual ALL-layer attacks",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Boss death grants once and does not overwrite original boss flag",
+      "pass": true,
+      "data": {
+        "delta": 6
+      }
+    },
+    {
+      "name": "Old B fire field damages B, not a colocated C target",
+      "pass": true,
+      "data": {
+        "B": 490,
+        "C": 500
+      }
+    },
+    {
+      "name": "B geyser cannot push the C player",
+      "pass": true,
+      "data": {
+        "vy": 0
+      }
+    },
+    {
+      "name": "All three echo course conditions complete from real actions, award only once",
+      "pass": true,
+      "data": {
+        "metrics": {
+          "echoMade": 1,
+          "switch": 1,
+          "echoHit": 1,
+          "railStand": 1
+        },
+        "pointDelta": 3,
+        "stage": 3
+      }
+    },
+    {
+      "name": "Water column freezing preflights new collision instead of trapping player",
+      "pass": true,
+      "data": {
+        "mode": "cold",
+        "x": 31308,
+        "y": 11251
+      }
+    },
+    {
+      "name": "Old combat rooms receive visible C pressure, not permanent invulnerability",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Existing save JSON round-trip preserves vision loadout and baseline progress",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "Invalid vision save safely normalizes",
+      "pass": true,
+      "data": null
+    }
+  ],
+  "failure": [],
+  "passed": 54,
+  "total": 54,
+  "browserErrors": []
+}

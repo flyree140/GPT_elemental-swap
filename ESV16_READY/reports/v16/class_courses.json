@@ -1,0 +1,5823 @@
+{
+  "cases": [
+    {
+      "cls": "rift",
+      "step": 0,
+      "pass": true,
+      "actual": 0,
+      "flags": {},
+      "events": [
+        {
+          "t": "command",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "rift",
+      "step": 1,
+      "pass": true,
+      "actual": 2,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "rift_step",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "rift",
+      "step": 2,
+      "pass": true,
+      "actual": 3,
+      "flags": {},
+      "events": [
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "rift_step",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "rift",
+      "step": 3,
+      "pass": true,
+      "actual": 4,
+      "flags": {},
+      "events": [
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "rift",
+      "step": 4,
+      "pass": true,
+      "actual": 5,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "rift_step",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "rift_rise",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_rise",
+          "linked": true,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_rise",
+          "linked": true,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_rise",
+          "linked": true,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "rift",
+      "step": 5,
+      "pass": true,
+      "actual": 6,
+      "flags": {},
+      "events": [
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "rift_rise",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_rise",
+          "linked": true,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_rise",
+          "linked": true,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_rise",
+          "linked": true,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "rift_step",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "summoner",
+      "step": 0,
+      "pass": true,
+      "actual": 0,
+      "flags": {},
+      "events": [
+        {
+          "t": "command",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "summoner",
+      "step": 1,
+      "pass": true,
+      "actual": 2,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "summoner_fox",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "fox",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "summoner_owl",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "owl",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_fox",
+          "linked": false,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "fox",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_owl",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "owl",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_fox",
+          "linked": false,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "fox",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_owl",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "owl",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_fox",
+          "linked": false,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "fox",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "summoner",
+      "step": 2,
+      "pass": true,
+      "actual": 3,
+      "flags": {},
+      "events": [
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "summoner_lance",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "summoner",
+      "step": 3,
+      "pass": true,
+      "actual": 4,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "summoner_lance",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "summoner",
+      "step": 4,
+      "pass": true,
+      "actual": 5,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "summoner_lance",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "summoner_gale",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_gale",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_gale",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "summoner",
+      "step": 5,
+      "pass": true,
+      "actual": 6,
+      "flags": {},
+      "events": [
+        {
+          "t": "command",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "summoner_lance",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "summoner_gale",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_lance",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_gale",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "summoner_gale",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "beast",
+      "step": 0,
+      "pass": true,
+      "actual": 0,
+      "flags": {},
+      "events": [
+        {
+          "t": "command",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "beast",
+      "step": 1,
+      "pass": true,
+      "actual": 1,
+      "flags": {
+        "flew": true,
+        "bearHits": [
+          2829,
+          2830
+        ],
+        "bearTime": 19.767966666666826,
+        "bear": true
+      },
+      "events": [
+        {
+          "t": "flight",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "flight",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "flight",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "flight",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "flight",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "flight",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "flight",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "flight",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "flight",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "flight",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "flight",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "flight",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "form",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "beast_palm",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "beast_palm",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "beast_palm",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "beast",
+      "step": 2,
+      "pass": true,
+      "actual": 3,
+      "flags": {},
+      "events": [
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "form",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "beast_palm",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "beast_palm",
+          "linked": false,
+          "el": "earth",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "beast_palm",
+          "linked": false,
+          "el": "earth",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "beast",
+      "step": 3,
+      "pass": true,
+      "actual": 4,
+      "flags": {},
+      "events": [
+        {
+          "t": "form",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "beast_palm",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "beast_palm",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "beast_palm",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "beast",
+      "step": 4,
+      "pass": true,
+      "actual": 5,
+      "flags": {},
+      "events": [
+        {
+          "t": "form",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "beast_palm",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "beast_palm",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "beast_palm",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        },
+        {
+          "t": "form",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "beast_feather",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "beast_feather",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "beast_feather",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "beast_feather",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "beast",
+      "step": 5,
+      "pass": true,
+      "actual": 6,
+      "flags": {},
+      "events": [
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "form",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "beast_palm",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "beast_palm",
+          "linked": false,
+          "el": "earth",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "beast_palm",
+          "linked": false,
+          "el": "earth",
+          "res": "fire"
+        },
+        {
+          "t": "form",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "beast_feather",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "beast_feather",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "beast_feather",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "artificer",
+      "step": 0,
+      "pass": true,
+      "actual": 0,
+      "flags": {},
+      "events": [
+        {
+          "t": "command",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "artificer",
+      "step": 1,
+      "pass": true,
+      "actual": 1,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "artificer_turret",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "artificer_step",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "artificer",
+      "step": 2,
+      "pass": true,
+      "actual": 3,
+      "flags": {},
+      "events": [
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "artificer_gear",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "artificer_gear",
+          "linked": false,
+          "el": "earth",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "artificer",
+      "step": 3,
+      "pass": true,
+      "actual": 4,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "artificer_gear",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "artificer_gear",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "artificer_gear",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "artificer_gear",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "artificer",
+      "step": 4,
+      "pass": true,
+      "actual": 5,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "artificer_gear",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "artificer_gear",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "artificer_rail",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "artificer_rail",
+          "linked": true,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "artificer_gear",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "artificer_rail",
+          "linked": true,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "artificer_gear",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "artificer_gear",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "artificer",
+      "step": 5,
+      "pass": true,
+      "actual": 6,
+      "flags": {},
+      "events": [
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "artificer_gear",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "artificer_gear",
+          "linked": false,
+          "el": "earth",
+          "res": "fire"
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "artificer_rail",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "artificer_rail",
+          "linked": true,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "artificer_gear",
+          "linked": false,
+          "el": "earth",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "artificer_gear",
+          "linked": false,
+          "el": "earth",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "artificer_gear",
+          "linked": false,
+          "el": "earth",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "artificer_rail",
+          "linked": true,
+          "el": "lightning",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "gunner",
+      "step": 0,
+      "pass": true,
+      "actual": 0,
+      "flags": {},
+      "events": [
+        {
+          "t": "command",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "gunner",
+      "step": 1,
+      "pass": true,
+      "actual": 1,
+      "flags": {
+        "shots": 2
+      },
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "gunner_rocket",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_rocket",
+          "linked": false,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_rocket",
+          "linked": false,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "gunner_shot",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_shot",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_shot",
+          "linked": false,
+          "el": "light",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "gunner",
+      "step": 2,
+      "pass": true,
+      "actual": 3,
+      "flags": {},
+      "events": [
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "gunner_shot",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_shot",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_shot",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "gunner",
+      "step": 3,
+      "pass": true,
+      "actual": 4,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "gunner_shot",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_shot",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_shot",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_shot",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_shot",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_shot",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_shot",
+          "linked": false,
+          "el": "light",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "gunner",
+      "step": 4,
+      "pass": true,
+      "actual": 5,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "gunner_shot",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_shot",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_shot",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "gunner_rocket",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_rocket",
+          "linked": true,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_rocket",
+          "linked": true,
+          "el": "fire",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "gunner",
+      "step": 5,
+      "pass": true,
+      "actual": 6,
+      "flags": {},
+      "events": [
+        {
+          "t": "command",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "gunner_shot",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_shot",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_shot",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "gunner_rocket",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_rocket",
+          "linked": true,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "gunner_rocket",
+          "linked": true,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "warden",
+      "step": 0,
+      "pass": true,
+      "actual": 0,
+      "flags": {},
+      "events": [
+        {
+          "t": "command",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "warden",
+      "step": 1,
+      "pass": true,
+      "actual": 1,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "warden_guard",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_guard",
+          "linked": false,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_guard",
+          "linked": false,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "parry",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "warden",
+      "step": 2,
+      "pass": true,
+      "actual": 3,
+      "flags": {},
+      "events": [
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "warden_rush",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_rush",
+          "linked": false,
+          "el": "earth",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_rush",
+          "linked": false,
+          "el": "earth",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "warden",
+      "step": 3,
+      "pass": true,
+      "actual": 4,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "warden_rush",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_rush",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_rush",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_rush",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_rush",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_rush",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_rush",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "warden",
+      "step": 4,
+      "pass": true,
+      "actual": 5,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "warden_rush",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_rush",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_rush",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "warden_spear",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_spear",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_spear",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_spear",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "warden",
+      "step": 5,
+      "pass": true,
+      "actual": 6,
+      "flags": {},
+      "events": [
+        {
+          "t": "command",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "warden_rush",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_rush",
+          "linked": false,
+          "el": "earth",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_rush",
+          "linked": false,
+          "el": "earth",
+          "res": "fire"
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "warden_spear",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_spear",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_spear",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "warden_spear",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "chrono",
+      "step": 0,
+      "pass": true,
+      "actual": 0,
+      "flags": {},
+      "events": [
+        {
+          "t": "command",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_echo",
+          "linked": false,
+          "el": "shadow",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "chrono",
+      "step": 1,
+      "pass": true,
+      "actual": 2,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "chrono_anchor",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "chrono_anchor",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "rewind",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "chrono_echo",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_echo",
+          "linked": false,
+          "el": "shadow",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_echo",
+          "linked": false,
+          "el": "shadow",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_echo",
+          "linked": false,
+          "el": "shadow",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_echo",
+          "linked": false,
+          "el": "shadow",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "chrono",
+      "step": 2,
+      "pass": true,
+      "actual": 3,
+      "flags": {},
+      "events": [
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "chrono_shard",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_shard",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_shard",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_shard",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "chrono",
+      "step": 3,
+      "pass": true,
+      "actual": 4,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "chrono_shard",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_shard",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_shard",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_shard",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_shard",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_shard",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_shard",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_shard",
+          "linked": false,
+          "el": "light",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "chrono",
+      "step": 4,
+      "pass": true,
+      "actual": 5,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "chrono_shard",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_shard",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_shard",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_shard",
+          "linked": false,
+          "el": "light",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "chrono_lift",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_lift",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_lift",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "chrono",
+      "step": 5,
+      "pass": true,
+      "actual": 6,
+      "flags": {},
+      "events": [
+        {
+          "t": "command",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "chrono_shard",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_shard",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_shard",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_shard",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "chrono_lift",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_shard",
+          "linked": false,
+          "el": "light",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_echo",
+          "linked": false,
+          "el": "shadow",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_lift",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "chrono_lift",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "harrier",
+      "step": 0,
+      "pass": true,
+      "actual": 0,
+      "flags": {},
+      "events": [
+        {
+          "t": "command",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "harrier",
+      "step": 1,
+      "pass": true,
+      "actual": 1,
+      "flags": {
+        "pulled": true
+      },
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "harrier_hook",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_hook",
+          "linked": false,
+          "el": "earth",
+          "res": null
+        },
+        {
+          "t": "pull",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "harrier_swing",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_swing",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "harrier",
+      "step": 2,
+      "pass": true,
+      "actual": 3,
+      "flags": {},
+      "events": [
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "harrier_scythe",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_scythe",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_scythe",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_scythe",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        }
+      ]
+    },
+    {
+      "cls": "harrier",
+      "step": 3,
+      "pass": true,
+      "actual": 4,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "harrier_scythe",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_scythe",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_scythe",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_scythe",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_scythe",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_scythe",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_scythe",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "harrier",
+      "step": 4,
+      "pass": true,
+      "actual": 5,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "harrier_scythe",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_scythe",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_scythe",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "harrier_rising",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_rising",
+          "linked": true,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_rising",
+          "linked": true,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_scythe",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_scythe",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "harrier",
+      "step": 5,
+      "pass": true,
+      "actual": 6,
+      "flags": {},
+      "events": [
+        {
+          "t": "command",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "harrier_scythe",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_scythe",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_scythe",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "harrier_rising",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_rising",
+          "linked": true,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "harrier_rising",
+          "linked": true,
+          "el": "lightning",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "alchemist",
+      "step": 0,
+      "pass": true,
+      "actual": 0,
+      "flags": {},
+      "events": [
+        {
+          "t": "command",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "water",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "alchemist",
+      "step": 1,
+      "pass": true,
+      "actual": 2,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "alchemist_mist",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_mist",
+          "linked": false,
+          "el": "water",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_mist",
+          "linked": false,
+          "el": "water",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "alchemist_spark",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "alchemist",
+      "step": 2,
+      "pass": true,
+      "actual": 3,
+      "flags": {},
+      "events": [
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "alchemist_spark",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "alchemist",
+      "step": 3,
+      "pass": true,
+      "actual": 4,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "alchemist_spark",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "alchemist",
+      "step": 4,
+      "pass": true,
+      "actual": 5,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "alchemist_spark",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "alchemist_lift",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_lift",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_lift",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "alchemist",
+      "step": 5,
+      "pass": true,
+      "actual": 6,
+      "flags": {},
+      "events": [
+        {
+          "t": "command",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "alchemist_spark",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_spark",
+          "linked": false,
+          "el": "lightning",
+          "res": "fire"
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "alchemist_lift",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_lift",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "alchemist_lift",
+          "linked": true,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "monk",
+      "step": 0,
+      "pass": true,
+      "actual": 0,
+      "flags": {},
+      "events": [
+        {
+          "t": "command",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZ",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "command",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "ZZX",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "monk",
+      "step": 1,
+      "pass": true,
+      "actual": 2,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "monk_spin",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "monk",
+      "step": 2,
+      "pass": true,
+      "actual": 3,
+      "flags": {},
+      "events": [
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "monk_spin",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        }
+      ]
+    },
+    {
+      "cls": "monk",
+      "step": 3,
+      "pass": true,
+      "actual": 4,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "monk_spin",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "monk",
+      "step": 4,
+      "pass": true,
+      "actual": 5,
+      "flags": {},
+      "events": [
+        {
+          "t": "skill",
+          "key": null,
+          "id": "monk_spin",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "monk_rise",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_rise",
+          "linked": true,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_rise",
+          "linked": true,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": null
+        }
+      ]
+    },
+    {
+      "cls": "monk",
+      "step": 5,
+      "pass": true,
+      "actual": 6,
+      "flags": {},
+      "events": [
+        {
+          "t": "command",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": "Z",
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": "raw",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "swap",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": null,
+          "el": "fire",
+          "res": null
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "monk_spin",
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "skill",
+          "key": null,
+          "id": "monk_rise",
+          "skill": null,
+          "linked": true,
+          "el": null,
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_rise",
+          "linked": true,
+          "el": "lightning",
+          "res": null
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": "monk_spin",
+          "linked": false,
+          "el": "wind",
+          "res": "fire"
+        },
+        {
+          "t": "hit",
+          "key": null,
+          "id": null,
+          "skill": null,
+          "linked": false,
+          "el": null,
+          "res": null
+        }
+      ]
+    }
+  ],
+  "pageErrors": [],
+  "failed": []
+}

@@ -1,0 +1,119 @@
+{
+  "version": "16.0.0-causal-atelier-release",
+  "checks": [
+    {
+      "name": "129 V11 original assets/source/manifest retained byte-for-byte",
+      "pass": true,
+      "data": {
+        "compared": 129,
+        "changed": []
+      }
+    },
+    {
+      "name": "Every JavaScript source passes node --check",
+      "pass": true,
+      "data": {
+        "files": 10,
+        "errors": []
+      }
+    },
+    {
+      "name": "Multi-file entry resolves all local dependencies",
+      "pass": true,
+      "data": {
+        "local": [
+          "styles.css",
+          "vision.css",
+          "assets/codex/MONSTER_ATLAS_V9.png",
+          "js/world.js",
+          "js/config.js",
+          "js/skills.js",
+          "js/network.js",
+          "js/game.js",
+          "js/mastery.js",
+          "js/sanctuary_data.js",
+          "js/sanctuary.js",
+          "js/vision_data.js",
+          "js/vision.js"
+        ],
+        "missing": []
+      }
+    },
+    {
+      "name": "Standalone contains no local or external script/image/style dependencies",
+      "pass": true,
+      "data": {
+        "local": [],
+        "external": []
+      }
+    },
+    {
+      "name": "120 PNGs decode and embedded image bytes match originals",
+      "pass": true,
+      "data": {
+        "pngs": 120,
+        "embedded": 120,
+        "bad": []
+      }
+    },
+    {
+      "name": "V16 rules/styles actually embedded",
+      "pass": true,
+      "data": {
+        "inlineScripts": 12,
+        "styleBlocks": 2
+      }
+    },
+    {
+      "name": "No font binaries packaged",
+      "pass": true,
+      "data": []
+    },
+    {
+      "name": "GitHub root has index and nojekyll",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "54 rule mechanics regression checks",
+      "pass": true,
+      "data": {
+        "passed": 54,
+        "total": 54
+      }
+    },
+    {
+      "name": "13 actual browser UI/input and relative-load checks",
+      "pass": true,
+      "data": {
+        "passed": 13,
+        "total": 13
+      }
+    },
+    {
+      "name": "13 original combat checks still pass",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "120 original skills execute",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "60 original class-course checks pass",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "33 original shelter service checks pass",
+      "pass": true,
+      "data": null
+    }
+  ],
+  "passed": 14,
+  "total": 14,
+  "failures": [],
+  "standaloneSHA256": "143fd9358c2ce4502e6e93c9deeb564e9848930de94b15ff61cfee86c4627780",
+  "pngImages": 120
+}

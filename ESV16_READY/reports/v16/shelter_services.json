@@ -1,0 +1,172 @@
+{
+  "tests": [
+    {
+      "name": "18 unique shelters / 18 functional fixture types",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "V10 preserved: 78 rooms / 120 skills / 10 classes / 10 elements",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "no MP in player",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "refrigerator heals and grants initial supplies",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "ration cooldown blocks immediate duplicate",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "locker claimed only once",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "bed heals / clears DOT / stores respawn",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "workbench clears mastery cooldown map",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "stove consumes one herb and gives existing food buff",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "purifier clears all status / grants shield",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "resident journal grants points once",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "wrong element cannot grow herbs",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "nature projectile really grows planter",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "harvest grants 2 herbs once per cooldown",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "generator rejects wrong first element",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "water projectile advances repair to 1",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "lightning projectile completes repair",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "generator reward cannot be duplicated",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "unpowered terminal does not create bridge",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "powered terminal creates solid platform",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "recycler conversion cap: five",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "collection cabinet claims once",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "light switch off persists in progress",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "light switch on",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "observatory first discovery points only once",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "medical bed functional",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "radio reveals connected rooms",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "sofa clears six-slot cooldowns",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "undiscovered fast travel blocked",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "remote use rejected",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "JSON save round trip retains one-time claims",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "every furnishing stands on a real floor/roof",
+      "pass": true,
+      "data": null
+    },
+    {
+      "name": "all interactive art images loaded",
+      "pass": true,
+      "data": null
+    }
+  ],
+  "passed": 33,
+  "failed": [],
+  "pageErrors": []
+}
