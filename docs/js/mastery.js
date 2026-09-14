@@ -33,6 +33,7 @@ const SCHOOLS={
  alchemist:['鍊金調律師','濕火實驗室','濕潤導電／消耗異常爆發','alchemist_mist','alchemist_spark'],
  monk:['雷影武僧','雷影道場','寸勁反制／多段拳／飛踢','monk_jab','monk_rise']
 };
+Object.assign(SCHOOLS,window.ES17_SCHOOLS||{});
 C.CLASSES.alchemist={name:'鍊金調律師',icon:'鍊',accent:'#edb96b',hp:160,speed:.99,desc:'拋瓶建立濕霧、燃燒、破甲；催化狀態後再換位收尾。',skills:[],q:['調律震盪',.65]};
 C.CLASSES.monk={name:'雷影武僧',icon:'拳',accent:'#73cddd',hp:180,speed:1.08,desc:'短拳連打、上勾拳與迴旋踢；精準反制後獲得追擊空間。',skills:[],q:['寸勁反掌',.6]};
 for(const [id,list] of Object.entries(DATA)){ C.CLASSES[id].skills=list.slice(0,3).map(s=>[s.name,s.cd]); }
@@ -53,8 +54,8 @@ function normalMaster(v){
  if(v&&typeof v==='object')for(const k of ['loadouts','ranks','branches','follows','command','lessons','claims'])if(v[k]&&typeof v[k]==='object'&&!Array.isArray(v[k]))out[k]=v[k];
  if(v){for(const k of ['points','xp','level'])if(Number.isFinite(v[k]))out[k]=clamp(Math.floor(v[k]),0,100000);out.skillPage=v.skillPage===1?1:0;}
  for(const [cls,list]of Object.entries(DATA)){
-  const valid=new Set(list.map(s=>s.id));let a=out.loadouts[cls];
-  if(!Array.isArray(a)||a.length!==6||a.some(id=>!valid.has(id))||new Set(a).size!==6)a=list.slice(0,6).map(s=>s.id);
+  const valid=new Set(list.map(s=>s.id));let a=out.loadouts[cls];if(Array.isArray(a)){a=[...new Set(a.filter(id=>valid.has(id)))].slice(0,5);for(const s of list)if(a.length<5&&!a.includes(s.id))a.push(s.id);}
+  if(!Array.isArray(a)||a.length!==5||a.some(id=>!valid.has(id))||new Set(a).size!==5)a=list.slice(0,5).map(s=>s.id);
   out.loadouts[cls]=a;
   for(const s of list){out.ranks[s.id]=clamp(Number(out.ranks[s.id])||0,0,2);out.branches[s.id]=out.branches[s.id]==='B'?'B':'A';if(!valid.has(out.follows[s.id])||out.follows[s.id]===s.id)out.follows[s.id]=s.recommendedFollow;}
   if(!['raw','fire','lightning','ice'].includes(out.command[cls]))out.command[cls]='raw';
@@ -116,7 +117,7 @@ P.loop=function(ts){
   if(this.hitStop>0){this.hitStop=Math.max(0,this.hitStop-real);
    if(this.key('zAttack',true))this.pendingM={kind:'command',token:'Z',until:this.time+.26};
    if(this.key('xAttack',true)||this.key('xAttackAlt',true))this.pendingM={kind:'command',token:'X',until:this.time+.26};
-   for(let i=0;i<3;i++)if(this.key('skill'+(i+1),true))this.pendingM={kind:'skill',slot:i,until:this.time+.26};
+   for(let i=0;i<5;i++)if(this.key('skill'+(i+1),true))this.pendingM={kind:'skill',slot:i,until:this.time+.26};
    if(this.key('jump',true))this.player.jumpBuffer=.16;
   }else this.update(real,ts);
  }
@@ -127,7 +128,7 @@ const baseGlobal=P.updateGlobalInput;
 P.updateGlobalInput=function(){
  if(this.key('skillbook',true))this.openMastery();
  if(this.key('school',true))this.openSchools();
- if(this.key('deck',true)){this.mState().skillPage=1-this.mState().skillPage;this.renderSkillBar();this.saveProgress();}
+ this.mState().skillPage=0;
  if(this.key('exitSchool',true)&&this.trainingM)this.endTraining();
  baseGlobal.call(this);
 };
@@ -177,7 +178,7 @@ P.updateAttacks=function(dt){const a=this.player.attack,nh=this.skillShots.lengt
 // ── 精通分支：同一技能只啟用 A 或 B，可免費切换。 ──
 P.upgradeMasterSkill=function(id){if(!SKILLS[id])return false;const m=this.mState(),r=m.ranks[id]||0,cost=r+1;if(r>=2||m.points<cost){this.say(r>=2?'已達技能等級 2':'專精點不足；課程、首解、遺物與升級可獲得',2);return false;}m.points-=cost;m.ranks[id]=r+1;this.saveProgress();this.mEmit('upgrade',{id,rank:r+1});return true;};
 P.chooseMasterBranch=function(id,b){if(!SKILLS[id]||!['A','B'].includes(b))return;if(this.trainingM){this.trainingM.branches[id]=b;this.trainingM.branchChosen=true;}else this.mState().branches[id]=b;this.saveProgress();};
-P.equipMasterSkill=function(id,slot){const list=this.mLoadout();if(SKILLS[id]&&!Number.isNaN(slot)&&slot>=0&&slot<6&&DATA[this.player.classId].some(s=>s.id===id)){const old=list.indexOf(id),prev=list[slot];list[slot]=id;if(old>=0&&old!==slot)list[old]=prev;this.renderSkillBar();this.saveProgress();return true;}return false;};
+P.equipMasterSkill=function(id,slot){const list=this.mLoadout();if(SKILLS[id]&&!Number.isNaN(slot)&&slot>=0&&slot<5&&DATA[this.player.classId].some(s=>s.id===id)){const old=list.indexOf(id),prev=list[slot];list[slot]=id;if(old>=0&&old!==slot)list[old]=prev;this.renderSkillBar();this.saveProgress();return true;}return false;};
 P.setCommandBranch=function(b){if(!['raw','fire','lightning','ice'].includes(b))return false;const m=this.mState();if(b!=='raw'&&!m.claims['command:'+b]){if(m.points<2)return false;m.points-=2;m.claims['command:'+b]=true;}m.command[this.player.classId]=b;this.saveProgress();return true;};
 P.mSkillContext=function(s){
  const rank=this.mRank(s.id),branch=this.mBranch(s.id),mod=rank>0?s.branches.find(b=>b.id===branch)?.effect:null;
@@ -188,7 +189,7 @@ P.useSkill=function(slot){
  const p=this.player;if(p.downT>0||p.recoverT>0)return false;
  if(p.attack&&p.attack.elapsed<p.attack.def.cancel){this.pendingM={kind:'skill',slot,until:this.time+.25};return false;}
  if(p.castT>0){this.pendingM={kind:'skill',slot,until:this.time+.24};return false;}
- const page=this.mState().skillPage,idx=page*3+slot,id=this.mLoadout()[idx];
+ const page=0,idx=slot,id=this.mLoadout()[idx];
  const link=this.linkM&&this.linkM.slot===slot&&this.linkM.page===page&&this.linkM.until>=this.time&&this.linkM.ready<=this.time?this.linkM:null;
  return this.castMasterSkill(link?link.next:id,{slot,linked:!!link,parent:link?.source});
 };
@@ -200,7 +201,7 @@ P.castMasterSkill=function(id,opts={}){
  if(s.form)this.setFormM(s.form);
  this.commandLabel=`${opts.linked?'接續 → ':''}${s.name}${ctx.rank?' · '+this.mBranch(s.id):''}${ctx.resonance?' / 共鳴':''}`;this.commandT=1.1;
  this.sfx.skill();
- if(!opts.linked){const next=this.trainingM?.follows[id]||this.mState().follows[id];this.linkM={source:id,next,slot:opts.slot??0,page:this.mState().skillPage,ready:this.time+.14,until:this.time+1.0};}else this.linkM=null;
+ if(!opts.linked){const next=this.trainingM?.follows[id]||this.mState().follows[id];this.linkM={source:id,next,slot:opts.slot??0,page:this.mState().skillPage,ready:this.time+.14,until:this.time+1.35};}else this.linkM=null;
  this.mEmit('skill',{id,mode:s.mode,linked:!!opts.linked,resonance:ctx.resonance,branch:this.mBranch(id)});
  if(ctx.mod==='shield')p.shield=Math.max(p.shield,12+ctx.rank*4);
  if(ctx.mod==='heal')p.hp=Math.min(p.maxHp,p.hp+3+ctx.rank);
@@ -251,7 +252,7 @@ P.damageEnemy=function(e,dmg,kx=0,ky=0,def={}){
  this.mEmit('hit',event);
  if(def.mCommand||ctx?.skill){this.hitStop=Math.min(.065,Math.max(this.hitStop,def.big?.05:.025));this.shake=Math.min(10,Math.max(this.shake,def.big?7:3));}
  if(e.practiceM){e.dead=false;e.hp=e.maxHp;this.progress.scrap=Math.max(0,this.progress.scrap);}
- if(!wasDead&&e.dead){if(e.isEast){this.mAward('eastBoss',8,100);this.say('熔鑄監察者擊破｜東境共鳴完成 +8 專精點',4,'#f2d48b');}this.mXP(e.type==='sentinel'?80:16);this.mEmit('kill',{enemy:e.id,type:e.type});}
+ if(!wasDead&&e.dead){if(e.isEast&&!e.xBoss){this.mAward('eastBoss',8,100);this.say('熔鑄監察者擊破｜東境共鳴完成 +8 專精點',4,'#f2d48b');}this.mXP(e.type==='sentinel'?80:16);this.mEmit('kill',{enemy:e.id,type:e.type});}
 };
 P.mArea=function(x,y,r,dmg,ctx,opts={}){
  const radius=r*(ctx.reach||1);this.mVisual(opts.visual||'ring',x,y,radius,colors[ctx.resonance||ctx.element]||'#ceeeee',.35);
@@ -485,7 +486,9 @@ const PRACTICE={
  alchemist:{slots:['alchemist_mist','alchemist_spark','alchemist_burn','alchemist_gravity','alchemist_seed','alchemist_ice'],hint:'C 水瓶命中同一傀儡 → V 電解彈再命中，觸發濕潤導電。'},
  monk:{slots:['monk_jab','monk_spin','monk_rise','monk_counter','monk_step','monk_drop'],hint:'貼近後 V 旋風連踢，1 秒內讓四段都命中；接 C 穿入敵人身側。'}
 };
+Object.assign(PRACTICE,window.ES17_PRACTICE||{});for(const q of Object.values(PRACTICE))q.slots=q.slots.slice(0,5);
 const DAMAGE_SKILL={rift:'rift_step',summoner:'summoner_lance',beast:'beast_palm',artificer:'artificer_gear',gunner:'gunner_shot',warden:'warden_rush',chrono:'chrono_shard',harrier:'harrier_scythe',alchemist:'alchemist_spark',monk:'monk_spin'};
+Object.assign(DAMAGE_SKILL,window.ES17_DAMAGE||{});
 P.startTraining=function(cls){
  if(!C.CLASSES[cls])return;
  if(this.trainingM)this.endTraining();
@@ -504,7 +507,7 @@ P.resetPracticeActors=function(){
  this.enemies=this.enemies.filter(e=>!e.practiceM);
  // 靶子集中但不重疊，熊一次震地可同時覆蓋；可見浮空與推移。
  for(let i=0;i<3;i++){const e=this.spawnEnemy('dummy',r.x+760+i*95,r.floorY,{room:r.id,hp:10000});e.practiceM=true;e.homePractice={x:e.x,y:e.y};}
- const pos=this.findSafePosition(r.x+660,r.floorY-80,p.w,p.h);p.x=pos.x;p.y=pos.y;p.vx=p.vy=0;p.hp=p.maxHp;p.inv=1;p.downT=0;p.onGround=true;p.recoverT=0;p.parry=0;p.hurtT=0;p.attack=null;p.buffer=null;p.castT=0;p.history='';p.historyT=0;p.skillCD=[0,0,0];
+ const pos=this.findSafePosition(r.x+660,r.floorY-80,p.w,p.h);p.x=pos.x;p.y=pos.y;p.vx=p.vy=0;p.hp=p.maxHp;p.inv=1;p.downT=0;p.onGround=true;p.recoverT=0;p.parry=0;p.hurtT=0;p.attack=null;p.buffer=null;p.castT=0;p.history='';p.historyT=0;p.skillCD=[0,0,0,0,0];
  p.checkpoint={...pos,room:r.id};this.camera.x=clamp(p.x-this.viewW*.4,0,C.WORLD_W-this.viewW);this.camera.y=clamp(p.y-this.viewH*.60,0,C.WORLD_H-this.viewH);
  t.baseY=p.y;t.baseX=p.x;t.flightGain=0;t.flags={};t.stageAt=this.time;t.branchChosen=false;t.doneTimer=null;this.combo.hits=0;this.combo.t=0;
 };
@@ -514,7 +517,7 @@ P.trainingTask=function(){const t=this.trainingM;if(!t)return null;const phase=t
   ['02｜'+SCHOOLS[t.classId][2],PRACTICE[t.classId].hint],
   ['03｜換位 → 技能共鳴','按 1 發射 → 再按 1 換位；2.4 秒內 C 命中。不是只按鍵，要打到傀儡。'],
   ['04｜切換強化分支','L 開工坊，選第一個 C 技能按 K 切 B 分支；關閉後 C 命中。教場暫借等級 1，不扣點。'],
-  ['05｜主技能 → 追擊技能','C 施放後 0.14–1 秒內再按 C，觸發目前設定的追擊；追擊必須命中。'],
+  ['05｜主技能 → 追擊技能','C 施放後 0.14–1.35 秒內再按 C，觸發目前設定的追擊；追擊必須命中。'],
   ['06｜完整一套接招','6 秒內：Z 命中 → 1→1 換位 → C 主技能 → 再 C 追擊命中；可移動和跳躍調整位置。'],
   ['研習完成','第一次完成此職業課程獎勵 4 專精點。Backspace 回到原探索位置；T 可挑其他職業。']
  ];return task[Math.min(phase,6)];};
@@ -524,6 +527,7 @@ P.checkLessonM=function(type,d){const t=this.trainingM;if(!t||t.step>=6||t.doneT
  if(t.step===0&&type==='hit'&&d.key==='ZZX'&&d.airborne)done=true;
  if(t.step===1){
   const cls=t.classId;
+  if(window.ES17_SCHOOLS?.[cls]&&type==='hit'&&d.skill)done=(f.hits=(f.hits||0)+1)>=2;
   if(cls==='rift'&&type==='hit'&&d.skill==='rift_step')done=(f.hits=(f.hits||0)+1)>=3;
   if(cls==='summoner'&&type==='summonHit'){f.hits=(f.hits||0)+1;done=this.summons.length>=2&&f.hits>=3;}
   if(cls==='beast'){
@@ -617,7 +621,7 @@ P.renderMastery=function(){
  $('#masterDetail').innerHTML=`<div class="detail-title"><small>SELECTED SKILL</small><h3>${s.name}</h3><p>${s.desc}</p></div><p>基礎傷害 ${s.damage}　冷卻 ${s.cd.toFixed(2)}s<br>強化等級 ${rank}/2；每級基礎傷害 +12%。A／B 同時只能啟用一條。</p>
  <button id="upgradeM" type="button" ${this.trainingM||rank>=2?'disabled':''}>U · ${rank>=2?'已達上限':'強化至 '+(rank+1)+' 級（'+(rank+1)+' 點）'}</button>
  <div class="branch-choices">${s.branches.map((b,i)=>`<button type="button" data-branch="${b.id}" class="${branch===b.id?'chosen':''}"><b>${i?'K':'J'} · ${b.id} ${b.name}</b><span>${b.desc}</span><small>${rank===0?'先升到 1 級才啟用；可先選分支':branch===b.id?'已啟用':'免費切換'}</small></button>`).join('')}</div>
- <label class="follow-label">追擊設定（O 輪替；或直接選擇）<select id="followM">${list.filter(a=>a.id!==s.id).map(a=>`<option value="${a.id}" ${a.id===following?'selected':''}>${a.name}</option>`).join('')}</select></label><p class="hint-M">施放後 0.14–1 秒再次按同一技能鍵，可接上述追擊。追擊使用自己的冷卻，不會免費洗 CD。</p>`;
+ <label class="follow-label">追擊設定（O 輪替；或直接選擇）<select id="followM">${list.filter(a=>a.id!==s.id).map(a=>`<option value="${a.id}" ${a.id===following?'selected':''}>${a.name}</option>`).join('')}</select></label><p class="hint-M">施放後 0.14–1.35 秒再次按同一技能鍵，可接上述追擊。追擊使用自己的冷卻，不會免費洗 CD。</p>`;
  $('#commandInfusions').innerHTML=['raw','fire','lightning','ice'].map(b=>`<button data-infusion="${b}" type="button" class="${m.command[cls]===b?'chosen':''}">${{raw:'原型打擊',fire:'燃燒普攻',lightning:'麻痺普攻',ice:'寒霜普攻'}[b]}<small>${b==='raw'||m.claims['command:'+b]?'已解鎖 · 切换免費':'永久解鎖 2 點'}</small></button>`).join('');
  $('#masterHelp').textContent='↑↓←→ 選技能 · 1–6 裝槽 · U 強化 · J/K 分支 · O 追擊 · Esc 返回　｜升級點只用於永久成長，施放不消耗任何 MP。';
  $('#loadoutM').querySelectorAll('[data-equip]').forEach(b=>b.onclick=()=>{this.equipMasterSkill(s.id,Number(b.dataset.equip));this.renderMastery();});
@@ -648,7 +652,7 @@ P.bindUI=function(){baseBindUI.call(this);$('#masteryButton').onclick=()=>this.o
   if(e.code==='Escape'){this.closeModalsM();return;}
   if(school){const ids=Object.keys(DATA);if(e.code==='ArrowRight'||e.code==='ArrowDown')this.schoolSelection=(this.schoolSelection+1)%ids.length;else if(e.code==='ArrowLeft'||e.code==='ArrowUp')this.schoolSelection=(this.schoolSelection+ids.length-1)%ids.length;else if(e.code==='Enter')return this.startTraining(ids[this.schoolSelection]);this.renderSchools();return;}
   const list=DATA[this.player.classId],len=list.length;if(e.code==='ArrowRight')this.masterSelection=(this.masterSelection+1)%len;else if(e.code==='ArrowLeft')this.masterSelection=(this.masterSelection+len-1)%len;else if(e.code==='ArrowDown')this.masterSelection=(this.masterSelection+2)%len;else if(e.code==='ArrowUp')this.masterSelection=(this.masterSelection+len-2)%len;
-  else {const s=list[this.masterSelection];if(/^Digit[1-6]$/.test(e.code))this.equipMasterSkill(s.id,Number(e.code.slice(-1))-1);if(e.code==='KeyU'&&!this.trainingM)this.upgradeMasterSkill(s.id);if(e.code==='KeyJ')this.chooseMasterBranch(s.id,'A');if(e.code==='KeyK')this.chooseMasterBranch(s.id,'B');if(e.code==='KeyO')return this.cycleFollowM();}this.renderMastery();
+  else {const s=list[this.masterSelection];if(/^Digit[1-5]$/.test(e.code))this.equipMasterSkill(s.id,Number(e.code.slice(-1))-1);if(e.code==='KeyU'&&!this.trainingM)this.upgradeMasterSkill(s.id);if(e.code==='KeyJ')this.chooseMasterBranch(s.id,'A');if(e.code==='KeyK')this.chooseMasterBranch(s.id,'B');if(e.code==='KeyO')return this.cycleFollowM();}this.renderMastery();
  },true);
 };
 // 新職業保留原 Sprite 切格。切職業只清除執行中的技能，不會清除技能 CD。
@@ -669,7 +673,7 @@ P.updateMasterHUD=function(){
  if(this.trainingM){const t=this.trainingM,task=this.trainingTask();$('#lessonTitle').textContent=SCHOOLS[t.classId][1]+' · '+task[0];$('#lessonHint').textContent=task[1];$('#lessonSteps').innerHTML=Array.from({length:6},(_,i)=>`<i class="${i<t.step?'passed':i===t.step?'current':''}">${i+1}</i>`).join('');$('#threatText').textContent='TRAINING｜傀儡不死 · 無傷害 · Backspace 返回';$('#threatText').className='threat safe';}
  const link=this.linkM&&this.linkM.until>this.time?this.linkM:null;
  const res=this.resonanceM&&this.resonanceM.until>this.time?this.resonanceM:null;
- $('#resonanceHint').textContent=link?`接續窗口 ${Math.max(0,link.until-this.time).toFixed(1)}s｜再按 ${['C','V','B'][link.slot]} → ${SKILLS[link.next].name}`:res?`換位共鳴 ${Math.max(0,res.until-this.time).toFixed(1)}s｜下個技能追加 ${C.ELEMENTS.find(e=>e.id===res.element)?.name}`:'換位後 2.4 秒內接技能 → 帶入該元素異常；主技能後同鍵再按 → 追擊';
+ $('#resonanceHint').textContent=link?`接續窗口 ${Math.max(0,link.until-this.time).toFixed(1)}s｜再按 ${['C','V','B','N','F'][link.slot]} → ${SKILLS[link.next].name}`:res?`換位共鳴 ${Math.max(0,res.until-this.time).toFixed(1)}s｜下個技能追加 ${C.ELEMENTS.find(e=>e.id===res.element)?.name}`:'換位後 2.4 秒內接技能 → 帶入該元素異常；主技能後同鍵再按 → 追擊';
  $('#resonanceHint').classList.toggle('live',!!link||!!res);
  $('#skillBar').querySelectorAll('.skill').forEach((n,i)=>{if(i>=3)return;const id=load[page*3+i],cd=Math.max(0,(this.cooldownsM[id]||0)-this.time);n.classList.toggle('cooling',cd>0);n.classList.toggle('link-ready',!!link&&link.slot===i&&link.page===page);n.querySelector('small').textContent=link&&link.slot===i&&link.page===page?'再按接續':cd>0?cd.toFixed(1)+'s':'就緒 · '+this.mBranch(id);});
  if(this.currentRoomId==='e15'){const b=this.eastBoss;$('#bossHUD').classList.toggle('show',!!b&&!b.dead);$('#bossHUD b').textContent='熔鑄監察者・雙相';if(b){$('#bossHpFill').style.width=clamp(b.hp/b.maxHp*100,0,100)+'%';$('#bossBreakFill').style.width=clamp(b.break/b.breakMax*100,0,100)+'%';$('#bossPhase').textContent='PHASE '+b.phase;}}

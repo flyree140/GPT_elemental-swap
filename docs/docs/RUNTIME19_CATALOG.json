@@ -1,0 +1,4776 @@
+{
+  "jobs": {
+    "rift": {
+      "meter": "裂痕",
+      "desc": "Z 命中刻下裂痕，最多三層；技能消耗裂痕開路，不再普攻自動穿身。",
+      "q": "封刃：下一次普攻的水平推力歸零",
+      "loop": []
+    },
+    "summoner": {
+      "meter": "契靈",
+      "desc": "召喚物留場、選目標、主僕換位。主人的 Z/X 仍為原地杖擊。",
+      "q": "集火：命令契靈攻擊瞄準的敵人",
+      "loop": []
+    },
+    "beast": {
+      "meter": "形態",
+      "desc": "狼以短爪累積獵痕；鷹空戰；熊抗推。三形是不同身體，不是換色劍士。",
+      "q": "輪換狼／鷹／熊，不自動攻擊",
+      "loop": []
+    },
+    "artificer": {
+      "meter": "機構",
+      "desc": "最多兩座炮台。連線、改向、拆解是主要玩法；X 改回扳手重敲。",
+      "q": "切換炮台：射擊／攔彈",
+      "loop": []
+    },
+    "gunner": {
+      "meter": "彈匣",
+      "desc": "四枚重彈；短按裝普通彈、長按裝破甲彈。射擊短按貫穿、長按散射。Z/X 是槍托，不發射。",
+      "q": "快速裝填兩枚；不能超過四枚",
+      "loop": []
+    },
+    "warden": {
+      "meter": "守勢",
+      "desc": "格擋累積守勢；釋放時才打斷敵人。長按有盾面預覽，角色不前衝。",
+      "q": "精準格擋 0.6 秒；成功獲一層守勢",
+      "loop": []
+    },
+    "chrono": {
+      "meter": "時債",
+      "desc": "記錄與返回是兩個明確按鍵；延遲傷害不複製掉落或重置敵人生命。",
+      "q": "暫緩近身敵彈 1 秒，不讓玩家傳送",
+      "loop": []
+    },
+    "harrier": {
+      "meter": "鎖鏈",
+      "desc": "拉怪與拉自己分成兩招；鎖在兩個實際世界座標之間。",
+      "q": "解除所有繩索；不自動拉人",
+      "loop": []
+    },
+    "alchemist": {
+      "meter": "試劑",
+      "desc": "Q 輪換水／火／雷試劑；投瓶、觸媒與回收分工。X 改回原地短杖。",
+      "q": "輪換水 → 火 → 雷試劑",
+      "loop": []
+    },
+    "monk": {
+      "meter": "氣息",
+      "desc": "交替 Z/X 命中累積氣息；同鍵不再觸發另一技能。",
+      "q": "0.6 秒反掌窗口，成功格擋回復一層氣息",
+      "loop": []
+    },
+    "sharpshooter": {
+      "meter": "專注",
+      "desc": "站定會累積專注。真正的精準射擊在 C；Z/X 只做原地近戰。",
+      "q": "穩息：立即消除水平慣性，3 秒內加快站定專注",
+      "loop": []
+    },
+    "puppeteer": {
+      "meter": "傀儡",
+      "desc": "先放傀儡，再操控它攻擊或與它換位。沒有傀儡會清楚提示。",
+      "q": "命令傀儡回到身旁，不造成傷害",
+      "loop": []
+    },
+    "cartographer": {
+      "meter": "座標",
+      "desc": "先設定原點 C，再設定終點 V。橋與門都使用這兩個世界座標。",
+      "q": "清除兩枚圖釘；不觸發換位",
+      "loop": []
+    },
+    "chef": {
+      "meter": "火候",
+      "desc": "Z/X 命中累積火候，料理和收鍋使用火候；沒有食材也能普攻。",
+      "q": "調火：下一次鍋爐選燉煮／煎烤",
+      "loop": []
+    },
+    "dreamweaver": {
+      "meter": "困意",
+      "desc": "Z 命中加一層困意（最多三層）；X 命中三層者使其入睡。傷害會喚醒。",
+      "q": "夢視：顯示困意與安眠倒數，延長困意 3 秒",
+      "loop": []
+    }
+  },
+  "skills": {
+    "rift": [
+      {
+        "id": "rift_v18_cut",
+        "name": "裂痕刻刃",
+        "mode": "renewal18",
+        "op18": "cut",
+        "class18": "rift",
+        "damage": 20,
+        "cd": 1.38,
+        "element": "wind",
+        "desc": "前方 150px 一刀，為命中的敵人刻一層裂痕。",
+        "tap18": "前方 150px 一刀，為命中的敵人刻一層裂痕。",
+        "hold18": "長按 0.65 秒：延長為 310px 刀線；不位移。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "rift_v18_rise",
+        "name": "縱向開裂",
+        "mode": "renewal18",
+        "op18": "rise",
+        "class18": "rift",
+        "damage": 20,
+        "cd": 2.3,
+        "element": "earth",
+        "desc": "挑起前方敵人，角色留在原地。裂痕保留，之後可再收束。",
+        "tap18": "挑起前方敵人，角色留在原地。裂痕保留，之後可再收束。",
+        "hold18": "長按：先束縛，再挑空；頭目只短暫失衡。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "rift_v18_step",
+        "name": "穿隙步",
+        "mode": "renewal18",
+        "op18": "step",
+        "class18": "rift",
+        "damage": 20,
+        "cd": 1.84,
+        "element": "shadow",
+        "desc": "向瞄準方向安全移動 180px；此招明確會位移。",
+        "tap18": "向瞄準方向安全移動 180px；此招明確會位移。",
+        "hold18": "長按：預覽 340px 的落點，放開才移動。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "rift_v18_finish",
+        "name": "合縫收割",
+        "mode": "renewal18",
+        "op18": "finish",
+        "class18": "rift",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "light",
+        "desc": "消耗前方敵人的裂痕，每層增加一次局部斬擊。",
+        "tap18": "消耗前方敵人的裂痕，每層增加一次局部斬擊。",
+        "hold18": "長按：不消耗裂痕，改把刻痕敵人拉向交點。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "rift_v18_seal",
+        "name": "留刃路標",
+        "mode": "renewal18",
+        "op18": "seal",
+        "class18": "rift",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "shadow",
+        "desc": "放置 8 秒刀印；你普攻命中時刀印補一次斬擊。",
+        "tap18": "放置 8 秒刀印；你普攻命中時刀印補一次斬擊。",
+        "hold18": "長按：把刀印放在 300px 內的瞄準點。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "rift_v18_ward",
+        "name": "裂隙護幕",
+        "mode": "renewal18",
+        "op18": "ward",
+        "class18": "rift",
+        "damage": 20,
+        "cd": 3.36,
+        "element": "light",
+        "desc": "攔下一枚前方敵彈，轉成下一刀的裂痕。",
+        "tap18": "攔下一枚前方敵彈，轉成下一刀的裂痕。",
+        "hold18": "長按：護幕寬度加倍，但不產生裂痕。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      }
+    ],
+    "summoner": [
+      {
+        "id": "summoner_v18_pet",
+        "name": "喚出契靈",
+        "mode": "renewal18",
+        "op18": "pet",
+        "class18": "summoner",
+        "damage": 20,
+        "cd": 2.3,
+        "element": "fire",
+        "desc": "召喚近戰狐靈，存在 20 秒；最多兩隻。",
+        "tap18": "召喚近戰狐靈，存在 20 秒；最多兩隻。",
+        "hold18": "長按：召喚在空中發射風羽的梟靈。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "summoner_v18_command",
+        "name": "契約集火",
+        "mode": "renewal18",
+        "op18": "command",
+        "class18": "summoner",
+        "damage": 20,
+        "cd": 1.38,
+        "element": "light",
+        "desc": "指派契靈集中攻擊準星附近的目標 6 秒。",
+        "tap18": "指派契靈集中攻擊準星附近的目標 6 秒。",
+        "hold18": "長按：改為守在你身邊，截擊近身敵人。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "summoner_v18_exchange",
+        "name": "主僕換位",
+        "mode": "renewal18",
+        "op18": "exchange",
+        "class18": "summoner",
+        "damage": 20,
+        "cd": 2.3,
+        "element": "shadow",
+        "desc": "與最近契靈交换位置；兩端均檢查安全落點。",
+        "tap18": "與最近契靈交换位置；兩端均檢查安全落點。",
+        "hold18": "長按：改與最遠契靈交換，預覽連線。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "summoner_v18_nest",
+        "name": "靈巢",
+        "mode": "renewal18",
+        "op18": "nest",
+        "class18": "summoner",
+        "damage": 20,
+        "cd": 4.8,
+        "element": "nature",
+        "desc": "設下治療契靈的巢；靠近的主人每秒回復 2 HP。",
+        "tap18": "設下治療契靈的巢；靠近的主人每秒回復 2 HP。",
+        "hold18": "長按：巢不治療，改讓契靈在巢旁加快攻擊。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "summoner_v18_imbue",
+        "name": "元素授契",
+        "mode": "renewal18",
+        "op18": "imbue",
+        "class18": "summoner",
+        "damage": 20,
+        "cd": 3.22,
+        "element": "lightning",
+        "desc": "讓所有契靈採用目前選中的元素 10 秒。",
+        "tap18": "讓所有契靈採用目前選中的元素 10 秒。",
+        "hold18": "長按：把元素附在下一次契靈集火，範圍爆發一次。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "summoner_v18_recall",
+        "name": "歸巢護身",
+        "mode": "renewal18",
+        "op18": "recall",
+        "class18": "summoner",
+        "damage": 20,
+        "cd": 3.22,
+        "element": "earth",
+        "desc": "召回契靈並換取護盾；至少一隻才生效。",
+        "tap18": "召回契靈並換取護盾；至少一隻才生效。",
+        "hold18": "長按：不召回，改把契靈搬到主人附近。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      }
+    ],
+    "beast": [
+      {
+        "id": "beast_v18_wolf",
+        "name": "狼形・追獵",
+        "mode": "renewal18",
+        "op18": "wolf",
+        "class18": "beast",
+        "damage": 20,
+        "cd": 1.38,
+        "element": "nature",
+        "desc": "切狼形，原地短爪命中刻獵痕。",
+        "tap18": "切狼形，原地短爪命中刻獵痕。",
+        "hold18": "長按：只在放開後向前撲 220px；落點有預覽。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "beast_v18_eagle",
+        "name": "鷹形・展翼",
+        "mode": "renewal18",
+        "op18": "eagle",
+        "class18": "beast",
+        "damage": 20,
+        "cd": 1.84,
+        "element": "wind",
+        "desc": "切鷹形並向上飛升 180px。",
+        "tap18": "切鷹形並向上飛升 180px。",
+        "hold18": "長按：只變身、不上升，展開三片風羽。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "beast_v18_bear",
+        "name": "熊形・震掌",
+        "mode": "renewal18",
+        "op18": "bear",
+        "class18": "beast",
+        "damage": 20,
+        "cd": 2.3,
+        "element": "earth",
+        "desc": "切熊形，原地重掌破甲；不前滑。",
+        "tap18": "切熊形，原地重掌破甲；不前滑。",
+        "hold18": "長按：範圍震地，消耗獵痕延長失衡。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "beast_v18_instinct",
+        "name": "野性本能",
+        "mode": "renewal18",
+        "op18": "instinct",
+        "class18": "beast",
+        "damage": 20,
+        "cd": 3.22,
+        "element": "light",
+        "desc": "狼：追蹤獵痕；鷹：恢復空中衝刺；熊：4 秒霸體。",
+        "tap18": "狼：追蹤獵痕；鷹：恢復空中衝刺；熊：4 秒霸體。",
+        "hold18": "長按：共享本能，附近契靈與自己獲得護盾。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "beast_v18_rest",
+        "name": "棲息復原",
+        "mode": "renewal18",
+        "op18": "rest",
+        "class18": "beast",
+        "damage": 20,
+        "cd": 3.4,
+        "element": "nature",
+        "desc": "原地治療 24 HP；3 秒後再回復 12 HP。",
+        "tap18": "原地治療 24 HP；3 秒後再回復 12 HP。",
+        "hold18": "長按：治療改成 30 護盾，不需等待。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "beast_v18_roar",
+        "name": "獸王咆哮",
+        "mode": "renewal18",
+        "op18": "roar",
+        "class18": "beast",
+        "damage": 20,
+        "cd": 3.22,
+        "element": "gravity",
+        "desc": "不位移的環形吼聲，打斷近敵並施加獵痕。",
+        "tap18": "不位移的環形吼聲，打斷近敵並施加獵痕。",
+        "hold18": "長按：吼聲吸引遠敵，不推開近敵。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      }
+    ],
+    "artificer": [
+      {
+        "id": "artificer_v18_turret",
+        "name": "部署炮台",
+        "mode": "renewal18",
+        "op18": "turret",
+        "class18": "artificer",
+        "damage": 20,
+        "cd": 2.3,
+        "element": "lightning",
+        "desc": "在面前部署一座 18 秒炮台。",
+        "tap18": "在面前部署一座 18 秒炮台。",
+        "hold18": "長按：瞄準 350px 內落點，放開遠端部署。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "artificer_v18_wire",
+        "name": "通電纜線",
+        "mode": "renewal18",
+        "op18": "wire",
+        "class18": "artificer",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "lightning",
+        "desc": "兩座炮台之間接通電纜；接觸敵人會麻痺。",
+        "tap18": "兩座炮台之間接通電纜；接觸敵人會麻痺。",
+        "hold18": "長按：連接主人與最近炮台，形成移動電纜。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "artificer_v18_lift",
+        "name": "折疊升降台",
+        "mode": "renewal18",
+        "op18": "lift",
+        "class18": "artificer",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "earth",
+        "desc": "腳邊建立可站立的 8 秒小平台。",
+        "tap18": "腳邊建立可站立的 8 秒小平台。",
+        "hold18": "長按：平台緩慢升起 220px，可以搭乘。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "artificer_v18_magnet",
+        "name": "磁鐵回收",
+        "mode": "renewal18",
+        "op18": "magnet",
+        "class18": "artificer",
+        "damage": 20,
+        "cd": 2.3,
+        "element": "gravity",
+        "desc": "吸近前方敵人和戰利品，不拉動自己。",
+        "tap18": "吸近前方敵人和戰利品，不拉動自己。",
+        "hold18": "長按：改排斥敵人與敵彈，標示為強推技能。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "artificer_v18_drone",
+        "name": "維修無人機",
+        "mode": "renewal18",
+        "op18": "drone",
+        "class18": "artificer",
+        "damage": 20,
+        "cd": 3.4,
+        "element": "light",
+        "desc": "部署一架環繞你攔截敵彈的無人機。",
+        "tap18": "部署一架環繞你攔截敵彈的無人機。",
+        "hold18": "長按：改環繞最近炮台，使炮台持續時間延長。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "artificer_v18_scrap",
+        "name": "拆解引爆",
+        "mode": "renewal18",
+        "op18": "scrap",
+        "class18": "artificer",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "fire",
+        "desc": "拆除炮台，在炮台位置分別引爆。",
+        "tap18": "拆除炮台，在炮台位置分別引爆。",
+        "hold18": "長按：只回收炮台，返還部署冷卻，不爆炸。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      }
+    ],
+    "gunner": [
+      {
+        "id": "gunner_v18_round",
+        "name": "磁軌重彈",
+        "mode": "renewal18",
+        "op18": "round",
+        "class18": "gunner",
+        "damage": 20,
+        "cd": 1.15,
+        "element": "lightning",
+        "desc": "消耗一枚彈藥，發射慢速穿透彈；角色站定。",
+        "tap18": "消耗一枚彈藥，發射慢速穿透彈；角色站定。",
+        "hold18": "長按：消耗一枚，改成三枚扇形彈。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "gunner_v18_reload",
+        "name": "戰術装填",
+        "mode": "renewal18",
+        "op18": "reload",
+        "class18": "gunner",
+        "damage": 20,
+        "cd": 1.84,
+        "element": "earth",
+        "desc": "裝滿四枚普通重彈。",
+        "tap18": "裝滿四枚普通重彈。",
+        "hold18": "長按：裝滿四枚破甲彈；顯示彈種。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "gunner_v18_mine",
+        "name": "黏著地雷",
+        "mode": "renewal18",
+        "op18": "mine",
+        "class18": "gunner",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "fire",
+        "desc": "在面前放地雷，敵人靠近才引爆。",
+        "tap18": "在面前放地雷，敵人靠近才引爆。",
+        "hold18": "長按：遠投地雷，可掛在上層步道。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "gunner_v18_brace",
+        "name": "退步支架",
+        "mode": "renewal18",
+        "op18": "brace",
+        "class18": "gunner",
+        "damage": 20,
+        "cd": 2.3,
+        "element": "earth",
+        "desc": "後退 150px，留下可站立支架；唯一明確後退招。",
+        "tap18": "後退 150px，留下可站立支架；唯一明確後退招。",
+        "hold18": "長按：不後退，改設兩層支架。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "gunner_v18_barrage",
+        "name": "電磁彈幕",
+        "mode": "renewal18",
+        "op18": "barrage",
+        "class18": "gunner",
+        "damage": 20,
+        "cd": 3.22,
+        "element": "lightning",
+        "desc": "消耗剩餘彈匣，逐枚射向同一瞄準方向。",
+        "tap18": "消耗剩餘彈匣，逐枚射向同一瞄準方向。",
+        "hold18": "長按：消耗剩餘彈匣，改成延遲環形布雷。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "gunner_v18_intercept",
+        "name": "攔截彈",
+        "mode": "renewal18",
+        "op18": "intercept",
+        "class18": "gunner",
+        "damage": 20,
+        "cd": 2.3,
+        "element": "light",
+        "desc": "向前發射一枚寬攔截彈，消除沿路敵彈。",
+        "tap18": "向前發射一枚寬攔截彈，消除沿路敵彈。",
+        "hold18": "長按：攔截彈折返，在回程也能攔彈。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      }
+    ],
+    "warden": [
+      {
+        "id": "warden_v18_shield",
+        "name": "展開界盾",
+        "mode": "renewal18",
+        "op18": "shield",
+        "class18": "warden",
+        "damage": 20,
+        "cd": 3.2,
+        "element": "light",
+        "desc": "前方盾面留場 3 秒，可攔敵彈。",
+        "tap18": "前方盾面留場 3 秒，可攔敵彈。",
+        "hold18": "長按：放開時形成更寬的 5 秒盾面。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "warden_v18_spear",
+        "name": "定點長槍",
+        "mode": "renewal18",
+        "op18": "spear",
+        "class18": "warden",
+        "damage": 20,
+        "cd": 1.38,
+        "element": "earth",
+        "desc": "向前 280px 直刺，擊中可降低敵人護甲。",
+        "tap18": "向前 280px 直刺，擊中可降低敵人護甲。",
+        "hold18": "長按：直刺改成短距向上挑起敵人。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "warden_v18_release",
+        "name": "守勢釋放",
+        "mode": "renewal18",
+        "op18": "release",
+        "class18": "warden",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "earth",
+        "desc": "消耗守勢，原地震擊並打斷近敵。",
+        "tap18": "消耗守勢，原地震擊並打斷近敵。",
+        "hold18": "長按：不震擊，把守勢轉成護盾。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "warden_v18_banner",
+        "name": "庇護旗",
+        "mode": "renewal18",
+        "op18": "banner",
+        "class18": "warden",
+        "damage": 20,
+        "cd": 4.8,
+        "element": "nature",
+        "desc": "插下 8 秒旗幟，範圍內減輕受傷與擊退。",
+        "tap18": "插下 8 秒旗幟，範圍內減輕受傷與擊退。",
+        "hold18": "長按：旗幟不減傷，改緩慢治療。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "warden_v18_hook",
+        "name": "救援鉤盾",
+        "mode": "renewal18",
+        "op18": "hook",
+        "class18": "warden",
+        "damage": 20,
+        "cd": 2.3,
+        "element": "gravity",
+        "desc": "把準星附近的敵人拖到盾前，不移動自己。",
+        "tap18": "把準星附近的敵人拖到盾前，不移動自己。",
+        "hold18": "長按：只把敵彈拉到盾面回收守勢。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "warden_v18_peace",
+        "name": "止戰圓陣",
+        "mode": "renewal18",
+        "op18": "peace",
+        "class18": "warden",
+        "damage": 20,
+        "cd": 3.22,
+        "element": "light",
+        "desc": "標示一圈結界；第一次踏入的敵人定身 1.4 秒。",
+        "tap18": "標示一圈結界；第一次踏入的敵人定身 1.4 秒。",
+        "hold18": "長按：圓陣變大，但只緩速，不定身。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      }
+    ],
+    "chrono": [
+      {
+        "id": "chrono_v18_record",
+        "name": "留下時錨",
+        "mode": "renewal18",
+        "op18": "record",
+        "class18": "chrono",
+        "damage": 20,
+        "cd": 1.38,
+        "element": "light",
+        "desc": "記錄目前位置與 HP；8 秒有效。",
+        "tap18": "記錄目前位置與 HP；8 秒有效。",
+        "hold18": "長按：時錨留 14 秒，但不記錄 HP。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "chrono_v18_slow",
+        "name": "局部緩時",
+        "mode": "renewal18",
+        "op18": "slow",
+        "class18": "chrono",
+        "damage": 20,
+        "cd": 3.92,
+        "element": "ice",
+        "desc": "指定位置 220px 內敵人和敵彈降至 35% 速度。",
+        "tap18": "指定位置 220px 內敵人和敵彈降至 35% 速度。",
+        "hold18": "長按：範圍變小，但速度降至 15%。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "chrono_v18_delay",
+        "name": "延期斬擊",
+        "mode": "renewal18",
+        "op18": "delay",
+        "class18": "chrono",
+        "damage": 20,
+        "cd": 1.84,
+        "element": "shadow",
+        "desc": "在前方畫框，1.2 秒後於原位置落下斬擊。",
+        "tap18": "在前方畫框，1.2 秒後於原位置落下斬擊。",
+        "hold18": "長按：延至 2.4 秒，留下兩個可見的攻擊框。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "chrono_v18_rewind",
+        "name": "返回時錨",
+        "mode": "renewal18",
+        "op18": "rewind",
+        "class18": "chrono",
+        "damage": 20,
+        "cd": 3.22,
+        "element": "water",
+        "desc": "回到已記錄的安全位置，最多取回 25 HP。",
+        "tap18": "回到已記錄的安全位置，最多取回 25 HP。",
+        "hold18": "長按：不移動，只取回最多 12 HP，消耗時錨。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "chrono_v18_debt",
+        "name": "時債結算",
+        "mode": "renewal18",
+        "op18": "debt",
+        "class18": "chrono",
+        "damage": 20,
+        "cd": 3.22,
+        "element": "gravity",
+        "desc": "結算敵人最近 4 秒受到的非回響傷害，追加 30%。",
+        "tap18": "結算敵人最近 4 秒受到的非回響傷害，追加 30%。",
+        "hold18": "長按：不立即結算，改束縛帶時債目標。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "chrono_v18_haste",
+        "name": "加速刻度",
+        "mode": "renewal18",
+        "op18": "haste",
+        "class18": "chrono",
+        "damage": 20,
+        "cd": 3.4,
+        "element": "wind",
+        "desc": "腳下留下使自己的技能冷卻快 25% 的時間圈。",
+        "tap18": "腳下留下使自己的技能冷卻快 25% 的時間圈。",
+        "hold18": "長按：時間圈改延長附近元素場 3 秒。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      }
+    ],
+    "harrier": [
+      {
+        "id": "harrier_v18_pull",
+        "name": "鉤住獵物",
+        "mode": "renewal18",
+        "op18": "pull",
+        "class18": "harrier",
+        "damage": 20,
+        "cd": 1.38,
+        "element": "earth",
+        "desc": "把前方目標拉近 180px；頭目只短暫受牽制。",
+        "tap18": "把前方目標拉近 180px；頭目只短暫受牽制。",
+        "hold18": "長按：選更遠目標，放開後才拉動。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "harrier_v18_grapple",
+        "name": "沿索突進",
+        "mode": "renewal18",
+        "op18": "grapple",
+        "class18": "harrier",
+        "damage": 20,
+        "cd": 2.3,
+        "element": "wind",
+        "desc": "把自己拉向目標前方的安全位置；有落點預覽。",
+        "tap18": "把自己拉向目標前方的安全位置；有落點預覽。",
+        "hold18": "長按：改拉向瞄準的地形位置。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "harrier_v18_rope",
+        "name": "釘地繩索",
+        "mode": "renewal18",
+        "op18": "rope",
+        "class18": "harrier",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "nature",
+        "desc": "腳下釘樁與目標連線，越線敵人被減速。",
+        "tap18": "腳下釘樁與目標連線，越線敵人被減速。",
+        "hold18": "長按：另一端釘在地形，形成可走的繩橋。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "harrier_v18_reel",
+        "name": "雙端絞盤",
+        "mode": "renewal18",
+        "op18": "reel",
+        "class18": "harrier",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "gravity",
+        "desc": "拉近最近兩個敵人，使他們在中點相撞。",
+        "tap18": "拉近最近兩個敵人，使他們在中點相撞。",
+        "hold18": "長按：不拉近，改共享短暫束縛。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "harrier_v18_swing",
+        "name": "擺盪重踢",
+        "mode": "renewal18",
+        "op18": "swing",
+        "class18": "harrier",
+        "damage": 20,
+        "cd": 2.3,
+        "element": "wind",
+        "desc": "沿短弧位移 180px，接上一次定向重踢。",
+        "tap18": "沿短弧位移 180px，接上一次定向重踢。",
+        "hold18": "長按：不位移，讓被鉤住的敵人代替你擺盪。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "harrier_v18_sever",
+        "name": "斷索收束",
+        "mode": "renewal18",
+        "op18": "sever",
+        "class18": "harrier",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "light",
+        "desc": "斷開已設繩索，對沿線敵人施加破甲。",
+        "tap18": "斷開已設繩索，對沿線敵人施加破甲。",
+        "hold18": "長按：斷索改回收為護盾。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      }
+    ],
+    "alchemist": [
+      {
+        "id": "alchemist_v18_flask",
+        "name": "投擲試劑",
+        "mode": "renewal18",
+        "op18": "flask",
+        "class18": "alchemist",
+        "damage": 20,
+        "cd": 1.38,
+        "element": "water",
+        "desc": "向瞄準方向拋出目前試劑，接觸地形才形成小藥池。",
+        "tap18": "向瞄準方向拋出目前試劑，接觸地形才形成小藥池。",
+        "hold18": "長按：拋物線變高、藥池更大；不移動角色。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "alchemist_v18_catalyst",
+        "name": "觸媒攪拌",
+        "mode": "renewal18",
+        "op18": "catalyst",
+        "class18": "alchemist",
+        "damage": 20,
+        "cd": 2.3,
+        "element": "lightning",
+        "desc": "使前方已沾試劑的敵人與當前試劑反應；先投瓶或元素命中。",
+        "tap18": "使前方已沾試劑的敵人與當前試劑反應；先投瓶或元素命中。",
+        "hold18": "長按：不傷害，延長目前狀態 3 秒。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "alchemist_v18_gel",
+        "name": "黏膠陷阱",
+        "mode": "renewal18",
+        "op18": "gel",
+        "class18": "alchemist",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "nature",
+        "desc": "在脚邊放束縛膠，敵人踏入才定身。",
+        "tap18": "在脚邊放束縛膠，敵人踏入才定身。",
+        "hold18": "長按：遠端放膠，範圍較小。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "alchemist_v18_distill",
+        "name": "真空蒸餾",
+        "mode": "renewal18",
+        "op18": "distill",
+        "class18": "alchemist",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "gravity",
+        "desc": "把附近敵人拉進試劑區，不推動自己。",
+        "tap18": "把附近敵人拉進試劑區，不推動自己。",
+        "hold18": "長按：回收附近藥池，縮短投瓶冷卻。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "alchemist_v18_cleanse",
+        "name": "中和洗劑",
+        "mode": "renewal18",
+        "op18": "cleanse",
+        "class18": "alchemist",
+        "damage": 20,
+        "cd": 3.4,
+        "element": "water",
+        "desc": "清除自己的燃燒和毒，回復 20 HP。",
+        "tap18": "清除自己的燃燒和毒，回復 20 HP。",
+        "hold18": "長按：改在地面留下 7 秒治療藥池。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "alchemist_v18_spread",
+        "name": "連鎖反應",
+        "mode": "renewal18",
+        "op18": "spread",
+        "class18": "alchemist",
+        "damage": 20,
+        "cd": 3.22,
+        "element": "fire",
+        "desc": "把最近異常敵人的元素狀態傳給兩個近敵。",
+        "tap18": "把最近異常敵人的元素狀態傳給兩個近敵。",
+        "hold18": "長按：只傳給一個遠敵，形成可見傳導線。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      }
+    ],
+    "monk": [
+      {
+        "id": "monk_v18_jab",
+        "name": "定步寸勁",
+        "mode": "renewal18",
+        "op18": "jab",
+        "class18": "monk",
+        "damage": 20,
+        "cd": 1.38,
+        "element": "earth",
+        "desc": "原地短拳，耗一層氣息時破甲。",
+        "tap18": "原地短拳，耗一層氣息時破甲。",
+        "hold18": "長按：先架勢再放拳，命中打斷敵人。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "monk_v18_upper",
+        "name": "原地昇龍",
+        "mode": "renewal18",
+        "op18": "upper",
+        "class18": "monk",
+        "damage": 20,
+        "cd": 1.84,
+        "element": "wind",
+        "desc": "向上挑敵；角色只有此技能才會小幅上升。",
+        "tap18": "向上挑敵；角色只有此技能才會小幅上升。",
+        "hold18": "長按：不升空，改成範圍震掌。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "monk_v18_point",
+        "name": "點穴指",
+        "mode": "renewal18",
+        "op18": "point",
+        "class18": "monk",
+        "damage": 20,
+        "cd": 1.84,
+        "element": "lightning",
+        "desc": "給前方目標留下點穴；下次 X 命中定身。",
+        "tap18": "給前方目標留下點穴；下次 X 命中定身。",
+        "hold18": "長按：點穴改持續緩速，無需 X 引爆。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "monk_v18_guard",
+        "name": "靜息架勢",
+        "mode": "renewal18",
+        "op18": "guard",
+        "class18": "monk",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "light",
+        "desc": "原地 2 秒減傷，獲一層氣息。",
+        "tap18": "原地 2 秒減傷，獲一層氣息。",
+        "hold18": "長按：延長至 4 秒，不能攻擊但可取消移動。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "monk_v18_wave",
+        "name": "吐納波",
+        "mode": "renewal18",
+        "op18": "wave",
+        "class18": "monk",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "wind",
+        "desc": "消耗氣息向前發出一波掌氣；無氣仍可小波。",
+        "tap18": "消耗氣息向前發出一波掌氣；無氣仍可小波。",
+        "hold18": "長按：氣波改成腳邊環形震盪。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "monk_v18_kick",
+        "name": "踏雲踢",
+        "mode": "renewal18",
+        "op18": "kick",
+        "class18": "monk",
+        "damage": 20,
+        "cd": 2.3,
+        "element": "lightning",
+        "desc": "明確向前位移 220px 的飛踢，可取消至跳躍。",
+        "tap18": "明確向前位移 220px 的飛踢，可取消至跳躍。",
+        "hold18": "長按：向上踢，換成垂直位移。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      }
+    ],
+    "sharpshooter": [
+      {
+        "id": "sharpshooter_v18_snipe",
+        "name": "星軌狙擊",
+        "mode": "renewal18",
+        "op18": "snipe",
+        "class18": "sharpshooter",
+        "damage": 20,
+        "cd": 1.84,
+        "element": "light",
+        "desc": "沿準星發出單一狙擊線；不後退。",
+        "tap18": "沿準星發出單一狙擊線；不後退。",
+        "hold18": "長按 0.9 秒：顯示瞄準線，放開穿透至多三敵。",
+        "holdTime18": 0.9,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "sharpshooter_v18_mark",
+        "name": "弱點測距",
+        "mode": "renewal18",
+        "op18": "mark",
+        "class18": "sharpshooter",
+        "damage": 20,
+        "cd": 1.84,
+        "element": "light",
+        "desc": "標出準星最近敵人的弱點 7 秒。",
+        "tap18": "標出準星最近敵人的弱點 7 秒。",
+        "hold18": "長按：標記三個敵人，但弱點僅持續 4 秒。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "sharpshooter_v18_scope",
+        "name": "架設瞄準鏡",
+        "mode": "renewal18",
+        "op18": "scope",
+        "class18": "sharpshooter",
+        "damage": 20,
+        "cd": 3.22,
+        "element": "earth",
+        "desc": "地面設置三腳架；站在旁邊狙擊距離延長。",
+        "tap18": "地面設置三腳架；站在旁邊狙擊距離延長。",
+        "hold18": "長按：三脚架改成能站立的高腳射擊台。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "sharpshooter_v18_trap",
+        "name": "凝步捕獸夾",
+        "mode": "renewal18",
+        "op18": "trap",
+        "class18": "sharpshooter",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "ice",
+        "desc": "放慢接近你的敵人，為瞄準爭取時間。",
+        "tap18": "放慢接近你的敵人，為瞄準爭取時間。",
+        "hold18": "長按：在準星落点遠端部署。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "sharpshooter_v18_constellation",
+        "name": "星點連射",
+        "mode": "renewal18",
+        "op18": "constellation",
+        "class18": "sharpshooter",
+        "damage": 20,
+        "cd": 3.22,
+        "element": "lightning",
+        "desc": "只打已標記目標，逐一結算，不自動選近敵。",
+        "tap18": "只打已標記目標，逐一結算，不自動選近敵。",
+        "hold18": "長按：消耗標記，改把敵人束縛在原地。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "sharpshooter_v18_beacon",
+        "name": "掩體誘標",
+        "mode": "renewal18",
+        "op18": "beacon",
+        "class18": "sharpshooter",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "shadow",
+        "desc": "放出誘餌信標，吸引近敵射向信標。",
+        "tap18": "放出誘餌信標，吸引近敵射向信標。",
+        "hold18": "長按：信標改攔住一枚敵彈。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      }
+    ],
+    "puppeteer": [
+      {
+        "id": "puppeteer_v18_puppet",
+        "name": "落下傀儡",
+        "mode": "renewal18",
+        "op18": "puppet",
+        "class18": "puppeteer",
+        "damage": 20,
+        "cd": 1.84,
+        "element": "shadow",
+        "desc": "在面前放一個 20 秒傀儡，最多一個。",
+        "tap18": "在面前放一個 20 秒傀儡，最多一個。",
+        "hold18": "長按：在準星 360px 內放置。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "puppeteer_v18_tether",
+        "name": "縫魂線",
+        "mode": "renewal18",
+        "op18": "tether",
+        "class18": "puppeteer",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "shadow",
+        "desc": "連結傀儡與目標；傳遞 35% 受擊傷害。",
+        "tap18": "連結傀儡與目標；傳遞 35% 受擊傷害。",
+        "hold18": "長按：連結兩個敵人；沒有傀儡仍可使用。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "puppeteer_v18_slash",
+        "name": "提線斬",
+        "mode": "renewal18",
+        "op18": "slash",
+        "class18": "puppeteer",
+        "damage": 20,
+        "cd": 1.38,
+        "element": "wind",
+        "desc": "由傀儡原地斬擊，不是角色身旁出劍。",
+        "tap18": "由傀儡原地斬擊，不是角色身旁出劍。",
+        "hold18": "長按：傀儡向上掃擊，挑起附近敵人。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "puppeteer_v18_swap",
+        "name": "替身移位",
+        "mode": "renewal18",
+        "op18": "swap",
+        "class18": "puppeteer",
+        "damage": 20,
+        "cd": 2.3,
+        "element": "light",
+        "desc": "交換主人與傀儡；顯示雙端連線。",
+        "tap18": "交換主人與傀儡；顯示雙端連線。",
+        "hold18": "長按：不交換，將傀儡拉回主人前方。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "puppeteer_v18_ward",
+        "name": "縫製護偶",
+        "mode": "renewal18",
+        "op18": "ward",
+        "class18": "puppeteer",
+        "damage": 20,
+        "cd": 3.92,
+        "element": "earth",
+        "desc": "讓傀儡攔敵彈，至多三枚；每枚增加護盾。",
+        "tap18": "讓傀儡攔敵彈，至多三枚；每枚增加護盾。",
+        "hold18": "長按：傀儡改為誘餌，牽引附近敵人注意。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "puppeteer_v18_cut",
+        "name": "剪斷命線",
+        "mode": "renewal18",
+        "op18": "cut",
+        "class18": "puppeteer",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "nature",
+        "desc": "剪開縫魂線，束縛兩端目標並施加傷害。",
+        "tap18": "剪開縫魂線，束縛兩端目標並施加傷害。",
+        "hold18": "長按：不傷害，把線轉成 6 秒可站立絲橋。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      }
+    ],
+    "cartographer": [
+      {
+        "id": "cartographer_v18_pinA",
+        "name": "標記原點",
+        "mode": "renewal18",
+        "op18": "pinA",
+        "class18": "cartographer",
+        "damage": 20,
+        "cd": 1.15,
+        "element": "earth",
+        "desc": "在腳下設置第一枚圖釘。",
+        "tap18": "在腳下設置第一枚圖釘。",
+        "hold18": "長按：把原點畫在 320px 內瞄準的地形上。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "cartographer_v18_pinB",
+        "name": "標記終點",
+        "mode": "renewal18",
+        "op18": "pinB",
+        "class18": "cartographer",
+        "damage": 20,
+        "cd": 1.15,
+        "element": "light",
+        "desc": "在前方 220px 放第二枚圖釘。",
+        "tap18": "在前方 220px 放第二枚圖釘。",
+        "hold18": "長按：延長到 420px，可用方向鍵調整高度。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "cartographer_v18_portal",
+        "name": "折疊通道",
+        "mode": "renewal18",
+        "op18": "portal",
+        "class18": "cartographer",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "shadow",
+        "desc": "兩圖釘間開 10 秒門，靠近門按 E 才移動。",
+        "tap18": "兩圖釘間開 10 秒門，靠近門按 E 才移動。",
+        "hold18": "長按：只開單向門，但延長至 16 秒。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "cartographer_v18_bridge",
+        "name": "繪製棧橋",
+        "mode": "renewal18",
+        "op18": "bridge",
+        "class18": "cartographer",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "nature",
+        "desc": "沿兩圖釘畫出可走的橋，存在 8 秒。",
+        "tap18": "沿兩圖釘畫出可走的橋，存在 8 秒。",
+        "hold18": "長按：橋分兩層，提供更高立足點。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "cartographer_v18_erase",
+        "name": "局部擦除",
+        "mode": "renewal18",
+        "op18": "erase",
+        "class18": "cartographer",
+        "damage": 20,
+        "cd": 3.22,
+        "element": "ice",
+        "desc": "清除兩圖釘範圍內敵彈，不刪怪與掉落。",
+        "tap18": "清除兩圖釘範圍內敵彈，不刪怪與掉落。",
+        "hold18": "長按：不清彈，改減速區域內敵人。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "cartographer_v18_survey",
+        "name": "測繪儀",
+        "mode": "renewal18",
+        "op18": "survey",
+        "class18": "cartographer",
+        "damage": 20,
+        "cd": 3.22,
+        "element": "light",
+        "desc": "在原點照出隱藏敵人與弱點。",
+        "tap18": "在原點照出隱藏敵人與弱點。",
+        "hold18": "長按：將圖釘與平台延長 4 秒。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      }
+    ],
+    "chef": [
+      {
+        "id": "chef_v18_pan",
+        "name": "翻鍋挑擊",
+        "mode": "renewal18",
+        "op18": "pan",
+        "class18": "chef",
+        "damage": 20,
+        "cd": 1.38,
+        "element": "fire",
+        "desc": "原地鍋鏟上挑近敵，增加一層火候。",
+        "tap18": "原地鍋鏟上挑近敵，增加一層火候。",
+        "hold18": "長按：不挑空，把敵人翻到前方 100px。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "chef_v18_pot",
+        "name": "野炊爐",
+        "mode": "renewal18",
+        "op18": "pot",
+        "class18": "chef",
+        "damage": 20,
+        "cd": 3.36,
+        "element": "fire",
+        "desc": "放 10 秒火爐，附近濕敵產生蒸汽上升。",
+        "tap18": "放 10 秒火爐，附近濕敵產生蒸汽上升。",
+        "hold18": "長按：改成水鍋，持續濕潤附近敵人。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "chef_v18_dish",
+        "name": "上菜",
+        "mode": "renewal18",
+        "op18": "dish",
+        "class18": "chef",
+        "damage": 20,
+        "cd": 3.4,
+        "element": "nature",
+        "desc": "消耗火候回復 HP；零火候也回復少量。",
+        "tap18": "消耗火候回復 HP；零火候也回復少量。",
+        "hold18": "長按：改增加護盾，不治療。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "chef_v18_finish",
+        "name": "收鍋爆香",
+        "mode": "renewal18",
+        "op18": "finish",
+        "class18": "chef",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "fire",
+        "desc": "引爆現有爐具；按放置的位置結算。",
+        "tap18": "引爆現有爐具；按放置的位置結算。",
+        "hold18": "長按：不爆炸，收回爐具並減少野炊爐冷卻。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "chef_v18_aroma",
+        "name": "香氣誘食",
+        "mode": "renewal18",
+        "op18": "aroma",
+        "class18": "chef",
+        "damage": 20,
+        "cd": 3.22,
+        "element": "nature",
+        "desc": "在前方放誘餌，引怪走進爐具與元素區。",
+        "tap18": "在前方放誘餌，引怪走進爐具與元素區。",
+        "hold18": "長按：誘餌改治療圈，敵人不再追逐。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "chef_v18_chill",
+        "name": "冰鎮保鮮",
+        "mode": "renewal18",
+        "op18": "chill",
+        "class18": "chef",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "ice",
+        "desc": "短暫定身身邊的濕敵，保存 3 層火候。",
+        "tap18": "短暫定身身邊的濕敵，保存 3 層火候。",
+        "hold18": "長按：改凝成可站立的冰盤。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      }
+    ],
+    "dreamweaver": [
+      {
+        "id": "dreamweaver_v18_seed",
+        "name": "埋下夢種",
+        "mode": "renewal18",
+        "op18": "seed",
+        "class18": "dreamweaver",
+        "damage": 20,
+        "cd": 2.3,
+        "element": "shadow",
+        "desc": "在腳前埋下夢種，敌人踏入後安眠 3 秒。",
+        "tap18": "在腳前埋下夢種，敌人踏入後安眠 3 秒。",
+        "hold18": "長按：在準星方向 340px 內放置夢種；頭目只眠 0.6 秒。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "dreamweaver_v18_decoy",
+        "name": "織出夢偶",
+        "mode": "renewal18",
+        "op18": "decoy",
+        "class18": "dreamweaver",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "shadow",
+        "desc": "留下 8 秒夢偶，吸引近敵；夢偶不會自動打人。",
+        "tap18": "留下 8 秒夢偶，吸引近敵；夢偶不會自動打人。",
+        "hold18": "長按：夢偶放到準星位置，方便引怪進雷線。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "dreamweaver_v18_exchange",
+        "name": "夢行置換",
+        "mode": "renewal18",
+        "op18": "exchange",
+        "class18": "dreamweaver",
+        "damage": 20,
+        "cd": 2.3,
+        "element": "light",
+        "desc": "交換主人與夢偶位置；沒有夢偶不會亂傳。",
+        "tap18": "交換主人與夢偶位置；沒有夢偶不會亂傳。",
+        "hold18": "長按：不換位，把夢偶拉回主人前方。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "dreamweaver_v18_harvest",
+        "name": "夢魘收割",
+        "mode": "renewal18",
+        "op18": "harvest",
+        "class18": "dreamweaver",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "shadow",
+        "desc": "收割 340px 內帶困意或睡眠的敵人，消耗困意。",
+        "tap18": "收割 340px 內帶困意或睡眠的敵人，消耗困意。",
+        "hold18": "長按：睡眠目標的夢魘傳給一個近敵，最後才喚醒。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "dreamweaver_v18_garden",
+        "name": "織夢庭院",
+        "mode": "renewal18",
+        "op18": "garden",
+        "class18": "dreamweaver",
+        "damage": 20,
+        "cd": 4.48,
+        "element": "nature",
+        "desc": "地面形成 7 秒夢庭，每秒為其中敌人添加困意。",
+        "tap18": "地面形成 7 秒夢庭，每秒為其中敌人添加困意。",
+        "hold18": "長按：不加困意，改固定睡眠敵人的位置。受傷仍會醒來。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      },
+      {
+        "id": "dreamweaver_v18_transfer",
+        "name": "借夢移情",
+        "mode": "renewal18",
+        "op18": "transfer",
+        "class18": "dreamweaver",
+        "damage": 20,
+        "cd": 2.76,
+        "element": "light",
+        "desc": "把最困敵人的困意分給附近兩個敵人。",
+        "tap18": "把最困敵人的困意分給附近兩個敵人。",
+        "hold18": "長按：改將困意化為自己的 24 點護盾。",
+        "holdTime18": 0.65,
+        "range": 340,
+        "duration": 7,
+        "recommendedFollow": null,
+        "branches": [
+          {
+            "id": "A",
+            "name": "定點精準",
+            "desc": "保持原範圍；技能造成的異常控制延長 0.4 秒。",
+            "effect": "control18"
+          },
+          {
+            "id": "B",
+            "name": "延伸施作",
+            "desc": "指定範圍與部署距離增加 20%，控制不延長。",
+            "effect": "reach18"
+          }
+        ]
+      }
+    ]
+  },
+  "commands": {
+    "Z": {
+      "name": "Z・試探直刺",
+      "key": "Z",
+      "shape19": "thrust",
+      "w": 90,
+      "h": 52,
+      "oy": 5,
+      "dmg": 9,
+      "dur": 0.2,
+      "hit": 0.065,
+      "cancel": 0.132,
+      "pulses19": [
+        0.065
+      ],
+      "kx": 0,
+      "ky": 0,
+      "br": 8,
+      "kd": 4,
+      "anim": "z1",
+      "big": false,
+      "launch": false,
+      "explicitKnockback": false,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "靠近命中，確認距離；不位移"
+    },
+    "ZZ": {
+      "name": "ZZ・反手橫斬",
+      "key": "ZZ",
+      "shape19": "slash",
+      "w": 125,
+      "h": 73,
+      "oy": -6,
+      "dmg": 11,
+      "dur": 0.24,
+      "hit": 0.075,
+      "cancel": 0.1584,
+      "pulses19": [
+        0.075
+      ],
+      "kx": 0,
+      "ky": 0,
+      "br": 10,
+      "kd": 4,
+      "anim": "z2",
+      "big": false,
+      "launch": false,
+      "explicitKnockback": false,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "略寬返刃，接 Z 連斬或 X 挑空"
+    },
+    "ZZZ": {
+      "name": "ZZZ・三重定點連刺",
+      "key": "ZZZ",
+      "shape19": "flurry",
+      "w": 168,
+      "h": 62,
+      "oy": -4,
+      "dmg": 7,
+      "dur": 0.4,
+      "hit": 0.065,
+      "cancel": 0.27,
+      "pulses19": [
+        0.065,
+        0.15,
+        0.24
+      ],
+      "kx": 0,
+      "ky": 0,
+      "br": 9,
+      "kd": 4,
+      "anim": "z2",
+      "big": false,
+      "launch": false,
+      "explicitKnockback": false,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "三次獨立近身命中，角色留在原地"
+    },
+    "ZZZZ": {
+      "name": "ZZZZ・橫掃收勢",
+      "key": "ZZZZ",
+      "shape19": "sweep",
+      "w": 205,
+      "h": 96,
+      "oy": -8,
+      "dmg": 22,
+      "dur": 0.39,
+      "hit": 0.16,
+      "cancel": 0.2574,
+      "pulses19": [
+        0.16
+      ],
+      "kx": 0,
+      "ky": 0,
+      "br": 22,
+      "kd": 4,
+      "anim": "z2",
+      "big": false,
+      "launch": false,
+      "explicitKnockback": false,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "較大範圍收尾；命中回復最久冷卻"
+    },
+    "X": {
+      "name": "X・重擊壓勢",
+      "key": "X",
+      "shape19": "heavy",
+      "w": 120,
+      "h": 92,
+      "oy": -14,
+      "dmg": 20,
+      "dur": 0.35,
+      "hit": 0.16,
+      "cancel": 0.23099999999999998,
+      "pulses19": [
+        0.16
+      ],
+      "kx": 0,
+      "ky": 0,
+      "br": 32,
+      "kd": 4,
+      "anim": "x",
+      "big": true,
+      "launch": false,
+      "explicitKnockback": false,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "較慢、削 BREAK 較多，明顯重擊頓點"
+    },
+    "XX": {
+      "name": "XX・雙拍震甲",
+      "key": "XX",
+      "shape19": "double",
+      "w": 140,
+      "h": 115,
+      "oy": -20,
+      "dmg": 15,
+      "dur": 0.46,
+      "hit": 0.13,
+      "cancel": 0.31000000000000005,
+      "pulses19": [
+        0.13,
+        0.28
+      ],
+      "kx": 0,
+      "ky": 0,
+      "br": 27,
+      "kd": 4,
+      "anim": "x",
+      "big": true,
+      "launch": false,
+      "explicitKnockback": false,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "兩次重敲，敵人不被打飛"
+    },
+    "XXX": {
+      "name": "XXX・震地終結",
+      "key": "XXX",
+      "shape19": "quake",
+      "w": 240,
+      "h": 78,
+      "oy": 20,
+      "dmg": 39,
+      "dur": 0.56,
+      "hit": 0.25,
+      "cancel": 0.36960000000000004,
+      "pulses19": [
+        0.25
+      ],
+      "kx": 0,
+      "ky": 0,
+      "br": 74,
+      "kd": 4,
+      "anim": "x",
+      "big": true,
+      "launch": false,
+      "explicitKnockback": false,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "低位大範圍破勢，跳躍敵人可避開"
+    },
+    "ZX": {
+      "name": "ZX・低掃截步",
+      "key": "ZX",
+      "shape19": "low",
+      "w": 175,
+      "h": 40,
+      "oy": 32,
+      "dmg": 16,
+      "dur": 0.28,
+      "hit": 0.11,
+      "cancel": 0.18480000000000002,
+      "pulses19": [
+        0.11
+      ],
+      "kx": 0,
+      "ky": 0,
+      "br": 15,
+      "kd": 4,
+      "anim": "z2",
+      "big": false,
+      "launch": false,
+      "explicitKnockback": false,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "低位掃擊；命中腿部使其短暫停步"
+    },
+    "XZ": {
+      "name": "XZ・鉤回聚敵",
+      "key": "XZ",
+      "shape19": "hook",
+      "w": 230,
+      "h": 90,
+      "oy": -5,
+      "dmg": 16,
+      "dur": 0.32,
+      "hit": 0.12,
+      "cancel": 0.21120000000000003,
+      "pulses19": [
+        0.12
+      ],
+      "kx": -145,
+      "ky": 0,
+      "br": 16,
+      "kd": 4,
+      "anim": "z2",
+      "big": false,
+      "launch": false,
+      "explicitKnockback": true,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "只把敵人拉近，不移動自己；適合拖進元素場"
+    },
+    "ZZX": {
+      "name": "ZZX・定點上挑",
+      "key": "ZZX",
+      "shape19": "lift",
+      "w": 140,
+      "h": 178,
+      "oy": -108,
+      "dmg": 23,
+      "dur": 0.4,
+      "hit": 0.16,
+      "cancel": 0.264,
+      "pulses19": [
+        0.16
+      ],
+      "kx": 0,
+      "ky": -600,
+      "br": 22,
+      "kd": 4,
+      "anim": "launch",
+      "big": false,
+      "launch": true,
+      "explicitKnockback": true,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "向上挑敵；頭目只削 BREAK，不被拋走"
+    },
+    "XXZ": {
+      "name": "XXZ・楔甲破綻",
+      "key": "XXZ",
+      "shape19": "break",
+      "w": 155,
+      "h": 112,
+      "oy": -20,
+      "dmg": 25,
+      "dur": 0.39,
+      "hit": 0.17,
+      "cancel": 0.2574,
+      "pulses19": [
+        0.17
+      ],
+      "kx": 0,
+      "ky": 0,
+      "br": 90,
+      "kd": 4,
+      "anim": "x",
+      "big": true,
+      "launch": false,
+      "explicitKnockback": false,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "破甲 4 秒、削 BREAK；適合接狙擊／重技能"
+    },
+    "ZXX": {
+      "name": "ZXX・釘地束縛",
+      "key": "ZXX",
+      "shape19": "root",
+      "w": 185,
+      "h": 65,
+      "oy": 20,
+      "dmg": 24,
+      "dur": 0.43,
+      "hit": 0.18,
+      "cancel": 0.2838,
+      "pulses19": [
+        0.18
+      ],
+      "kx": 0,
+      "ky": 0,
+      "br": 30,
+      "kd": 4,
+      "anim": "x",
+      "big": true,
+      "launch": false,
+      "explicitKnockback": false,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "短暫束縛 1.8 秒，讓雷線、菌床容易命中"
+    },
+    "ZXZ": {
+      "name": "ZXZ・回身環斬",
+      "key": "ZXZ",
+      "shape19": "circle",
+      "w": 156,
+      "h": 118,
+      "oy": -25,
+      "dmg": 21,
+      "dur": 0.36,
+      "hit": 0.15,
+      "cancel": 0.2376,
+      "pulses19": [
+        0.15
+      ],
+      "kx": 0,
+      "ky": 0,
+      "br": 20,
+      "kd": 4,
+      "anim": "z2",
+      "big": false,
+      "launch": false,
+      "explicitKnockback": false,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "同時打到左右兩側，角色不穿身"
+    },
+    "XZZ": {
+      "name": "XZZ・鉤後雙刺",
+      "key": "XZZ",
+      "shape19": "flurry",
+      "w": 205,
+      "h": 80,
+      "oy": -5,
+      "dmg": 12,
+      "dur": 0.38,
+      "hit": 0.09,
+      "cancel": 0.2508,
+      "pulses19": [
+        0.09,
+        0.22
+      ],
+      "kx": -75,
+      "ky": 0,
+      "br": 16,
+      "kd": 4,
+      "anim": "z2",
+      "big": false,
+      "launch": false,
+      "explicitKnockback": true,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "回拉後兩次命中，接固定技能槽"
+    },
+    "XZX": {
+      "name": "XZX・架刃反彈",
+      "key": "XZX",
+      "shape19": "parry",
+      "w": 150,
+      "h": 118,
+      "oy": -26,
+      "dmg": 22,
+      "dur": 0.38,
+      "hit": 0.15,
+      "cancel": 0.2508,
+      "pulses19": [
+        0.15
+      ],
+      "kx": 0,
+      "ky": 0,
+      "br": 32,
+      "kd": 4,
+      "anim": "z2",
+      "big": false,
+      "launch": false,
+      "explicitKnockback": false,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "出手後 0.5 秒反彈正前方一枚敵彈"
+    },
+    "ZZXX": {
+      "name": "ZZXX・落點下壓",
+      "key": "ZZXX",
+      "shape19": "down",
+      "w": 170,
+      "h": 230,
+      "oy": -130,
+      "dmg": 26,
+      "dur": 0.43,
+      "hit": 0.19,
+      "cancel": 0.2838,
+      "pulses19": [
+        0.19
+      ],
+      "kx": 0,
+      "ky": 460,
+      "br": 28,
+      "kd": 4,
+      "anim": "air",
+      "big": false,
+      "launch": false,
+      "explicitKnockback": true,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "把已浮空的敵人壓向地面，不讓玩家下墜"
+    },
+    "ZXZX": {
+      "name": "ZXZX・聚點圓鉤",
+      "key": "ZXZX",
+      "shape19": "circle",
+      "w": 205,
+      "h": 115,
+      "oy": -22,
+      "dmg": 26,
+      "dur": 0.42,
+      "hit": 0.16,
+      "cancel": 0.2772,
+      "pulses19": [
+        0.16
+      ],
+      "kx": -135,
+      "ky": 0,
+      "br": 24,
+      "kd": 4,
+      "anim": "z2",
+      "big": false,
+      "launch": false,
+      "explicitKnockback": true,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "周圍小幅回拉，適合睡眠／元素落點"
+    },
+    "XXZZ": {
+      "name": "XXZZ・破甲後挑升",
+      "key": "XXZZ",
+      "shape19": "lift",
+      "w": 165,
+      "h": 195,
+      "oy": -115,
+      "dmg": 28,
+      "dur": 0.44,
+      "hit": 0.18,
+      "cancel": 0.2904,
+      "pulses19": [
+        0.18
+      ],
+      "kx": 0,
+      "ky": -510,
+      "br": 38,
+      "kd": 4,
+      "anim": "launch",
+      "big": false,
+      "launch": true,
+      "explicitKnockback": true,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "在破甲後挑空；頭目改短失衡"
+    },
+    "ZXXZ": {
+      "name": "ZXXZ・根縛雙刺",
+      "key": "ZXXZ",
+      "shape19": "flurry",
+      "w": 210,
+      "h": 85,
+      "oy": -5,
+      "dmg": 13,
+      "dur": 0.4,
+      "hit": 0.1,
+      "cancel": 0.28,
+      "pulses19": [
+        0.1,
+        0.25
+      ],
+      "kx": 0,
+      "ky": 0,
+      "br": 21,
+      "kd": 4,
+      "anim": "z2",
+      "big": false,
+      "launch": false,
+      "explicitKnockback": false,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "束縛後雙刺，定身保留，不強制推走"
+    },
+    "XZXZ": {
+      "name": "XZXZ・護刃環掃",
+      "key": "XZXZ",
+      "shape19": "circle",
+      "w": 190,
+      "h": 130,
+      "oy": -40,
+      "dmg": 28,
+      "dur": 0.4,
+      "hit": 0.17,
+      "cancel": 0.264,
+      "pulses19": [
+        0.17
+      ],
+      "kx": 0,
+      "ky": 0,
+      "br": 32,
+      "kd": 4,
+      "anim": "z2",
+      "big": false,
+      "launch": false,
+      "explicitKnockback": false,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "反彈之後處理包圍，接任一技能"
+    },
+    "ZZXZX": {
+      "name": "ZZXZX・收束地裂",
+      "key": "ZZXZX",
+      "shape19": "quake",
+      "w": 260,
+      "h": 225,
+      "oy": -100,
+      "dmg": 34,
+      "dur": 0.48,
+      "hit": 0.2,
+      "cancel": 0.3168,
+      "pulses19": [
+        0.2
+      ],
+      "kx": 0,
+      "ky": 300,
+      "br": 64,
+      "kd": 4,
+      "anim": "x",
+      "big": true,
+      "launch": false,
+      "explicitKnockback": true,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "上挑轉定點下壓，回收浮空敵人"
+    },
+    "AIRZ": {
+      "name": "AIRZ・空中橫斬",
+      "key": "AIRZ",
+      "shape19": "slash",
+      "w": 135,
+      "h": 105,
+      "oy": -20,
+      "dmg": 13,
+      "dur": 0.25,
+      "hit": 0.09,
+      "cancel": 0.165,
+      "pulses19": [
+        0.09
+      ],
+      "kx": 0,
+      "ky": -95,
+      "br": 13,
+      "kd": 4,
+      "anim": "z2",
+      "big": false,
+      "launch": false,
+      "explicitKnockback": true,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "只攻擊，不改變角色空中軌跡"
+    },
+    "AIRX": {
+      "name": "AIRX・空中壓落",
+      "key": "AIRX",
+      "shape19": "down",
+      "w": 128,
+      "h": 156,
+      "oy": 5,
+      "dmg": 24,
+      "dur": 0.38,
+      "hit": 0.17,
+      "cancel": 0.2508,
+      "pulses19": [
+        0.17
+      ],
+      "kx": 0,
+      "ky": 470,
+      "br": 35,
+      "kd": 4,
+      "anim": "air",
+      "big": false,
+      "launch": false,
+      "explicitKnockback": true,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "敵人向下，自己仍可控制移動"
+    },
+    "AIRZX": {
+      "name": "AIRZX・空中落點回收",
+      "key": "AIRZX",
+      "shape19": "down",
+      "w": 165,
+      "h": 190,
+      "oy": -30,
+      "dmg": 26,
+      "dur": 0.4,
+      "hit": 0.18,
+      "cancel": 0.264,
+      "pulses19": [
+        0.18
+      ],
+      "kx": 0,
+      "ky": 580,
+      "br": 36,
+      "kd": 4,
+      "anim": "air",
+      "big": false,
+      "launch": false,
+      "explicitKnockback": true,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "把空中敵人送回地面元素場"
+    },
+    "AIRXZ": {
+      "name": "AIRXZ・空中再挑",
+      "key": "AIRXZ",
+      "shape19": "lift",
+      "w": 160,
+      "h": 195,
+      "oy": -110,
+      "dmg": 22,
+      "dur": 0.37,
+      "hit": 0.14,
+      "cancel": 0.2442,
+      "pulses19": [
+        0.14
+      ],
+      "kx": 0,
+      "ky": -420,
+      "br": 30,
+      "kd": 4,
+      "anim": "launch",
+      "big": false,
+      "launch": true,
+      "explicitKnockback": true,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "延續敵人浮空，角色不自動跳高"
+    },
+    "UZ": {
+      "name": "UZ・向上截擊",
+      "key": "UZ",
+      "shape19": "lift",
+      "w": 110,
+      "h": 175,
+      "oy": -115,
+      "dmg": 15,
+      "dur": 0.28,
+      "hit": 0.11,
+      "cancel": 0.18480000000000002,
+      "pulses19": [
+        0.11
+      ],
+      "kx": 0,
+      "ky": -430,
+      "br": 18,
+      "kd": 4,
+      "anim": "launch",
+      "big": false,
+      "launch": true,
+      "explicitKnockback": true,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "打頭上目標，玩家不自動上升"
+    },
+    "UX": {
+      "name": "UX・向上重挑",
+      "key": "UX",
+      "shape19": "lift",
+      "w": 145,
+      "h": 230,
+      "oy": -165,
+      "dmg": 27,
+      "dur": 0.41,
+      "hit": 0.18,
+      "cancel": 0.2706,
+      "pulses19": [
+        0.18
+      ],
+      "kx": 0,
+      "ky": -570,
+      "br": 40,
+      "kd": 4,
+      "anim": "launch",
+      "big": false,
+      "launch": true,
+      "explicitKnockback": true,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "更高挑擊；靠近空中敵人再出手"
+    },
+    "DZ": {
+      "name": "DZ・貼地掃腳",
+      "key": "DZ",
+      "shape19": "low",
+      "w": 170,
+      "h": 38,
+      "oy": 34,
+      "dmg": 14,
+      "dur": 0.28,
+      "hit": 0.1,
+      "cancel": 0.18480000000000002,
+      "pulses19": [
+        0.1
+      ],
+      "kx": 0,
+      "ky": 0,
+      "br": 18,
+      "kd": 4,
+      "anim": "z2",
+      "big": false,
+      "launch": false,
+      "explicitKnockback": false,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "低身目標與慢移動怪的剋星"
+    },
+    "DX": {
+      "name": "DX・落地震掌",
+      "key": "DX",
+      "shape19": "quake",
+      "w": 235,
+      "h": 70,
+      "oy": 20,
+      "dmg": 29,
+      "dur": 0.43,
+      "hit": 0.2,
+      "cancel": 0.2838,
+      "pulses19": [
+        0.2
+      ],
+      "kx": 0,
+      "ky": 0,
+      "br": 52,
+      "kd": 4,
+      "anim": "x",
+      "big": true,
+      "launch": false,
+      "explicitKnockback": false,
+      "lunge": 0,
+      "retreat": 0,
+      "recoil": 0,
+      "mCommand": true,
+      "desc19": "地面破势，不射出震波子彈"
+    }
+  },
+  "stats": null,
+  "races": {
+    "human": {
+      "id": "human",
+      "name": "拾荒人族",
+      "glyph": "人",
+      "color": "#e6ba85",
+      "atk": 1,
+      "speed": 1,
+      "kb": 1,
+      "hp": 1,
+      "trait": "巧手生存",
+      "desc": "採集額外 +1 金屬；站定 4 秒回復 1 護盾。",
+      "passive": "salvage"
+    },
+    "merfolk": {
+      "id": "merfolk",
+      "name": "潮汐魚人",
+      "glyph": "鰭",
+      "color": "#71daca",
+      "atk": 0.94,
+      "speed": 1.02,
+      "kb": 0.9,
+      "hp": 1.03,
+      "trait": "潮息環",
+      "desc": "水下不限氧、游速不減；近身敵人持續濕潤。",
+      "passive": "gills"
+    },
+    "void": {
+      "id": "void",
+      "name": "虛空族",
+      "glyph": "虛",
+      "color": "#b5a2ed",
+      "atk": 1.04,
+      "speed": 1.03,
+      "kb": 0.92,
+      "hp": 0.88,
+      "trait": "裂隙皮膜",
+      "desc": "每 3 秒自動避開一次非持續攻擊；裏世界內縮短為 2 秒。",
+      "passive": "phase"
+    },
+    "sonic": {
+      "id": "sonic",
+      "name": "音族",
+      "glyph": "音",
+      "color": "#8bcefa",
+      "atk": 0.94,
+      "speed": 1.04,
+      "kb": 0.92,
+      "hp": 0.95,
+      "trait": "慢音領域",
+      "desc": "150px 內敵人與敵彈慢至 68%；緩時圈可進一步疊加。",
+      "passive": "slow"
+    },
+    "stone": {
+      "id": "stone",
+      "name": "岩裔族",
+      "glyph": "岩",
+      "color": "#bcb0a0",
+      "atk": 1.12,
+      "speed": 0.83,
+      "kb": 0.32,
+      "hp": 1.28,
+      "trait": "重心共振",
+      "desc": "被擊退大減；周圍敵人受到岩壓、移速略降。",
+      "passive": "stone"
+    },
+    "ember": {
+      "id": "ember",
+      "name": "燼裔族",
+      "glyph": "燼",
+      "color": "#ffa677",
+      "atk": 1.08,
+      "speed": 1,
+      "kb": 0.92,
+      "hp": 0.98,
+      "trait": "餘燼體溫",
+      "desc": "免疫岩漿／高溫持續傷害；靠近的濕敵產生蒸汽。",
+      "passive": "heat"
+    },
+    "frost": {
+      "id": "frost",
+      "name": "霜晶族",
+      "glyph": "霜",
+      "color": "#a4e6f6",
+      "atk": 0.97,
+      "speed": 0.97,
+      "kb": 0.82,
+      "hp": 1.07,
+      "trait": "霜軌",
+      "desc": "無冰面滑行、免寒冷；站立時腳下長出短效冰台。",
+      "passive": "frost"
+    },
+    "sylph": {
+      "id": "sylph",
+      "name": "羽民族",
+      "glyph": "羽",
+      "color": "#d3edcf",
+      "atk": 0.94,
+      "speed": 1.12,
+      "kb": 1.2,
+      "hp": 0.87,
+      "trait": "上升氣流",
+      "desc": "下落重力 58%；按住跳躍滑翔，周圍形成上升氣流。",
+      "passive": "glide"
+    },
+    "mycel": {
+      "id": "mycel",
+      "name": "菌絲族",
+      "glyph": "菌",
+      "color": "#b2d88e",
+      "atk": 0.93,
+      "speed": 0.94,
+      "kb": 0.8,
+      "hp": 1.15,
+      "trait": "根系花園",
+      "desc": "站定 3 秒治療；對周圍濕敵纏根。",
+      "passive": "root"
+    },
+    "clock": {
+      "id": "clock",
+      "name": "機心族",
+      "glyph": "械",
+      "color": "#d9c68a",
+      "atk": 1.05,
+      "speed": 0.96,
+      "kb": 0.6,
+      "hp": 1.06,
+      "trait": "整流磁環",
+      "desc": "每 4 秒把一顆近身敵彈轉成護盾；不需呼吸但怕深海壓力。",
+      "passive": "machine"
+    },
+    "shade": {
+      "id": "shade",
+      "name": "影貓族",
+      "glyph": "影",
+      "color": "#bd9ac8",
+      "atk": 1.02,
+      "speed": 1.14,
+      "kb": 1.12,
+      "hp": 0.89,
+      "trait": "暗步",
+      "desc": "影界阻力免除；衝刺時身後留誘餌，吸引附近敵人。",
+      "passive": "shade"
+    },
+    "prism": {
+      "id": "prism",
+      "name": "稜光族",
+      "glyph": "稜",
+      "color": "#f4e9ad",
+      "atk": 0.97,
+      "speed": 1.02,
+      "kb": 0.95,
+      "hp": 1,
+      "trait": "折射盾",
+      "desc": "每 5 秒反射一顆近身敵彈；光影反應額外產生平台。",
+      "passive": "prism"
+    },
+    "sand": {
+      "id": "sand",
+      "name": "沙行族",
+      "glyph": "沙",
+      "color": "#dec18a",
+      "atk": 1.02,
+      "speed": 1.05,
+      "kb": 0.72,
+      "hp": 1.03,
+      "trait": "沙舟",
+      "desc": "不受流沙與沙暴減速；周围沙粒會減慢敵彈。",
+      "passive": "sand"
+    },
+    "storm": {
+      "id": "storm",
+      "name": "雷角族",
+      "glyph": "雷",
+      "color": "#efd77f",
+      "atk": 1.08,
+      "speed": 1.08,
+      "kb": 1.05,
+      "hp": 0.9,
+      "trait": "雷池",
+      "desc": "每 2 秒電擊近身濕敵；雷換位後補一次空中 Dash。",
+      "passive": "storm"
+    },
+    "astral": {
+      "id": "astral",
+      "name": "星鯨族",
+      "glyph": "星",
+      "color": "#a8b4e9",
+      "atk": 1,
+      "speed": 0.9,
+      "kb": 0.65,
+      "hp": 1.16,
+      "trait": "浮力井",
+      "desc": "周圍敵人重力減半；深海壓力傷害減半，重力換位生成浮空台。",
+      "passive": "float"
+    }
+  },
+  "recipes": {
+    "gill": {
+      "id": "gill",
+      "name": "循環鰓囊",
+      "kind": "tool",
+      "cost": {
+        "coral": 4,
+        "fiber": 6
+      },
+      "desc": "氧氣上限 48 秒、水阻減半；魚人不需它。",
+      "effect": "gills"
+    },
+    "pressure": {
+      "id": "pressure",
+      "name": "深潛壓力甲",
+      "kind": "armor",
+      "cost": {
+        "pearl": 4,
+        "metal": 8,
+        "coral": 3
+      },
+      "desc": "免深海壓力，內建水下呼吸；最大生命 +30。",
+      "effect": "pressure"
+    },
+    "thermal": {
+      "id": "thermal",
+      "name": "恆溫斗篷",
+      "kind": "armor",
+      "cost": {
+        "frost": 4,
+        "fiber": 5
+      },
+      "desc": "免寒冷扣血，生命 +20。",
+      "effect": "thermal"
+    },
+    "sandBoots": {
+      "id": "sandBoots",
+      "name": "浮沙靴",
+      "kind": "tool",
+      "cost": {
+        "sand": 4,
+        "fiber": 5
+      },
+      "desc": "免流沙阻力，可走過沙海密封門。",
+      "effect": "sand"
+    },
+    "glider": {
+      "id": "glider",
+      "name": "折風翼",
+      "kind": "tool",
+      "cost": {
+        "feather": 4,
+        "fiber": 6,
+        "metal": 3
+      },
+      "desc": "按住跳躍滑翔；打開高空風閘。",
+      "effect": "glider"
+    },
+    "phaseBoots": {
+      "id": "phaseBoots",
+      "name": "相位足具",
+      "kind": "tool",
+      "cost": {
+        "ectoplasm": 4,
+        "crystal": 4
+      },
+      "desc": "免影界阻力；通行影膜，非任意穿牆。",
+      "effect": "phase"
+    },
+    "heatSuit": {
+      "id": "heatSuit",
+      "name": "熔岩隔熱甲",
+      "kind": "armor",
+      "cost": {
+        "ember": 4,
+        "metal": 8
+      },
+      "desc": "免高溫與岩漿傷害，生命 +25。",
+      "effect": "heat"
+    },
+    "insulator": {
+      "id": "insulator",
+      "name": "磁絕緣器",
+      "kind": "tool",
+      "cost": {
+        "circuit": 4,
+        "fiber": 5
+      },
+      "desc": "免都市脈衝傷害；開磁軌封門。",
+      "effect": "insulate"
+    },
+    "iceGrip": {
+      "id": "iceGrip",
+      "name": "碎冰地釘",
+      "kind": "tool",
+      "cost": {
+        "frost": 2,
+        "metal": 4
+      },
+      "desc": "冰面可以正常煞車，不再滑行。",
+      "effect": "grip"
+    },
+    "filter": {
+      "id": "filter",
+      "name": "胞膜濾毒器",
+      "kind": "tool",
+      "cost": {
+        "herb": 4,
+        "fiber": 4
+      },
+      "desc": "每次受毒時迅速清除；不影響燃燒。",
+      "effect": "filter"
+    },
+    "lifeline": {
+      "id": "lifeline",
+      "name": "潮汐救援索",
+      "kind": "tool",
+      "cost": {
+        "fiber": 6,
+        "coral": 2
+      },
+      "desc": "落入底層潮床並著地後，自動拉回上一落腳點並給 12 護盾；未裝備仍可按 E 自救。",
+      "effect": "lifeline"
+    },
+    "tetherBlade": {
+      "id": "tetherBlade",
+      "name": "牽引刃",
+      "kind": "weapon",
+      "cost": {
+        "metal": 8,
+        "ectoplasm": 2
+      },
+      "desc": "命中後小幅向自己拉近敵人，不加普通擊退。",
+      "effect": "tether"
+    },
+    "resonator": {
+      "id": "resonator",
+      "name": "反應導管",
+      "kind": "weapon",
+      "cost": {
+        "metal": 7,
+        "circuit": 3
+      },
+      "desc": "元素反應場持續時間 +40%。",
+      "effect": "reactor"
+    },
+    "echoBow": {
+      "id": "echoBow",
+      "name": "遲響獵弓",
+      "kind": "weapon",
+      "cost": {
+        "feather": 3,
+        "crystal": 5
+      },
+      "desc": "Command 命中後 0.3 秒回響一次 20% 傷害。",
+      "effect": "echo"
+    },
+    "anchorHammer": {
+      "id": "anchorHammer",
+      "name": "重錨槌",
+      "kind": "weapon",
+      "cost": {
+        "metal": 10,
+        "sand": 4
+      },
+      "desc": "BREAK 傷害 +30%，只有 X 終結段保留重擊退。",
+      "effect": "breaker"
+    },
+    "prismLance": {
+      "id": "prismLance",
+      "name": "稜光長槍",
+      "kind": "weapon",
+      "cost": {
+        "crystal": 6,
+        "frost": 3
+      },
+      "desc": "攻擊距離 +18%；普通攻擊不增加傷害。",
+      "effect": "reach"
+    },
+    "mossArmor": {
+      "id": "mossArmor",
+      "name": "苔生護衣",
+      "kind": "armor",
+      "cost": {
+        "herb": 5,
+        "fiber": 7
+      },
+      "desc": "生命 +35；脫戰 5 秒後緩慢回復。",
+      "effect": "regen"
+    },
+    "circuitArmor": {
+      "id": "circuitArmor",
+      "name": "整流護甲",
+      "kind": "armor",
+      "cost": {
+        "circuit": 6,
+        "metal": 6
+      },
+      "desc": "生命 +20；每次換位得到 4 護盾。",
+      "effect": "circuit"
+    },
+    "medkit": {
+      "id": "medkit",
+      "name": "野戰療癒包",
+      "kind": "consumable",
+      "cost": {
+        "herb": 2,
+        "fiber": 1
+      },
+      "desc": "使用後回復 55 生命；消耗一包。",
+      "effect": "heal"
+    },
+    "airBottle": {
+      "id": "airBottle",
+      "name": "補氧膠囊",
+      "kind": "consumable",
+      "cost": {
+        "coral": 1,
+        "herb": 1
+      },
+      "desc": "使用時補满當前氧氣；消耗一顆。",
+      "effect": "oxygen"
+    },
+    "scanner": {
+      "id": "scanner",
+      "name": "生態掃描器",
+      "kind": "tool",
+      "cost": {
+        "circuit": 2,
+        "crystal": 3
+      },
+      "desc": "圖鑑遭遇範圍 650 → 1000px；不自動揭露未見物種。",
+      "effect": "scanner"
+    },
+    "beacon": {
+      "id": "beacon",
+      "name": "遠征信標",
+      "kind": "tool",
+      "cost": {
+        "crystal": 4,
+        "metal": 5
+      },
+      "desc": "裝備後可從遠征頁直接返回最近前哨，而不只是最初海崖。",
+      "effect": "beacon"
+    },
+    "forge": {
+      "id": "forge",
+      "name": "升級鍛造台",
+      "kind": "facility",
+      "cost": {
+        "metal": 15,
+        "sand": 5
+      },
+      "desc": "武器合成每件返還 2 金屬。",
+      "effect": "forge"
+    },
+    "garden": {
+      "id": "garden",
+      "name": "培養苗圃",
+      "kind": "facility",
+      "cost": {
+        "fiber": 12,
+        "coral": 4
+      },
+      "desc": "每 90 遊戲秒可在工作台收成 3 香草。",
+      "effect": "garden"
+    },
+    "lab": {
+      "id": "lab",
+      "name": "元素研究台",
+      "kind": "facility",
+      "cost": {
+        "crystal": 10,
+        "circuit": 4
+      },
+      "desc": "每次反應首次發現額外得 1 元素點。",
+      "effect": "lab"
+    },
+    "infirmary": {
+      "id": "infirmary",
+      "name": "重建醫務站",
+      "kind": "facility",
+      "cost": {
+        "herb": 10,
+        "metal": 8
+      },
+      "desc": "營地休息額外給 20 護盾。",
+      "effect": "infirmary"
+    },
+    "reactor": {
+      "id": "reactor",
+      "name": "避難所雙相爐",
+      "kind": "facility",
+      "cost": {
+        "core": 2,
+        "metal": 12,
+        "circuit": 6
+      },
+      "desc": "解鎖遠征階級；頭目重挑與進階委託。",
+      "effect": "reactor"
+    },
+    "riftKey": {
+      "id": "riftKey",
+      "name": "王庭通行器",
+      "kind": "tool",
+      "cost": {
+        "crystal": 8,
+        "core": 1
+      },
+      "desc": "開啟深海、影界、魔界及都市王庭聯鎖；其餘四區王種可供首次核心。",
+      "effect": "key"
+    },
+    "sandSkates": {
+      "id": "sandSkates",
+      "name": "浮沙滑板",
+      "kind": "tool",
+      "cost": {
+        "f19_sirocco": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "移除流沙阻力，站在沙丘上可以正常起跳。",
+      "effect": "sandwalk",
+      "f19": true,
+      "biome19": "sirocco"
+    },
+    "bellLung": {
+      "id": "bellLung",
+      "name": "潛鐘肺葉",
+      "kind": "armor",
+      "cost": {
+        "f19_naos": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "水下氧氣不再消耗；不免除深海壓力。",
+      "effect": "gill19",
+      "f19": true,
+      "biome19": "naos"
+    },
+    "snowWeave": {
+      "id": "snowWeave",
+      "name": "雪織披肩",
+      "kind": "armor",
+      "cost": {
+        "f19_rime": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "免寒冷與冰面打滑；寒冷區內受擊後短暫護盾。",
+      "effect": "cold19",
+      "f19": true,
+      "biome19": "rime"
+    },
+    "mycelialNeedle": {
+      "id": "mycelialNeedle",
+      "name": "菌絲縫針",
+      "kind": "weapon",
+      "cost": {
+        "f19_protospores": 5,
+        "fiber": 5,
+        "metal": 6,
+        "seal19_protospores": 1
+      },
+      "desc": "ZXX 命中後額外累積兩層困意；普攻傷害仍會喚醒原本睡眠的目標。",
+      "effect": "spore19",
+      "f19": true,
+      "biome19": "protospores"
+    },
+    "prismGuard": {
+      "id": "prismGuard",
+      "name": "折光護刃",
+      "kind": "weapon",
+      "cost": {
+        "f19_geode": 5,
+        "fiber": 5,
+        "metal": 6,
+        "seal19_geode": 1
+      },
+      "desc": "XZ 終段在前方開啟 0.6 秒反彈窗口；不發射額外普攻。",
+      "effect": "reflect19",
+      "f19": true,
+      "biome19": "geode"
+    },
+    "cinderBoot": {
+      "id": "cinderBoot",
+      "name": "灰燼足鎧",
+      "kind": "armor",
+      "cost": {
+        "f19_basalt": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "免熔岩與噴氣熱傷，燃燒期間不累積環境傷害。",
+      "effect": "heat19",
+      "f19": true,
+      "biome19": "basalt"
+    },
+    "rootSpool": {
+      "id": "rootSpool",
+      "name": "根索鉤盤",
+      "kind": "tool",
+      "cost": {
+        "f19_mangrove": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "梯道攀登加速，水中移動阻力減半。",
+      "effect": "climb19",
+      "f19": true,
+      "biome19": "mangrove"
+    },
+    "brineFilter": {
+      "id": "brineFilter",
+      "name": "抗鹵膜衣",
+      "kind": "armor",
+      "cost": {
+        "f19_salt": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "抵擋鹵水腐蝕與黏液減速，不增加普通攻擊傷害。",
+      "effect": "salt19",
+      "f19": true,
+      "biome19": "salt"
+    },
+    "tempoCoil": {
+      "id": "tempoCoil",
+      "name": "節奏線圈",
+      "kind": "weapon",
+      "cost": {
+        "f19_clockfen": 5,
+        "fiber": 5,
+        "metal": 6,
+        "seal19_clockfen": 1
+      },
+      "desc": "交替 Z／X 命中時額外縮短最長冷卻；每 0.8 秒一次。",
+      "effect": "tempo19",
+      "f19": true,
+      "biome19": "clockfen"
+    },
+    "sailFrame": {
+      "id": "sailFrame",
+      "name": "側風翼架",
+      "kind": "tool",
+      "cost": {
+        "f19_cloud": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "上升氣流更有力，按住跳躍限制下落速度。",
+      "effect": "wind19",
+      "f19": true,
+      "biome19": "cloud"
+    },
+    "abyssHarness": {
+      "id": "abyssHarness",
+      "name": "抗壓骨架",
+      "kind": "armor",
+      "cost": {
+        "f19_whalefall": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "免深海壓力，並將水下阻力降低；仍需補氧或呼吸装备。",
+      "effect": "pressure19",
+      "f19": true,
+      "biome19": "whalefall"
+    },
+    "magnetPouch": {
+      "id": "magnetPouch",
+      "name": "極磁拾荒囊",
+      "kind": "tool",
+      "cost": {
+        "f19_magforge": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "散落素材在 420px 內自動靠近；抵擋極磁環境脈衝。",
+      "effect": "loot19",
+      "f19": true,
+      "biome19": "magforge"
+    },
+    "shadeLens": {
+      "id": "shadeLens",
+      "name": "日蝕護鏡",
+      "kind": "tool",
+      "cost": {
+        "f19_glass": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "遮蔽烈日光束傷害；小地圖顯示當地藏品方向。",
+      "effect": "glare19",
+      "f19": true,
+      "biome19": "glass"
+    },
+    "groundRod": {
+      "id": "groundRod",
+      "name": "接地蓄電棒",
+      "kind": "tool",
+      "cost": {
+        "f19_storm": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "免環境雷擊；每次被環境雷擊命中反得 6 護盾（2 秒一次）。",
+      "effect": "storm19",
+      "f19": true,
+      "biome19": "storm"
+    },
+    "auroraLance": {
+      "id": "auroraLance",
+      "name": "極光串槍",
+      "kind": "weapon",
+      "cost": {
+        "f19_aurora": 5,
+        "fiber": 5,
+        "metal": 6,
+        "seal19_aurora": 1
+      },
+      "desc": "ZZX 挑空後使目標 4 秒可被表裏兩層命中。",
+      "effect": "expose19",
+      "f19": true,
+      "biome19": "aurora"
+    },
+    "rootAxe": {
+      "id": "rootAxe",
+      "name": "根骸釘斧",
+      "kind": "weapon",
+      "cost": {
+        "f19_necroot": 5,
+        "fiber": 5,
+        "metal": 6,
+        "seal19_necroot": 1
+      },
+      "desc": "ZXX 束縛延長至 3 秒；頭目只延長至 0.45 秒，不強迫擊飛。",
+      "effect": "root19",
+      "f19": true,
+      "biome19": "necroot"
+    },
+    "inkCompass": {
+      "id": "inkCompass",
+      "name": "墨跡羅盤",
+      "kind": "tool",
+      "cost": {
+        "f19_ink": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "墨霧不再縮小小地圖視距；顯示當地隱藏研究匣。",
+      "effect": "ink19",
+      "f19": true,
+      "biome19": "ink"
+    },
+    "tideFork": {
+      "id": "tideFork",
+      "name": "分潮三叉戟",
+      "kind": "weapon",
+      "cost": {
+        "f19_coral": 5,
+        "fiber": 5,
+        "metal": 6,
+        "seal19_coral": 1
+      },
+      "desc": "XZ 回拉使敵人濕潤 6 秒；可接雷元素導電，不增加普攻飛彈。",
+      "effect": "wet19",
+      "f19": true,
+      "biome19": "coral"
+    },
+    "moonGyro": {
+      "id": "moonGyro",
+      "name": "月面陀螺",
+      "kind": "tool",
+      "cost": {
+        "f19_moon": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "消除月坑重力週期；在低重力地區可穩定煞車。",
+      "effect": "moon19",
+      "f19": true,
+      "biome19": "moon"
+    },
+    "laserCloak": {
+      "id": "laserCloak",
+      "name": "矽葉折幕",
+      "kind": "armor",
+      "cost": {
+        "f19_silicon": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "穿越環境掃描線不受傷；受敵人光束仍會受傷。",
+      "effect": "laser19",
+      "f19": true,
+      "biome19": "silicon"
+    },
+    "resinPads": {
+      "id": "resinPads",
+      "name": "離黏足墊",
+      "kind": "tool",
+      "cost": {
+        "f19_amber": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "樹脂、鹽泥與怪物蛛網不再拖慢移動。",
+      "effect": "resin19",
+      "f19": true,
+      "biome19": "amber"
+    },
+    "mercuryValve": {
+      "id": "mercuryValve",
+      "name": "汞流閥環",
+      "kind": "tool",
+      "cost": {
+        "f19_mercury": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "不受重液阻力；連段命中濕敵時削減 0.2 秒冷卻。",
+      "effect": "mercury19",
+      "f19": true,
+      "biome19": "mercury"
+    },
+    "faultHammer": {
+      "id": "faultHammer",
+      "name": "斷層鑿槌",
+      "kind": "weapon",
+      "cost": {
+        "f19_fossil": 5,
+        "fiber": 5,
+        "metal": 6,
+        "seal19_fossil": 1
+      },
+      "desc": "XXZ 破甲 4 秒並額外削除 BREAK；不提升一般水平擊退。",
+      "effect": "break19",
+      "f19": true,
+      "biome19": "fossil"
+    },
+    "wakeChime": {
+      "id": "wakeChime",
+      "name": "醒夢風鈴",
+      "kind": "tool",
+      "cost": {
+        "f19_dreamsnow": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "免環境夢霧緩速；長按技能蓄滿門檻縮短 20%。",
+      "effect": "dream19",
+      "f19": true,
+      "biome19": "dreamsnow"
+    },
+    "vectorGyro": {
+      "id": "vectorGyro",
+      "name": "慣性穩定錨",
+      "kind": "tool",
+      "cost": {
+        "f19_starrift": 5,
+        "fiber": 5,
+        "metal": 6
+      },
+      "desc": "抵抗環境側向力與敵人牽引；不更改世界切換的速度反轉。",
+      "effect": "vector19",
+      "f19": true,
+      "biome19": "starrift"
+    },
+    "oxygenBloom": {
+      "id": "oxygenBloom",
+      "name": "氣泡花囊",
+      "kind": "consumable",
+      "cost": {
+        "coral": 2,
+        "herb": 2
+      },
+      "desc": "在原地生成 20 秒補氧區；必須待在泡內，離開後仍會耗氧。",
+      "effect": "bubble19",
+      "f19": true
+    },
+    "pulseBeacon": {
+      "id": "pulseBeacon",
+      "name": "測繪響標",
+      "kind": "consumable",
+      "cost": {
+        "crystal": 2,
+        "metal": 2
+      },
+      "desc": "揭示當地與相鄰地點，不解鎖快速旅行或自動完成探索。",
+      "effect": "survey19",
+      "f19": true
+    },
+    "cleansingSalt": {
+      "id": "cleansingSalt",
+      "name": "淨化鹽包",
+      "kind": "consumable",
+      "cost": {
+        "herb": 2,
+        "fiber": 1
+      },
+      "desc": "解除燃燒／中毒／蛛網，15 秒防環境負面。",
+      "effect": "clean19",
+      "f19": true
+    },
+    "echoLure": {
+      "id": "echoLure",
+      "name": "餌聲匣",
+      "kind": "consumable",
+      "cost": {
+        "fiber": 2,
+        "metal": 2
+      },
+      "desc": "在前方放置 8 秒不攻擊的誘餌，吸引附近怪物。",
+      "effect": "lure19",
+      "f19": true
+    },
+    "groundPatch": {
+      "id": "groundPatch",
+      "name": "接地膠片",
+      "kind": "consumable",
+      "cost": {
+        "metal": 3,
+        "fiber": 1
+      },
+      "desc": "20 秒免環境雷擊／磁脈衝，不免敵人的攻擊。",
+      "effect": "ground19",
+      "f19": true
+    },
+    "rallyTonic": {
+      "id": "rallyTonic",
+      "name": "回拍藥劑",
+      "kind": "consumable",
+      "cost": {
+        "herb": 3,
+        "crystal": 1
+      },
+      "desc": "15 秒內普攻命中額外削 0.15 秒冷卻，每 0.5 秒一次。",
+      "effect": "tempoBuff19",
+      "f19": true
+    },
+    "campMesh": {
+      "id": "campMesh",
+      "name": "臨時棧網",
+      "kind": "consumable",
+      "cost": {
+        "fiber": 4,
+        "metal": 1
+      },
+      "desc": "在前方放置 15 秒實體踏板，不傳送、不重置敵人。",
+      "effect": "bridge19",
+      "f19": true
+    },
+    "warmStone": {
+      "id": "warmStone",
+      "name": "蓄熱石",
+      "kind": "consumable",
+      "cost": {
+        "metal": 2,
+        "ember": 1
+      },
+      "desc": "30 秒抵擋寒冷與孢霧環境消耗。",
+      "effect": "warm19",
+      "f19": true
+    }
+  },
+  "materials": {
+    "fiber": "生物纖維",
+    "metal": "遺世金屬",
+    "crystal": "共鳴晶片",
+    "herb": "淨化香草",
+    "core": "異界核心",
+    "frost": "霜晶",
+    "sand": "鳴沙",
+    "coral": "活珊瑚",
+    "pearl": "深海珍珠",
+    "feather": "風羽",
+    "ectoplasm": "影質",
+    "ember": "餘燼鱗",
+    "circuit": "導電迴路",
+    "f19_sirocco": "凝風砂",
+    "seal19_sirocco": "赤帆沙漠王核",
+    "f19_naos": "潮紋石",
+    "seal19_naos": "水下神殿王核",
+    "f19_rime": "霜纖毛",
+    "seal19_rime": "針葉雪原王核",
+    "f19_protospores": "古菌髓",
+    "seal19_protospores": "古代真菌紀王核",
+    "f19_geode": "折光晶簇",
+    "seal19_geode": "群晶洞窟王核",
+    "f19_basalt": "黑曜熔片",
+    "seal19_basalt": "黑曜火山王核",
+    "f19_mangrove": "鹽根纖",
+    "seal19_mangrove": "潮汐紅樹洲王核",
+    "f19_salt": "活性鹽晶",
+    "seal19_salt": "鏡鹽荒原王核",
+    "f19_clockfen": "零時齒",
+    "seal19_clockfen": "停擺鐘沼王核",
+    "f19_cloud": "纖雲絨",
+    "seal19_cloud": "絮海天脊王核",
+    "f19_whalefall": "鯨磷骨",
+    "seal19_whalefall": "鯨落深淵王核",
+    "f19_magforge": "磁極鐵",
+    "seal19_magforge": "極磁廢鑄廠王核",
+    "f19_glass": "日蝕玻璃",
+    "seal19_glass": "琉璃烈日丘王核",
+    "f19_storm": "雷蓄角",
+    "seal19_storm": "雷鳴台地王核",
+    "f19_aurora": "極光薄片",
+    "seal19_aurora": "極光浮冰帶王核",
+    "f19_necroot": "骸根芯",
+    "seal19_necroot": "根骸墓園王核",
+    "f19_ink": "活字墨晶",
+    "seal19_ink": "墨海禁書庫王核",
+    "f19_coral": "星珊瑚",
+    "seal19_coral": "珊瑚潮汐城王核",
+    "f19_moon": "月殼鈣",
+    "seal19_moon": "空殼月隕坑王核",
+    "f19_silicon": "矽葉脈",
+    "seal19_silicon": "矽晶溫室王核",
+    "f19_amber": "封存樹脂",
+    "seal19_amber": "琥珀雨林王核",
+    "f19_mercury": "汞膜珠",
+    "seal19_mercury": "水銀運河王核",
+    "f19_fossil": "地層骨片",
+    "seal19_fossil": "巨獸化石谷王核",
+    "f19_dreamsnow": "夢絨結晶",
+    "seal19_dreamsnow": "夢眠凍原王核",
+    "f19_starrift": "軌道碎芯",
+    "seal19_starrift": "星骸裂隙王核"
+  },
+  "rules": [
+    "echo",
+    "past",
+    "heavy",
+    "invert",
+    "elastic",
+    "fungal",
+    "inner",
+    "future",
+    "decay"
+  ],
+  "assets": 173
+}

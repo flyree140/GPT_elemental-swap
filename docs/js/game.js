@@ -100,7 +100,7 @@ class Game{
   for(const k of Object.keys(C.COLLECTIBLES))paths[`collect_${k}`]=`assets/ui/collect_${k}.png`;
   for(const[k,src]of Object.entries(paths)){const im=new Image();im.src=(window.ES9_ASSET_URIS&&window.ES9_ASSET_URIS[src])||src;im.decoding='async';m[k]=im;}return m;
  }
- makePlayer(){const cl=C.CLASSES[this.progress.classId]||C.CLASSES.rift;return{x:C.START_X,y:C.START_Y,w:40,h:60,vx:0,vy:0,dir:1,onGround:false,wallLeft:false,wallRight:false,coyote:0,jumpBuffer:0,jumps:0,airDashes:1,dashT:0,dashCD:0,grapple:null,classId:this.progress.classId,hp:cl.hp+this.progress.hpBonus,maxHp:cl.hp+this.progress.hpBonus,shield:0,inv:0,phase:0,armor:0,web:0,burn:0,poison:0,skillCD:[0,0,0],qCD:0,attack:null,buffer:null,history:'',historyT:0,hurtT:0,downT:0,recoverT:0,castT:0,form:'wolf',kingT:0,parry:0,anchor:null,rewind:[],checkpoint:{x:C.START_X,y:C.START_Y,room:'r00'},foodT:0,workT:0,classGauge:0,parasiteId:null,parasiteDashes:0};}
+ makePlayer(){const cl=C.CLASSES[this.progress.classId]||C.CLASSES.rift;return{x:C.START_X,y:C.START_Y,w:40,h:60,vx:0,vy:0,dir:1,onGround:false,wallLeft:false,wallRight:false,coyote:0,jumpBuffer:0,jumps:0,airDashes:1,dashT:0,dashCD:0,grapple:null,classId:this.progress.classId,hp:cl.hp+this.progress.hpBonus,maxHp:cl.hp+this.progress.hpBonus,shield:0,inv:0,phase:0,armor:0,web:0,burn:0,poison:0,skillCD:[0,0,0,0,0],qCD:0,attack:null,buffer:null,history:'',historyT:0,hurtT:0,downT:0,recoverT:0,castT:0,form:'wolf',kingT:0,parry:0,anchor:null,rewind:[],checkpoint:{x:C.START_X,y:C.START_Y,room:'r00'},foodT:0,workT:0,classGauge:0,parasiteId:null,parasiteDashes:0};}
  roomAt(x,y){let best=null;for(const r of this.rooms)if(x>=r.x&&x<=r.x+r.w&&y>=r.y&&y<=r.y+r.h)return r;if(!best){let d=Infinity;for(const r of this.rooms){const q=distXY(x,y,r.x+r.w/2,r.y+r.h/2);if(q<d){d=q;best=r}}}return best;}
  regionData(id){return W.regions.find(r=>r.id===id)||W.regions[0]}
  addPlatform(x,y,w,h=20,type='platform',opts={}){const s={id:this.id(),x,y,w,h,type,oneWay:opts.oneWay??true,active:opts.active??true,...opts};this.platforms.push(s);return s;}
@@ -326,7 +326,7 @@ Game.prototype.moveBody=function(b,dt,{enemy=false,ignoreOneWay=false}={}){
   else if((!s.oneWay||ignoreOneWay)&&prevTop>=s.y+s.h-10){b.y=s.y+s.h;b.vy=0;}
  }
  b.x=clamp(b.x,0,C.WORLD_W-b.w);b.y=clamp(b.y,-250,C.WORLD_H+400);
- if(b.y>C.WORLD_H+220){if(enemy)b.dead=true;else this.respawn('墜落');}
+ if(b.y>C.WORLD_H-100){b.y=C.WORLD_H-100-b.h;b.vy=0;b.onGround=true;}
  return{prevX,prevY};
 };
 
@@ -378,7 +378,7 @@ Game.prototype.updatePlayer=function(dt){const p=this.player,cl=C.CLASSES[p.clas
  if(this.key('grapple',true)){const t=this.findGrappleTarget();if(t){let dx=t.x-cx(p),dy=t.y-cy(p),m=Math.hypot(dx,dy)||1;if(t.kind==='shot'){const ix=(this.key('right')?1:0)-(this.key('left')?1:0)||p.dir,iy=(this.key('down')?1:0)-(this.key('up')?1:0);const mm=Math.hypot(ix,iy)||1;p.vx=ix/mm*P.grappleSpeed;p.vy=iy/mm*P.grappleSpeed;t.ref.vx=-ix/mm*320;t.ref.vy=-iy/mm*320;t.ref.friendly=true;t.ref.damage*=1.7;}else{p.vx=dx/m*P.grappleSpeed;p.vy=dy/m*P.grappleSpeed;}p.grapple={x:t.x,y:t.y,t:.22};p.airDashes=Math.max(p.airDashes,1);p.inv=.16;this.sfx.swap(3);this.addFx('ring',t.x,t.y,.28,1.1,'#8cf0e8');}else this.sfx.error();}
  if(this.key('zAttack',true))this.commandInput('Z');
  if(this.key('xAttack',true)||this.key('xAttackAlt',true))this.commandInput('X');
- if(this.key('skill1',true))this.useSkill(0);if(this.key('skill2',true))this.useSkill(1);if(this.key('skill3',true))this.useSkill(2);if(this.key('classSkill',true))this.useClassSkill();
+ if(this.key('skill1',true))this.useSkill(0);if(this.key('skill2',true))this.useSkill(1);if(this.key('skill3',true))this.useSkill(2);if(this.key('skill4',true))this.useSkill(3);if(this.key('skill5',true))this.useSkill(4);if(this.key('classSkill',true))this.useClassSkill();
  for(let i=0;i<10;i++)if(this.key(`element${i+1}`,true))this.elementPress(i);
  if(this.key('interact',true))this.interact();
  this.moveBody(p,dt);
@@ -835,7 +835,7 @@ Game.prototype.interact=function(){const n=this.nearInteract;if(!n)return;if(n.k
 Game.prototype.useFurniture=function(f){const p=this.player,cfg=C.FURNITURE[f.kind];
  if(f.kind==='fridge'){p.hp=Math.min(p.maxHp,p.hp+40);p.foodT=90;if(!f.used){this.progress.scrap+=4;f.used=true;}}
  if(f.kind==='bed'){p.hp=p.maxHp;p.checkpoint={x:p.x,y:p.y,room:f.room};this.progress.shelters[f.room]=true;}
- if(f.kind==='workbench'){p.skillCD=[0,0,0];p.qCD=0;p.workT=75;}
+ if(f.kind==='workbench'){p.skillCD=[0,0,0,0,0];p.qCD=0;p.workT=75;}
  if(f.kind==='radio'){this.revealNearby(f.room,2);}
  if(f.kind==='locker'){if(!f.used){this.progress.scrap+=7;f.used=true;}else p.shield=Math.max(p.shield,10);}
  if(f.kind==='map'){this.progress.shelters[f.room]=true;this.renderMap();$('#mapPanel').hidden=false;}
@@ -843,7 +843,7 @@ Game.prototype.useFurniture=function(f){const p=this.player,cfg=C.FURNITURE[f.ki
  if(f.kind==='stove'){p.foodT=120;}
  if(f.kind==='purifier'){p.burn=p.poison=p.web=0;p.shield=Math.max(p.shield,25);}
  if(f.kind==='shelf'){this.progress.comboLesson=(this.progress.comboLesson+1)%4;this.showComboLesson();}
- if(f.kind==='sofa'){p.skillCD=[0,0,0];p.qCD=0;p.hp=Math.min(p.maxHp,p.hp+20);}
+ if(f.kind==='sofa'){p.skillCD=[0,0,0,0,0];p.qCD=0;p.hp=Math.min(p.maxHp,p.hp+20);}
  if(f.kind==='lamp'){this.progress.opened[`lamp_${f.room}`]=true;}
  this.say(`${cfg.name}｜${cfg.effect}`,2,'#ead187');this.saveProgress();
 };
@@ -852,7 +852,7 @@ Game.prototype.revealNearby=function(roomId,depth=1){let seen=new Set([roomId]),
 Game.prototype.useNPC=function(n){const p=this.player;
  if(n.role==='medic'){p.hp=p.maxHp;p.burn=p.poison=p.web=0;p.checkpoint={x:p.x,y:p.y,room:n.room};}
  if(n.role==='trainer'){this.showComboLesson();n.lesson++;}
- if(n.role==='mechanic'){p.skillCD=[0,0,0];p.qCD=0;}
+ if(n.role==='mechanic'){p.skillCD=[0,0,0,0,0];p.qCD=0;}
  if(n.role==='cartographer'){this.revealNearby(n.room,2);this.renderMap();$('#mapPanel').hidden=false;}
  if(n.role==='quartermaster'){if(this.progress.scrap>=5){this.progress.scrap-=5;p.shield=Math.max(p.shield,50);p.workT=90;}else this.say('需要 5 個零件',1,'#edb77c');}
  if(n.role==='archivist'){this.progress.memory=Math.max(1,this.progress.memory);this.revealNearby(n.room,3);}
@@ -951,10 +951,10 @@ Game.prototype.drawNPCs=function(ctx){const im=this.assets.player_summoner;for(c
 
 Game.prototype.playerAnim=function(p){let name='idle';if(p.downT>0)name='down';else if(p.hurtT>0)name='hurt';else if(p.castT>0)name='cast';else if(p.attack)name=p.attack.def.anim;else if(p.dashT>0)name='dash';else if(!p.onGround)name=p.vy<0?'jump':'fall';else if(Math.abs(p.vx)>55)name='run';const row=PLAYER_ROWS[name]??0;let frame=Math.floor(this.time*(name==='run'?12:name==='idle'?6:10))%8;if(p.attack)frame=Math.min(7,Math.floor(p.attack.elapsed/p.attack.def.dur*8));return{name,row,frame};};
 Game.prototype.drawPlayer=function(ctx,p,remote=false){
- const cl=C.CLASSES[p.classId]||C.CLASSES.rift;let anim=this.playerAnim(p);let im,sw=48,sh=52,dw=82,dh=104;
+ const cl=C.CLASSES[p.classId]||C.CLASSES.rift;let anim=this.playerAnim(p);let im,sw=64,sh=80,dw=82,dh=104;
  if(p.classId==='beast'){const form=p.kingT>0?'king':p.form;im=this.assets[`player_beast_${form}`];sw=64;sh=64;dw=form==='bear'||form==='king'?108:form==='eagle'?98:102;dh=form==='bear'||form==='king'?108:94;const br={idle:0,run:1,jump:3,fall:3,z1:2,z2:2,x:2,launch:2,air:2,dash:1,hurt:4,down:5,cast:6};anim={...anim,row:br[anim.name]??0};}else im=this.assets[`player_${p.classId}`];
  // Afterimages use the animation row/frame captured when the afterimage was made.
- for(const a of !remote?this.afterimages:[]){if(a.classId!==p.classId)continue;const beast=a.classId==='beast',ai=beast?this.assets[`player_beast_${a.form}`]:this.assets[`player_${a.classId}`];if(!ai?.complete)continue;const asw=beast?64:48,ash=beast?64:52,adw=beast?dw:82,adh=beast?dh:104;ctx.save();ctx.globalAlpha=a.t/a.max*.20;ctx.translate(a.x+a.w/2,a.y+a.h+6);ctx.scale(a.dir,1);ctx.drawImage(ai,(a.frame??0)*asw,(a.row??0)*ash,asw,ash,-adw/2,-adh,adw,adh);ctx.restore();}
+ for(const a of !remote?this.afterimages:[]){if(a.classId!==p.classId)continue;const beast=a.classId==='beast',ai=beast?this.assets[`player_beast_${a.form}`]:this.assets[`player_${a.classId}`];if(!ai?.complete)continue;const asw=64,ash=beast?64:80,adw=beast?dw:82,adh=beast?dh:104;ctx.save();ctx.globalAlpha=a.t/a.max*.20;ctx.translate(a.x+a.w/2,a.y+a.h+6);ctx.scale(a.dir,1);ctx.drawImage(ai,(a.frame??0)*asw,(a.row??0)*ash,asw,ash,-adw/2,-adh,adw,adh);ctx.restore();}
  ctx.save();ctx.globalAlpha=.32;ctx.fillStyle=cl.accent;ctx.shadowColor=cl.accent;ctx.shadowBlur=16;ctx.beginPath();ctx.ellipse(cx(p),p.y+p.h+4,34,8,0,0,TAU);ctx.fill();ctx.restore();
  ctx.save();if(p.inv>0&&Math.floor(this.time*22)%2===0)ctx.globalAlpha=.48;ctx.translate(cx(p),p.y+p.h+6);ctx.scale(p.dir||1,1);ctx.shadowColor=cl.accent;ctx.shadowBlur=remote?5:12;if(im?.complete){const sx=clamp(anim.frame,0,7)*sw,sy=clamp(anim.row,0,Math.floor(im.naturalHeight/sh)-1)*sh;ctx.drawImage(im,sx,sy,sw,sh,-dw/2,-dh,dw,dh);}else{ctx.fillStyle=cl.accent;ctx.fillRect(-p.w/2,-p.h,p.w,p.h);}ctx.restore();
  if(p.shield>0){ctx.strokeStyle=rgba(cl.accent,.75);ctx.lineWidth=3;ctx.beginPath();ctx.arc(cx(p),cy(p),48+Math.sin(this.time*7)*3,0,TAU);ctx.stroke();}
@@ -962,7 +962,7 @@ Game.prototype.drawPlayer=function(ctx,p,remote=false){
 };
 Game.prototype.drawRemote=function(ctx){if(!this.remote)return;const r={...this.remote,w:40,h:60,onGround:true,vx:0,vy:0,dashT:0,attack:null,downT:0,hurtT:0,castT:0,inv:0,shield:0,kingT:0};this.drawPlayer(ctx,r,true);ctx.fillStyle='#84d6ff';ctx.font='900 10px sans-serif';ctx.fillText('P2',r.x,r.y-12);};
 
-Game.prototype.drawEnemies=function(ctx){for(const e of this.enemies){if(e.dead||e.hidden&&!e.hitFlash)continue;if(!inView(e,this.camera,this.viewW,this.viewH,120))continue;const im=this.assets[`enemy_${e.type}`];let row=ENEMY_ROWS.idle;if(e.downT>0)row=ENEMY_ROWS.down;else if(e.hitFlash>0)row=ENEMY_ROWS.hurt;else if(e.state==='attack'||e.state==='strike'||e.state==='charge'||e.state==='bossDash')row=ENEMY_ROWS.attack;else if(e.state==='special'||e.state==='bossCollapse')row=ENEMY_ROWS.special;else if(Math.abs(e.vx)>8)row=ENEMY_ROWS.move;const fr=Math.floor(this.time*(row===1?10:7))%8;const scale=e.type==='sentinel'?3.65:['charger','reflector','burrower','artillery','breeder'].includes(e.type)?1.78:e.type==='parasite'?1.22:1.48,dw=48*scale,dh=48*scale;
+Game.prototype.drawEnemies=function(ctx){for(const e of this.enemies){if(e.dead||e.hidden&&!e.hitFlash)continue;if(!inView(e,this.camera,this.viewW,this.viewH,120))continue;const im=this.assets[`enemy_${e.sprite17||e.type}`];let row=ENEMY_ROWS.idle;if(e.downT>0)row=ENEMY_ROWS.down;else if(e.hitFlash>0)row=ENEMY_ROWS.hurt;else if(e.state==='attack'||e.state==='strike'||e.state==='charge'||e.state==='bossDash')row=ENEMY_ROWS.attack;else if(e.state==='special'||e.state==='bossCollapse')row=ENEMY_ROWS.special;else if(Math.abs(e.vx)>8)row=ENEMY_ROWS.move;const fr=Math.floor(this.time*(row===1?10:7))%8;const scale=e.type==='sentinel'?3.65:['charger','reflector','burrower','artillery','breeder'].includes(e.type)?1.78:e.type==='parasite'?1.22:1.48,dw=48*scale,dh=48*scale;
   ctx.save();ctx.translate(cx(e),e.y+e.h+5);ctx.scale(e.dir||-1,1);if(e.hitFlash>0){ctx.shadowColor='#fff';ctx.shadowBlur=22;}else if(e.aggro){ctx.shadowColor='#ff6478';ctx.shadowBlur=10;}if(e.type==='dummy'){ctx.fillStyle='#83e1df';ctx.fillRect(-24,-58,48,58);ctx.strokeStyle='#e9ffff';ctx.lineWidth=3;ctx.beginPath();ctx.arc(0,-42,12,0,TAU);ctx.stroke();ctx.beginPath();ctx.moveTo(-18,-18);ctx.lineTo(18,-18);ctx.moveTo(0,-36);ctx.lineTo(0,0);ctx.stroke();}else if(im?.complete)ctx.drawImage(im,fr*48,row*48,48,48,-dw/2,-dh,dw,dh);else{ctx.fillStyle=e.color;ctx.fillRect(-e.w/2,-e.h,e.w,e.h);}ctx.restore();
   const near=distance(this.player,e)<850||e.aggro||e.type==='dummy';if(near){ctx.fillStyle='rgba(3,10,13,.86)';ctx.fillRect(e.x-6,e.y-29,e.w+12,17);ctx.fillStyle=e.type==='dummy'?'#9ef3ef':'#effaf7';ctx.font='900 9px sans-serif';ctx.textAlign='center';ctx.fillText(e.type==='dummy'?'訓練傀儡｜不反擊':e.name,cx(e),e.y-17);ctx.fillStyle='#271219';ctx.fillRect(e.x,e.y-8,e.w,5);ctx.fillStyle=e.type==='dummy'?'#70ded9':'#ff6077';ctx.fillRect(e.x,e.y-8,e.w*clamp(e.hp/e.maxHp,0,1),5);}
   if(e.type==='sentinel'){ctx.fillStyle='#4c2330';ctx.fillRect(e.x,e.y-14,e.w,5);ctx.fillStyle='#74e4df';ctx.fillRect(e.x,e.y-14,e.w*clamp(e.break/e.breakMax,0,1),5);ctx.fillStyle='#ffb3c3';ctx.font='1000 11px sans-serif';ctx.textAlign='center';ctx.fillText('FINAL BOSS',cx(e),e.y-69);}if(e.type==='mimic'&&!e.dead){ctx.fillStyle=e.mimicOpen>0?'#9ff1bd':'#ffd27d';ctx.font='1000 10px sans-serif';ctx.textAlign='center';ctx.fillText(e.mimicOpen>0?'BREAK!':`COMMAND ${e.requiredCommand}`,cx(e),e.y-66);}if(e.type==='parasite'&&e.attached){ctx.fillStyle='#ff9db7';ctx.font='1000 9px sans-serif';ctx.textAlign='center';ctx.fillText(`寄生｜Dash ${this.player.parasiteDashes||0}/3`,cx(e),e.y-44);}
@@ -1012,7 +1012,7 @@ Game.prototype.renderComboGrid=function(){const groups=[
  ];$('#comboGrid').innerHTML=groups.map(([cmd,name])=>`<article class="combo-card"><b>${cmd}</b><span>${name}</span><small>${this.comboClassHint(cmd)}</small></article>`).join('');};
 Game.prototype.comboClassHint=function(cmd){const id=this.player.classId;if(id==='rift')return'裂隙劍士：增加貼身位移與取消速度。';if(id==='summoner')return cmd.includes('X')?'召喚師：X 會命令現有契靈追加攻擊。':'召喚師：短杖維持安全距離。';if(id==='beast')return`德魯伊 ${this.player.form}：形態會改變速度、空戰或 BREAK。`;if(id==='artificer')return cmd.includes('X')?'機巧師：X 變成慢速齒輪彈。':'機巧師：Z 為扳手近戰。';if(id==='gunner')return cmd.includes('X')?'槍手：X 射擊並產生後座位移。':'槍手：Z 為近身槍托。';if(id==='warden')return cmd.includes('X')?'守衛：X 提高 BREAK 並帶格擋。':'守衛：Z 為長槍連刺。';if(id==='chrono')return'時序術士：命中位置稍後產生回響。';return cmd.includes('X')?'游擊者：X 鎖鏈拉怪／拉自己。':'游擊者：Z 高速踢擊。';};
 
-Game.prototype.changeClass=function(id){const p=this.player,cl=C.CLASSES[id];if(!cl)return;const pct=p.hp/p.maxHp;p.classId=id;this.progress.classId=id;p.maxHp=cl.hp+this.progress.hpBonus;p.hp=Math.max(1,p.maxHp*pct);p.skillCD=[0,0,0];p.qCD=0;p.w=40;p.h=60;p.form='wolf';if(id==='beast')this.applyBeastForm();this.summons=[];this.turrets=[];this.renderSkillBar();this.renderComboGrid();this.saveProgress();this.say(`切換職業｜${cl.name}：${cl.desc}`,2.5,cl.accent);};
+Game.prototype.changeClass=function(id){const p=this.player,cl=C.CLASSES[id];if(!cl)return;const pct=p.hp/p.maxHp;p.classId=id;this.progress.classId=id;p.maxHp=cl.hp+this.progress.hpBonus;p.hp=Math.max(1,p.maxHp*pct);p.skillCD=[0,0,0,0,0];p.qCD=0;p.w=40;p.h=60;p.form='wolf';if(id==='beast')this.applyBeastForm();this.summons=[];this.turrets=[];this.renderSkillBar();this.renderComboGrid();this.saveProgress();this.say(`切換職業｜${cl.name}：${cl.desc}`,2.5,cl.accent);};
 
 Game.prototype.bindUI=function(){const select=$('#classSelect');select.innerHTML=Object.entries(C.CLASSES).map(([id,c])=>`<option value="${id}">${c.icon} ${c.name}</option>`).join('');select.value=this.player.classId;select.onchange=e=>this.changeClass(e.target.value);this.renderElementBar();this.renderSkillBar();this.renderComboGrid();this.renderCodex();
  $('#helpButton').onclick=()=>$('#helpPanel').hidden=false;$('#comboButton').onclick=()=>{this.renderComboGrid();$('#comboPanel').hidden=false;};$('#mapButton').onclick=()=>{this.renderMap();$('#mapPanel').hidden=false;};$('#codexButton').onclick=()=>$('#codexPanel').hidden=false;$('#keyButton').onclick=()=>{this.renderKeyConfig();$('#keyPanel').hidden=false;};
