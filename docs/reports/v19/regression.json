@@ -1,0 +1,239 @@
+{
+  "results": [
+    {
+      "test": "按住未放不施放、不扣冷卻",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "短按放開只施放 C 一次",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "蓄滿尚未放開仍未施放",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "長按放開是同槽同招",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "跳躍取消蓄力不扣技能冷卻",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "取消後放開不誤施放",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "無梦偶的換位失敗且不扣冷卻",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "移除全世界救援水帶",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "48 遠征房间不是兩行方格",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "300 房皆有下層實體地層",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "test": "全部通道前中後三點有連續開挖空間",
+      "pass": true,
+      "detail": "1194/1194"
+    },
+    {
+      "test": "過去橋實際加入碰撞",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "當下不具過去橋碰撞",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "裏世界牆失去碰撞、出現旁路",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "回表世界牆恢復",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "未來升降台移動且承載玩家",
+      "pass": true,
+      "detail": {
+        "dy": -100.97918944163757,
+        "lift": 99.6039428519689
+      }
+    },
+    {
+      "test": "重力世界下落加速約 2.15 倍",
+      "pass": true,
+      "detail": {
+        "normal": 242.66666666666669,
+        "heavy": 521.7333333333335
+      }
+    },
+    {
+      "test": "重力落地產生震波",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "反轉進入反向速度",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "反轉離開再次反向速度",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "彈力地面回彈而非死亡",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "按住下可停止彈跳",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "真菌腳步生成有碰撞菌台",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "水場促進菌台生長",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "火場讓菌台枯萎",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "崩壞四秒後高台不可站立",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "返回原樣、底床與敵人狀態未重建",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "既視感產生原路徑踏點與殘影",
+      "pass": true,
+      "detail": {
+        "rails": 9,
+        "actions": 1
+      }
+    },
+    {
+      "test": "鏡頭跟隨垂直下落且仍有落地",
+      "pass": true,
+      "detail": {
+        "cameraDelta": 439.91736277752716,
+        "pY": 19816
+      }
+    },
+    {
+      "test": "雷錨換位使用真實世界座標",
+      "pass": true,
+      "detail": {
+        "expected": {
+          "x": 34044,
+          "y": 19985
+        },
+        "actual": {
+          "x": 34044,
+          "y": 19985
+        }
+      }
+    },
+    {
+      "test": "再換位正確回到原端點",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "過期錨點拒絕交換",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "主動前哨旅行清除舊錨點",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "四級耗點 1+2+3+4 且上限4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "不同等級選擇保留疊加",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "同級互斥只替換該級",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "LV2導電分支仍保留LV1雷線",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "LV2 導電真的跳鏈",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "LV3 電網僅攔三彈",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "LV4 護持可恢復空中衝刺",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "十元素×16路徑建立並執行有效場域",
+      "pass": true,
+      "detail": {
+        "count": 160,
+        "errors": []
+      }
+    },
+    {
+      "test": "研習借用配置不覆蓋存檔",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "pageErrors": []
+}

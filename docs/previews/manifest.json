@@ -1,0 +1,105 @@
+{
+  "images": [
+    {
+      "file": "01_refuge_minimap.png",
+      "title": "海崖避難所與即時小地圖",
+      "staged": false,
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "file": "02_world_atlas.png",
+      "title": "300 地點・世界總圖与醒目定位",
+      "staged": false,
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "file": "03_local_position.png",
+      "title": "定位我・相鄰地形與步行路線",
+      "staged": false,
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "file": "04_field_journal.png",
+      "title": "生境圖譜・地區研究與環境裝備",
+      "staged": false,
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "file": "05_equipment.png",
+      "title": "武器配方・機制用途與材料條件",
+      "staged": false,
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "file": "06_combo_manual.png",
+      "title": "Z／X 連段的範圍、段數與用途",
+      "staged": false,
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "file": "07_underwater_temple.png",
+      "title": "水下神殿・分層水域與怪物攻擊預告",
+      "staged": true,
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "file": "08_ancient_fungi.png",
+      "title": "古代真菌紀・當地生態與研究機關",
+      "staged": true,
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "file": "09_desert.png",
+      "title": "赤帆沙漠・風口與流沙阻力",
+      "staged": true,
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "file": "10_mobile_landscape.png",
+      "title": "手機橫向・小地圖與固定五槽觸控",
+      "staged": false,
+      "viewport": {
+        "width": 896,
+        "height": 414
+      }
+    },
+    {
+      "file": "11_mobile_portrait.png",
+      "title": "手機直向・觸控操作",
+      "staged": false,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  ],
+  "pageErrors": [],
+  "capture": "Chromium set_content of unmodified PLAY_OFFLINE.html; no test-storage shim"
+}

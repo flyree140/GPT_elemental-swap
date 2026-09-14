@@ -1,0 +1,57 @@
+{
+  "results": [
+    {
+      "test": "V19四層元素／固定五槽儲存保留",
+      "pass": true
+    },
+    {
+      "test": "藍圖、研究、導航目標、G補給保留",
+      "pass": true
+    },
+    {
+      "test": "678個採集時間戳不被500上限截斷",
+      "pass": true,
+      "detail": {
+        "loaded": 678,
+        "expected": 678
+      }
+    },
+    {
+      "test": "207種遭遇紀錄完整保留",
+      "pass": true
+    },
+    {
+      "test": "拒絕無效存檔",
+      "pass": true
+    },
+    {
+      "test": "匯入移除原型注入欄位",
+      "pass": true
+    },
+    {
+      "test": "匯入前留下既有V19備份",
+      "pass": true
+    },
+    {
+      "test": "匯入V18移除優先V19後正確遷移",
+      "pass": true
+    },
+    {
+      "test": "V17職業與元素等級分支遷移",
+      "pass": true
+    },
+    {
+      "test": "退休技能退款與五個有效新招",
+      "pass": true
+    },
+    {
+      "test": "V17歷史備份留存",
+      "pass": true
+    },
+    {
+      "test": "研習中存檔保留原職業與裝備而非借用值",
+      "pass": true
+    }
+  ],
+  "pageErrors": []
+}

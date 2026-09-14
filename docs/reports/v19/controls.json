@@ -1,0 +1,81 @@
+{
+  "results": [
+    {
+      "test": "實際鍵盤按住 C 未釋放不施放",
+      "pass": true
+    },
+    {
+      "test": "實際鍵盤 C 短按成功",
+      "pass": true
+    },
+    {
+      "test": "實際鍵盤長按蓄力卡可見",
+      "pass": true
+    },
+    {
+      "test": "實際鍵盤長按施放同招",
+      "pass": true
+    },
+    {
+      "test": "命中停頓期間按下放開仍只施放一次",
+      "pass": true
+    },
+    {
+      "test": "開選單取消蓄力且沒有誤射",
+      "pass": true
+    },
+    {
+      "test": "實際 X 普攻不強迫走位或發射",
+      "pass": true
+    },
+    {
+      "test": "手機切換顯示觸控與五技能",
+      "pass": true
+    },
+    {
+      "test": "手機實際觸控長按 C",
+      "pass": true
+    },
+    {
+      "test": "手機 touchCancel 不轉成短按",
+      "pass": true
+    },
+    {
+      "test": "可返回電腦模式",
+      "pass": true
+    },
+    {
+      "test": "1440x1000 頁面無橫向溢出",
+      "pass": true
+    },
+    {
+      "test": "1440x1000 九規則卡且模態可捲动",
+      "pass": true
+    },
+    {
+      "test": "1280x800 頁面無橫向溢出",
+      "pass": true
+    },
+    {
+      "test": "1280x800 九規則卡且模態可捲动",
+      "pass": true
+    },
+    {
+      "test": "896x414 頁面無橫向溢出",
+      "pass": true
+    },
+    {
+      "test": "896x414 九規則卡且模態可捲动",
+      "pass": true
+    },
+    {
+      "test": "390x844 頁面無橫向溢出",
+      "pass": true
+    },
+    {
+      "test": "390x844 九規則卡且模態可捲动",
+      "pass": true
+    }
+  ],
+  "pageErrors": []
+}

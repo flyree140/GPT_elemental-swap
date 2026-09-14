@@ -1,0 +1,247 @@
+{
+  "results": [
+    {
+      "test": "大地圖按鈕定位至角色實際座標",
+      "pass": true
+    },
+    {
+      "test": "地圖搜尋出七處神殿地點",
+      "pass": true
+    },
+    {
+      "test": "搜尋選中後詳情更新且不傳送",
+      "pass": true
+    },
+    {
+      "test": "步行目標產生導航路線",
+      "pass": true
+    },
+    {
+      "test": "真實滑鼠滾輪放大地圖",
+      "pass": true
+    },
+    {
+      "test": "真實拖曳改變地圖視窗",
+      "pass": true
+    },
+    {
+      "test": "實際 M 鍵開啟大地圖",
+      "pass": true
+    },
+    {
+      "test": "實際鍵盤 ZZZ 辨識及不強迫位移",
+      "pass": true,
+      "detail": {
+        "key": "ZZZ",
+        "dx": 0
+      }
+    },
+    {
+      "test": "實際鍵盤 XZ 辨識及不強迫位移",
+      "pass": true,
+      "detail": {
+        "key": "XZ",
+        "dx": 0
+      }
+    },
+    {
+      "test": "實際鍵盤 ZZX 辨識及不強迫位移",
+      "pass": true,
+      "detail": {
+        "key": "ZZX",
+        "dx": 0
+      }
+    },
+    {
+      "test": "實際鍵盤 XXZ 辨識及不強迫位移",
+      "pass": true,
+      "detail": {
+        "key": "XXZ",
+        "dx": 0
+      }
+    },
+    {
+      "test": "實際鍵盤 ZXX 辨識及不強迫位移",
+      "pass": true,
+      "detail": {
+        "key": "ZXX",
+        "dx": 0
+      }
+    },
+    {
+      "test": "實際鍵盤 XZX 辨識及不強迫位移",
+      "pass": true,
+      "detail": {
+        "key": "XZX",
+        "dx": 0
+      }
+    },
+    {
+      "test": "配方類型篩選生效",
+      "pass": true
+    },
+    {
+      "test": "配方按鈕位於自己的卡片內且不互相覆蓋",
+      "pass": true
+    },
+    {
+      "test": "圖鑑207條且未遇怪物隱藏",
+      "pass": true
+    },
+    {
+      "test": "25 生境原生種與王種真實渲染路徑",
+      "pass": true,
+      "detail": [
+        {
+          "biome": "sirocco",
+          "pass": true
+        },
+        {
+          "biome": "naos",
+          "pass": true
+        },
+        {
+          "biome": "rime",
+          "pass": true
+        },
+        {
+          "biome": "protospores",
+          "pass": true
+        },
+        {
+          "biome": "geode",
+          "pass": true
+        },
+        {
+          "biome": "basalt",
+          "pass": true
+        },
+        {
+          "biome": "mangrove",
+          "pass": true
+        },
+        {
+          "biome": "salt",
+          "pass": true
+        },
+        {
+          "biome": "clockfen",
+          "pass": true
+        },
+        {
+          "biome": "cloud",
+          "pass": true
+        },
+        {
+          "biome": "whalefall",
+          "pass": true
+        },
+        {
+          "biome": "magforge",
+          "pass": true
+        },
+        {
+          "biome": "glass",
+          "pass": true
+        },
+        {
+          "biome": "storm",
+          "pass": true
+        },
+        {
+          "biome": "aurora",
+          "pass": true
+        },
+        {
+          "biome": "necroot",
+          "pass": true
+        },
+        {
+          "biome": "ink",
+          "pass": true
+        },
+        {
+          "biome": "coral",
+          "pass": true
+        },
+        {
+          "biome": "moon",
+          "pass": true
+        },
+        {
+          "biome": "silicon",
+          "pass": true
+        },
+        {
+          "biome": "amber",
+          "pass": true
+        },
+        {
+          "biome": "mercury",
+          "pass": true
+        },
+        {
+          "biome": "fossil",
+          "pass": true
+        },
+        {
+          "biome": "dreamsnow",
+          "pass": true
+        },
+        {
+          "biome": "starrift",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "test": "1600×1000 小地圖與補給按鈕在視窗內",
+      "pass": true
+    },
+    {
+      "test": "1600×1000 地圖面板無水平溢出",
+      "pass": true
+    },
+    {
+      "test": "1600×1000 配方面板無水平溢出",
+      "pass": true
+    },
+    {
+      "test": "1280×800 小地圖與補給按鈕在視窗內",
+      "pass": true
+    },
+    {
+      "test": "1280×800 地圖面板無水平溢出",
+      "pass": true
+    },
+    {
+      "test": "1280×800 配方面板無水平溢出",
+      "pass": true
+    },
+    {
+      "test": "896×414 小地圖與補給按鈕在視窗內",
+      "pass": true
+    },
+    {
+      "test": "896×414 地圖面板無水平溢出",
+      "pass": true
+    },
+    {
+      "test": "896×414 配方面板無水平溢出",
+      "pass": true
+    },
+    {
+      "test": "390×844 小地圖與補給按鈕在視窗內",
+      "pass": true
+    },
+    {
+      "test": "390×844 地圖面板無水平溢出",
+      "pass": true
+    },
+    {
+      "test": "390×844 配方面板無水平溢出",
+      "pass": true
+    }
+  ],
+  "pageErrors": []
+}

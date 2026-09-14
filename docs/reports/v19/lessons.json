@@ -1,0 +1,395 @@
+{
+  "results": [
+    {
+      "test": "實際六階研習 rift",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "events": [
+        "skill:rift_v18_cut",
+        "hit:rift_v18_finish",
+        "hit:rift_v18_finish",
+        "hit:rift_v18_finish",
+        "hit:rift_v18_finish",
+        "hit:rift_v18_finish",
+        "skill:rift_v18_finish",
+        "q:rift",
+        "fire:lightning",
+        "evolution:lightning:A",
+        "swap:lightning",
+        "rule:echo"
+      ]
+    },
+    {
+      "test": "實際六階研習 summoner",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "events": [
+        "hit:rule18",
+        "petHit:fox",
+        "petHit:owl",
+        "hit:rule18",
+        "q:summoner",
+        "hit:rule18",
+        "petHit:fox",
+        "petHit:owl",
+        "fire:lightning",
+        "evolution:lightning:A",
+        "swap:lightning",
+        "rule:echo"
+      ]
+    },
+    {
+      "test": "實際六階研習 beast",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "events": [
+        "chargedSkill:beast_v18_wolf",
+        "form:eagle",
+        "skill:beast_v18_eagle",
+        "form:bear",
+        "hit:beast_v18_bear",
+        "hit:beast_v18_bear",
+        "skill:beast_v18_bear",
+        "q:beast",
+        "fire:lightning",
+        "evolution:lightning:A",
+        "swap:lightning",
+        "rule:echo"
+      ]
+    },
+    {
+      "test": "實際六階研習 artificer",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "events": [
+        "hit:rule18",
+        "hit:rule18",
+        "hit:rule18",
+        "hit:rule18",
+        "q:artificer",
+        "fire:lightning",
+        "hit:rule18",
+        "hit:rule18",
+        "hit:rule18",
+        "evolution:lightning:A",
+        "swap:lightning",
+        "rule:echo"
+      ]
+    },
+    {
+      "test": "實際六階研習 gunner",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "events": [
+        "hit:rule18",
+        "hit:rule18",
+        "reload:armor",
+        "chargedSkill:gunner_v18_reload",
+        "q:gunner",
+        "hit:gunner_v18_round",
+        "hit:rule18",
+        "fire:lightning",
+        "hit:gunner_v18_round",
+        "evolution:lightning:A",
+        "swap:lightning",
+        "rule:echo"
+      ]
+    },
+    {
+      "test": "實際六階研習 warden",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "events": [
+        "command:Z",
+        "commandHit:Z",
+        "comboMechanic19:thrust",
+        "skill:warden_v18_shield",
+        "chargedSkill:warden_v18_shield",
+        "skill:warden_v18_shield",
+        "block:shield",
+        "q:warden",
+        "fire:lightning",
+        "evolution:lightning:A",
+        "swap:lightning",
+        "rule:echo"
+      ]
+    },
+    {
+      "test": "實際六階研習 chrono",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "events": [
+        "command:Z",
+        "commandHit:Z",
+        "comboMechanic19:thrust",
+        "skill:chrono_v18_record",
+        "chargedSkill:chrono_v18_record",
+        "abilityMove:返回時錨",
+        "skill:chrono_v18_rewind",
+        "q:chrono",
+        "fire:lightning",
+        "evolution:lightning:A",
+        "swap:lightning",
+        "rule:echo"
+      ]
+    },
+    {
+      "test": "實際六階研習 harrier",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "events": [
+        "skill:harrier_v18_pull",
+        "hit:harrier_v18_pull",
+        "chargedSkill:harrier_v18_pull",
+        "hit:harrier_v18_pull",
+        "skill:harrier_v18_pull",
+        "abilityMove:沿索突進",
+        "skill:harrier_v18_grapple",
+        "q:harrier",
+        "fire:lightning",
+        "evolution:lightning:A",
+        "swap:lightning",
+        "rule:echo"
+      ]
+    },
+    {
+      "test": "實際六階研習 alchemist",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "events": [
+        "flask:water",
+        "flask:water",
+        "q:alchemist",
+        "hit:alchemist_v18_catalyst",
+        "hit:alchemist_v18_catalyst",
+        "hit:alchemist_v18_catalyst",
+        "skill:alchemist_v18_catalyst",
+        "q:alchemist",
+        "fire:lightning",
+        "evolution:lightning:A",
+        "swap:lightning",
+        "rule:echo"
+      ]
+    },
+    {
+      "test": "實際六階研習 monk",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "events": [
+        "chargedSkill:monk_v18_jab",
+        "hit:monk_v18_point",
+        "hit:monk_v18_point",
+        "skill:monk_v18_point",
+        "command:X",
+        "commandHit:X",
+        "comboMechanic19:heavy",
+        "q:monk",
+        "fire:lightning",
+        "evolution:lightning:A",
+        "swap:lightning",
+        "rule:echo"
+      ]
+    },
+    {
+      "test": "實際六階研習 sharpshooter",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "events": [
+        "chargedSkill:sharpshooter_v18_snipe",
+        "skill:sharpshooter_v18_mark",
+        "hit:sharpshooter_v18_snipe",
+        "hit:sharpshooter_v18_snipe",
+        "hit:sharpshooter_v18_snipe",
+        "hit:sharpshooter_v18_snipe",
+        "chargedSkill:sharpshooter_v18_snipe",
+        "q:sharpshooter",
+        "fire:lightning",
+        "evolution:lightning:A",
+        "swap:lightning",
+        "rule:echo"
+      ]
+    },
+    {
+      "test": "實際六階研習 puppeteer",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "events": [
+        "command:Z",
+        "commandHit:Z",
+        "comboMechanic19:thrust",
+        "skill:puppeteer_v18_puppet",
+        "chargedSkill:puppeteer_v18_puppet",
+        "hit:puppeteer_v18_slash",
+        "skill:puppeteer_v18_slash",
+        "q:puppeteer",
+        "fire:lightning",
+        "evolution:lightning:A",
+        "swap:lightning",
+        "rule:echo"
+      ]
+    },
+    {
+      "test": "實際六階研習 cartographer",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "events": [
+        "chargedSkill:cartographer_v18_pinA",
+        "pin:a",
+        "skill:cartographer_v18_pinA",
+        "pin:b",
+        "skill:cartographer_v18_pinB",
+        "bridge:made",
+        "skill:cartographer_v18_bridge",
+        "q:cartographer",
+        "fire:lightning",
+        "evolution:lightning:A",
+        "swap:lightning",
+        "rule:echo"
+      ]
+    },
+    {
+      "test": "實際六階研習 chef",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "events": [
+        "hit:chef_v18_pan",
+        "hit:chef_v18_pan",
+        "chargedSkill:chef_v18_pan",
+        "skill:chef_v18_pot",
+        "hit:chef_v18_finish",
+        "hit:chef_v18_finish",
+        "skill:chef_v18_finish",
+        "q:chef",
+        "fire:lightning",
+        "evolution:lightning:A",
+        "swap:lightning",
+        "rule:echo"
+      ]
+    },
+    {
+      "test": "實際六階研習 dreamweaver",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "events": [
+        "wake:13553",
+        "hit:dreamweaver_v18_harvest",
+        "wake:13554",
+        "hit:dreamweaver_v18_harvest",
+        "wake:13555",
+        "hit:dreamweaver_v18_harvest",
+        "skill:dreamweaver_v18_harvest",
+        "q:dreamweaver",
+        "fire:lightning",
+        "evolution:lightning:A",
+        "swap:lightning",
+        "rule:echo"
+      ]
+    }
+  ],
+  "pageErrors": []
+}

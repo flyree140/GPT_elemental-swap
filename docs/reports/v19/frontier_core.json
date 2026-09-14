@@ -1,0 +1,259 @@
+{
+  "results": [
+    {
+      "test": "300 個地點 ID／名稱唯一",
+      "pass": true
+    },
+    {
+      "test": "175 新地點均在世界邊界內",
+      "pass": true
+    },
+    {
+      "test": "25 生境皆具 7 個地點、兩原生種與地方配方",
+      "pass": true
+    },
+    {
+      "test": "398 實體連線的圖結構可連至全部 300 地點",
+      "pass": true,
+      "detail": {
+        "reachable": 300
+      }
+    },
+    {
+      "test": "地圖沒有孤立端點或重複邊",
+      "pass": true
+    },
+    {
+      "test": "所有新增機關／採集點不埋在實心地形中",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "test": "新地點都有結構底床與返回梯道",
+      "pass": true
+    },
+    {
+      "test": "新內容不是以救援水帶或出口傳送接合",
+      "pass": true
+    },
+    {
+      "test": "50 原生種各有對應領域王",
+      "pass": true
+    },
+    {
+      "test": "49 舊種王種都有實際召王碑",
+      "pass": true
+    },
+    {
+      "test": "50 新王庭連結真實可召喚頭目",
+      "pass": true
+    },
+    {
+      "test": "所有新素材可由採集或掉落取得",
+      "pass": true
+    },
+    {
+      "test": "33 新配方只引用有效材料",
+      "pass": true
+    },
+    {
+      "test": "水下神殿有阻力且氧氣真實消耗",
+      "pass": true,
+      "detail": {
+        "oxygen": 9.499999999999975,
+        "speed": 0.62
+      }
+    },
+    {
+      "test": "潛鐘肺衣阻止耗氧且不觸發零氧傷害",
+      "pass": true
+    },
+    {
+      "test": "魚人仍不受水中移動阻力",
+      "pass": true
+    },
+    {
+      "test": "離開當地水域不保留水中狀態",
+      "pass": true
+    },
+    {
+      "test": "沙漠未裝備有阻力",
+      "pass": true
+    },
+    {
+      "test": "沙行裝備移除阻力",
+      "pass": true
+    },
+    {
+      "test": "雪原未裝備有寒冷／滑移",
+      "pass": true
+    },
+    {
+      "test": "雪織裝備解除寒冷與冰滑",
+      "pass": true
+    },
+    {
+      "test": "深水有壓力限制",
+      "pass": true
+    },
+    {
+      "test": "壓差背架免壓力但仍保留水",
+      "pass": true
+    },
+    {
+      "test": "100 新區域研究條件皆可操作完成",
+      "pass": true,
+      "detail": {
+        "completed": 100,
+        "failed": []
+      }
+    },
+    {
+      "test": "33 新配方在工作台扣正確材料並產出",
+      "pass": true,
+      "detail": {
+        "crafted": 33,
+        "failed": []
+      }
+    },
+    {
+      "test": "未得藍圖不能製作地方裝備",
+      "pass": true
+    },
+    {
+      "test": "野外不能遠端製作",
+      "pass": true
+    },
+    {
+      "test": "工具三槽滿時第四件不會偷替換",
+      "pass": true
+    },
+    {
+      "test": "8 補給各扣一份，零庫存不可重用",
+      "pass": true
+    },
+    {
+      "test": "補給建造實體短時踏板與不攻擊誘餌",
+      "pass": true
+    },
+    {
+      "test": "19 種生態攻擊鎖定預告後出招、座標有效",
+      "pass": true,
+      "detail": {
+        "patterns": 19
+      }
+    },
+    {
+      "test": "99 個新增頭目皆可生成且半血切第二招式階段",
+      "pass": true,
+      "detail": {
+        "bossOK": 99
+      }
+    },
+    {
+      "test": "死亡只發一次掉落並排入75秒重生",
+      "pass": true
+    },
+    {
+      "test": "召王成功、在場不可重複召喚",
+      "pass": true
+    },
+    {
+      "test": "領域王擊倒後120秒內不允許洗刷",
+      "pass": true
+    },
+    {
+      "test": "Z 不強制移動角色",
+      "pass": true
+    },
+    {
+      "test": "X 不強制移動角色",
+      "pass": true
+    },
+    {
+      "test": "XZ 不強制移動角色",
+      "pass": true
+    },
+    {
+      "test": "XZ 實際回拉敵人",
+      "pass": true
+    },
+    {
+      "test": "ZZX 不強制移動角色",
+      "pass": true
+    },
+    {
+      "test": "ZZX 實際上挑",
+      "pass": true
+    },
+    {
+      "test": "XXZ 不強制移動角色",
+      "pass": true
+    },
+    {
+      "test": "XXZ 施加4秒破甲",
+      "pass": true
+    },
+    {
+      "test": "ZXX 不強制移動角色",
+      "pass": true
+    },
+    {
+      "test": "ZXX 施加1.8秒束縛",
+      "pass": true
+    },
+    {
+      "test": "XZX 不強制移動角色",
+      "pass": true
+    },
+    {
+      "test": "XZX 開啟反彈窗口",
+      "pass": true
+    },
+    {
+      "test": "ZZZ 不強制移動角色",
+      "pass": true
+    },
+    {
+      "test": "ZZZ 三次命中而非單一貼圖",
+      "pass": true
+    },
+    {
+      "test": "技能90招基礎冷卻均落在1.15至4.8秒",
+      "pass": true
+    },
+    {
+      "test": "命中只回復目前最長冷卻0.42秒",
+      "pass": true
+    },
+    {
+      "test": "多段同幀不重複觸發冷卻回復",
+      "pass": true
+    },
+    {
+      "test": "揮空不回復冷卻",
+      "pass": true
+    },
+    {
+      "test": "定位我投影在地圖正中央",
+      "pass": true
+    },
+    {
+      "test": "角色離開目前地圖視窗時保留邊緣定位提示",
+      "pass": true
+    },
+    {
+      "test": "小地圖針始終對應玩家世界座標",
+      "pass": true
+    },
+    {
+      "test": "導航以實際圖連線計算且不傳送",
+      "pass": true
+    },
+    {
+      "test": "尚未親訪的新前哨拒絕地圖快旅",
+      "pass": true
+    }
+  ],
+  "pageErrors": []
+}

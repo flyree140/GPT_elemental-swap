@@ -1,0 +1,1235 @@
+{
+  "results": [
+    {
+      "test": "ZX rift",
+      "pass": true,
+      "dx": 0,
+      "shots": 0,
+      "hits": [
+        "Z",
+        "X"
+      ]
+    },
+    {
+      "test": "ZX summoner",
+      "pass": true,
+      "dx": 0,
+      "shots": 0,
+      "hits": [
+        "Z",
+        "X"
+      ]
+    },
+    {
+      "test": "ZX beast",
+      "pass": true,
+      "dx": 0,
+      "shots": 0,
+      "hits": [
+        "Z",
+        "X"
+      ]
+    },
+    {
+      "test": "ZX artificer",
+      "pass": true,
+      "dx": 0,
+      "shots": 0,
+      "hits": [
+        "Z",
+        "X"
+      ]
+    },
+    {
+      "test": "ZX gunner",
+      "pass": true,
+      "dx": 0,
+      "shots": 0,
+      "hits": [
+        "Z",
+        "X"
+      ]
+    },
+    {
+      "test": "ZX warden",
+      "pass": true,
+      "dx": 0,
+      "shots": 0,
+      "hits": [
+        "Z",
+        "X"
+      ]
+    },
+    {
+      "test": "ZX chrono",
+      "pass": true,
+      "dx": 0,
+      "shots": 0,
+      "hits": [
+        "Z",
+        "X"
+      ]
+    },
+    {
+      "test": "ZX harrier",
+      "pass": true,
+      "dx": 0,
+      "shots": 0,
+      "hits": [
+        "Z",
+        "X"
+      ]
+    },
+    {
+      "test": "ZX alchemist",
+      "pass": true,
+      "dx": 0,
+      "shots": 0,
+      "hits": [
+        "Z",
+        "X"
+      ]
+    },
+    {
+      "test": "ZX monk",
+      "pass": true,
+      "dx": 0,
+      "shots": 0,
+      "hits": [
+        "Z",
+        "X"
+      ]
+    },
+    {
+      "test": "ZX sharpshooter",
+      "pass": true,
+      "dx": 0,
+      "shots": 0,
+      "hits": [
+        "Z",
+        "X"
+      ]
+    },
+    {
+      "test": "ZX puppeteer",
+      "pass": true,
+      "dx": 0,
+      "shots": 0,
+      "hits": [
+        "Z",
+        "X"
+      ]
+    },
+    {
+      "test": "ZX cartographer",
+      "pass": true,
+      "dx": 0,
+      "shots": 0,
+      "hits": [
+        "Z",
+        "X"
+      ]
+    },
+    {
+      "test": "ZX chef",
+      "pass": true,
+      "dx": 0,
+      "shots": 0,
+      "hits": [
+        "Z",
+        "X"
+      ]
+    },
+    {
+      "test": "ZX dreamweaver",
+      "pass": true,
+      "dx": 0,
+      "shots": 0,
+      "hits": [
+        "Z",
+        "X"
+      ]
+    },
+    {
+      "test": "rift_v18_cut tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "rift_v18_cut hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "rift_v18_rise tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "rift_v18_rise hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "rift_v18_step tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "rift_v18_step hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "rift_v18_finish tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "rift_v18_finish hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "rift_v18_seal tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "rift_v18_seal hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "rift_v18_ward tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "rift_v18_ward hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "summoner_v18_pet tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "summoner_v18_pet hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "summoner_v18_command tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "summoner_v18_command hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "summoner_v18_exchange tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "summoner_v18_exchange hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "summoner_v18_nest tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "summoner_v18_nest hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "summoner_v18_imbue tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "summoner_v18_imbue hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "summoner_v18_recall tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "summoner_v18_recall hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "beast_v18_wolf tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "beast_v18_wolf hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "beast_v18_eagle tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "beast_v18_eagle hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "beast_v18_bear tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "beast_v18_bear hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "beast_v18_instinct tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "beast_v18_instinct hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "beast_v18_rest tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "beast_v18_rest hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "beast_v18_roar tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "beast_v18_roar hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "artificer_v18_turret tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "artificer_v18_turret hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "artificer_v18_wire tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "artificer_v18_wire hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "artificer_v18_lift tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "artificer_v18_lift hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "artificer_v18_magnet tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "artificer_v18_magnet hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "artificer_v18_drone tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "artificer_v18_drone hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "artificer_v18_scrap tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "artificer_v18_scrap hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "gunner_v18_round tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "gunner_v18_round hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "gunner_v18_reload tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "gunner_v18_reload hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "gunner_v18_mine tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "gunner_v18_mine hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "gunner_v18_brace tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "gunner_v18_brace hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "gunner_v18_barrage tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "gunner_v18_barrage hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "gunner_v18_intercept tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "gunner_v18_intercept hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "warden_v18_shield tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "warden_v18_shield hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "warden_v18_spear tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "warden_v18_spear hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "warden_v18_release tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "warden_v18_release hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "warden_v18_banner tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "warden_v18_banner hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "warden_v18_hook tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "warden_v18_hook hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "warden_v18_peace tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "warden_v18_peace hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chrono_v18_record tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chrono_v18_record hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chrono_v18_slow tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chrono_v18_slow hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chrono_v18_delay tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chrono_v18_delay hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chrono_v18_rewind tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chrono_v18_rewind hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chrono_v18_debt tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chrono_v18_debt hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chrono_v18_haste tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chrono_v18_haste hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "harrier_v18_pull tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "harrier_v18_pull hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "harrier_v18_grapple tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "harrier_v18_grapple hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "harrier_v18_rope tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "harrier_v18_rope hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "harrier_v18_reel tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "harrier_v18_reel hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "harrier_v18_swing tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "harrier_v18_swing hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "harrier_v18_sever tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "harrier_v18_sever hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "alchemist_v18_flask tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "alchemist_v18_flask hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "alchemist_v18_catalyst tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "alchemist_v18_catalyst hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "alchemist_v18_gel tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "alchemist_v18_gel hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "alchemist_v18_distill tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "alchemist_v18_distill hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "alchemist_v18_cleanse tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "alchemist_v18_cleanse hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "alchemist_v18_spread tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "alchemist_v18_spread hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "monk_v18_jab tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "monk_v18_jab hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "monk_v18_upper tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "monk_v18_upper hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "monk_v18_point tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "monk_v18_point hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "monk_v18_guard tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "monk_v18_guard hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "monk_v18_wave tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "monk_v18_wave hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "monk_v18_kick tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "monk_v18_kick hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "sharpshooter_v18_snipe tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "sharpshooter_v18_snipe hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "sharpshooter_v18_mark tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "sharpshooter_v18_mark hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "sharpshooter_v18_scope tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "sharpshooter_v18_scope hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "sharpshooter_v18_trap tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "sharpshooter_v18_trap hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "sharpshooter_v18_constellation tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "sharpshooter_v18_constellation hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "sharpshooter_v18_beacon tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "sharpshooter_v18_beacon hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "puppeteer_v18_puppet tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "puppeteer_v18_puppet hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "puppeteer_v18_tether tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "puppeteer_v18_tether hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "puppeteer_v18_slash tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "puppeteer_v18_slash hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "puppeteer_v18_swap tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "puppeteer_v18_swap hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "puppeteer_v18_ward tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "puppeteer_v18_ward hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "puppeteer_v18_cut tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "puppeteer_v18_cut hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "cartographer_v18_pinA tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "cartographer_v18_pinA hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "cartographer_v18_pinB tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "cartographer_v18_pinB hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "cartographer_v18_portal tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "cartographer_v18_portal hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "cartographer_v18_bridge tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "cartographer_v18_bridge hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "cartographer_v18_erase tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "cartographer_v18_erase hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "cartographer_v18_survey tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "cartographer_v18_survey hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chef_v18_pan tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chef_v18_pan hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chef_v18_pot tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chef_v18_pot hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chef_v18_dish tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chef_v18_dish hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chef_v18_finish tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chef_v18_finish hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chef_v18_aroma tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chef_v18_aroma hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chef_v18_chill tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "chef_v18_chill hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "dreamweaver_v18_seed tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "dreamweaver_v18_seed hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "dreamweaver_v18_decoy tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "dreamweaver_v18_decoy hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "dreamweaver_v18_exchange tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "dreamweaver_v18_exchange hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "dreamweaver_v18_harvest tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "dreamweaver_v18_harvest hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "dreamweaver_v18_garden tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "dreamweaver_v18_garden hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "dreamweaver_v18_transfer tap",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    },
+    {
+      "test": "dreamweaver_v18_transfer hold",
+      "pass": true,
+      "ok": true,
+      "finite": true
+    }
+  ],
+  "pageErrors": []
+}

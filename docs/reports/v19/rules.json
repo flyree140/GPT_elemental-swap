@@ -1,0 +1,86 @@
+{
+  "results": [
+    {
+      "test": "規則研習 echo",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "test": "規則研習 past",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "test": "規則研習 heavy",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "test": "規則研習 invert",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "test": "規則研習 elastic",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "test": "規則研習 fungal",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "test": "規則研習 inner",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "test": "規則研習 future",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "test": "規則研習 decay",
+      "pass": true,
+      "steps": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "pageErrors": []
+}

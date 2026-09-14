@@ -1,0 +1,1183 @@
+{
+  "requestMode": "HTTP requests under /esv19/ project subpath, not browser navigation",
+  "requests": [
+    {
+      "path": ".nojekyll",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/archive_far.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/archive_mid.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/archive_near.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/canopy_far.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/canopy_mid.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/canopy_near.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/lighthouse_far.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/lighthouse_mid.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/lighthouse_near.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/market_far.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/market_mid.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/market_near.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/reactor_far.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/reactor_mid.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/reactor_near.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/roots_far.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/roots_mid.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/roots_near.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/secret_far.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/secret_mid.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/secret_near.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/tide_far.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/tide_mid.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/backgrounds/v9/tide_near.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/codex/MONSTER_ATLAS_V9.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/rooms/cave_atlas.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/rooms/facility_atlas.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/rooms/shelter_atlas.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/biome_coast.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/biome_forest.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/biome_night.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_bed.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_cabinet.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_fridge.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_generator.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_greenhouse.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_lamp.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_locker.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_map.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_medbay.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_purifier.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_radio.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_recycler.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_shelf.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_sofa.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_stove.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_telescope.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_terminal.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/fixture_workbench.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_e00.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_e05.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_e09.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_e14.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_r00.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_r04.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_r11.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_r14.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_r16.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_r21.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_r26.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_r27.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_r32.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_r35.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_r37.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_r40.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_r45.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/house_r51.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sanctuary/manifest.json",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_abyss_0.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_abyss_0_v.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_abyss_1.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_abyss_1_v.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_abyss_2.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_ambusher.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_archer.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_artillery.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_bombardier.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_breeder.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_burrower.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_charger.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_dune_0.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_dune_0_v.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_dune_1.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_dune_1_v.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_dune_2.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_glacier_0.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_glacier_0_v.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_glacier_1.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_glacier_1_v.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_glacier_2.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_healer.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_inferno_0.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_inferno_0_v.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_inferno_1.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_inferno_1_v.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_inferno_2.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_metro_0.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_metro_0_v.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_metro_1.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_metro_1_v.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_metro_2.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_mimic.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_parasite.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_reef_0.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_reef_0_v.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_reef_1.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_reef_1_v.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_reef_2.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_reflector.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_scatterer.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_sentinel.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_shocker.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_sky_0.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_sky_0_v.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_sky_1.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_sky_1_v.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_sky_2.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_slime.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_sniper.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_spider.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_spitter.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_umbra_0.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_umbra_0_v.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_umbra_1.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_umbra_1_v.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/enemy_umbra_2.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/furniture_atlas.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_alchemist.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_artificer.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_beast_bear.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_beast_eagle.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_beast_king.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_beast_wolf.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_cartographer.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_chef.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_chrono.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_dreamweaver.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_gunner.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_harrier.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_monk.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_puppeteer.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_rift.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_sharpshooter.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_summoner.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/sprites/player_warden.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/ui/WORLD_MAP_V9.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/ui/collect_crest.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/ui/collect_element.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/ui/collect_life.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/ui/collect_memory.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/ui/collect_mobility.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/ui/collect_shelter.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/ui/map_icons.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/v17/biome_abyss.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/v17/biome_dune.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/v17/biome_glacier.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/v17/biome_inferno.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/v17/biome_metro.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/v17/biome_reef.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/v17/biome_sky.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/v17/biome_umbra.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/vfx/element_earth.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/vfx/element_fire.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/vfx/element_gravity.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/vfx/element_ice.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/vfx/element_light.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/vfx/element_lightning.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/vfx/element_nature.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/vfx/element_shadow.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/vfx/element_water.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/vfx/element_wind.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/vfx/hit.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/vfx/ring.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "assets/vfx/slash.png",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "expedition.css",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "frontier.css",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/config.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/expedition.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/expedition_data.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/expedition_ui.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/frontier_combat.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/frontier_data.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/frontier_release.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/frontier_render.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/frontier_ui.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/frontier_world.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/game.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/mastery.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/network.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/renewal_combat.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/renewal_data.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/renewal_elements.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/renewal_polish.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/renewal_render.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/renewal_teaching.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/renewal_ui.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/renewal_world.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/sanctuary.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/sanctuary_data.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/skills.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/vision.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/vision_data.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "js/world.js",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "renewal.css",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "styles.css",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "vision.css",
+      "status": 200,
+      "pass": true
+    }
+  ],
+  "javascriptSyntax": [
+    {
+      "file": "config.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "expedition.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "expedition_data.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "expedition_ui.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "frontier_combat.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "frontier_data.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "frontier_release.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "frontier_render.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "frontier_ui.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "frontier_world.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "game.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "mastery.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "network.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "renewal_combat.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "renewal_data.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "renewal_elements.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "renewal_polish.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "renewal_render.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "renewal_teaching.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "renewal_ui.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "renewal_world.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "sanctuary.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "sanctuary_data.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "skills.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "vision.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "vision_data.js",
+      "pass": true,
+      "error": null
+    },
+    {
+      "file": "world.js",
+      "pass": true,
+      "error": null
+    }
+  ],
+  "passed": true
+}

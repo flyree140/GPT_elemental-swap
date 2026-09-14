@@ -1,0 +1,517 @@
+{
+  "results": {
+    "rooms": 300,
+    "edges": 398,
+    "legacyMissing": [],
+    "enemies": 208,
+    "alive": 428,
+    "newSpecies": 50,
+    "newBosses": 99,
+    "recipes": 61,
+    "materials": 63,
+    "taskKinds": [
+      "camp",
+      "wind",
+      "past",
+      "gears",
+      "boss0",
+      "light",
+      "boss1",
+      "pump",
+      "inner",
+      "current",
+      "sequence",
+      "cold",
+      "fire",
+      "fungal",
+      "cleanse",
+      "water",
+      "echo",
+      "earth",
+      "heavy",
+      "vent",
+      "decay",
+      "tide",
+      "climb",
+      "nature",
+      "clock",
+      "invert",
+      "future",
+      "elastic",
+      "lightning",
+      "air",
+      "magnet",
+      "reflect",
+      "storm",
+      "root",
+      "laser",
+      "resin",
+      "gravity",
+      "quake",
+      "dream",
+      "sleep"
+    ],
+    "clippedNodes": [],
+    "bounds": [],
+    "cooldowns": [
+      {
+        "id": "rift_v18_cut",
+        "cd": 1.38,
+        "master": 1.38
+      },
+      {
+        "id": "rift_v18_rise",
+        "cd": 2.3,
+        "master": 2.3
+      },
+      {
+        "id": "rift_v18_step",
+        "cd": 1.84,
+        "master": 1.84
+      },
+      {
+        "id": "rift_v18_finish",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "rift_v18_seal",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "rift_v18_ward",
+        "cd": 3.36,
+        "master": 3.36
+      },
+      {
+        "id": "summoner_v18_pet",
+        "cd": 2.3,
+        "master": 2.3
+      },
+      {
+        "id": "summoner_v18_command",
+        "cd": 1.38,
+        "master": 1.38
+      },
+      {
+        "id": "summoner_v18_exchange",
+        "cd": 2.3,
+        "master": 2.3
+      },
+      {
+        "id": "summoner_v18_nest",
+        "cd": 4.8,
+        "master": 4.8
+      },
+      {
+        "id": "summoner_v18_imbue",
+        "cd": 3.22,
+        "master": 3.22
+      },
+      {
+        "id": "summoner_v18_recall",
+        "cd": 3.22,
+        "master": 3.22
+      },
+      {
+        "id": "beast_v18_wolf",
+        "cd": 1.38,
+        "master": 1.38
+      },
+      {
+        "id": "beast_v18_eagle",
+        "cd": 1.84,
+        "master": 1.84
+      },
+      {
+        "id": "beast_v18_bear",
+        "cd": 2.3,
+        "master": 2.3
+      },
+      {
+        "id": "beast_v18_instinct",
+        "cd": 3.22,
+        "master": 3.22
+      },
+      {
+        "id": "beast_v18_rest",
+        "cd": 3.4,
+        "master": 3.4
+      },
+      {
+        "id": "beast_v18_roar",
+        "cd": 3.22,
+        "master": 3.22
+      },
+      {
+        "id": "artificer_v18_turret",
+        "cd": 2.3,
+        "master": 2.3
+      },
+      {
+        "id": "artificer_v18_wire",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "artificer_v18_lift",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "artificer_v18_magnet",
+        "cd": 2.3,
+        "master": 2.3
+      },
+      {
+        "id": "artificer_v18_drone",
+        "cd": 3.4,
+        "master": 3.4
+      },
+      {
+        "id": "artificer_v18_scrap",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "gunner_v18_round",
+        "cd": 1.15,
+        "master": 1.15
+      },
+      {
+        "id": "gunner_v18_reload",
+        "cd": 1.84,
+        "master": 1.84
+      },
+      {
+        "id": "gunner_v18_mine",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "gunner_v18_brace",
+        "cd": 2.3,
+        "master": 2.3
+      },
+      {
+        "id": "gunner_v18_barrage",
+        "cd": 3.22,
+        "master": 3.22
+      },
+      {
+        "id": "gunner_v18_intercept",
+        "cd": 2.3,
+        "master": 2.3
+      },
+      {
+        "id": "warden_v18_shield",
+        "cd": 3.2,
+        "master": 3.2
+      },
+      {
+        "id": "warden_v18_spear",
+        "cd": 1.38,
+        "master": 1.38
+      },
+      {
+        "id": "warden_v18_release",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "warden_v18_banner",
+        "cd": 4.8,
+        "master": 4.8
+      },
+      {
+        "id": "warden_v18_hook",
+        "cd": 2.3,
+        "master": 2.3
+      },
+      {
+        "id": "warden_v18_peace",
+        "cd": 3.22,
+        "master": 3.22
+      },
+      {
+        "id": "chrono_v18_record",
+        "cd": 1.38,
+        "master": 1.38
+      },
+      {
+        "id": "chrono_v18_slow",
+        "cd": 3.92,
+        "master": 3.92
+      },
+      {
+        "id": "chrono_v18_delay",
+        "cd": 1.84,
+        "master": 1.84
+      },
+      {
+        "id": "chrono_v18_rewind",
+        "cd": 3.22,
+        "master": 3.22
+      },
+      {
+        "id": "chrono_v18_debt",
+        "cd": 3.22,
+        "master": 3.22
+      },
+      {
+        "id": "chrono_v18_haste",
+        "cd": 3.4,
+        "master": 3.4
+      },
+      {
+        "id": "harrier_v18_pull",
+        "cd": 1.38,
+        "master": 1.38
+      },
+      {
+        "id": "harrier_v18_grapple",
+        "cd": 2.3,
+        "master": 2.3
+      },
+      {
+        "id": "harrier_v18_rope",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "harrier_v18_reel",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "harrier_v18_swing",
+        "cd": 2.3,
+        "master": 2.3
+      },
+      {
+        "id": "harrier_v18_sever",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "alchemist_v18_flask",
+        "cd": 1.38,
+        "master": 1.38
+      },
+      {
+        "id": "alchemist_v18_catalyst",
+        "cd": 2.3,
+        "master": 2.3
+      },
+      {
+        "id": "alchemist_v18_gel",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "alchemist_v18_distill",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "alchemist_v18_cleanse",
+        "cd": 3.4,
+        "master": 3.4
+      },
+      {
+        "id": "alchemist_v18_spread",
+        "cd": 3.22,
+        "master": 3.22
+      },
+      {
+        "id": "monk_v18_jab",
+        "cd": 1.38,
+        "master": 1.38
+      },
+      {
+        "id": "monk_v18_upper",
+        "cd": 1.84,
+        "master": 1.84
+      },
+      {
+        "id": "monk_v18_point",
+        "cd": 1.84,
+        "master": 1.84
+      },
+      {
+        "id": "monk_v18_guard",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "monk_v18_wave",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "monk_v18_kick",
+        "cd": 2.3,
+        "master": 2.3
+      },
+      {
+        "id": "sharpshooter_v18_snipe",
+        "cd": 1.84,
+        "master": 1.84
+      },
+      {
+        "id": "sharpshooter_v18_mark",
+        "cd": 1.84,
+        "master": 1.84
+      },
+      {
+        "id": "sharpshooter_v18_scope",
+        "cd": 3.22,
+        "master": 3.22
+      },
+      {
+        "id": "sharpshooter_v18_trap",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "sharpshooter_v18_constellation",
+        "cd": 3.22,
+        "master": 3.22
+      },
+      {
+        "id": "sharpshooter_v18_beacon",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "puppeteer_v18_puppet",
+        "cd": 1.84,
+        "master": 1.84
+      },
+      {
+        "id": "puppeteer_v18_tether",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "puppeteer_v18_slash",
+        "cd": 1.38,
+        "master": 1.38
+      },
+      {
+        "id": "puppeteer_v18_swap",
+        "cd": 2.3,
+        "master": 2.3
+      },
+      {
+        "id": "puppeteer_v18_ward",
+        "cd": 3.92,
+        "master": 3.92
+      },
+      {
+        "id": "puppeteer_v18_cut",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "cartographer_v18_pinA",
+        "cd": 1.15,
+        "master": 1.15
+      },
+      {
+        "id": "cartographer_v18_pinB",
+        "cd": 1.15,
+        "master": 1.15
+      },
+      {
+        "id": "cartographer_v18_portal",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "cartographer_v18_bridge",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "cartographer_v18_erase",
+        "cd": 3.22,
+        "master": 3.22
+      },
+      {
+        "id": "cartographer_v18_survey",
+        "cd": 3.22,
+        "master": 3.22
+      },
+      {
+        "id": "chef_v18_pan",
+        "cd": 1.38,
+        "master": 1.38
+      },
+      {
+        "id": "chef_v18_pot",
+        "cd": 3.36,
+        "master": 3.36
+      },
+      {
+        "id": "chef_v18_dish",
+        "cd": 3.4,
+        "master": 3.4
+      },
+      {
+        "id": "chef_v18_finish",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "chef_v18_aroma",
+        "cd": 3.22,
+        "master": 3.22
+      },
+      {
+        "id": "chef_v18_chill",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "dreamweaver_v18_seed",
+        "cd": 2.3,
+        "master": 2.3
+      },
+      {
+        "id": "dreamweaver_v18_decoy",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "dreamweaver_v18_exchange",
+        "cd": 2.3,
+        "master": 2.3
+      },
+      {
+        "id": "dreamweaver_v18_harvest",
+        "cd": 2.76,
+        "master": 2.76
+      },
+      {
+        "id": "dreamweaver_v18_garden",
+        "cd": 4.48,
+        "master": 4.48
+      },
+      {
+        "id": "dreamweaver_v18_transfer",
+        "cd": 2.76,
+        "master": 2.76
+      }
+    ],
+    "objects": {
+      "platforms": 1846,
+      "ladders": 9437,
+      "nodes": 416,
+      "deposits": 678
+    },
+    "version": "19.0.0-living-atlas"
+  },
+  "pageErrors": []
+}

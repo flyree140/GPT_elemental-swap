@@ -1,0 +1,26 @@
+{
+  "exactStandaloneSha256": "d1668ded5ee5a2c6e3206394c6537d07ddcdd085ff7fdd3248d1b1a975ce5a99",
+  "package": {
+    "CRC": true,
+    "rootIndex": true,
+    "allIndexDependencies": true,
+    "standaloneMatches": true,
+    "noFonts": true,
+    "entryCount": 296
+  },
+  "runtime": {
+    "ready": true,
+    "rooms": 300,
+    "brand": "V19 · LIVING ATLAS",
+    "assetsEmbedded": 173,
+    "allLoadedGameImages": true,
+    "testStoragePresent": false,
+    "playerFinite": true,
+    "locatorVisible": true,
+    "XResponds": true
+  },
+  "pageErrors": [],
+  "requestFailures": [],
+  "passed": true,
+  "limitations": "set_content of exact release file; no native-origin persistence or live GitHub deployment verification"
+}
