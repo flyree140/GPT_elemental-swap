@@ -1,0 +1,354 @@
+{
+  "version": "21.8.0",
+  "passed": 82,
+  "total": 82,
+  "results": [
+    {
+      "name": "Default editable data validates",
+      "pass": true
+    },
+    {
+      "name": "49 independently defined commands",
+      "pass": true
+    },
+    {
+      "name": "Distinct full-body light / heavy clips",
+      "pass": true
+    },
+    {
+      "name": "Light attack has real anticipation",
+      "pass": true
+    },
+    {
+      "name": "Light attack reaches enemy at 175 px",
+      "pass": true
+    },
+    {
+      "name": "Single light pulse cannot hit twice",
+      "pass": true
+    },
+    {
+      "name": "Heavy hitbox larger and separate clip",
+      "pass": true,
+      "detail": {
+        "Z": {
+          "x": 3208,
+          "y": 12436,
+          "w": 168,
+          "h": 88
+        },
+        "X": {
+          "x": 3208,
+          "y": 12369,
+          "w": 272,
+          "h": 164
+        },
+        "clips": [
+          "light",
+          "heavy"
+        ]
+      }
+    },
+    {
+      "name": "Heavy waits until its own hit time",
+      "pass": true
+    },
+    {
+      "name": "Heavy damage registers after .215 s",
+      "pass": true
+    },
+    {
+      "name": "Heavy does not hit beyond rectangle",
+      "pass": true
+    },
+    {
+      "name": "Solid wall blocks melee line of sight",
+      "pass": true
+    },
+    {
+      "name": "Melee cannot damage a different layer",
+      "pass": true
+    },
+    {
+      "name": "Z → Z → X yields authored launcher",
+      "pass": true
+    },
+    {
+      "name": "Expired early buffer does not auto-fire",
+      "pass": true
+    },
+    {
+      "name": "Moon blade changes actual light reach",
+      "pass": true
+    },
+    {
+      "name": "Heavy weapon changes damage / recovery / break",
+      "pass": true
+    },
+    {
+      "name": "Three command hits trigger one floating shot",
+      "pass": true
+    },
+    {
+      "name": "Heavy weapon schedules a delayed local hit",
+      "pass": true
+    },
+    {
+      "name": "Lifesteal heals but caps at 3 HP",
+      "pass": true
+    },
+    {
+      "name": "Lifesteal internal cooldown prevents repeat healing",
+      "pass": true
+    },
+    {
+      "name": "Echo damage cannot trigger lifesteal",
+      "pass": true
+    },
+    {
+      "name": "Training targets do not heal player",
+      "pass": true
+    },
+    {
+      "name": "Crafting allowed at shelter with materials",
+      "pass": true
+    },
+    {
+      "name": "Permanent equipment cannot be crafted twice",
+      "pass": true
+    },
+    {
+      "name": "Owned weapon can be equipped",
+      "pass": true
+    },
+    {
+      "name": "Unowned equipment cannot be equipped",
+      "pass": true
+    },
+    {
+      "name": "Only two functional relic slots",
+      "pass": true
+    },
+    {
+      "name": "Field crafting and re-equipping rejected",
+      "pass": true
+    },
+    {
+      "name": "Healing consumable actually restores 45 HP",
+      "pass": true
+    },
+    {
+      "name": "Consumables share 8 second cooldown",
+      "pass": true
+    },
+    {
+      "name": "Stability powder reduces both meters",
+      "pass": true
+    },
+    {
+      "name": "No aerial recharge even after 9 seconds",
+      "pass": true
+    },
+    {
+      "name": "Grounded delay requires stable footing",
+      "pass": true
+    },
+    {
+      "name": "Grounded gameplay recharges a charge",
+      "pass": true
+    },
+    {
+      "name": "Capacity at rank 1",
+      "pass": true
+    },
+    {
+      "name": "Capacity at rank 2",
+      "pass": true
+    },
+    {
+      "name": "Capacity at rank 3",
+      "pass": true
+    },
+    {
+      "name": "Changing element does not refill shared budget",
+      "pass": true
+    },
+    {
+      "name": "Blocked swap is atomic with available budget",
+      "pass": true
+    },
+    {
+      "name": "Successful swap creates equipment shield",
+      "pass": true
+    },
+    {
+      "name": "New shields have a 45 HP ceiling",
+      "pass": true
+    },
+    {
+      "name": "Select branch blade/moon",
+      "pass": true
+    },
+    {
+      "name": "Select branch blade/cross",
+      "pass": true
+    },
+    {
+      "name": "Select branch rail/focus",
+      "pass": true
+    },
+    {
+      "name": "Select branch rail/scatter",
+      "pass": true
+    },
+    {
+      "name": "Select branch chrono/tempo",
+      "pass": true
+    },
+    {
+      "name": "Select branch chrono/echo",
+      "pass": true
+    },
+    {
+      "name": "Select branch gravity/well",
+      "pass": true
+    },
+    {
+      "name": "Select branch gravity/orbit",
+      "pass": true
+    },
+    {
+      "name": "Select branch spirit/hunter",
+      "pass": true
+    },
+    {
+      "name": "Select branch spirit/guardian",
+      "pass": true
+    },
+    {
+      "name": "Select branch bloom/growth",
+      "pass": true
+    },
+    {
+      "name": "Select branch bloom/rupture",
+      "pass": true
+    },
+    {
+      "name": "Branch changes require shelter",
+      "pass": true
+    },
+    {
+      "name": "Blade branch expands actual melee box",
+      "pass": true
+    },
+    {
+      "name": "Tempo branch reduces real cooldown, not F",
+      "pass": true
+    },
+    {
+      "name": "Gravity orbit grants shield on V",
+      "pass": true
+    },
+    {
+      "name": "Spirit guardian grants shield on B",
+      "pass": true
+    },
+    {
+      "name": "Bloom growth makes a real platform and extends garden",
+      "pass": true
+    },
+    {
+      "name": "Live config changes actual command width",
+      "pass": true
+    },
+    {
+      "name": "Invalid attack timing rejected",
+      "pass": true
+    },
+    {
+      "name": "Unknown room id rejected",
+      "pass": true
+    },
+    {
+      "name": "External / escaping hero path rejected",
+      "pass": true
+    },
+    {
+      "name": "Unimplemented gear effect rejected",
+      "pass": true
+    },
+    {
+      "name": "Skill tuning travels through scheduled work",
+      "pass": true
+    },
+    {
+      "name": "Edited skill cooldown applies to actual timer",
+      "pass": true
+    },
+    {
+      "name": "Enemy override affects newly spawned actual stats",
+      "pass": true
+    },
+    {
+      "name": "Three authored platforms are collision objects",
+      "pass": true
+    },
+    {
+      "name": "Hidden platform is layer dependent",
+      "pass": true
+    },
+    {
+      "name": "Reapplying world patches does not duplicate platforms",
+      "pass": true
+    },
+    {
+      "name": "Route starts and ends at actual room ids",
+      "pass": true
+    },
+    {
+      "name": "Every navigation edge exists in real graph",
+      "pass": true
+    },
+    {
+      "name": "Tracking never teleports player",
+      "pass": true
+    },
+    {
+      "name": "All rooms assigned to exactly one displayed art category",
+      "pass": true
+    },
+    {
+      "name": "Map default shows supplied art and 8 selectors",
+      "pass": true
+    },
+    {
+      "name": "Measured map uses actual player location",
+      "pass": true
+    },
+    {
+      "name": "Content editor exposes all requested categories",
+      "pass": true
+    },
+    {
+      "name": "New rewards once per real enemy",
+      "pass": true
+    },
+    {
+      "name": "Training grants no new materials or XP",
+      "pass": true
+    },
+    {
+      "name": "Travel level capped at 30",
+      "pass": true
+    },
+    {
+      "name": "New gear, branch and waypoint persist in snapshot",
+      "pass": true
+    },
+    {
+      "name": "No NaN in player after tests",
+      "pass": true
+    }
+  ],
+  "pageErrors": []
+}

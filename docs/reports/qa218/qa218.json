@@ -1,0 +1,780 @@
+{
+  "version": "21.8.0",
+  "passed": 124,
+  "total": 124,
+  "results": [
+    {
+      "name": "Runtime / data version 21.8.0",
+      "pass": true
+    },
+    {
+      "name": "49 authored commands validate",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Reject invalid travel NaN",
+      "pass": true
+    },
+    {
+      "name": "Reject invalid zero motion interval",
+      "pass": true
+    },
+    {
+      "name": "Reject invalid overlong hover",
+      "pass": true
+    },
+    {
+      "name": "Reject invalid unbounded rise",
+      "pass": true
+    },
+    {
+      "name": "Reject invalid nonboolean finisher",
+      "pass": true
+    },
+    {
+      "name": "Journal keeps 160 attacks inside three seconds",
+      "pass": true
+    },
+    {
+      "name": "Echo starts with >48 events",
+      "pass": true
+    },
+    {
+      "name": "Snapshot sequence is chronological and stable",
+      "pass": true
+    },
+    {
+      "name": "Echo snapshot is immutable from live journal",
+      "pass": true
+    },
+    {
+      "name": "All 160 events replay exactly once",
+      "pass": true
+    },
+    {
+      "name": "Echo ends at three seconds and clears projectiles",
+      "pass": true
+    },
+    {
+      "name": "Window excludes old / future events and includes exact boundary",
+      "pass": true
+    },
+    {
+      "name": "New live attacks do not enter active snapshot",
+      "pass": true
+    },
+    {
+      "name": "Empty F does not consume cooldown",
+      "pass": true
+    },
+    {
+      "name": "Movement-only echo remains usable",
+      "pass": true
+    },
+    {
+      "name": "Active F cannot recursively restart itself",
+      "pass": true
+    },
+    {
+      "name": "Replay delivers 40 percent of recorded raw geometry",
+      "pass": true,
+      "detail": 40
+    },
+    {
+      "name": "Replay damage does not recursively record",
+      "pass": true
+    },
+    {
+      "name": "Replay is original-space geometry, not homing old victim",
+      "pass": true
+    },
+    {
+      "name": "Replay geometry respects solid walls",
+      "pass": true
+    },
+    {
+      "name": "Replay cannot hit an unrelated world layer",
+      "pass": true
+    },
+    {
+      "name": "Echo cannot heal / refund dash or swap / regenerate fields",
+      "pass": true
+    },
+    {
+      "name": "Fire replay does not start a new burn or reaction loop",
+      "pass": true
+    },
+    {
+      "name": "Replay does not apply skill tuning twice",
+      "pass": true,
+      "detail": 14
+    },
+    {
+      "name": "Direct settlement damage is recorded exactly once",
+      "pass": true
+    },
+    {
+      "name": "Direct DOT damage enters journal",
+      "pass": true
+    },
+    {
+      "name": "Owned secondary ray is not mistaken for recursive echo",
+      "pass": true
+    },
+    {
+      "name": "Owned secondary circle records once",
+      "pass": true
+    },
+    {
+      "name": "Field creation and damage pulse each recorded once",
+      "pass": true,
+      "detail": [
+        "field",
+        "circle"
+      ]
+    },
+    {
+      "name": "Field replay does not create a new full-duration damage field",
+      "pass": true
+    },
+    {
+      "name": "Element shot is recorded once with final aimed velocity",
+      "pass": true,
+      "detail": {
+        "shot": {
+          "at": 65.8196666666668,
+          "seq": 1,
+          "epoch": 0,
+          "layer": "B",
+          "room": "r01",
+          "dir": 1,
+          "style": "blade",
+          "slot": null,
+          "cause218": null,
+          "origin218": {
+            "x": 3196,
+            "y": 12485
+          },
+          "kind": "projectile",
+          "x": 3182,
+          "y": 12441,
+          "w": 28,
+          "h": 28,
+          "vx": 0,
+          "vy": -430,
+          "gravity": 0,
+          "damage": 13,
+          "element": "fire",
+          "life": 9,
+          "pierce": 1
+        }
+      }
+    },
+    {
+      "name": "Echo projectile spawns from recorded coordinates",
+      "pass": true
+    },
+    {
+      "name": "Fast echo projectile uses swept collision and hits once",
+      "pass": true
+    },
+    {
+      "name": "F immediately after a skill follows its pending hit",
+      "pass": true
+    },
+    {
+      "name": "Later unrelated live skill is not copied into old snapshot",
+      "pass": true
+    },
+    {
+      "name": "Pending skill hit finishes without creating an endless echo",
+      "pass": true
+    },
+    {
+      "name": "F during a command follows every pending multihit pulse",
+      "pass": true
+    },
+    {
+      "name": "Pending command pulses all play once",
+      "pass": true
+    },
+    {
+      "name": "Last-frame projectile survives the end of the three-second pose replay",
+      "pass": true
+    },
+    {
+      "name": "Projectile tail has a finite lifespan",
+      "pass": true
+    },
+    {
+      "name": "Persistent field does not generate a new full-duration replay after F",
+      "pass": true
+    },
+    {
+      "name": "Skill journal: blade:0",
+      "pass": true,
+      "detail": {
+        "attacks": 1,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: blade:1",
+      "pass": true,
+      "detail": {
+        "attacks": 1,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: blade:2",
+      "pass": true,
+      "detail": {
+        "attacks": 0,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: blade:3",
+      "pass": true,
+      "detail": {
+        "attacks": 1,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: blade:4",
+      "pass": true,
+      "detail": {
+        "attacks": 0,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: rail:0",
+      "pass": true,
+      "detail": {
+        "attacks": 1,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: rail:1",
+      "pass": true,
+      "detail": {
+        "attacks": 1,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: rail:2",
+      "pass": true,
+      "detail": {
+        "attacks": 1,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: rail:3",
+      "pass": true,
+      "detail": {
+        "attacks": 1,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: rail:4",
+      "pass": true,
+      "detail": {
+        "attacks": 0,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: chrono:0",
+      "pass": true,
+      "detail": {
+        "attacks": 2,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: chrono:1",
+      "pass": true,
+      "detail": {
+        "attacks": 1,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: chrono:2",
+      "pass": true,
+      "detail": {
+        "attacks": 1,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: chrono:3",
+      "pass": true,
+      "detail": {
+        "attacks": 1,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "chrono settlement is not omitted",
+      "pass": true
+    },
+    {
+      "name": "Skill journal: chrono:4",
+      "pass": true,
+      "detail": {
+        "attacks": 0,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: gravity:0",
+      "pass": true,
+      "detail": {
+        "attacks": 1,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: gravity:1",
+      "pass": true,
+      "detail": {
+        "attacks": 1,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: gravity:2",
+      "pass": true,
+      "detail": {
+        "attacks": 0,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: gravity:3",
+      "pass": true,
+      "detail": {
+        "attacks": 1,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: gravity:4",
+      "pass": true,
+      "detail": {
+        "attacks": 0,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: spirit:0",
+      "pass": true,
+      "detail": {
+        "attacks": 2,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: spirit:1",
+      "pass": true,
+      "detail": {
+        "attacks": 1,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: spirit:2",
+      "pass": true,
+      "detail": {
+        "attacks": 2,
+        "swaps": 1
+      }
+    },
+    {
+      "name": "Skill journal: spirit:3",
+      "pass": true,
+      "detail": {
+        "attacks": 3,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: spirit:4",
+      "pass": true,
+      "detail": {
+        "attacks": 0,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: bloom:0",
+      "pass": true,
+      "detail": {
+        "attacks": 1,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: bloom:1",
+      "pass": true,
+      "detail": {
+        "attacks": 1,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: bloom:2",
+      "pass": true,
+      "detail": {
+        "attacks": 3,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Skill journal: bloom:3",
+      "pass": true,
+      "detail": {
+        "attacks": 1,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "bloom settlement is not omitted",
+      "pass": true
+    },
+    {
+      "name": "Skill journal: bloom:4",
+      "pass": true,
+      "detail": {
+        "attacks": 0,
+        "swaps": 0
+      }
+    },
+    {
+      "name": "Swap replay is ghost-only and atomic: fire",
+      "pass": true
+    },
+    {
+      "name": "Swap replay is ghost-only and atomic: ice",
+      "pass": true
+    },
+    {
+      "name": "Swap replay is ghost-only and atomic: lightning",
+      "pass": true
+    },
+    {
+      "name": "Swap replay is ghost-only and atomic: wind",
+      "pass": true
+    },
+    {
+      "name": "Swap replay is ghost-only and atomic: earth",
+      "pass": true
+    },
+    {
+      "name": "Swap replay is ghost-only and atomic: water",
+      "pass": true
+    },
+    {
+      "name": "Swap replay is ghost-only and atomic: light",
+      "pass": true
+    },
+    {
+      "name": "Swap replay is ghost-only and atomic: shadow",
+      "pass": true
+    },
+    {
+      "name": "Swap replay is ghost-only and atomic: nature",
+      "pass": true
+    },
+    {
+      "name": "Swap replay is ghost-only and atomic: gravity",
+      "pass": true
+    },
+    {
+      "name": "Failed swap never enters journal",
+      "pass": true
+    },
+    {
+      "name": "Ghost swap jumps instantly, never interpolates through wall space",
+      "pass": true,
+      "detail": {
+        "pre": 3176,
+        "after": 3576
+      }
+    },
+    {
+      "name": "Paused / zero-delta replay does not progress",
+      "pass": true
+    },
+    {
+      "name": "World/death reset clears replay and old journal",
+      "pass": true
+    },
+    {
+      "name": "Input grammar ZZZZ",
+      "pass": true,
+      "detail": [
+        "Z",
+        "ZZ",
+        "ZZZ",
+        "ZZZZ"
+      ]
+    },
+    {
+      "name": "Input grammar ZZX",
+      "pass": true,
+      "detail": [
+        "Z",
+        "ZZ",
+        "ZZX"
+      ]
+    },
+    {
+      "name": "Input grammar ZXZX",
+      "pass": true,
+      "detail": [
+        "Z",
+        "ZX",
+        "ZXZ",
+        "ZXZX"
+      ]
+    },
+    {
+      "name": "Input grammar XZZ",
+      "pass": true,
+      "detail": [
+        "X",
+        "XZ",
+        "XZZ"
+      ]
+    },
+    {
+      "name": "Input grammar XXZZ",
+      "pass": true,
+      "detail": [
+        "X",
+        "XX",
+        "XXZ",
+        "XXZZ"
+      ]
+    },
+    {
+      "name": "Input grammar air ZZX",
+      "pass": true,
+      "detail": [
+        "AIRZ",
+        "AIRZZ",
+        "AIRZZX"
+      ]
+    },
+    {
+      "name": "Input grammar dash ZX",
+      "pass": true,
+      "detail": [
+        "DASHZ",
+        "DASHZX"
+      ]
+    },
+    {
+      "name": "Input grammar dash air ZZX",
+      "pass": true,
+      "detail": [
+        "DASHAIRZ",
+        "DASHAIRZZ",
+        "DASHAIRZZX"
+      ]
+    },
+    {
+      "name": "Input queue preserves FIFO and caps at three",
+      "pass": true
+    },
+    {
+      "name": "Queued X advances to ZX, not plain X",
+      "pass": true
+    },
+    {
+      "name": "Expired queued press cannot auto-fire",
+      "pass": true
+    },
+    {
+      "name": "Buffered direction is sampled at input time",
+      "pass": true
+    },
+    {
+      "name": "Combo gap resets route instead of using stale suffix",
+      "pass": true
+    },
+    {
+      "name": "Launcher uses real enemy velocity / airborne state",
+      "pass": true
+    },
+    {
+      "name": "Connected launcher can jump cancel",
+      "pass": true
+    },
+    {
+      "name": "Jump cancel actually lifts player and clears attack",
+      "pass": true
+    },
+    {
+      "name": "Whiff startup cannot instantly jump-cancel",
+      "pass": true,
+      "detail": {
+        "attack": "X",
+        "vy": 30.333333333333332,
+        "y": 12455.505555555555
+      }
+    },
+    {
+      "name": "Multihit cannot cancel before final pulse",
+      "pass": true
+    },
+    {
+      "name": "Skill waits instead of deleting unplayed pulse",
+      "pass": true
+    },
+    {
+      "name": "Multihit unlocks cancel after final connected pulse",
+      "pass": true
+    },
+    {
+      "name": "Finisher retains dedicated recovery",
+      "pass": true
+    },
+    {
+      "name": "Boss does not receive infinite launcher velocity",
+      "pass": true
+    },
+    {
+      "name": "Repeated launcher has bounded diminishing lift",
+      "pass": true,
+      "detail": [
+        590,
+        519.2,
+        448.4,
+        377.6,
+        306.8,
+        253.7,
+        253.7,
+        253.7
+      ]
+    },
+    {
+      "name": "Dive finisher schedules only one bounce per juggle",
+      "pass": true
+    },
+    {
+      "name": "ZX slides physical player, not only VFX",
+      "pass": true
+    },
+    {
+      "name": "Basic Z does not force unwanted slide",
+      "pass": true
+    },
+    {
+      "name": "Lunge collision cannot tunnel through a solid wall",
+      "pass": true,
+      "detail": {
+        "right": 3228,
+        "wall": 3228
+      }
+    },
+    {
+      "name": "Air light attack has a short controlled hover",
+      "pass": true
+    },
+    {
+      "name": "Air X has real downward motion",
+      "pass": true
+    },
+    {
+      "name": "Double-tap direction opens real DASHZ branch",
+      "pass": true,
+      "detail": {
+        "attack": "DASHZ",
+        "onGround": true,
+        "dashT": 0,
+        "dashUntil": 489.6170000000114,
+        "time": 489.4070000000114,
+        "keys": {
+          "left": "ArrowLeft",
+          "right": "ArrowRight",
+          "up": "ArrowUp",
+          "down": "ArrowDown",
+          "jump": "Space",
+          "dash": "ShiftLeft",
+          "grapple": "KeyA",
+          "interact": "KeyE",
+          "zAttack": "KeyZ",
+          "xAttack": "KeyX",
+          "xAttackAlt": "KeyY",
+          "skill1": "KeyC",
+          "skill2": "KeyV",
+          "skill3": "KeyB",
+          "classSkill": "KeyQ",
+          "element1": "Digit1",
+          "element2": "Digit2",
+          "element3": "Digit3",
+          "element4": "Digit4",
+          "element5": "Digit5",
+          "element6": "Digit6",
+          "element7": "Digit7",
+          "element8": "Digit8",
+          "element9": "Digit9",
+          "element10": "Digit0",
+          "skillbook": "KeyL",
+          "school": "KeyT",
+          "exitSchool": "Backspace",
+          "reset": "KeyR",
+          "map": "KeyM",
+          "help": "KeyH",
+          "keyConfig": "KeyK",
+          "hud": "Tab",
+          "pause": "KeyP",
+          "visionBook": "KeyJ",
+          "visionLeft": "BracketLeft",
+          "visionRight": "BracketRight",
+          "visionNow": "Backslash",
+          "skill4": "KeyN",
+          "skill5": "KeyF",
+          "expedition": "KeyO",
+          "sanctuary": "KeyU",
+          "scenic": "KeyI",
+          "quickItem": "KeyG",
+          "swapNow": "KeyD",
+          "recastAnchor": "KeyS"
+        }
+      }
+    },
+    {
+      "name": "Low-altitude dive delivers impact rather than disappearing on landing",
+      "pass": true
+    },
+    {
+      "name": "Landed dive does not duplicate its damage pulse",
+      "pass": true
+    },
+    {
+      "name": "Command / replay HUD does not jump in height",
+      "pass": true
+    },
+    {
+      "name": "In-game help contains playable routes and replay policy",
+      "pass": true
+    },
+    {
+      "name": "Final runtime state finite",
+      "pass": true
+    }
+  ],
+  "pageErrors": []
+}

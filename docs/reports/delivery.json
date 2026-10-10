@@ -1,0 +1,138 @@
+{
+  "subpath": {
+    "boot": {
+      "version": "21.6.0",
+      "boot": "ready",
+      "rooms": 300,
+      "assets": {
+        "catalogKeys": 485,
+        "requested": 88,
+        "loaded": 88,
+        "pending": 0,
+        "decodedRGBABytes": 24798564,
+        "failures": []
+      },
+      "hero": 1280
+    },
+    "actualKeyboardE": {
+      "claimed": true,
+      "story": true
+    },
+    "systemPassed": 85,
+    "systemTotal": 85,
+    "errors": [],
+    "missing": [],
+    "httpRequestCount": 151,
+    "wallSecondsIncludingScript": 4.79,
+    "performanceSample": {
+      "samples": 106,
+      "quality": "balanced",
+      "scale": 0.7951388888888888,
+      "internal": [
+        1145,
+        716
+      ],
+      "frame": {
+        "mean": 20.170754716979378,
+        "p50": 16.700000000000045,
+        "p95": 33.399999999999864,
+        "max": 116.60000000000002
+      },
+      "update": {
+        "mean": 2.1188679245511457,
+        "p50": 1.5,
+        "p95": 5.2000000001862645,
+        "max": 13.200000000186265
+      },
+      "render": {
+        "mean": 2.4764150943132646,
+        "p50": 1.400000000372529,
+        "p95": 4.599999999627471,
+        "max": 73.90000000037253
+      },
+      "cpu": {
+        "mean": 4.597169811318998,
+        "p50": 3,
+        "p95": 9.200000000186265,
+        "max": 87.1000000005588
+      },
+      "metrics": {
+        "simSteps": 111,
+        "collisionQueries": 2785,
+        "collisionCandidates": 24281,
+        "tileBuilds": 12
+      },
+      "tileCache": 12,
+      "npcCache": 10
+    },
+    "passed": true
+  },
+  "offline": {
+    "boot": {
+      "version": "21.6.0",
+      "boot": "ready",
+      "rooms": 300,
+      "assets": {
+        "catalogKeys": 485,
+        "requested": 88,
+        "loaded": 88,
+        "pending": 0,
+        "decodedRGBABytes": 24798564,
+        "failures": []
+      },
+      "hero": 1280
+    },
+    "actualKeyboardE": {
+      "claimed": true,
+      "story": true
+    },
+    "systemPassed": 85,
+    "systemTotal": 85,
+    "errors": [],
+    "missing": [],
+    "httpRequestCount": 0,
+    "wallSecondsIncludingScript": 5.6,
+    "performanceSample": {
+      "samples": 71,
+      "quality": "balanced",
+      "scale": 0.7951388888888888,
+      "internal": [
+        1145,
+        716
+      ],
+      "frame": {
+        "mean": 20.66478873239699,
+        "p50": 16.699999999999818,
+        "p95": 33.40000000000009,
+        "max": 99.90000000000009
+      },
+      "update": {
+        "mean": 2.712676056319664,
+        "p50": 2.1000000005587935,
+        "p95": 7,
+        "max": 13.599999999627471
+      },
+      "render": {
+        "mean": 3.2507042253101375,
+        "p50": 1.6000000005587935,
+        "p95": 5.7000000001862645,
+        "max": 63.09999999962747
+      },
+      "cpu": {
+        "mean": 5.966197183040876,
+        "p50": 3.7999999998137355,
+        "p95": 11.699999999254942,
+        "max": 76.59999999962747
+      },
+      "metrics": {
+        "simSteps": 78,
+        "collisionQueries": 1991,
+        "collisionCandidates": 17684,
+        "tileBuilds": 12
+      },
+      "tileCache": 12,
+      "npcCache": 10
+    },
+    "passed": true
+  }
+}

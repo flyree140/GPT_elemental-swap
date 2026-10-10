@@ -1,0 +1,520 @@
+{
+  "version": "21.8.0",
+  "passed": 85,
+  "total": 85,
+  "results": [
+    {
+      "name": "6 flow styles / 30 skill definitions",
+      "pass": true
+    },
+    {
+      "name": "Every skill cooldown <= 3.8s",
+      "pass": true
+    },
+    {
+      "name": "300 rooms and 12 real memory nodes",
+      "pass": true
+    },
+    {
+      "name": "14 chapter graph edges exist",
+      "pass": true
+    },
+    {
+      "name": "14 chapter routes are physically generated",
+      "pass": true
+    },
+    {
+      "name": "裂界劍舞 / 折返刃",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 2,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "裂界劍舞 / 挑月",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 2,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "裂界劍舞 / 離鞘留刃",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 0,
+        "fields": 1,
+        "vy": 0
+      }
+    },
+    {
+      "name": "裂界劍舞 / 兩界交刃",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 1,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "裂界劍舞 / 卸刃式",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 0,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "星軌銃刃 / 追射",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 1,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "星軌銃刃 / 反衝升空",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 0,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "星軌銃刃 / 交叉火線",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 1,
+        "fields": 1,
+        "vy": 0
+      }
+    },
+    {
+      "name": "星軌銃刃 / 折鏡貫星",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 1,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "星軌銃刃 / 後切再式",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 0,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "時痕織夢 / 雙拍刃",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 2,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "時痕織夢 / 停一拍",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 1,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "時痕織夢 / 回聲釘",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 0,
+        "fields": 1,
+        "vy": 0
+      }
+    },
+    {
+      "name": "時痕織夢 / 待償高鳴",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 2,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "時痕織夢 / 移交節拍",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 0,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "引力鎖使 / 牽星",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 1,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "引力鎖使 / 失重制",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 1,
+        "fields": 1,
+        "vy": 0
+      }
+    },
+    {
+      "name": "引力鎖使 / 雙錨軌道",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 0,
+        "fields": 1,
+        "vy": 0
+      }
+    },
+    {
+      "name": "引力鎖使 / 星壓結算",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 1,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "引力鎖使 / 反向牽引",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 0,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "靈契塑形 / 靈印協擊",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 2,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "靈契塑形 / 翼靈托舉",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 1,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "靈契塑形 / 雙位契印",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 2,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "靈契塑形 / 三靈合狩",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 3,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "靈契塑形 / 主從令",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 0,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "腐生調律 / 腐蝕針",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 1,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "腐生調律 / 菌芽上挑",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 1,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "腐生調律 / 活性培床",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 2,
+        "fields": 1,
+        "vy": 0
+      }
+    },
+    {
+      "name": "腐生調律 / 相變綻裂",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 1,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "腐生調律 / 配方調律",
+      "pass": true,
+      "detail": {
+        "damageReceipt": 0,
+        "fields": 0,
+        "vy": 0
+      }
+    },
+    {
+      "name": "Training crystal registers real skill hit",
+      "pass": true
+    },
+    {
+      "name": "Chrono control really lifts small enemy and player",
+      "pass": true
+    },
+    {
+      "name": "Water bullet extends planted garden without swapping",
+      "pass": true
+    },
+    {
+      "name": "Fire bullet detonates planted garden without swapping",
+      "pass": true
+    },
+    {
+      "name": "fire swaps in air",
+      "pass": true
+    },
+    {
+      "name": "ice swaps in air",
+      "pass": true
+    },
+    {
+      "name": "lightning swaps in air",
+      "pass": true
+    },
+    {
+      "name": "wind swaps in air",
+      "pass": true
+    },
+    {
+      "name": "earth swaps in air",
+      "pass": true
+    },
+    {
+      "name": "water swaps in air",
+      "pass": true
+    },
+    {
+      "name": "light swaps in air",
+      "pass": true
+    },
+    {
+      "name": "shadow swaps in air",
+      "pass": true
+    },
+    {
+      "name": "nature swaps in air",
+      "pass": true
+    },
+    {
+      "name": "gravity swaps in air",
+      "pass": true
+    },
+    {
+      "name": "21.7 airborne charge does not recover after 1.25s",
+      "pass": true
+    },
+    {
+      "name": "Blocked swap neither consumes nor erases anchor",
+      "pass": true
+    },
+    {
+      "name": "Gravity 0 physically attracts enemy",
+      "pass": true,
+      "detail": {
+        "before": 71.80529228406498,
+        "after": 1.5784918330374322
+      }
+    },
+    {
+      "name": "Water + nature creates collidable vine platform",
+      "pass": true
+    },
+    {
+      "name": "Fire consumes ice and causes local reaction",
+      "pass": true
+    },
+    {
+      "name": "Boss hard freeze capped",
+      "pass": true
+    },
+    {
+      "name": "Light exposes actual enemy vulnerability",
+      "pass": true
+    },
+    {
+      "name": "Echo starts without changing active law",
+      "pass": true
+    },
+    {
+      "name": "Echo auto finishes, no manual return / no heal",
+      "pass": true
+    },
+    {
+      "name": "44 added law structures",
+      "pass": true
+    },
+    {
+      "name": "past changes real active collision",
+      "pass": true
+    },
+    {
+      "name": "future changes real active collision",
+      "pass": true
+    },
+    {
+      "name": "inner changes real active collision",
+      "pass": true
+    },
+    {
+      "name": "decay changes real active collision",
+      "pass": true
+    },
+    {
+      "name": "Decay removes only flagged ruin",
+      "pass": true
+    },
+    {
+      "name": "Shelter does not accumulate instability",
+      "pass": true
+    },
+    {
+      "name": "Shelter does not spawn anomaly",
+      "pass": true
+    },
+    {
+      "name": "Time threshold starts 4-second telegraph",
+      "pass": true
+    },
+    {
+      "name": "No monster before telegraph completes",
+      "pass": true
+    },
+    {
+      "name": "Actual time monster spawns",
+      "pass": true
+    },
+    {
+      "name": "At most one active anomaly",
+      "pass": true
+    },
+    {
+      "name": "Time monster locks a telegraphed attack",
+      "pass": true
+    },
+    {
+      "name": "Time monster kill lowers instability and rewards once",
+      "pass": true
+    },
+    {
+      "name": "No duplicate anomaly reward",
+      "pass": true
+    },
+    {
+      "name": "60 second post-kill grace blocks next anomaly",
+      "pass": true
+    },
+    {
+      "name": "Actual space monster spawns",
+      "pass": true
+    },
+    {
+      "name": "Space monster forecasts real and false position",
+      "pass": true
+    },
+    {
+      "name": "Space monster is damageable / clears reward",
+      "pass": true
+    },
+    {
+      "name": "Observation platform permits real ritual / warning",
+      "pass": true
+    },
+    {
+      "name": "FX / fields / queued work are bounded",
+      "pass": true
+    },
+    {
+      "name": "11 memories unlock 3 swap capacity",
+      "pass": true
+    },
+    {
+      "name": "Chapter ending requires memories + both monsters",
+      "pass": true
+    },
+    {
+      "name": "New progress survives snapshot serialization",
+      "pass": true
+    },
+    {
+      "name": "Core assets decoded with no failures",
+      "pass": true
+    },
+    {
+      "name": "Hero is full-body reference atlas, not limb rig",
+      "pass": true
+    },
+    {
+      "name": "Runtime numeric state remains finite",
+      "pass": true
+    }
+  ],
+  "assets": {
+    "catalogKeys": 485,
+    "requested": 88,
+    "loaded": 88,
+    "pending": 0,
+    "decodedRGBABytes": 24798564,
+    "failures": []
+  },
+  "hero": {
+    "frames": 59,
+    "rgba": 8847360
+  },
+  "limits": {
+    "fields": 28,
+    "fx": 70,
+    "queued": 40,
+    "paintCache": 0
+  },
+  "pageErrors": []
+}

@@ -1,0 +1,233 @@
+{
+  "checks": [
+    {
+      "name": "Keyboard L opens six-style panel",
+      "pass": true
+    },
+    {
+      "name": "Style selection applies real gravity class",
+      "pass": true
+    },
+    {
+      "name": "J shows 9 laws and separate echo",
+      "pass": true
+    },
+    {
+      "name": "Real keyboard jump / 0 / D aerial swap",
+      "pass": true,
+      "detail": {
+        "airSwap": 1,
+        "swap": 1,
+        "finite": true
+      }
+    },
+    {
+      "name": "M opens only actual collision map",
+      "pass": true
+    },
+    {
+      "name": "Close menu clears held inputs",
+      "pass": true
+    },
+    {
+      "name": "Desktop rendering has no JS errors or missing resources",
+      "pass": true,
+      "detail": {
+        "errors": [],
+        "missing": []
+      }
+    },
+    {
+      "name": "08_mobile_landscape fits viewport and shows touch controls",
+      "pass": true,
+      "detail": {
+        "scroll": 844,
+        "width": 844,
+        "skills": [
+          {
+            "x": 279.4375,
+            "y": 298,
+            "w": 47,
+            "h": 48
+          },
+          {
+            "x": 330.4375,
+            "y": 298,
+            "w": 47,
+            "h": 48
+          },
+          {
+            "x": 381.4375,
+            "y": 298,
+            "w": 47,
+            "h": 48
+          },
+          {
+            "x": 432.4375,
+            "y": 298,
+            "w": 47,
+            "h": 48
+          },
+          {
+            "x": 483.4375,
+            "y": 298,
+            "w": 47,
+            "h": 48
+          },
+          {
+            "x": 534.4375,
+            "y": 298,
+            "w": 47,
+            "h": 48
+          }
+        ],
+        "touch": true
+      }
+    },
+    {
+      "name": "08_mobile_landscape touch actually casts skill",
+      "pass": true
+    },
+    {
+      "name": "08_mobile_landscape no JS or missing asset errors",
+      "pass": true,
+      "detail": {
+        "errors": [],
+        "missing": []
+      }
+    },
+    {
+      "name": "09_mobile_portrait fits viewport and shows touch controls",
+      "pass": true,
+      "detail": {
+        "scroll": 390,
+        "width": 390,
+        "skills": [
+          {
+            "x": 44,
+            "y": 559,
+            "w": 47,
+            "h": 48
+          },
+          {
+            "x": 95,
+            "y": 559,
+            "w": 47,
+            "h": 48
+          },
+          {
+            "x": 146,
+            "y": 559,
+            "w": 47,
+            "h": 48
+          },
+          {
+            "x": 197,
+            "y": 559,
+            "w": 47,
+            "h": 48
+          },
+          {
+            "x": 248,
+            "y": 559,
+            "w": 47,
+            "h": 48
+          },
+          {
+            "x": 299,
+            "y": 559,
+            "w": 47,
+            "h": 48
+          }
+        ],
+        "touch": true
+      }
+    },
+    {
+      "name": "09_mobile_portrait touch actually casts skill",
+      "pass": true
+    },
+    {
+      "name": "09_mobile_portrait no JS or missing asset errors",
+      "pass": true,
+      "detail": {
+        "errors": [],
+        "missing": []
+      }
+    }
+  ],
+  "passed": 13,
+  "total": 13,
+  "assets": {
+    "report": {
+      "catalogKeys": 485,
+      "requested": 91,
+      "loaded": 91,
+      "pending": 0,
+      "decodedRGBABytes": 29304164,
+      "failures": []
+    },
+    "largest": [
+      {
+        "key": "l21_scene_coast",
+        "w": 1280,
+        "h": 720,
+        "rgba": 3686400
+      },
+      {
+        "key": "l21_scene_city",
+        "w": 1280,
+        "h": 720,
+        "rgba": 3686400
+      },
+      {
+        "key": "t213_coast_sky",
+        "w": 588,
+        "h": 263,
+        "rgba": 618576
+      },
+      {
+        "key": "l21_stone_coast",
+        "w": 384,
+        "h": 384,
+        "rgba": 589824
+      },
+      {
+        "key": "l21_stone_sky",
+        "w": 384,
+        "h": 384,
+        "rgba": 589824
+      },
+      {
+        "key": "l21_stone_forest",
+        "w": 384,
+        "h": 384,
+        "rgba": 589824
+      },
+      {
+        "key": "l21_stone_fungi",
+        "w": 384,
+        "h": 384,
+        "rgba": 589824
+      },
+      {
+        "key": "l21_stone_ocean",
+        "w": 384,
+        "h": 384,
+        "rgba": 589824
+      },
+      {
+        "key": "l21_stone_desert",
+        "w": 384,
+        "h": 384,
+        "rgba": 589824
+      },
+      {
+        "key": "l21_stone_snow",
+        "w": 384,
+        "h": 384,
+        "rgba": 589824
+      }
+    ]
+  }
+}

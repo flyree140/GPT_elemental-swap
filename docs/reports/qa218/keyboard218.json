@@ -1,0 +1,144 @@
+{
+  "version": "21.8.0",
+  "passed": 14,
+  "total": 14,
+  "results": [
+    {
+      "name": "Standalone boots with all assets",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Fixture stands on a real collidable floor",
+      "pass": true,
+      "detail": {
+        "ground": true,
+        "y": 12456,
+        "floor": 12516
+      }
+    },
+    {
+      "name": "Actual keyboard ZZX is parsed as a launcher",
+      "pass": true,
+      "detail": [
+        "Z",
+        "ZZ",
+        "ZZX"
+      ]
+    },
+    {
+      "name": "Actual Space confirms a launcher jump cancel",
+      "pass": true,
+      "detail": {
+        "key": null,
+        "ground": false,
+        "vy": -669.6666666666666,
+        "hit": null
+      }
+    },
+    {
+      "name": "Actual airborne ZZX reaches dive finisher",
+      "pass": true,
+      "detail": [
+        "AIRZ",
+        "AIRZZ",
+        "AIRZZX"
+      ]
+    },
+    {
+      "name": "F keyboard starts recorded attack replay",
+      "pass": true,
+      "detail": {
+        "active": true,
+        "counts": {
+          "attacks": 6,
+          "skills": 0,
+          "swaps": 0
+        }
+      }
+    },
+    {
+      "name": "Keyboard echo completes all snapshotted events",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Real double-tap plus Z starts DASHZ",
+      "pass": true,
+      "detail": {
+        "key": "DASHZ",
+        "ground": true,
+        "vy": 0,
+        "hit": false
+      }
+    },
+    {
+      "name": "Real Shift plus Z starts DASHZ",
+      "pass": true,
+      "detail": {
+        "key": "DASHZ",
+        "ground": true,
+        "vy": 0,
+        "hit": false
+      }
+    },
+    {
+      "name": "Real C then F includes delayed skill damage",
+      "pass": true,
+      "detail": {
+        "active": true,
+        "duration": 3.0866666666666664,
+        "hits": 1
+      }
+    },
+    {
+      "name": "Help panel shows updated controls",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Desktop 1366x768 fixed HUD remains inside viewport",
+      "pass": true,
+      "detail": [
+        {
+          "id": "skills216",
+          "x": 449.5,
+          "y": 550,
+          "w": 467,
+          "h": 68,
+          "right": 916.5,
+          "bottom": 618
+        },
+        {
+          "id": "comboGuide216",
+          "x": 496.953125,
+          "y": 677,
+          "w": 372.09375,
+          "h": 34,
+          "right": 869.046875,
+          "bottom": 711
+        },
+        {
+          "id": "echoJournal218",
+          "x": 610.84375,
+          "y": 720,
+          "w": 144.3125,
+          "h": 20,
+          "right": 755.15625,
+          "bottom": 740
+        }
+      ]
+    },
+    {
+      "name": "Standalone makes zero HTTP / HTTPS requests",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "No uncaught JavaScript errors during keyboard play",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "pageErrors": []
+}

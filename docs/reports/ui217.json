@@ -1,0 +1,45 @@
+{
+  "pageErrors": [],
+  "standaloneTabs": [
+    {
+      "tab": "character",
+      "result": "驗證通過。此頁僅作基本格式檢查，請進遊戲做完整驗證。"
+    },
+    {
+      "tab": "combat",
+      "result": "驗證通過。此頁僅作基本格式檢查，請進遊戲做完整驗證。"
+    },
+    {
+      "tab": "skills",
+      "result": "驗證通過。此頁僅作基本格式檢查，請進遊戲做完整驗證。"
+    },
+    {
+      "tab": "world",
+      "result": "驗證通過。此頁僅作基本格式檢查，請進遊戲做完整驗證。"
+    },
+    {
+      "tab": "enemies",
+      "result": "驗證通過。此頁僅作基本格式檢查，請進遊戲做完整驗證。"
+    },
+    {
+      "tab": "json",
+      "result": "驗證通過。此頁僅作基本格式檢查，請進遊戲做完整驗證。"
+    }
+  ],
+  "exportedWidth": 225,
+  "compactViewport": {
+    "document": 960,
+    "viewport": 960,
+    "panel": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 640,
+      "top": 0,
+      "right": 960,
+      "bottom": 640,
+      "left": 0
+    }
+  },
+  "note": "Viewport UI check only; no physical mobile hardware or persistence benchmark."
+}
