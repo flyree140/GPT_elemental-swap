@@ -1,0 +1,121 @@
+{
+  "game": "澄界 · 既視連舞",
+  "build": "21.8.0",
+  "date": "2026-10-08",
+  "entry": "index.html",
+  "offline": "PLAY_OFFLINE.html",
+  "editor": "editor.html",
+  "engine": "HTML5 Canvas2D + JavaScript; original 21.x runtime, not Godot",
+  "baseArchive": "ESV217_FULL_SINGLE.zip",
+  "roomsRetained": 300,
+  "chapterRoomsRetained": 12,
+  "chapterLinksRetained": 14,
+  "logicalRegionsRetained": 44,
+  "artBiomeGroups": 8,
+  "classStylesRetained": 6,
+  "classSkillsRetained": 30,
+  "newFirstTierBranches": 12,
+  "editableCommands": 49,
+  "elementsRetained": 10,
+  "worldLawsRetained": 9,
+  "newGearAndConsumables": 10,
+  "combatBase": {
+    "Z": {
+      "width": 168,
+      "height": 88,
+      "firstHitSeconds": 0.065,
+      "durationSeconds": 0.24
+    },
+    "X": {
+      "width": 272,
+      "height": 164,
+      "firstHitSeconds": 0.215,
+      "durationSeconds": 0.59
+    }
+  },
+  "swap": {
+    "airborneAllowed": true,
+    "airborneRecharge": false,
+    "sharedCapacityByRank": [
+      1,
+      2,
+      3
+    ],
+    "groundStableSeconds": 0.2,
+    "rechargeSeconds": 1.25,
+    "recastRefills": false
+  },
+  "hero": {
+    "selectedWholeBodyFrames": 59,
+    "lightFrames": 2,
+    "heavyFrames": 4,
+    "source": "User-supplied reference crops, cleaned and retimed; not newly hand-drawn animation"
+  },
+  "documentation": {
+    "developmentManualPages": 17,
+    "designBookPages": 28,
+    "formats": [
+      "pdf",
+      "docx",
+      "md"
+    ],
+    "historicalManualVersion": "21.7",
+    "newAddendum": "docs/21.8_既視感與連段.md"
+  },
+  "tests": {
+    "regressionPassed": 85,
+    "regressionTotal": 85,
+    "compatibilityPassed": 82,
+    "compatibilityTotal": 82,
+    "featurePassed": 124,
+    "featureTotal": 124,
+    "keyboardPassed": 14,
+    "keyboardTotal": 14,
+    "totalPassed": 305,
+    "total": 305,
+    "pageErrors": 0,
+    "physicalMobileTested": false,
+    "all300RoomsHumanPlaythrough": false,
+    "crossBrowserPersistenceVerified": false,
+    "deployedToUserGitHub": false,
+    "editorExportRecheckedFor218": false
+  },
+  "notCompleted": [
+    "Full eight-biome hand-authored game",
+    "Production-quality original animation for every entity",
+    "All 45 elemental pair reactions",
+    "Higher-tier skill trees",
+    "General wild pet taming",
+    "Full race quest lines and multiple endings",
+    "Multiplayer backend"
+  ],
+  "echo": {
+    "windowSeconds": 3,
+    "recordCountTruncation": false,
+    "damageScale": 0.4,
+    "ghostOnlySwap": true,
+    "followOwnedPendingHits": true,
+    "finiteProjectileTail": true,
+    "recreateFullPersistentFields": false,
+    "recursiveReplay": false
+  },
+  "combatInput": {
+    "bufferSeconds": 0.28,
+    "maximumQueuedPresses": 3,
+    "comboGapSeconds": 0.85,
+    "contexts": [
+      "ground",
+      "dash",
+      "air",
+      "dash-air"
+    ],
+    "doubleTapSeconds": 0.23,
+    "launchJumpCancel": true,
+    "lowDiveLandingImpact": true
+  },
+  "offlinePackaging": {
+    "embeddedMedia": true,
+    "singleHtmlPortable": true,
+    "httpRequestsObservedInSmokeTest": 0
+  }
+}

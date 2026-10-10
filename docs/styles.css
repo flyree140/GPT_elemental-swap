@@ -1,3 +1,4 @@
+
 :root{
   color-scheme:dark;
   --ink:#071116;--panel:rgba(8,20,24,.91);--panel2:rgba(235,245,238,.94);--line:#34555c;
@@ -77,3 +78,4 @@ body.scenic11 .haven-badge{bottom:14px;background:#12292daa;font-size:11px}
 .haven-card>span{display:block;padding:12px}.haven-card strong{display:block;font-size:17px;color:#e6e5d1;margin:5px 0}.haven-card small{font-size:10px;letter-spacing:.05em;color:#c8c292}.haven-card em{font-style:normal;font-size:11px;color:#a2c1aa}.haven-card.chosen{outline:2px solid #e2cb8e}.haven-card.locked{opacity:.63}
 @media(max-width:1050px){.service-panel{grid-template-columns:40% 60%;min-height:560px}.service-content{padding:40px 22px 22px}.service-visual{min-height:520px}.player-hud{width:270px}.objective-hud{width:260px}.area-hud strong{font-size:14px}#havenDirectory{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:650px){.service-panel{grid-template-columns:1fr}.service-visual{min-height:180px;max-height:220px;padding:35px 15px 10px}.service-kicker{top:12px}#serviceScene{max-height:150px;object-fit:contain}.service-item{display:none}#serviceRoom{margin:2px}.service-content{padding:24px 18px}.service-content h2{font-size:24px}#havenDirectory{grid-template-columns:1fr}.haven-badge{max-width:90%;white-space:normal;text-align:center;font-size:10px;bottom:160px}body.inside-haven .element-bar{grid-template-columns:repeat(5,1fr)}}
+

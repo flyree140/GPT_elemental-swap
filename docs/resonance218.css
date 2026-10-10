@@ -1,0 +1,8 @@
+/* Reserved heights: counts and command descriptions never displace the skill bar. */
+#comboGuide216 {height:34px;min-height:34px;max-height:34px;line-height:17px;overflow:hidden;display:block;white-space:normal;font-size:11px;}
+#echoJournal218 {height:20px;line-height:20px;min-height:20px;overflow:hidden;white-space:nowrap;text-align:center;font-size:10px;font-variant-numeric:tabular-nums;color:#e6cd9f;letter-spacing:.35px;}
+.r-help218 {border:1px solid #48687a;border-radius:8px;padding:18px;margin-bottom:18px;background:#0c2030;}
+.r-help218 h3{margin-top:0;color:#f2dbb0;}.r-help218 p{line-height:1.8;}
+.r-route-table218>div{display:grid;grid-template-columns:minmax(230px,1fr) 1.1fr;gap:18px;padding:11px 0;border-bottom:1px solid #314454;}
+.r-route-table218 kbd{color:#d2f4ff;background:#123044;border:1px solid #476a80;box-shadow:none;height:auto;min-height:34px;padding:7px 10px;justify-content:start;font-size:12px;line-height:1.7;white-space:normal;}.r-route-table218 span{line-height:1.7;}
+@media(max-width:750px){.r-route-table218>div{grid-template-columns:1fr;gap:4px;}#comboGuide216{font-size:10px;}}

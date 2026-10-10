@@ -1,3 +1,4 @@
+
 /* V17 · Afterlight — scalable desktop and multi-touch UI */
 :root{--x-paper:#e8e6d8;--x-ink:#193c40;--x-gold:#e7c681;--x-mint:#89d9c0}
 [hidden]{display:none!important}button:disabled{opacity:.45;cursor:not-allowed}button:focus-visible{outline:3px solid #fff0bb;outline-offset:3px}
@@ -31,3 +32,4 @@ body:not(.mobile-mode) .vision-live{left:auto!important;right:16px!important;top
 .mobile-mode .message{font-size:10px;max-width:65%}.mobile-mode .interaction{font-size:11px}.mobile-mode .topbar{flex-direction:row!important;align-items:center!important}
 .master-class17{display:inline-flex;gap:10px;align-items:center;font-size:12px;color:#cfd9cb;margin:0 0 16px}.master-class17 select{background:#17383e;border:1px solid #719d94;color:#f0f4dd;padding:8px 10px;border-radius:6px;max-width:240px;font-size:13px}.mobile-mode .master-class17{width:100%;justify-content:space-between}.mobile-mode .master-class17 select{max-width:68%}
 @media(orientation:landscape) and (max-height:550px){.mobile-mode .vision-live{width:175px!important;top:60px!important}.mobile-mode .expedition-hud{top:110px!important;width:175px}.mobile-mode .message{max-width:42%;font-size:9px}.mobile-mode .interaction{font-size:10px;padding:6px 9px}.mobile-mode .touch-aux{gap:4px}.mobile-mode .touch-aux button{min-width:34px}}
+

@@ -1,3 +1,4 @@
+
 /* CLEARWORLD / V18. Intentional readable controls; no external font dependency. */
 :root{--ink18:#e4e8d7;--muted18:#b8cec1;--line18:#52746d;--gold18:#efcf90;--panel18:#15323a;--mint18:#9cdec8}
 button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #f8d98a!important;outline-offset:3px}button:disabled{opacity:.46;cursor:not-allowed}.panel{scrollbar-color:#92b7a8 #18323a;scrollbar-width:thin}.modal{backdrop-filter:blur(6px)}.panel p{line-height:1.7}.panel .close{z-index:9;position:sticky;float:right;top:0;margin:-9px -6px 0 10px;background:#28484c;color:#f5e6bf;border:1px solid #76978a}
@@ -21,3 +22,4 @@ button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #f8d
 #visionPanel .panel h3{color:#d6dfcb}#visionPanel .panel>small{color:#a7c3b6}
 /* Active cast information takes priority over a nearby furniture prompt. */
 .game-frame:has(#castPreview18:not([hidden])) #interactionPrompt{opacity:0!important;pointer-events:none}
+

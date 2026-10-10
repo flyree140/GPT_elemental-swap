@@ -1,3 +1,4 @@
+
 /* V19: map-first clarity. Keep actual game visible; never use an illustration as terrain. */
 :root{--ink19:#071b24;--panel19:#0d2730;--line19:#42616a;--aqua19:#a8e0db;--gold19:#ecd39b}
 button:focus-visible,input:focus-visible{outline:2px solid var(--gold19);outline-offset:3px}
@@ -34,3 +35,4 @@ body:not(.mobile-mode) .objective-hud .threat.safe{background:#163932!important;
 /* Small landscape screens keep the minimap out of the movement thumb area. */
 @media(orientation:landscape) and (max-height:550px){.mobile-mode #minimap19{left:212px;top:8px;width:132px}.mobile-mode #minimapCanvas19{height:62px}}
 @media(orientation:landscape) and (max-width:700px) and (max-height:550px){.mobile-mode #minimap19{left:190px;width:112px}.mobile-mode #minimapCanvas19{height:50px}}
+
