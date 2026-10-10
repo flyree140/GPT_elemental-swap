@@ -1,0 +1,327 @@
+{
+  "version": "21.5.0",
+  "date": "2026-09-22",
+  "tests": [
+    {
+      "name": "boot: required art decoded",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "world: 300 rooms, terrain and enemies retained",
+      "pass": true,
+      "detail": [
+        300,
+        9760,
+        497,
+        1043
+      ]
+    },
+    {
+      "name": "air swap: fire",
+      "pass": true,
+      "detail": {
+        "from": {
+          "x": 1966,
+          "y": 12517
+        },
+        "to": {
+          "x": 2096,
+          "y": 12492
+        },
+        "reason": "success"
+      }
+    },
+    {
+      "name": "air swap: ice",
+      "pass": true,
+      "detail": {
+        "from": {
+          "x": 1966,
+          "y": 12517
+        },
+        "to": {
+          "x": 2096,
+          "y": 12492
+        },
+        "reason": "success"
+      }
+    },
+    {
+      "name": "air swap: lightning",
+      "pass": true,
+      "detail": {
+        "from": {
+          "x": 1966,
+          "y": 12517
+        },
+        "to": {
+          "x": 2096,
+          "y": 12492
+        },
+        "reason": "success"
+      }
+    },
+    {
+      "name": "air swap: wind",
+      "pass": true,
+      "detail": {
+        "from": {
+          "x": 1966,
+          "y": 12517
+        },
+        "to": {
+          "x": 2096,
+          "y": 12492
+        },
+        "reason": "success"
+      }
+    },
+    {
+      "name": "air swap: earth",
+      "pass": true,
+      "detail": {
+        "from": {
+          "x": 1966,
+          "y": 12517
+        },
+        "to": {
+          "x": 2096,
+          "y": 12492
+        },
+        "reason": "success"
+      }
+    },
+    {
+      "name": "air swap: water",
+      "pass": true,
+      "detail": {
+        "from": {
+          "x": 1966,
+          "y": 12517
+        },
+        "to": {
+          "x": 2096,
+          "y": 12492
+        },
+        "reason": "success"
+      }
+    },
+    {
+      "name": "air swap: light",
+      "pass": true,
+      "detail": {
+        "from": {
+          "x": 1966,
+          "y": 12517
+        },
+        "to": {
+          "x": 2096,
+          "y": 12492
+        },
+        "reason": "success"
+      }
+    },
+    {
+      "name": "air swap: shadow",
+      "pass": true,
+      "detail": {
+        "from": {
+          "x": 1966,
+          "y": 12517
+        },
+        "to": {
+          "x": 2096,
+          "y": 12492
+        },
+        "reason": "success"
+      }
+    },
+    {
+      "name": "air swap: nature",
+      "pass": true,
+      "detail": {
+        "from": {
+          "x": 1966,
+          "y": 12517
+        },
+        "to": {
+          "x": 2096,
+          "y": 12492
+        },
+        "reason": "success"
+      }
+    },
+    {
+      "name": "air swap: gravity",
+      "pass": true,
+      "detail": {
+        "from": {
+          "x": 1966,
+          "y": 12517
+        },
+        "to": {
+          "x": 2096,
+          "y": 12492
+        },
+        "reason": "success"
+      }
+    },
+    {
+      "name": "rank 0: capacity 1",
+      "pass": true,
+      "detail": {
+        "successes": 1,
+        "cap": 1
+      }
+    },
+    {
+      "name": "rank 1: capacity 1",
+      "pass": true,
+      "detail": {
+        "successes": 1,
+        "cap": 1
+      }
+    },
+    {
+      "name": "rank 2: capacity 2",
+      "pass": true,
+      "detail": {
+        "successes": 2,
+        "cap": 2
+      }
+    },
+    {
+      "name": "rank 3: capacity 3",
+      "pass": true,
+      "detail": {
+        "successes": 3,
+        "cap": 3
+      }
+    },
+    {
+      "name": "rank 4: capacity 3",
+      "pass": true,
+      "detail": {
+        "successes": 3,
+        "cap": 3
+      }
+    },
+    {
+      "name": "recharge: no early charge",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "recharge: 1.25s while airborne",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "recharge: pause freezes timer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "shared budget: element switch is not refill",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "shared budget: re-fire is not refill",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "aim: up",
+      "pass": true,
+      "detail": {
+        "vx": 0,
+        "vy": -430
+      }
+    },
+    {
+      "name": "aim: down",
+      "pass": true,
+      "detail": {
+        "vx": 0,
+        "vy": 430
+      }
+    },
+    {
+      "name": "aim: diagonal",
+      "pass": true,
+      "detail": {
+        "vx": 304.0559159102154,
+        "vy": -304.0559159102154
+      }
+    },
+    {
+      "name": "blocked gate: atomic rejection",
+      "pass": true,
+      "detail": "gate"
+    },
+    {
+      "name": "solid wall: atomic rejection",
+      "pass": true,
+      "detail": "solid"
+    },
+    {
+      "name": "targeting: latest anchor before nearby enemy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "boss: blink beside unbroken giant",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "15 jobs: fixed-length finite joints",
+      "pass": true,
+      "detail": {
+        "samples": 28800,
+        "maxError": 3.552713678800501e-14
+      }
+    },
+    {
+      "name": "mobile: dedicated swap/re-aim buttons",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "player: render state does not leak into save/network JSON",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "settings: D/S mappings",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime: no fault",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "assets: no failed image request",
+      "pass": true,
+      "detail": {
+        "catalogKeys": 486,
+        "requested": 109,
+        "loaded": 108,
+        "pending": 1,
+        "decodedRGBABytes": 29899160,
+        "failures": []
+      }
+    }
+  ],
+  "passed": 35,
+  "failed": 0,
+  "notes": [
+    "Headless Chromium. Does not certify every browser or a full 300-room playthrough.",
+    "Gate/wall and fixed-boss failure paths are isolated with controlled geometry; ten elemental air swaps use real starting-room solids."
+  ],
+  "browserErrors": []
+}

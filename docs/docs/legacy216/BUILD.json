@@ -1,0 +1,45 @@
+{
+  "game": "澄界：歸零之熵",
+  "build": "21.6.0",
+  "date": "2026-09-23",
+  "entry": "index.html",
+  "engine": "HTML5 Canvas + JavaScript; original 21.x runtime, not Godot",
+  "roomsRetained": 300,
+  "authoredChapterRooms": 12,
+  "chapterLinks": 14,
+  "newLawStructures": 44,
+  "styles": 6,
+  "classActions": 30,
+  "elements": 10,
+  "worldLaws": 9,
+  "echo": {
+    "independentAction": true,
+    "seconds": 3,
+    "damageRatio": 0.4,
+    "cooldownSeconds": 3.4
+  },
+  "swap": {
+    "groundRequired": false,
+    "sharedCapacity": [
+      1,
+      2,
+      3
+    ],
+    "rechargeSeconds": 1.25,
+    "recastRefills": false
+  },
+  "hero": {
+    "selectedWholeBodyFrames": 59,
+    "poseGroups": 12,
+    "source": "User-approved A07, extracted and retimed; not newly hand-drawn"
+  },
+  "tests": {
+    "system": 85,
+    "interaction": 13,
+    "physicalMobileTested": false,
+    "all300RoomsHumanPlaythrough": false,
+    "multiplayerRetested": false,
+    "deployedToUserGitHub": false
+  },
+  "offline": "ESV21_6_0_PLAY_OFFLINE.html supplied separately to avoid duplication"
+}

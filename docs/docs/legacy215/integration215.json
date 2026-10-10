@@ -1,0 +1,162 @@
+{
+  "multiFileBoot": {
+    "boot": {
+      "version": "21.5.0",
+      "status": "ready",
+      "ready": 111,
+      "total": 111,
+      "failed": [],
+      "started": 769.3999999999069,
+      "frames": 80,
+      "loadedMs": 375,
+      "assets": {
+        "catalogKeys": 486,
+        "requested": 108,
+        "loaded": 108,
+        "pending": 0,
+        "decodedRGBABytes": 29899160,
+        "failures": []
+      }
+    },
+    "art": {
+      "catalogKeys": 486,
+      "requested": 108,
+      "loaded": 108,
+      "pending": 0,
+      "decodedRGBABytes": 29899160,
+      "failures": []
+    },
+    "dimensions": [
+      1440,
+      900
+    ],
+    "world": [
+      300,
+      9760,
+      497
+    ]
+  },
+  "keyboardAirSwap": {
+    "before": {
+      "x": 1966,
+      "y": 12527.132222222226,
+      "ground": false,
+      "success": 0,
+      "shots": 1
+    },
+    "after": {
+      "x": 2096.3333333333326,
+      "y": 12565.721111111116,
+      "ground": false,
+      "success": 1,
+      "result": "success"
+    },
+    "pass": true
+  },
+  "reaimKey": {
+    "live": 1,
+    "last": "fired",
+    "used": 1
+  },
+  "performance": {
+    "samples": 309,
+    "quality": "balanced",
+    "scale": 0.7951388888888888,
+    "internal": [
+      1145,
+      716
+    ],
+    "frame": {
+      "mean": 16.88187702265372,
+      "p50": 16.699999999999818,
+      "p95": 16.700000000000728,
+      "max": 33.30000000000018
+    },
+    "update": {
+      "mean": 1.7200647249266288,
+      "p50": 1.5,
+      "p95": 2.900000000372529,
+      "max": 6.399999999906868
+    },
+    "render": {
+      "mean": 2.2634304207161935,
+      "p50": 2.1000000000931323,
+      "p95": 3.1000000000931323,
+      "max": 6.7000000001862645
+    },
+    "cpu": {
+      "mean": 3.983818770238593,
+      "p50": 3.6999999997206032,
+      "p95": 6,
+      "max": 11.599999999627471
+    },
+    "metrics": {
+      "simSteps": 573,
+      "collisionQueries": 15448,
+      "collisionCandidates": 148395,
+      "tileBuilds": 18
+    },
+    "tileCache": 18,
+    "npcCache": 16
+  },
+  "runtimeAssetsAfterPlay": {
+    "catalogKeys": 486,
+    "requested": 109,
+    "loaded": 109,
+    "pending": 0,
+    "decodedRGBABytes": 30423448,
+    "failures": []
+  },
+  "menus": [
+    {
+      "key": "m",
+      "open": [
+        "mapPanel"
+      ]
+    },
+    {
+      "key": "l",
+      "open": [
+        "masteryPanel"
+      ]
+    },
+    {
+      "key": "o",
+      "open": [
+        "expeditionPanel"
+      ]
+    }
+  ],
+  "mobile": {
+    "size": [
+      844,
+      390
+    ],
+    "buttons": [
+      {
+        "text": "換位 D",
+        "x": 134,
+        "y": 194,
+        "width": 68
+      },
+      {
+        "text": "重射 S",
+        "x": 134,
+        "y": 239,
+        "width": 68
+      }
+    ],
+    "fault": ""
+  },
+  "allCatalogAssets": {
+    "catalogKeys": 486,
+    "requested": 440,
+    "loaded": 440,
+    "pending": 0,
+    "decodedRGBABytes": 254708020,
+    "failures": []
+  },
+  "requestMissing": [],
+  "browserErrors": [],
+  "fault": ""
+}

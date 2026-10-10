@@ -1,0 +1,6970 @@
+{
+  "map": {
+    "assets/rooms/cave_atlas.png": "assets/packed/0043062dc05c3f85.webp",
+    "assets/rooms/shelter_atlas.png": "assets/packed/00d88dc7eec248f3.webp",
+    "assets/rooms/facility_atlas.png": "assets/packed/fedbf4e6754d552e.webp",
+    "assets/art20/mid_crystal.png": "assets/packed/4facbd91eb65b24b.webp",
+    "assets/art20/map_crystal.png": "assets/packed/bfcbbc2fe4d8f492.webp",
+    "assets/art20/edge_city.png": "assets/packed/e10b7b7827bf72f0.webp",
+    "assets/art20/creature_insect_boss.png": "assets/packed/769a05d142ec052d.webp",
+    "assets/art20/fixture_shelf.png": "assets/packed/a9080dc75e4705ee.webp",
+    "assets/art20/source_coast.png": "assets/packed/435787cfb47c6995.webp",
+    "assets/art20/mid_coast.png": "assets/packed/2f87be8f662bd6c1.webp",
+    "assets/art20/bg_fungi.png": "assets/packed/cc7d5cc3eb5a4581.webp",
+    "assets/art20/edge_sky.png": "assets/packed/c10b904dd62cb575.webp",
+    "assets/art20/map_cave.png": "assets/packed/ff27f00fdd5d73cc.webp",
+    "assets/art20/creature_bird.png": "assets/packed/c21bb4e3587a6eaf.webp",
+    "assets/art20/bg_ocean.png": "assets/packed/4bac99500c6aebb1.webp",
+    "assets/art20/portrait_warden.png": "assets/packed/11a0a2a4613b127b.webp",
+    "assets/art20/tile_fungi.png": "assets/packed/05800dbd41a5ac8a.webp",
+    "assets/art20/creature_wisp.png": "assets/packed/b035c1f3c4df886d.webp",
+    "assets/art20/creature_bird_boss.png": "assets/packed/01438c807237062b.webp",
+    "assets/art20/mid_snow.png": "assets/packed/fb7e4c4511c612a2.webp",
+    "assets/art20/bg_city.png": "assets/packed/a7ab8e302fa57bb0.webp",
+    "assets/art20/fixture_lamp.png": "assets/packed/c62659c0166a1dba.webp",
+    "assets/art20/map_fungi.png": "assets/packed/fe37eb96b27817b7.webp",
+    "assets/art20/vine_volcano.png": "assets/packed/93dc2a67e081a5c3.webp",
+    "assets/art20/vine_ocean.png": "assets/packed/353270e28c751bc8.webp",
+    "assets/art20/creature_eel_boss.png": "assets/packed/bd4d79e71bab83f7.webp",
+    "assets/art20/map_forest.png": "assets/packed/f48b2cac3df5e1f6.webp",
+    "assets/art20/creature_ray_boss.png": "assets/packed/2ba7198e9be1ee42.webp",
+    "assets/art20/portrait_forager.png": "assets/packed/4cfe4c385f7f3a3c.webp",
+    "assets/art20/bg_sky.png": "assets/packed/a73d359ed364c189.webp",
+    "assets/art20/vine_city.png": "assets/packed/a87f8b5159ff18e5.webp",
+    "assets/art20/edge_desert.png": "assets/packed/c824fe556fe3cecd.webp",
+    "assets/art20/creature_crab_boss.png": "assets/packed/fef099a1d31d5c04.webp",
+    "assets/art20/tile_coast.png": "assets/packed/f9ffb2f21ad4c163.webp",
+    "assets/art20/creature_moth_boss.png": "assets/packed/6f99fc53d74d7402.webp",
+    "assets/art20/fixture_workbench.png": "assets/packed/18c3ed834256e3cd.webp",
+    "assets/art20/creature_robot_boss.png": "assets/packed/c5956b506a5fe1e9.webp",
+    "assets/art20/source_fungi.png": "assets/packed/5b33a2d16eca0768.webp",
+    "assets/art20/creature_snake_boss.png": "assets/packed/ec12cf70bdd2ef42.webp",
+    "assets/art20/source_snow.png": "assets/packed/71130fa477e5b25b.webp",
+    "assets/art20/edge_volcano.png": "assets/packed/88745296f8a8a9da.webp",
+    "assets/art20/creature_worm.png": "assets/packed/b479002ba3e812b4.webp",
+    "assets/art20/tile_snow.png": "assets/packed/5be482ff2f38c306.webp",
+    "assets/art20/edge_ocean.png": "assets/packed/e9ddb53bc9047d34.webp",
+    "assets/art20/creature_shade.png": "assets/packed/0e0d1758fd1c9c13.webp",
+    "assets/art20/bg_snow.png": "assets/packed/145eb2b29e4a9e97.webp",
+    "assets/art20/creature_beast_boss.png": "assets/packed/d61104fb93f9c5b1.webp",
+    "assets/art20/bg_crystal.png": "assets/packed/61a63addd017ab3c.webp",
+    "assets/art20/map_desert.png": "assets/packed/14be610de28dfca3.webp",
+    "assets/art20/vine_forest.png": "assets/packed/e62d72d6173e4772.webp",
+    "assets/art20/edge_snow.png": "assets/packed/860213f38d9f4063.webp",
+    "assets/art20/creature_knight.png": "assets/packed/67e64fe322dae6ab.webp",
+    "assets/art20/bg_coast.png": "assets/packed/e0e9163a0010fb81.webp",
+    "assets/art20/mid_fungi.png": "assets/packed/ffebd5278631d95c.webp",
+    "assets/art20/fixture_sofa.png": "assets/packed/9a9bb3776e5137c2.webp",
+    "assets/art20/creature_robot.png": "assets/packed/f2e40899fe69f5cd.webp",
+    "assets/art20/edge_coast.png": "assets/packed/62f2bfa74c6135eb.webp",
+    "assets/art20/fixture_purifier.png": "assets/packed/6b85cbb35eeb6afa.webp",
+    "assets/art20/mid_city.png": "assets/packed/57a4b6840ff0e349.webp",
+    "assets/art20/creature_mushroom.png": "assets/packed/3514bb4d0ee1ed79.webp",
+    "assets/art20/portrait_beast.png": "assets/packed/7e2d22faad8ab243.webp",
+    "assets/art20/tile_desert.png": "assets/packed/0ac5340da8370e1e.webp",
+    "assets/art20/bg_desert.png": "assets/packed/9f24708ba56b20d8.webp",
+    "assets/art20/creature_jelly_boss.png": "assets/packed/0561a5632ea19504.webp",
+    "assets/art20/edge_shadow.png": "assets/packed/598455a9ab9b85f6.webp",
+    "assets/art20/creature_snail.png": "assets/packed/8167b0e97526d478.webp",
+    "assets/art20/creature_fish.png": "assets/packed/090a408057611175.webp",
+    "assets/art20/creature_snake.png": "assets/packed/32756f5f83eeecc0.webp",
+    "assets/art20/creature_spider_boss.png": "assets/packed/b9eacf55d02aa3b7.webp",
+    "assets/art20/bg_cave.png": "assets/packed/46bec2883e42f1de.webp",
+    "assets/art20/portrait_engineer.png": "assets/packed/e2ebf50f8f6eadd9.webp",
+    "assets/art20/creature_knight_boss.png": "assets/packed/3a6610a451a371a8.webp",
+    "assets/art20/vine_desert.png": "assets/packed/56add4a20bcb602f.webp",
+    "assets/art20/fixture_fridge.png": "assets/packed/91d8b187c11b192b.webp",
+    "assets/art20/bg_volcano.png": "assets/packed/cc068a49a92bc107.webp",
+    "assets/art20/creature_moth.png": "assets/packed/1155b06bf295c280.webp",
+    "assets/art20/mid_desert.png": "assets/packed/6a9a2a9f4808149a.webp",
+    "assets/art20/portrait_rift.png": "assets/packed/1556606b86d065f0.webp",
+    "assets/art20/creature_crab.png": "assets/packed/f1480993422fb256.webp",
+    "assets/art20/bg_forest.png": "assets/packed/88fa7443ef0d3d08.webp",
+    "assets/art20/map_sky.png": "assets/packed/932eb86198b002a5.webp",
+    "assets/art20/creature_ghost_boss.png": "assets/packed/138c9c81a392b73c.webp",
+    "assets/art20/fixture_radio.png": "assets/packed/9cd8336ff362f8c6.webp",
+    "assets/art20/map_ocean.png": "assets/packed/33432437439c003f.webp",
+    "assets/art20/portrait_chronist.png": "assets/packed/7a8d3525bd6d475c.webp",
+    "assets/art20/creature_worm_boss.png": "assets/packed/bd1806214856705d.webp",
+    "assets/art20/fixture_terminal.png": "assets/packed/6b85cbb35eeb6afa.webp",
+    "assets/art20/creature_fungus.png": "assets/packed/46872c8ea696569d.webp",
+    "assets/art20/fixture_locker.png": "assets/packed/9a9bb3776e5137c2.webp",
+    "assets/art20/mid_volcano.png": "assets/packed/3232701cc0014211.webp",
+    "assets/art20/tile_sky.png": "assets/packed/284fe37b07998f27.webp",
+    "assets/art20/creature_shade_boss.png": "assets/packed/fa554c5d99fb3144.webp",
+    "assets/art20/creature_mushroom_boss.png": "assets/packed/81c32d79b16e8896.webp",
+    "assets/art20/vine_sky.png": "assets/packed/91cb7f99aef82c22.webp",
+    "assets/art20/tile_cave.png": "assets/packed/f554b2474f1d82cf.webp",
+    "assets/art20/portrait_gunner.png": "assets/packed/5afb3b13ea01174d.webp",
+    "assets/art20/tile_ocean.png": "assets/packed/696ea6bf04158127.webp",
+    "assets/art20/portrait_sharpshooter.png": "assets/packed/e584c5d4a0c5ff88.webp",
+    "assets/art20/creature_owl.png": "assets/packed/3776585861b96ab9.webp",
+    "assets/art20/edge_fungi.png": "assets/packed/7f4b341a5ad93640.webp",
+    "assets/art20/vine_fungi.png": "assets/packed/f55cff84d60f83cc.webp",
+    "assets/art20/creature_beast.png": "assets/packed/d18255a4e87284cc.webp",
+    "assets/art20/creature_scorpion_boss.png": "assets/packed/a4e0baa3b875c6f3.webp",
+    "assets/art20/portrait_chain.png": "assets/packed/76cac11255a5883a.webp",
+    "assets/art20/creature_golem_boss.png": "assets/packed/20146e7f60813bbe.webp",
+    "assets/art20/source_desert.png": "assets/packed/feefb17be3c0dc3e.webp",
+    "assets/art20/portrait_dreamwalker.png": "assets/packed/4e96c34887dcc444.webp",
+    "assets/art20/map_coast.png": "assets/packed/d19299c654be2584.webp",
+    "assets/art20/bg_shadow.png": "assets/packed/fbc4f68028caa2ea.webp",
+    "assets/art20/portrait_alchemist.png": "assets/packed/8e405b2a760f550f.webp",
+    "assets/art20/creature_insect.png": "assets/packed/27c26751ca825281.webp",
+    "assets/art20/tile_crystal.png": "assets/packed/3f4c6c90b9c9b51b.webp",
+    "assets/art20/mid_forest.png": "assets/packed/cafa091ef7e0e19c.webp",
+    "assets/art20/mid_sky.png": "assets/packed/56afdc9d9d7f18b3.webp",
+    "assets/art20/creature_golem.png": "assets/packed/7f9be2ce6e9a42d1.webp",
+    "assets/art20/portrait_monk.png": "assets/packed/1810280fac214934.webp",
+    "assets/art20/creature_jelly.png": "assets/packed/9008db12a0af4928.webp",
+    "assets/art20/mid_shadow.png": "assets/packed/7cd1c546216d22af.webp",
+    "assets/art20/creature_fungus_boss.png": "assets/packed/85cbff9e098fe8f5.webp",
+    "assets/art20/creature_wisp_boss.png": "assets/packed/c3a1e71217f9a55a.webp",
+    "assets/art20/map_volcano.png": "assets/packed/bf6e3a2150994e5d.webp",
+    "assets/art20/tile_city.png": "assets/packed/a3f24af73fe1fccc.webp",
+    "assets/art20/tile_volcano.png": "assets/packed/b3f0baf9d5ba72dc.webp",
+    "assets/art20/portrait_puppeteer.png": "assets/packed/73f7b708749fd13d.webp",
+    "assets/art20/vine_shadow.png": "assets/packed/00ab0e9e2577d608.webp",
+    "assets/art20/vine_cave.png": "assets/packed/bfc921a39819c1d1.webp",
+    "assets/art20/mid_cave.png": "assets/packed/bfa494acdac79024.webp",
+    "assets/art20/creature_spider.png": "assets/packed/6ad8f69e1ec9c0e8.webp",
+    "assets/art20/tile_shadow.png": "assets/packed/9330aa2076990fdf.webp",
+    "assets/art20/map_shadow.png": "assets/packed/a96aae8545394fc3.webp",
+    "assets/art20/fixture_stove.png": "assets/packed/9a9bb3776e5137c2.webp",
+    "assets/art20/map_snow.png": "assets/packed/0c283e29d9967633.webp",
+    "assets/art20/map_city.png": "assets/packed/4caab15b3a71c332.webp",
+    "assets/art20/portrait_cartographer.png": "assets/packed/49b63534d2dba7ec.webp",
+    "assets/art20/vine_snow.png": "assets/packed/55f271638cc4bb68.webp",
+    "assets/art20/creature_owl_boss.png": "assets/packed/008843b53f94939f.webp",
+    "assets/art20/creature_fish_boss.png": "assets/packed/3beeca277dfca22f.webp",
+    "assets/art20/fixture_bed.png": "assets/packed/08268b08d0bb61e5.webp",
+    "assets/art20/source_ocean.png": "assets/packed/4fea6e49d6f87eba.webp",
+    "assets/art20/fixture_map.png": "assets/packed/70e66fba6bfccd65.webp",
+    "assets/art20/mid_ocean.png": "assets/packed/b026b2fd4b665327.webp",
+    "assets/art20/creature_ray.png": "assets/packed/08a76d53bdef82f7.webp",
+    "assets/art20/edge_forest.png": "assets/packed/2567c667bab73452.webp",
+    "assets/art20/edge_crystal.png": "assets/packed/8bd92859fed96fc9.webp",
+    "assets/art20/portrait_summoner.png": "assets/packed/987bca8a4dac70fb.webp",
+    "assets/art20/vine_coast.png": "assets/packed/11155e7a3d6e3972.webp",
+    "assets/art20/creature_scorpion.png": "assets/packed/b24c268e2d28a1c7.webp",
+    "assets/art20/creature_ghost.png": "assets/packed/f3a66d71a0b1c564.webp",
+    "assets/art20/tile_forest.png": "assets/packed/88316d77e7e434a0.webp",
+    "assets/art20/edge_cave.png": "assets/packed/cc68dc72634632d8.webp",
+    "assets/art20/creature_snail_boss.png": "assets/packed/b1e210374fd7614f.webp",
+    "assets/art20/source_volcano.png": "assets/packed/6366aa16ccf26947.webp",
+    "assets/art20/creature_eel.png": "assets/packed/803afcb296f2be36.webp",
+    "assets/art20/vine_crystal.png": "assets/packed/270d90175c68e16f.webp",
+    "assets/sprites/enemy_artillery.png": "assets/packed/584ee390bcfad117.webp",
+    "assets/sprites/enemy_dune_1.png": "assets/packed/f7a517624c64d67c.webp",
+    "assets/sprites/enemy_dune_2.png": "assets/packed/9f5e7864f854e5e9.webp",
+    "assets/sprites/furniture_atlas.png": "assets/packed/085cd47b8ddc1dea.webp",
+    "assets/sprites/enemy_mimic.png": "assets/packed/f3cc91dc5cc9fc28.webp",
+    "assets/sprites/enemy_reef_1.png": "assets/packed/ada6f52677feec5e.webp",
+    "assets/sprites/enemy_sky_1_v.png": "assets/packed/3724faf819a0fde9.webp",
+    "assets/sprites/enemy_glacier_0_v.png": "assets/packed/19163f58aa55692a.webp",
+    "assets/sprites/enemy_abyss_1_v.png": "assets/packed/70a39d0810f0997d.webp",
+    "assets/sprites/enemy_breeder.png": "assets/packed/64a7d06d0faa878e.webp",
+    "assets/sprites/enemy_healer.png": "assets/packed/c381a028216e3a4b.webp",
+    "assets/sprites/enemy_reef_2.png": "assets/packed/0cc41f894c3f264a.webp",
+    "assets/sprites/enemy_inferno_1_v.png": "assets/packed/7b06d6336257fc89.webp",
+    "assets/sprites/player_beast_king.png": "assets/packed/6d09581ad7b3f37a.webp",
+    "assets/sprites/enemy_metro_0_v.png": "assets/packed/8c2cc4ca382cb3d1.webp",
+    "assets/sprites/enemy_umbra_1_v.png": "assets/packed/163daa7df48df59e.webp",
+    "assets/sprites/enemy_ambusher.png": "assets/packed/634d93bb2ed3cc8f.webp",
+    "assets/sprites/player_alchemist.png": "assets/packed/027a0cbe84540825.webp",
+    "assets/sprites/enemy_metro_1.png": "assets/packed/85abaf387d01c9ae.webp",
+    "assets/sprites/enemy_reef_0.png": "assets/packed/fd19c29d4b46eae1.webp",
+    "assets/sprites/enemy_glacier_2.png": "assets/packed/88fef52ffe85670e.webp",
+    "assets/sprites/player_puppeteer.png": "assets/packed/7c8bc509b7594229.webp",
+    "assets/sprites/enemy_charger.png": "assets/packed/09082155544b5598.webp",
+    "assets/sprites/enemy_umbra_0.png": "assets/packed/a7354b63259bddce.webp",
+    "assets/sprites/enemy_sky_1.png": "assets/packed/e240677143405c32.webp",
+    "assets/sprites/enemy_inferno_0_v.png": "assets/packed/0bf0009b00fd8d3b.webp",
+    "assets/sprites/player_rift.png": "assets/packed/8d2c6ea5ba11430a.webp",
+    "assets/sprites/enemy_abyss_0.png": "assets/packed/8c05b16aef8af374.webp",
+    "assets/sprites/enemy_reflector.png": "assets/packed/44aa9d2201e7553e.webp",
+    "assets/sprites/enemy_inferno_1.png": "assets/packed/584a1e4d24f918ae.webp",
+    "assets/sprites/enemy_abyss_1.png": "assets/packed/70a39d0810f0997d.webp",
+    "assets/sprites/player_warden.png": "assets/packed/91b69b4e72ff24d1.webp",
+    "assets/sprites/enemy_spitter.png": "assets/packed/0df0515797bcb42d.webp",
+    "assets/sprites/player_cartographer.png": "assets/packed/2d4aeb220277d44f.webp",
+    "assets/sprites/enemy_umbra_2.png": "assets/packed/598758adf9e152f8.webp",
+    "assets/sprites/player_chrono.png": "assets/packed/42b12489426845f5.webp",
+    "assets/sprites/enemy_slime.png": "assets/packed/741850a15d2ca16b.webp",
+    "assets/sprites/enemy_dune_0_v.png": "assets/packed/32da4635867cc554.webp",
+    "assets/sprites/enemy_scatterer.png": "assets/packed/ce3afd032a501193.webp",
+    "assets/sprites/enemy_glacier_1.png": "assets/packed/a87de6ea0287e34c.webp",
+    "assets/sprites/player_summoner.png": "assets/packed/7afad3e138d32746.webp",
+    "assets/sprites/player_beast_bear.png": "assets/packed/f1c3b7a6cb4f56d7.webp",
+    "assets/sprites/enemy_reef_0_v.png": "assets/packed/8391519aec539fa7.webp",
+    "assets/sprites/enemy_abyss_0_v.png": "assets/packed/8c05b16aef8af374.webp",
+    "assets/sprites/enemy_sentinel.png": "assets/packed/564195332bbdf771.webp",
+    "assets/sprites/enemy_abyss_2.png": "assets/packed/53d297df0cb0e862.webp",
+    "assets/sprites/enemy_shocker.png": "assets/packed/8d36c80abfe6e536.webp",
+    "assets/sprites/enemy_sniper.png": "assets/packed/fe3adb8f33fd2e16.webp",
+    "assets/sprites/enemy_bombardier.png": "assets/packed/c9160e165493f153.webp",
+    "assets/sprites/enemy_umbra_0_v.png": "assets/packed/a7354b63259bddce.webp",
+    "assets/sprites/enemy_dune_0.png": "assets/packed/c4eb9a9aa8208823.webp",
+    "assets/sprites/player_dreamweaver.png": "assets/packed/989517c77f0f84d1.webp",
+    "assets/sprites/enemy_sky_0_v.png": "assets/packed/4e01721e822f1316.webp",
+    "assets/sprites/enemy_inferno_0.png": "assets/packed/c188cd274686a543.webp",
+    "assets/sprites/enemy_umbra_1.png": "assets/packed/163daa7df48df59e.webp",
+    "assets/sprites/player_beast_eagle.png": "assets/packed/e3f4e0a63fc79a87.webp",
+    "assets/sprites/player_sharpshooter.png": "assets/packed/049c5af8ee6f5842.webp",
+    "assets/sprites/player_beast_wolf.png": "assets/packed/f034d31876df5a9d.webp",
+    "assets/sprites/enemy_metro_1_v.png": "assets/packed/91ad65a04def53ab.webp",
+    "assets/sprites/enemy_sky_2.png": "assets/packed/2f74ccb5b0b13136.webp",
+    "assets/sprites/enemy_glacier_0.png": "assets/packed/19163f58aa55692a.webp",
+    "assets/sprites/enemy_spider.png": "assets/packed/bfd0f487a8474d3e.webp",
+    "assets/sprites/enemy_parasite.png": "assets/packed/60aa39b100f128a8.webp",
+    "assets/sprites/enemy_reef_1_v.png": "assets/packed/de14e713874c5b8b.webp",
+    "assets/sprites/player_chef.png": "assets/packed/802e4a8dd222196a.webp",
+    "assets/sprites/player_monk.png": "assets/packed/74f0e30bb9b99910.webp",
+    "assets/sprites/enemy_archer.png": "assets/packed/1d178eeb334390d8.webp",
+    "assets/sprites/player_artificer.png": "assets/packed/3e09d806c66c1d62.webp",
+    "assets/sprites/enemy_metro_2.png": "assets/packed/e273d0c2b31b12ae.webp",
+    "assets/sprites/enemy_inferno_2.png": "assets/packed/2f87955e1f4bdba4.webp",
+    "assets/sprites/enemy_dune_1_v.png": "assets/packed/12bdf25fba0d1e7e.webp",
+    "assets/sprites/enemy_burrower.png": "assets/packed/059c0a71e96d75a8.webp",
+    "assets/sprites/enemy_metro_0.png": "assets/packed/a81f16972e0d2bba.webp",
+    "assets/sprites/player_gunner.png": "assets/packed/ab43289d4ff6e345.webp",
+    "assets/sprites/player_harrier.png": "assets/packed/98abb8a3773edd90.webp",
+    "assets/sprites/enemy_sky_0.png": "assets/packed/6799e9ff3ecfc88f.webp",
+    "assets/sprites/enemy_glacier_1_v.png": "assets/packed/a87de6ea0287e34c.webp",
+    "assets/codex/MONSTER_ATLAS_V9.png": "assets/packed/40df70bdea2b3d75.webp",
+    "assets/v17/biome_glacier.png": "assets/packed/64c44c4d9f602198.webp",
+    "assets/v17/biome_abyss.png": "assets/packed/2b91df00d284bfc6.webp",
+    "assets/v17/biome_reef.png": "assets/packed/366caecd7db094a1.webp",
+    "assets/v17/biome_dune.png": "assets/packed/836abe60baf4d420.webp",
+    "assets/v17/biome_umbra.png": "assets/packed/88e4fecc8fb11631.webp",
+    "assets/v17/biome_inferno.png": "assets/packed/61af9cbc1467789e.webp",
+    "assets/v17/biome_metro.png": "assets/packed/eabdb60c97e21905.webp",
+    "assets/v17/biome_sky.png": "assets/packed/0f390b73f509572f.webp",
+    "assets/motion215/artificer.webp": "assets/packed/1bde59826b632dcf.webp",
+    "assets/motion215/dreamweaver.webp": "assets/packed/97550f5e8b5724db.webp",
+    "assets/motion215/summoner.webp": "assets/packed/4bb66673e4b14e7d.webp",
+    "assets/motion215/beast.webp": "assets/packed/d6aeb2c56c66725b.webp",
+    "assets/motion215/chrono.webp": "assets/packed/b5c2a307a3888183.webp",
+    "assets/motion215/sharpshooter.webp": "assets/packed/67e74552d11a2b56.webp",
+    "assets/motion215/alchemist.webp": "assets/packed/d22c2003bbd05ed2.webp",
+    "assets/motion215/cartographer.webp": "assets/packed/e410d302b35593d6.webp",
+    "assets/motion215/gunner.webp": "assets/packed/879488408f055e38.webp",
+    "assets/motion215/warden.webp": "assets/packed/b435639246599aa0.webp",
+    "assets/motion215/chef.webp": "assets/packed/5e73173153d4bb89.webp",
+    "assets/motion215/rift.webp": "assets/packed/9fd0c6150385456f.webp",
+    "assets/motion215/puppeteer.webp": "assets/packed/be8592d53f90c0fc.webp",
+    "assets/motion215/harrier.webp": "assets/packed/7cc61d0bbf78c4e3.webp",
+    "assets/motion215/monk.webp": "assets/packed/96666bfa1b7eb30b.webp",
+    "assets/art21/stand_summoner.png": "assets/packed/c5c034e9c709a405.webp",
+    "assets/art21/weapon_alchemist.png": "assets/packed/ddbf927076401cb9.webp",
+    "assets/art21/thumb_snow.webp": "assets/packed/145eb2b29e4a9e97.webp",
+    "assets/art21/edge_city.png": "assets/packed/8506b61cef7f10eb.webp",
+    "assets/art21/fixture_shelf.png": "assets/packed/c65a96d4c7093263.webp",
+    "assets/art21/flora_desert.png": "assets/packed/4851d9d29f1b9f1e.webp",
+    "assets/art21/stand_sharpshooter.png": "assets/packed/8b960821fbad2cbd.webp",
+    "assets/art21/world_overview.webp": "assets/packed/90abe2f77e2fcef7.webp",
+    "assets/art21/edge_sky.png": "assets/packed/9937f4f48bc5435c.webp",
+    "assets/art21/flora_fungi.png": "assets/packed/91f4097d6bbea176.webp",
+    "assets/art21/weapon_chef.png": "assets/packed/f4b18c72b2145320.webp",
+    "assets/art21/portrait_warden.png": "assets/packed/11a0a2a4613b127b.webp",
+    "assets/art21/attack_jelly.png": "assets/packed/3fa40dd05a92d002.webp",
+    "assets/art21/stone_ocean.png": "assets/packed/59d423033fbef59b.webp",
+    "assets/art21/fx_ice.png": "assets/packed/5478746b90484601.webp",
+    "assets/art21/thumb_cave.webp": "assets/packed/46bec2883e42f1de.webp",
+    "assets/art21/fx_bloom.png": "assets/packed/35113f7ac8b57318.webp",
+    "assets/art21/fixture_lamp.png": "assets/packed/104d0ba227be6489.webp",
+    "assets/art21/fx_mist.png": "assets/packed/e6dda5efec40cbda.webp",
+    "assets/art21/stand_cartographer.png": "assets/packed/fb765ea5d19eee2f.webp",
+    "assets/art21/thumb_ocean.webp": "assets/packed/4bac99500c6aebb1.webp",
+    "assets/art21/thumb_volcano.webp": "assets/packed/cc068a49a92bc107.webp",
+    "assets/art21/flora_crystal.png": "assets/packed/5fcc9c92563ad1db.webp",
+    "assets/art21/attack_boss.png": "assets/packed/ba62eee54e1fba8c.webp",
+    "assets/art21/thumb_forest.webp": "assets/packed/88fa7443ef0d3d08.webp",
+    "assets/art21/stone_crystal.png": "assets/packed/9609286ddfe8f5a6.webp",
+    "assets/art21/monster_boss.png": "assets/packed/ba62eee54e1fba8c.webp",
+    "assets/art21/scene_city.webp": "assets/packed/39fd9215210a1cb8.webp",
+    "assets/art21/flora_shadow.png": "assets/packed/d5293b8a3a11574f.webp",
+    "assets/art21/weapon_sharpshooter.png": "assets/packed/4432c0814389dc61.webp",
+    "assets/art21/weapon_dreamweaver.png": "assets/packed/741275df46e057bf.webp",
+    "assets/art21/scene_volcano.webp": "assets/packed/6b6f59f378b46280.webp",
+    "assets/art21/edge_desert.png": "assets/packed/5704216686bf49ae.webp",
+    "assets/art21/scene_fungi.webp": "assets/packed/645808d2939823f8.webp",
+    "assets/art21/fixture_workbench.png": "assets/packed/55f529f2680cd141.webp",
+    "assets/art21/stand_artificer.png": "assets/packed/170e5c46baa57717.webp",
+    "assets/art21/fx_water.png": "assets/packed/5478746b90484601.webp",
+    "assets/art21/weapon_summoner.png": "assets/packed/502a3bdc4aa3fad6.webp",
+    "assets/art21/scene_crystal.webp": "assets/packed/ff6c3aeeb660f5b9.webp",
+    "assets/art21/edge_volcano.png": "assets/packed/22c0e98e0d1240a4.webp",
+    "assets/art21/stone_fungi.png": "assets/packed/f244e42833fd7dca.webp",
+    "assets/art21/thumb_coast.webp": "assets/packed/e0e9163a0010fb81.webp",
+    "assets/art21/thumb_crystal.webp": "assets/packed/61a63addd017ab3c.webp",
+    "assets/art21/thumb_shadow.webp": "assets/packed/fbc4f68028caa2ea.webp",
+    "assets/art21/edge_ocean.png": "assets/packed/c991925be05a8c85.webp",
+    "assets/art21/weapon_rift.png": "assets/packed/fbc781581c301914.webp",
+    "assets/art21/stand_dreamweaver.png": "assets/packed/251acf210b3e842d.webp",
+    "assets/art21/skill_0.png": "assets/packed/b576f2770f45e153.webp",
+    "assets/art21/stone_desert.png": "assets/packed/5a72f97a0dfd64bb.webp",
+    "assets/art21/stone_city.png": "assets/packed/f0ab6cdcf367607a.webp",
+    "assets/art21/stand_monk.png": "assets/packed/73534bc46634d048.webp",
+    "assets/art21/stone_snow.png": "assets/packed/6e15f3e816fa4116.webp",
+    "assets/art21/attack_bird.png": "assets/packed/ed4ffca49197ef07.webp",
+    "assets/art21/weapon_beast.png": "assets/packed/d46b3c433275210a.webp",
+    "assets/art21/edge_snow.png": "assets/packed/56d13534d9e4c18f.webp",
+    "assets/art21/fixture_sofa.png": "assets/packed/053a952d181226b3.webp",
+    "assets/art21/scene_sky.webp": "assets/packed/4e525abc42343475.webp",
+    "assets/art21/stand_chef.png": "assets/packed/99adf41df87248aa.webp",
+    "assets/art21/edge_coast.png": "assets/packed/8506b61cef7f10eb.webp",
+    "assets/art21/flora_volcano.png": "assets/packed/cf0a9bc33b2adc51.webp",
+    "assets/art21/flora_city.png": "assets/packed/11b05a45258ae002.webp",
+    "assets/art21/thumb_desert.webp": "assets/packed/9f24708ba56b20d8.webp",
+    "assets/art21/fixture_purifier.png": "assets/packed/674ccb1e963965a2.webp",
+    "assets/art21/portrait_beast.png": "assets/packed/7e2d22faad8ab243.webp",
+    "assets/art21/weapon_artificer.png": "assets/packed/780e4dbc3c45d168.webp",
+    "assets/art21/stone_cave.png": "assets/packed/760318fa65887184.webp",
+    "assets/art21/edge_shadow.png": "assets/packed/ced5c3d17c8fd8e6.webp",
+    "assets/art21/attack_crab.png": "assets/packed/64c143f9fd13c48a.webp",
+    "assets/art21/stone_sky.png": "assets/packed/da293c12c15868bc.webp",
+    "assets/art21/monster_jelly.png": "assets/packed/3fa40dd05a92d002.webp",
+    "assets/art21/portrait_artificer.png": "assets/packed/937cbacdec625d77.webp",
+    "assets/art21/portrait_chrono.png": "assets/packed/47f22f65d8cf7fbe.webp",
+    "assets/art21/portrait_dreamweaver.png": "assets/packed/4fa0076441a8c54f.webp",
+    "assets/art21/fx_star.png": "assets/packed/35113f7ac8b57318.webp",
+    "assets/art21/thumb_fungi.webp": "assets/packed/cc7d5cc3eb5a4581.webp",
+    "assets/art21/fx_crescent.png": "assets/packed/59924b48d169b3fa.webp",
+    "assets/art21/fixture_fridge.png": "assets/packed/91e59af42c19e7b5.webp",
+    "assets/art21/stand_alchemist.png": "assets/packed/42ca8357a9654b25.webp",
+    "assets/art21/stand_puppeteer.png": "assets/packed/2985f65838fcce5e.webp",
+    "assets/art21/weapon_harrier.png": "assets/packed/72af3960821abf2c.webp",
+    "assets/art21/skill_1.png": "assets/packed/7a1656a109dcb19e.webp",
+    "assets/art21/portrait_rift.png": "assets/packed/1556606b86d065f0.webp",
+    "assets/art21/stand_gunner.png": "assets/packed/8d6f93924a830a1e.webp",
+    "assets/art21/weapon_cartographer.png": "assets/packed/253557ec273ba2bf.webp",
+    "assets/art21/fixture_radio.png": "assets/packed/16741a9509e512da.webp",
+    "assets/art21/scene_ocean.webp": "assets/packed/3b24136b483b8414.webp",
+    "assets/art21/fixture_terminal.png": "assets/packed/16741a9509e512da.webp",
+    "assets/art21/scene_desert.webp": "assets/packed/5d1c99a622538059.webp",
+    "assets/art21/stone_volcano.png": "assets/packed/b368c6a4e1aee66a.webp",
+    "assets/art21/fixture_locker.png": "assets/packed/91e59af42c19e7b5.webp",
+    "assets/art21/weapon_chrono.png": "assets/packed/c97cb116d23480af.webp",
+    "assets/art21/flora_sky.png": "assets/packed/776e4680bcac36c0.webp",
+    "assets/art21/attack_golem.png": "assets/packed/f8c0d0d5ad6c8a2a.webp",
+    "assets/art21/fx_bolt.png": "assets/packed/5478746b90484601.webp",
+    "assets/art21/scene_cave.webp": "assets/packed/65c8e4ea00ec5387.webp",
+    "assets/art21/skill_2.png": "assets/packed/ca2037c294eec5cd.webp",
+    "assets/art21/skill_3.png": "assets/packed/8604cd225e1738b9.webp",
+    "assets/art21/portrait_gunner.png": "assets/packed/5afb3b13ea01174d.webp",
+    "assets/art21/thumb_city.webp": "assets/packed/a7ab8e302fa57bb0.webp",
+    "assets/art21/portrait_sharpshooter.png": "assets/packed/e584c5d4a0c5ff88.webp",
+    "assets/art21/thumb_sky.webp": "assets/packed/a73d359ed364c189.webp",
+    "assets/art21/skill_4.png": "assets/packed/01dcaacac6ad5596.webp",
+    "assets/art21/weapon_monk.png": "assets/packed/0883f70585239972.webp",
+    "assets/art21/edge_fungi.png": "assets/packed/f8c2397fe884396c.webp",
+    "assets/art21/fx_arrow.png": "assets/packed/57bf11ad1e7d3c5e.webp",
+    "assets/art21/weapon_gunner.png": "assets/packed/dd6a19216a44bf10.webp",
+    "assets/art21/stone_forest.png": "assets/packed/57974f4f408de046.webp",
+    "assets/art21/portrait_alchemist.png": "assets/packed/8e405b2a760f550f.webp",
+    "assets/art21/monster_crab.png": "assets/packed/64c143f9fd13c48a.webp",
+    "assets/art21/flora_cave.png": "assets/packed/b712898e18944474.webp",
+    "assets/art21/portrait_monk.png": "assets/packed/1810280fac214934.webp",
+    "assets/art21/portrait_chef.png": "assets/packed/24fa4469ca357f01.webp",
+    "assets/art21/stone_shadow.png": "assets/packed/b431e37b8ec51484.webp",
+    "assets/art21/scene_shadow.webp": "assets/packed/e0d281c266a76ac2.webp",
+    "assets/art21/flora_forest.png": "assets/packed/bcf2b15bff44490c.webp",
+    "assets/art21/flora_coast.png": "assets/packed/11b05a45258ae002.webp",
+    "assets/art21/portrait_puppeteer.png": "assets/packed/73f7b708749fd13d.webp",
+    "assets/art21/monster_bird.png": "assets/packed/ed4ffca49197ef07.webp",
+    "assets/art21/monster_golem.png": "assets/packed/f8c0d0d5ad6c8a2a.webp",
+    "assets/art21/fx_impact.png": "assets/packed/35113f7ac8b57318.webp",
+    "assets/art21/stand_chrono.png": "assets/packed/3fb7f03de69c484c.webp",
+    "assets/art21/fixture_stove.png": "assets/packed/55f529f2680cd141.webp",
+    "assets/art21/scene_snow.webp": "assets/packed/5a0f88d360b7602c.webp",
+    "assets/art21/portrait_cartographer.png": "assets/packed/49b63534d2dba7ec.webp",
+    "assets/art21/stone_coast.png": "assets/packed/f0ab6cdcf367607a.webp",
+    "assets/art21/stand_warden.png": "assets/packed/6d0acceeb85380ea.webp",
+    "assets/art21/flora_ocean.png": "assets/packed/b2214a8acf0dab89.webp",
+    "assets/art21/fixture_bed.png": "assets/packed/b316f7f7581b3bc4.webp",
+    "assets/art21/stand_beast.png": "assets/packed/10cb27c6214c2d95.webp",
+    "assets/art21/scene_coast.webp": "assets/packed/6778d55769a635ec.webp",
+    "assets/art21/fixture_map.png": "assets/packed/b24a541d4eee8519.webp",
+    "assets/art21/weapon_warden.png": "assets/packed/2a3a654f794f7eb7.webp",
+    "assets/art21/flora_snow.png": "assets/packed/66f9204f8c35ee0f.webp",
+    "assets/art21/edge_forest.png": "assets/packed/287f34b6635893c9.webp",
+    "assets/art21/stand_harrier.png": "assets/packed/7fc72dca998340fd.webp",
+    "assets/art21/edge_crystal.png": "assets/packed/547da7484a2c9986.webp",
+    "assets/art21/portrait_summoner.png": "assets/packed/987bca8a4dac70fb.webp",
+    "assets/art21/portrait_harrier.png": "assets/packed/d2c3299e1aed0da6.webp",
+    "assets/art21/stand_rift.png": "assets/packed/1f7dcb5f1eab6f47.webp",
+    "assets/art21/edge_cave.png": "assets/packed/71329e54921c82d4.webp",
+    "assets/art21/scene_forest.webp": "assets/packed/8ce89885ef3094f5.webp",
+    "assets/art21/weapon_puppeteer.png": "assets/packed/b048e600f2c3ba36.webp",
+    "assets/sanctuary/fixture_medbay.png": "assets/packed/c09a87d0b0d34a46.webp",
+    "assets/sanctuary/fixture_cabinet.png": "assets/packed/a0b97f9c7dcdf0e2.webp",
+    "assets/sanctuary/house_r14.png": "assets/packed/43d01bb97f37ae7c.webp",
+    "assets/sanctuary/fixture_shelf.png": "assets/packed/4b22c002e6c0e4ab.webp",
+    "assets/sanctuary/house_r51.png": "assets/packed/9cfef0aa431b6b1c.webp",
+    "assets/sanctuary/fixture_lamp.png": "assets/packed/ce57bd0456cabc1a.webp",
+    "assets/sanctuary/fixture_recycler.png": "assets/packed/c763fac8a77fc11e.webp",
+    "assets/sanctuary/fixture_greenhouse.png": "assets/packed/c20aa7aad8876281.webp",
+    "assets/sanctuary/biome_night.png": "assets/packed/2e36eb667295f826.webp",
+    "assets/sanctuary/fixture_workbench.png": "assets/packed/e8f23e5f2dc6ecf9.webp",
+    "assets/sanctuary/house_r11.png": "assets/packed/42992c8da327c592.webp",
+    "assets/sanctuary/house_e09.png": "assets/packed/b759ed6f49838731.webp",
+    "assets/sanctuary/fixture_sofa.png": "assets/packed/aca877cb97475c91.webp",
+    "assets/sanctuary/fixture_purifier.png": "assets/packed/a2631867d32abfb1.webp",
+    "assets/sanctuary/house_r35.png": "assets/packed/28dfd99934e332b7.webp",
+    "assets/sanctuary/house_e05.png": "assets/packed/46ee97d89b64a7e0.webp",
+    "assets/sanctuary/fixture_fridge.png": "assets/packed/ca0f9d8848cc5433.webp",
+    "assets/sanctuary/fixture_radio.png": "assets/packed/4fe7777ec27228b3.webp",
+    "assets/sanctuary/fixture_terminal.png": "assets/packed/7f8d80c50d6c745c.webp",
+    "assets/sanctuary/fixture_locker.png": "assets/packed/e53c4a3153f4ff3c.webp",
+    "assets/sanctuary/house_r40.png": "assets/packed/466439a8b791023a.webp",
+    "assets/sanctuary/house_r21.png": "assets/packed/9af3b753965095d8.webp",
+    "assets/sanctuary/house_r26.png": "assets/packed/830d4cc8bf463891.webp",
+    "assets/sanctuary/house_r32.png": "assets/packed/2f3f4dc14c6b0f04.webp",
+    "assets/sanctuary/house_e14.png": "assets/packed/e9775fa3b8c1178f.webp",
+    "assets/sanctuary/biome_coast.png": "assets/packed/f9970912ea5e5e61.webp",
+    "assets/sanctuary/fixture_telescope.png": "assets/packed/02cd7c98592c05b9.webp",
+    "assets/sanctuary/fixture_generator.png": "assets/packed/6b16e991dc77e276.webp",
+    "assets/sanctuary/fixture_stove.png": "assets/packed/2479beb05d8b03fb.webp",
+    "assets/sanctuary/house_r00.png": "assets/packed/8620bcdd04527db3.webp",
+    "assets/sanctuary/fixture_bed.png": "assets/packed/05a4f49c6dd5150c.webp",
+    "assets/sanctuary/fixture_map.png": "assets/packed/3bb9848fd111c17b.webp",
+    "assets/sanctuary/house_e00.png": "assets/packed/a485c1416ed14588.webp",
+    "assets/sanctuary/house_r16.png": "assets/packed/55268742482515e5.webp",
+    "assets/sanctuary/biome_forest.png": "assets/packed/2f496d8648c09f61.webp",
+    "assets/sanctuary/house_r45.png": "assets/packed/78c9e40cde1c46ea.webp",
+    "assets/sanctuary/house_r04.png": "assets/packed/6aa64c58e3514600.webp",
+    "assets/sanctuary/house_r37.png": "assets/packed/58eb756e10dde955.webp",
+    "assets/sanctuary/house_r27.png": "assets/packed/74505960b9a41759.webp",
+    "assets/ui/collect_crest.png": "assets/packed/356ac4bb9a625078.webp",
+    "assets/ui/collect_element.png": "assets/packed/e1909538b8aa2778.webp",
+    "assets/ui/collect_mobility.png": "assets/packed/17a1be8ecbcfff4b.webp",
+    "assets/ui/map_icons.png": "assets/packed/5ec2ff62ac12ff37.webp",
+    "assets/ui/WORLD_MAP_V9.png": "assets/packed/3dc5e8cc233db37e.webp",
+    "assets/ui/collect_memory.png": "assets/packed/49b80de16eb377f6.webp",
+    "assets/ui/collect_shelter.png": "assets/packed/8afb04929b854d8a.webp",
+    "assets/ui/collect_life.png": "assets/packed/5c709f0135816b44.webp",
+    "assets/art213/banner.png": "assets/packed/d9dd688eb34b0268.webp",
+    "assets/art213/residue_swap.png": "assets/packed/b0f4487e16f09b66.webp",
+    "assets/art213/residue_water.png": "assets/packed/ba203a9392b3819e.webp",
+    "assets/art213/moss_ledge.png": "assets/packed/c83c87d3f58d256b.webp",
+    "assets/art213/residue_shadow.png": "assets/packed/167f51a5431452de.webp",
+    "assets/art213/relic_stone.png": "assets/packed/7a4f36e5ffa69184.webp",
+    "assets/art213/residue_ice.png": "assets/packed/36ce583a4e2596bb.webp",
+    "assets/art213/world_concept.webp": "assets/packed/c837a5e764f614be.webp",
+    "assets/art213/residue_lightning.png": "assets/packed/c7c74680a333a16d.webp",
+    "assets/art213/hanging_platform.png": "assets/packed/77abbf4e1249513e.webp",
+    "assets/art213/residue_light.png": "assets/packed/ab8ce5004796e1ad.webp",
+    "assets/art213/coast_sky.webp": "assets/packed/dc584ff72daefa28.webp",
+    "assets/art213/crystal_spikes.png": "assets/packed/62a0e9f3d2293df6.webp",
+    "assets/vfx/element_wind.png": "assets/packed/c88e7fd86de9c8f5.webp",
+    "assets/vfx/element_shadow.png": "assets/packed/60ece5d5ae0405ab.webp",
+    "assets/vfx/slash.png": "assets/packed/420657abd04eeffe.webp",
+    "assets/vfx/element_water.png": "assets/packed/e515aa3f8dfa3f15.webp",
+    "assets/vfx/element_earth.png": "assets/packed/c2196126c864d258.webp",
+    "assets/vfx/hit.png": "assets/packed/613ef07a03d8c3b0.webp",
+    "assets/vfx/ring.png": "assets/packed/d6bec4ed71abca1f.webp",
+    "assets/vfx/element_light.png": "assets/packed/ad7a981bc66577c2.webp",
+    "assets/vfx/element_gravity.png": "assets/packed/d5be95c88233e1ed.webp",
+    "assets/vfx/element_ice.png": "assets/packed/7d1ab301060b86c7.webp",
+    "assets/vfx/element_lightning.png": "assets/packed/ba9c10ceb1a84d07.webp",
+    "assets/vfx/element_nature.png": "assets/packed/a904c3c673675127.webp",
+    "assets/vfx/element_fire.png": "assets/packed/d3458c8af755f0f3.webp",
+    "assets/backgrounds/v9/tide_near.png": "assets/packed/90c80177510a36b9.webp",
+    "assets/backgrounds/v9/lighthouse_far.png": "assets/packed/9e6e4e86a59c3e00.webp",
+    "assets/backgrounds/v9/reactor_far.png": "assets/packed/24df51c49fd00d95.webp",
+    "assets/backgrounds/v9/market_mid.png": "assets/packed/26262e57ac3e1e14.webp",
+    "assets/backgrounds/v9/lighthouse_mid.png": "assets/packed/5e825895604898ab.webp",
+    "assets/backgrounds/v9/roots_near.png": "assets/packed/0cb759138a2e94a8.webp",
+    "assets/backgrounds/v9/market_near.png": "assets/packed/8e55916564b6c100.webp",
+    "assets/backgrounds/v9/tide_mid.png": "assets/packed/46c0ff61eacffefb.webp",
+    "assets/backgrounds/v9/market_far.png": "assets/packed/0243b150e6c36001.webp",
+    "assets/backgrounds/v9/tide_far.png": "assets/packed/e5ae0138c06b537e.webp",
+    "assets/backgrounds/v9/lighthouse_near.png": "assets/packed/e267c721ae545415.webp",
+    "assets/backgrounds/v9/canopy_far.png": "assets/packed/5bcc1ca73867b638.webp",
+    "assets/backgrounds/v9/archive_far.png": "assets/packed/8f4523502271ffc4.webp",
+    "assets/backgrounds/v9/reactor_mid.png": "assets/packed/8bfb30343cdc6a57.webp",
+    "assets/backgrounds/v9/archive_mid.png": "assets/packed/1a9e584dcbf19fb3.webp",
+    "assets/backgrounds/v9/canopy_mid.png": "assets/packed/a56521613bbe0b16.webp",
+    "assets/backgrounds/v9/roots_far.png": "assets/packed/283faf08cdb309d3.webp",
+    "assets/backgrounds/v9/canopy_near.png": "assets/packed/06903199f08b254e.webp",
+    "assets/backgrounds/v9/secret_far.png": "assets/packed/95a7f2def0aab348.webp",
+    "assets/backgrounds/v9/archive_near.png": "assets/packed/1cf34d0768cc59a5.webp",
+    "assets/backgrounds/v9/reactor_near.png": "assets/packed/54605c5b857a293f.webp",
+    "assets/backgrounds/v9/secret_mid.png": "assets/packed/632f873ab19a98b4.webp",
+    "assets/backgrounds/v9/secret_near.png": "assets/packed/edbdbcab7a5de191.webp",
+    "assets/backgrounds/v9/roots_mid.png": "assets/packed/b1e6f83fd427ebd0.webp"
+  },
+  "retired": [
+    "assets/art20/actor_alchemist.png",
+    "assets/art20/actor_beast.png",
+    "assets/art20/actor_cartographer.png",
+    "assets/art20/actor_chain.png",
+    "assets/art20/actor_chronist.png",
+    "assets/art20/actor_dreamwalker.png",
+    "assets/art20/actor_engineer.png",
+    "assets/art20/actor_forager.png",
+    "assets/art20/actor_gunner.png",
+    "assets/art20/actor_monk.png",
+    "assets/art20/actor_puppeteer.png",
+    "assets/art20/actor_rift.png",
+    "assets/art20/actor_sharpshooter.png",
+    "assets/art20/actor_summoner.png",
+    "assets/art20/actor_warden.png",
+    "assets/art20/hero_alchemist.png",
+    "assets/art20/hero_beast.png",
+    "assets/art20/hero_cartographer.png",
+    "assets/art20/hero_chain.png",
+    "assets/art20/hero_chronist.png",
+    "assets/art20/hero_dreamwalker.png",
+    "assets/art20/hero_engineer.png",
+    "assets/art20/hero_forager.png",
+    "assets/art20/hero_gunner.png",
+    "assets/art20/hero_monk.png",
+    "assets/art20/hero_puppeteer.png",
+    "assets/art20/hero_rift.png",
+    "assets/art20/hero_sharpshooter.png",
+    "assets/art20/hero_source.png",
+    "assets/art20/hero_summoner.png",
+    "assets/art20/hero_warden.png",
+    "assets/art21/rig_alchemist.png",
+    "assets/art21/rig_artificer.png",
+    "assets/art21/rig_beast.png",
+    "assets/art21/rig_cartographer.png",
+    "assets/art21/rig_chef.png",
+    "assets/art21/rig_chrono.png",
+    "assets/art21/rig_dreamweaver.png",
+    "assets/art21/rig_gunner.png",
+    "assets/art21/rig_harrier.png",
+    "assets/art21/rig_monk.png",
+    "assets/art21/rig_puppeteer.png",
+    "assets/art21/rig_rift.png",
+    "assets/art21/rig_sharpshooter.png",
+    "assets/art21/rig_summoner.png",
+    "assets/art21/rig_warden.png"
+  ],
+  "images": [
+    {
+      "source": "assets/rooms/cave_atlas.png",
+      "file": "assets/packed/0043062dc05c3f85.webp",
+      "sourceSize": [
+        3072,
+        240
+      ],
+      "size": [
+        3072,
+        240
+      ],
+      "bytes": 27934
+    },
+    {
+      "source": "assets/rooms/shelter_atlas.png",
+      "file": "assets/packed/00d88dc7eec248f3.webp",
+      "sourceSize": [
+        4608,
+        240
+      ],
+      "size": [
+        4608,
+        240
+      ],
+      "bytes": 65904
+    },
+    {
+      "source": "assets/rooms/facility_atlas.png",
+      "file": "assets/packed/fedbf4e6754d552e.webp",
+      "sourceSize": [
+        4608,
+        240
+      ],
+      "size": [
+        4608,
+        240
+      ],
+      "bytes": 40212
+    },
+    {
+      "source": "assets/art20/mid_crystal.png",
+      "file": "assets/packed/4facbd91eb65b24b.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 10038
+    },
+    {
+      "source": "assets/art20/map_crystal.png",
+      "file": "assets/packed/bfcbbc2fe4d8f492.webp",
+      "sourceSize": [
+        128,
+        144
+      ],
+      "size": [
+        128,
+        144
+      ],
+      "bytes": 3416
+    },
+    {
+      "source": "assets/art20/edge_city.png",
+      "file": "assets/packed/e10b7b7827bf72f0.webp",
+      "sourceSize": [
+        128,
+        96
+      ],
+      "size": [
+        128,
+        96
+      ],
+      "bytes": 2588
+    },
+    {
+      "source": "assets/art20/creature_insect_boss.png",
+      "file": "assets/packed/769a05d142ec052d.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 18568
+    },
+    {
+      "source": "assets/art20/fixture_shelf.png",
+      "file": "assets/packed/a9080dc75e4705ee.webp",
+      "sourceSize": [
+        96,
+        112
+      ],
+      "size": [
+        96,
+        112
+      ],
+      "bytes": 1244
+    },
+    {
+      "source": "assets/art20/source_coast.png",
+      "file": "assets/packed/435787cfb47c6995.webp",
+      "sourceSize": [
+        348,
+        267
+      ],
+      "size": [
+        348,
+        267
+      ],
+      "bytes": 10814
+    },
+    {
+      "source": "assets/art20/mid_coast.png",
+      "file": "assets/packed/2f87be8f662bd6c1.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 12888
+    },
+    {
+      "source": "assets/art20/bg_fungi.png",
+      "file": "assets/packed/fb49e50185e3f38d.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 36416
+    },
+    {
+      "source": "assets/art20/edge_sky.png",
+      "file": "assets/packed/c10b904dd62cb575.webp",
+      "sourceSize": [
+        128,
+        96
+      ],
+      "size": [
+        128,
+        96
+      ],
+      "bytes": 2364
+    },
+    {
+      "source": "assets/art20/map_cave.png",
+      "file": "assets/packed/ff27f00fdd5d73cc.webp",
+      "sourceSize": [
+        128,
+        144
+      ],
+      "size": [
+        128,
+        144
+      ],
+      "bytes": 2970
+    },
+    {
+      "source": "assets/art20/creature_bird.png",
+      "file": "assets/packed/c21bb4e3587a6eaf.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 11048
+    },
+    {
+      "source": "assets/art20/bg_ocean.png",
+      "file": "assets/packed/32d2d27c60a5a12c.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 28520
+    },
+    {
+      "source": "assets/art20/portrait_warden.png",
+      "file": "assets/packed/f2bd81986d1a4f3c.webp",
+      "sourceSize": [
+        126,
+        120
+      ],
+      "size": [
+        126,
+        120
+      ],
+      "bytes": 10262
+    },
+    {
+      "source": "assets/art20/tile_fungi.png",
+      "file": "assets/packed/05800dbd41a5ac8a.webp",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 1630
+    },
+    {
+      "source": "assets/art20/creature_wisp.png",
+      "file": "assets/packed/b035c1f3c4df886d.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 6242
+    },
+    {
+      "source": "assets/art20/creature_bird_boss.png",
+      "file": "assets/packed/01438c807237062b.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 14500
+    },
+    {
+      "source": "assets/art20/mid_snow.png",
+      "file": "assets/packed/fb7e4c4511c612a2.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 12810
+    },
+    {
+      "source": "assets/art20/bg_city.png",
+      "file": "assets/packed/551d4560297cba56.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 14416
+    },
+    {
+      "source": "assets/art20/fixture_lamp.png",
+      "file": "assets/packed/c62659c0166a1dba.webp",
+      "sourceSize": [
+        96,
+        112
+      ],
+      "size": [
+        96,
+        112
+      ],
+      "bytes": 508
+    },
+    {
+      "source": "assets/art20/map_fungi.png",
+      "file": "assets/packed/fe37eb96b27817b7.webp",
+      "sourceSize": [
+        128,
+        144
+      ],
+      "size": [
+        128,
+        144
+      ],
+      "bytes": 4304
+    },
+    {
+      "source": "assets/art20/vine_volcano.png",
+      "file": "assets/packed/93dc2a67e081a5c3.webp",
+      "sourceSize": [
+        150,
+        180
+      ],
+      "size": [
+        150,
+        180
+      ],
+      "bytes": 9036
+    },
+    {
+      "source": "assets/art20/vine_ocean.png",
+      "file": "assets/packed/353270e28c751bc8.webp",
+      "sourceSize": [
+        150,
+        180
+      ],
+      "size": [
+        150,
+        180
+      ],
+      "bytes": 9812
+    },
+    {
+      "source": "assets/art20/creature_eel_boss.png",
+      "file": "assets/packed/bd4d79e71bab83f7.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 12624
+    },
+    {
+      "source": "assets/art20/map_forest.png",
+      "file": "assets/packed/f48b2cac3df5e1f6.webp",
+      "sourceSize": [
+        128,
+        144
+      ],
+      "size": [
+        128,
+        144
+      ],
+      "bytes": 4294
+    },
+    {
+      "source": "assets/art20/creature_ray_boss.png",
+      "file": "assets/packed/2ba7198e9be1ee42.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 14062
+    },
+    {
+      "source": "assets/art20/portrait_forager.png",
+      "file": "assets/packed/4cfe4c385f7f3a3c.webp",
+      "sourceSize": [
+        126,
+        120
+      ],
+      "size": [
+        126,
+        120
+      ],
+      "bytes": 10038
+    },
+    {
+      "source": "assets/art20/bg_sky.png",
+      "file": "assets/packed/3390ecf542a983f3.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 22640
+    },
+    {
+      "source": "assets/art20/vine_city.png",
+      "file": "assets/packed/a87f8b5159ff18e5.webp",
+      "sourceSize": [
+        150,
+        180
+      ],
+      "size": [
+        150,
+        180
+      ],
+      "bytes": 8970
+    },
+    {
+      "source": "assets/art20/edge_desert.png",
+      "file": "assets/packed/c824fe556fe3cecd.webp",
+      "sourceSize": [
+        128,
+        96
+      ],
+      "size": [
+        128,
+        96
+      ],
+      "bytes": 2646
+    },
+    {
+      "source": "assets/art20/creature_crab_boss.png",
+      "file": "assets/packed/fef099a1d31d5c04.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 14978
+    },
+    {
+      "source": "assets/art20/tile_coast.png",
+      "file": "assets/packed/f9ffb2f21ad4c163.webp",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 1602
+    },
+    {
+      "source": "assets/art20/creature_moth_boss.png",
+      "file": "assets/packed/6f99fc53d74d7402.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 18374
+    },
+    {
+      "source": "assets/art20/fixture_workbench.png",
+      "file": "assets/packed/18c3ed834256e3cd.webp",
+      "sourceSize": [
+        96,
+        112
+      ],
+      "size": [
+        96,
+        112
+      ],
+      "bytes": 1122
+    },
+    {
+      "source": "assets/art20/creature_robot_boss.png",
+      "file": "assets/packed/c5956b506a5fe1e9.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 17714
+    },
+    {
+      "source": "assets/art20/source_fungi.png",
+      "file": "assets/packed/5b33a2d16eca0768.webp",
+      "sourceSize": [
+        140,
+        112
+      ],
+      "size": [
+        140,
+        112
+      ],
+      "bytes": 5894
+    },
+    {
+      "source": "assets/art20/creature_snake_boss.png",
+      "file": "assets/packed/ec12cf70bdd2ef42.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 12636
+    },
+    {
+      "source": "assets/art20/source_snow.png",
+      "file": "assets/packed/71130fa477e5b25b.webp",
+      "sourceSize": [
+        142,
+        112
+      ],
+      "size": [
+        142,
+        112
+      ],
+      "bytes": 6066
+    },
+    {
+      "source": "assets/art20/edge_volcano.png",
+      "file": "assets/packed/88745296f8a8a9da.webp",
+      "sourceSize": [
+        128,
+        96
+      ],
+      "size": [
+        128,
+        96
+      ],
+      "bytes": 2462
+    },
+    {
+      "source": "assets/art20/creature_worm.png",
+      "file": "assets/packed/b479002ba3e812b4.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 7628
+    },
+    {
+      "source": "assets/art20/tile_snow.png",
+      "file": "assets/packed/5be482ff2f38c306.webp",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 3110
+    },
+    {
+      "source": "assets/art20/edge_ocean.png",
+      "file": "assets/packed/e9ddb53bc9047d34.webp",
+      "sourceSize": [
+        128,
+        96
+      ],
+      "size": [
+        128,
+        96
+      ],
+      "bytes": 3616
+    },
+    {
+      "source": "assets/art20/creature_shade.png",
+      "file": "assets/packed/0e0d1758fd1c9c13.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 6270
+    },
+    {
+      "source": "assets/art20/bg_snow.png",
+      "file": "assets/packed/1a8be2514034953b.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 35352
+    },
+    {
+      "source": "assets/art20/creature_beast_boss.png",
+      "file": "assets/packed/d61104fb93f9c5b1.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 13034
+    },
+    {
+      "source": "assets/art20/bg_crystal.png",
+      "file": "assets/packed/457312f11ab9f50c.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 18008
+    },
+    {
+      "source": "assets/art20/map_desert.png",
+      "file": "assets/packed/14be610de28dfca3.webp",
+      "sourceSize": [
+        128,
+        144
+      ],
+      "size": [
+        128,
+        144
+      ],
+      "bytes": 3396
+    },
+    {
+      "source": "assets/art20/vine_forest.png",
+      "file": "assets/packed/e62d72d6173e4772.webp",
+      "sourceSize": [
+        150,
+        180
+      ],
+      "size": [
+        150,
+        180
+      ],
+      "bytes": 7756
+    },
+    {
+      "source": "assets/art20/edge_snow.png",
+      "file": "assets/packed/860213f38d9f4063.webp",
+      "sourceSize": [
+        128,
+        96
+      ],
+      "size": [
+        128,
+        96
+      ],
+      "bytes": 2304
+    },
+    {
+      "source": "assets/art20/creature_knight.png",
+      "file": "assets/packed/67e64fe322dae6ab.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 14932
+    },
+    {
+      "source": "assets/art20/bg_coast.png",
+      "file": "assets/packed/7bdb51771358564f.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 23368
+    },
+    {
+      "source": "assets/art20/mid_fungi.png",
+      "file": "assets/packed/ffebd5278631d95c.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 21664
+    },
+    {
+      "source": "assets/art20/fixture_sofa.png",
+      "file": "assets/packed/9a9bb3776e5137c2.webp",
+      "sourceSize": [
+        96,
+        112
+      ],
+      "size": [
+        96,
+        112
+      ],
+      "bytes": 632
+    },
+    {
+      "source": "assets/art20/creature_robot.png",
+      "file": "assets/packed/f2e40899fe69f5cd.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 14104
+    },
+    {
+      "source": "assets/art20/edge_coast.png",
+      "file": "assets/packed/62f2bfa74c6135eb.webp",
+      "sourceSize": [
+        128,
+        96
+      ],
+      "size": [
+        128,
+        96
+      ],
+      "bytes": 3144
+    },
+    {
+      "source": "assets/art20/fixture_purifier.png",
+      "file": "assets/packed/6b85cbb35eeb6afa.webp",
+      "sourceSize": [
+        96,
+        112
+      ],
+      "size": [
+        96,
+        112
+      ],
+      "bytes": 810
+    },
+    {
+      "source": "assets/art20/mid_city.png",
+      "file": "assets/packed/57a4b6840ff0e349.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 10896
+    },
+    {
+      "source": "assets/art20/creature_mushroom.png",
+      "file": "assets/packed/3514bb4d0ee1ed79.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 17596
+    },
+    {
+      "source": "assets/art20/portrait_beast.png",
+      "file": "assets/packed/38b7a4e544aebcbd.webp",
+      "sourceSize": [
+        126,
+        120
+      ],
+      "size": [
+        126,
+        120
+      ],
+      "bytes": 10178
+    },
+    {
+      "source": "assets/art20/tile_desert.png",
+      "file": "assets/packed/0ac5340da8370e1e.webp",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 2798
+    },
+    {
+      "source": "assets/art20/bg_desert.png",
+      "file": "assets/packed/f83e5db454914379.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 24184
+    },
+    {
+      "source": "assets/art20/creature_jelly_boss.png",
+      "file": "assets/packed/0561a5632ea19504.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 17896
+    },
+    {
+      "source": "assets/art20/edge_shadow.png",
+      "file": "assets/packed/598455a9ab9b85f6.webp",
+      "sourceSize": [
+        128,
+        96
+      ],
+      "size": [
+        128,
+        96
+      ],
+      "bytes": 3026
+    },
+    {
+      "source": "assets/art20/creature_snail.png",
+      "file": "assets/packed/8167b0e97526d478.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 11678
+    },
+    {
+      "source": "assets/art20/creature_fish.png",
+      "file": "assets/packed/090a408057611175.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 9140
+    },
+    {
+      "source": "assets/art20/creature_snake.png",
+      "file": "assets/packed/32756f5f83eeecc0.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 7618
+    },
+    {
+      "source": "assets/art20/creature_spider_boss.png",
+      "file": "assets/packed/b9eacf55d02aa3b7.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 14982
+    },
+    {
+      "source": "assets/art20/bg_cave.png",
+      "file": "assets/packed/30f3ba4c9a50243c.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 18040
+    },
+    {
+      "source": "assets/art20/portrait_engineer.png",
+      "file": "assets/packed/e2ebf50f8f6eadd9.webp",
+      "sourceSize": [
+        126,
+        120
+      ],
+      "size": [
+        126,
+        120
+      ],
+      "bytes": 10070
+    },
+    {
+      "source": "assets/art20/creature_knight_boss.png",
+      "file": "assets/packed/3a6610a451a371a8.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 18040
+    },
+    {
+      "source": "assets/art20/vine_desert.png",
+      "file": "assets/packed/56add4a20bcb602f.webp",
+      "sourceSize": [
+        150,
+        180
+      ],
+      "size": [
+        150,
+        180
+      ],
+      "bytes": 8078
+    },
+    {
+      "source": "assets/art20/fixture_fridge.png",
+      "file": "assets/packed/91d8b187c11b192b.webp",
+      "sourceSize": [
+        96,
+        112
+      ],
+      "size": [
+        96,
+        112
+      ],
+      "bytes": 702
+    },
+    {
+      "source": "assets/art20/bg_volcano.png",
+      "file": "assets/packed/057e9207b7fed95d.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 29238
+    },
+    {
+      "source": "assets/art20/creature_moth.png",
+      "file": "assets/packed/1155b06bf295c280.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 13528
+    },
+    {
+      "source": "assets/art20/mid_desert.png",
+      "file": "assets/packed/6a9a2a9f4808149a.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 12894
+    },
+    {
+      "source": "assets/art20/portrait_rift.png",
+      "file": "assets/packed/d9df410a98b8cebc.webp",
+      "sourceSize": [
+        126,
+        120
+      ],
+      "size": [
+        126,
+        120
+      ],
+      "bytes": 10354
+    },
+    {
+      "source": "assets/art20/creature_crab.png",
+      "file": "assets/packed/f1480993422fb256.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 9932
+    },
+    {
+      "source": "assets/art20/bg_forest.png",
+      "file": "assets/packed/bbf6839a62230324.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 21226
+    },
+    {
+      "source": "assets/art20/map_sky.png",
+      "file": "assets/packed/932eb86198b002a5.webp",
+      "sourceSize": [
+        128,
+        144
+      ],
+      "size": [
+        128,
+        144
+      ],
+      "bytes": 4528
+    },
+    {
+      "source": "assets/art20/creature_ghost_boss.png",
+      "file": "assets/packed/138c9c81a392b73c.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 10654
+    },
+    {
+      "source": "assets/art20/fixture_radio.png",
+      "file": "assets/packed/9cd8336ff362f8c6.webp",
+      "sourceSize": [
+        96,
+        112
+      ],
+      "size": [
+        96,
+        112
+      ],
+      "bytes": 1314
+    },
+    {
+      "source": "assets/art20/map_ocean.png",
+      "file": "assets/packed/33432437439c003f.webp",
+      "sourceSize": [
+        128,
+        144
+      ],
+      "size": [
+        128,
+        144
+      ],
+      "bytes": 4694
+    },
+    {
+      "source": "assets/art20/portrait_chronist.png",
+      "file": "assets/packed/7a8d3525bd6d475c.webp",
+      "sourceSize": [
+        126,
+        120
+      ],
+      "size": [
+        126,
+        120
+      ],
+      "bytes": 10046
+    },
+    {
+      "source": "assets/art20/creature_worm_boss.png",
+      "file": "assets/packed/bd1806214856705d.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 12638
+    },
+    {
+      "source": "assets/art20/fixture_terminal.png",
+      "file": "assets/packed/6b85cbb35eeb6afa.webp",
+      "sourceSize": [
+        96,
+        112
+      ],
+      "size": [
+        96,
+        112
+      ],
+      "bytes": 810
+    },
+    {
+      "source": "assets/art20/creature_fungus.png",
+      "file": "assets/packed/46872c8ea696569d.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 17560
+    },
+    {
+      "source": "assets/art20/fixture_locker.png",
+      "file": "assets/packed/9a9bb3776e5137c2.webp",
+      "sourceSize": [
+        96,
+        112
+      ],
+      "size": [
+        96,
+        112
+      ],
+      "bytes": 632
+    },
+    {
+      "source": "assets/art20/mid_volcano.png",
+      "file": "assets/packed/3232701cc0014211.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 7682
+    },
+    {
+      "source": "assets/art20/tile_sky.png",
+      "file": "assets/packed/284fe37b07998f27.webp",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 3548
+    },
+    {
+      "source": "assets/art20/creature_shade_boss.png",
+      "file": "assets/packed/fa554c5d99fb3144.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 10530
+    },
+    {
+      "source": "assets/art20/creature_mushroom_boss.png",
+      "file": "assets/packed/81c32d79b16e8896.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 17636
+    },
+    {
+      "source": "assets/art20/vine_sky.png",
+      "file": "assets/packed/91cb7f99aef82c22.webp",
+      "sourceSize": [
+        150,
+        180
+      ],
+      "size": [
+        150,
+        180
+      ],
+      "bytes": 9514
+    },
+    {
+      "source": "assets/art20/tile_cave.png",
+      "file": "assets/packed/f554b2474f1d82cf.webp",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 1914
+    },
+    {
+      "source": "assets/art20/portrait_gunner.png",
+      "file": "assets/packed/438f62b744343c95.webp",
+      "sourceSize": [
+        126,
+        120
+      ],
+      "size": [
+        126,
+        120
+      ],
+      "bytes": 10370
+    },
+    {
+      "source": "assets/art20/tile_ocean.png",
+      "file": "assets/packed/696ea6bf04158127.webp",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 2174
+    },
+    {
+      "source": "assets/art20/portrait_sharpshooter.png",
+      "file": "assets/packed/dd56801a8928ad7e.webp",
+      "sourceSize": [
+        126,
+        120
+      ],
+      "size": [
+        126,
+        120
+      ],
+      "bytes": 10320
+    },
+    {
+      "source": "assets/art20/creature_owl.png",
+      "file": "assets/packed/3776585861b96ab9.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 10998
+    },
+    {
+      "source": "assets/art20/edge_fungi.png",
+      "file": "assets/packed/7f4b341a5ad93640.webp",
+      "sourceSize": [
+        128,
+        96
+      ],
+      "size": [
+        128,
+        96
+      ],
+      "bytes": 3278
+    },
+    {
+      "source": "assets/art20/vine_fungi.png",
+      "file": "assets/packed/f55cff84d60f83cc.webp",
+      "sourceSize": [
+        150,
+        180
+      ],
+      "size": [
+        150,
+        180
+      ],
+      "bytes": 7678
+    },
+    {
+      "source": "assets/art20/creature_beast.png",
+      "file": "assets/packed/d18255a4e87284cc.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 7994
+    },
+    {
+      "source": "assets/art20/creature_scorpion_boss.png",
+      "file": "assets/packed/a4e0baa3b875c6f3.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 17064
+    },
+    {
+      "source": "assets/art20/portrait_chain.png",
+      "file": "assets/packed/76cac11255a5883a.webp",
+      "sourceSize": [
+        126,
+        120
+      ],
+      "size": [
+        126,
+        120
+      ],
+      "bytes": 10058
+    },
+    {
+      "source": "assets/art20/creature_golem_boss.png",
+      "file": "assets/packed/20146e7f60813bbe.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 17578
+    },
+    {
+      "source": "assets/art20/source_desert.png",
+      "file": "assets/packed/feefb17be3c0dc3e.webp",
+      "sourceSize": [
+        138,
+        113
+      ],
+      "size": [
+        138,
+        113
+      ],
+      "bytes": 4928
+    },
+    {
+      "source": "assets/art20/portrait_dreamwalker.png",
+      "file": "assets/packed/4e96c34887dcc444.webp",
+      "sourceSize": [
+        126,
+        120
+      ],
+      "size": [
+        126,
+        120
+      ],
+      "bytes": 10208
+    },
+    {
+      "source": "assets/art20/map_coast.png",
+      "file": "assets/packed/d19299c654be2584.webp",
+      "sourceSize": [
+        128,
+        144
+      ],
+      "size": [
+        128,
+        144
+      ],
+      "bytes": 4072
+    },
+    {
+      "source": "assets/art20/bg_shadow.png",
+      "file": "assets/packed/b568464d07340f93.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 24400
+    },
+    {
+      "source": "assets/art20/portrait_alchemist.png",
+      "file": "assets/packed/066f5d4929cc8763.webp",
+      "sourceSize": [
+        126,
+        120
+      ],
+      "size": [
+        126,
+        120
+      ],
+      "bytes": 10204
+    },
+    {
+      "source": "assets/art20/creature_insect.png",
+      "file": "assets/packed/27c26751ca825281.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 13628
+    },
+    {
+      "source": "assets/art20/tile_crystal.png",
+      "file": "assets/packed/3f4c6c90b9c9b51b.webp",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 2426
+    },
+    {
+      "source": "assets/art20/mid_forest.png",
+      "file": "assets/packed/cafa091ef7e0e19c.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 23890
+    },
+    {
+      "source": "assets/art20/mid_sky.png",
+      "file": "assets/packed/56afdc9d9d7f18b3.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 10988
+    },
+    {
+      "source": "assets/art20/creature_golem.png",
+      "file": "assets/packed/7f9be2ce6e9a42d1.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 13962
+    },
+    {
+      "source": "assets/art20/portrait_monk.png",
+      "file": "assets/packed/2f760c154e769a8a.webp",
+      "sourceSize": [
+        126,
+        120
+      ],
+      "size": [
+        126,
+        120
+      ],
+      "bytes": 10196
+    },
+    {
+      "source": "assets/art20/creature_jelly.png",
+      "file": "assets/packed/9008db12a0af4928.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 17738
+    },
+    {
+      "source": "assets/art20/mid_shadow.png",
+      "file": "assets/packed/7cd1c546216d22af.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 21668
+    },
+    {
+      "source": "assets/art20/creature_fungus_boss.png",
+      "file": "assets/packed/85cbff9e098fe8f5.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 17804
+    },
+    {
+      "source": "assets/art20/creature_wisp_boss.png",
+      "file": "assets/packed/c3a1e71217f9a55a.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 10594
+    },
+    {
+      "source": "assets/art20/map_volcano.png",
+      "file": "assets/packed/bf6e3a2150994e5d.webp",
+      "sourceSize": [
+        128,
+        144
+      ],
+      "size": [
+        128,
+        144
+      ],
+      "bytes": 3112
+    },
+    {
+      "source": "assets/art20/tile_city.png",
+      "file": "assets/packed/a3f24af73fe1fccc.webp",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 1878
+    },
+    {
+      "source": "assets/art20/tile_volcano.png",
+      "file": "assets/packed/b3f0baf9d5ba72dc.webp",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 1920
+    },
+    {
+      "source": "assets/art20/portrait_puppeteer.png",
+      "file": "assets/packed/8ec586b8c051e04f.webp",
+      "sourceSize": [
+        126,
+        120
+      ],
+      "size": [
+        126,
+        120
+      ],
+      "bytes": 10182
+    },
+    {
+      "source": "assets/art20/vine_shadow.png",
+      "file": "assets/packed/00ab0e9e2577d608.webp",
+      "sourceSize": [
+        150,
+        180
+      ],
+      "size": [
+        150,
+        180
+      ],
+      "bytes": 7708
+    },
+    {
+      "source": "assets/art20/vine_cave.png",
+      "file": "assets/packed/bfc921a39819c1d1.webp",
+      "sourceSize": [
+        150,
+        180
+      ],
+      "size": [
+        150,
+        180
+      ],
+      "bytes": 8704
+    },
+    {
+      "source": "assets/art20/mid_cave.png",
+      "file": "assets/packed/bfa494acdac79024.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 8106
+    },
+    {
+      "source": "assets/art20/creature_spider.png",
+      "file": "assets/packed/6ad8f69e1ec9c0e8.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 9996
+    },
+    {
+      "source": "assets/art20/tile_shadow.png",
+      "file": "assets/packed/9330aa2076990fdf.webp",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 1488
+    },
+    {
+      "source": "assets/art20/map_shadow.png",
+      "file": "assets/packed/a96aae8545394fc3.webp",
+      "sourceSize": [
+        128,
+        144
+      ],
+      "size": [
+        128,
+        144
+      ],
+      "bytes": 4004
+    },
+    {
+      "source": "assets/art20/fixture_stove.png",
+      "file": "assets/packed/9a9bb3776e5137c2.webp",
+      "sourceSize": [
+        96,
+        112
+      ],
+      "size": [
+        96,
+        112
+      ],
+      "bytes": 632
+    },
+    {
+      "source": "assets/art20/map_snow.png",
+      "file": "assets/packed/0c283e29d9967633.webp",
+      "sourceSize": [
+        128,
+        144
+      ],
+      "size": [
+        128,
+        144
+      ],
+      "bytes": 3130
+    },
+    {
+      "source": "assets/art20/map_city.png",
+      "file": "assets/packed/4caab15b3a71c332.webp",
+      "sourceSize": [
+        128,
+        144
+      ],
+      "size": [
+        128,
+        144
+      ],
+      "bytes": 3058
+    },
+    {
+      "source": "assets/art20/portrait_cartographer.png",
+      "file": "assets/packed/dd23b3058a905b4c.webp",
+      "sourceSize": [
+        126,
+        120
+      ],
+      "size": [
+        126,
+        120
+      ],
+      "bytes": 10094
+    },
+    {
+      "source": "assets/art20/vine_snow.png",
+      "file": "assets/packed/55f271638cc4bb68.webp",
+      "sourceSize": [
+        150,
+        180
+      ],
+      "size": [
+        150,
+        180
+      ],
+      "bytes": 7762
+    },
+    {
+      "source": "assets/art20/creature_owl_boss.png",
+      "file": "assets/packed/008843b53f94939f.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 14432
+    },
+    {
+      "source": "assets/art20/creature_fish_boss.png",
+      "file": "assets/packed/3beeca277dfca22f.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 13902
+    },
+    {
+      "source": "assets/art20/fixture_bed.png",
+      "file": "assets/packed/08268b08d0bb61e5.webp",
+      "sourceSize": [
+        96,
+        112
+      ],
+      "size": [
+        96,
+        112
+      ],
+      "bytes": 470
+    },
+    {
+      "source": "assets/art20/source_ocean.png",
+      "file": "assets/packed/4fea6e49d6f87eba.webp",
+      "sourceSize": [
+        138,
+        112
+      ],
+      "size": [
+        138,
+        112
+      ],
+      "bytes": 4900
+    },
+    {
+      "source": "assets/art20/fixture_map.png",
+      "file": "assets/packed/70e66fba6bfccd65.webp",
+      "sourceSize": [
+        96,
+        112
+      ],
+      "size": [
+        96,
+        112
+      ],
+      "bytes": 1056
+    },
+    {
+      "source": "assets/art20/mid_ocean.png",
+      "file": "assets/packed/b026b2fd4b665327.webp",
+      "sourceSize": [
+        960,
+        540
+      ],
+      "size": [
+        960,
+        540
+      ],
+      "bytes": 17686
+    },
+    {
+      "source": "assets/art20/creature_ray.png",
+      "file": "assets/packed/08a76d53bdef82f7.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 10044
+    },
+    {
+      "source": "assets/art20/edge_forest.png",
+      "file": "assets/packed/2567c667bab73452.webp",
+      "sourceSize": [
+        128,
+        96
+      ],
+      "size": [
+        128,
+        96
+      ],
+      "bytes": 3306
+    },
+    {
+      "source": "assets/art20/edge_crystal.png",
+      "file": "assets/packed/8bd92859fed96fc9.webp",
+      "sourceSize": [
+        128,
+        96
+      ],
+      "size": [
+        128,
+        96
+      ],
+      "bytes": 2308
+    },
+    {
+      "source": "assets/art20/portrait_summoner.png",
+      "file": "assets/packed/c7caf29157f55f93.webp",
+      "sourceSize": [
+        126,
+        120
+      ],
+      "size": [
+        126,
+        120
+      ],
+      "bytes": 10232
+    },
+    {
+      "source": "assets/art20/vine_coast.png",
+      "file": "assets/packed/11155e7a3d6e3972.webp",
+      "sourceSize": [
+        150,
+        180
+      ],
+      "size": [
+        150,
+        180
+      ],
+      "bytes": 7758
+    },
+    {
+      "source": "assets/art20/creature_scorpion.png",
+      "file": "assets/packed/b24c268e2d28a1c7.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 12710
+    },
+    {
+      "source": "assets/art20/creature_ghost.png",
+      "file": "assets/packed/f3a66d71a0b1c564.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 6276
+    },
+    {
+      "source": "assets/art20/tile_forest.png",
+      "file": "assets/packed/88316d77e7e434a0.webp",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 1646
+    },
+    {
+      "source": "assets/art20/edge_cave.png",
+      "file": "assets/packed/cc68dc72634632d8.webp",
+      "sourceSize": [
+        128,
+        96
+      ],
+      "size": [
+        128,
+        96
+      ],
+      "bytes": 2276
+    },
+    {
+      "source": "assets/art20/creature_snail_boss.png",
+      "file": "assets/packed/b1e210374fd7614f.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 16910
+    },
+    {
+      "source": "assets/art20/source_volcano.png",
+      "file": "assets/packed/6366aa16ccf26947.webp",
+      "sourceSize": [
+        138,
+        112
+      ],
+      "size": [
+        138,
+        112
+      ],
+      "bytes": 4948
+    },
+    {
+      "source": "assets/art20/creature_eel.png",
+      "file": "assets/packed/803afcb296f2be36.webp",
+      "sourceSize": [
+        768,
+        112
+      ],
+      "size": [
+        768,
+        112
+      ],
+      "bytes": 7668
+    },
+    {
+      "source": "assets/art20/vine_crystal.png",
+      "file": "assets/packed/270d90175c68e16f.webp",
+      "sourceSize": [
+        150,
+        180
+      ],
+      "size": [
+        150,
+        180
+      ],
+      "bytes": 8728
+    },
+    {
+      "source": "assets/sprites/enemy_artillery.png",
+      "file": "assets/packed/584ee390bcfad117.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 14278
+    },
+    {
+      "source": "assets/sprites/enemy_dune_1.png",
+      "file": "assets/packed/f7a517624c64d67c.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 20872
+    },
+    {
+      "source": "assets/sprites/enemy_dune_2.png",
+      "file": "assets/packed/9f5e7864f854e5e9.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 45532
+    },
+    {
+      "source": "assets/sprites/furniture_atlas.png",
+      "file": "assets/packed/085cd47b8ddc1dea.webp",
+      "sourceSize": [
+        768,
+        64
+      ],
+      "size": [
+        768,
+        64
+      ],
+      "bytes": 4446
+    },
+    {
+      "source": "assets/sprites/enemy_mimic.png",
+      "file": "assets/packed/f3cc91dc5cc9fc28.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 15032
+    },
+    {
+      "source": "assets/sprites/enemy_reef_1.png",
+      "file": "assets/packed/ada6f52677feec5e.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 26614
+    },
+    {
+      "source": "assets/sprites/enemy_sky_1_v.png",
+      "file": "assets/packed/3724faf819a0fde9.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 33520
+    },
+    {
+      "source": "assets/sprites/enemy_glacier_0_v.png",
+      "file": "assets/packed/19163f58aa55692a.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 30254
+    },
+    {
+      "source": "assets/sprites/enemy_abyss_1_v.png",
+      "file": "assets/packed/70a39d0810f0997d.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 31004
+    },
+    {
+      "source": "assets/sprites/enemy_breeder.png",
+      "file": "assets/packed/64a7d06d0faa878e.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 22006
+    },
+    {
+      "source": "assets/sprites/enemy_healer.png",
+      "file": "assets/packed/c381a028216e3a4b.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 34700
+    },
+    {
+      "source": "assets/sprites/enemy_reef_2.png",
+      "file": "assets/packed/0cc41f894c3f264a.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 44662
+    },
+    {
+      "source": "assets/sprites/enemy_inferno_1_v.png",
+      "file": "assets/packed/7b06d6336257fc89.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 37978
+    },
+    {
+      "source": "assets/sprites/player_beast_king.png",
+      "file": "assets/packed/6d09581ad7b3f37a.webp",
+      "sourceSize": [
+        512,
+        448
+      ],
+      "size": [
+        512,
+        448
+      ],
+      "bytes": 46416
+    },
+    {
+      "source": "assets/sprites/enemy_metro_0_v.png",
+      "file": "assets/packed/8c2cc4ca382cb3d1.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 26864
+    },
+    {
+      "source": "assets/sprites/enemy_umbra_1_v.png",
+      "file": "assets/packed/163daa7df48df59e.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 33496
+    },
+    {
+      "source": "assets/sprites/enemy_ambusher.png",
+      "file": "assets/packed/634d93bb2ed3cc8f.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 16530
+    },
+    {
+      "source": "assets/sprites/player_alchemist.png",
+      "file": "assets/packed/027a0cbe84540825.webp",
+      "sourceSize": [
+        512,
+        1040
+      ],
+      "size": [
+        512,
+        1040
+      ],
+      "bytes": 101930
+    },
+    {
+      "source": "assets/sprites/enemy_metro_1.png",
+      "file": "assets/packed/85abaf387d01c9ae.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 18296
+    },
+    {
+      "source": "assets/sprites/enemy_reef_0.png",
+      "file": "assets/packed/fd19c29d4b46eae1.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 39942
+    },
+    {
+      "source": "assets/sprites/enemy_glacier_2.png",
+      "file": "assets/packed/88fef52ffe85670e.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 43504
+    },
+    {
+      "source": "assets/sprites/player_puppeteer.png",
+      "file": "assets/packed/7c8bc509b7594229.webp",
+      "sourceSize": [
+        512,
+        1040
+      ],
+      "size": [
+        512,
+        1040
+      ],
+      "bytes": 116004
+    },
+    {
+      "source": "assets/sprites/enemy_charger.png",
+      "file": "assets/packed/09082155544b5598.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 18634
+    },
+    {
+      "source": "assets/sprites/enemy_umbra_0.png",
+      "file": "assets/packed/a7354b63259bddce.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 27992
+    },
+    {
+      "source": "assets/sprites/enemy_sky_1.png",
+      "file": "assets/packed/e240677143405c32.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 21978
+    },
+    {
+      "source": "assets/sprites/enemy_inferno_0_v.png",
+      "file": "assets/packed/0bf0009b00fd8d3b.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 30502
+    },
+    {
+      "source": "assets/sprites/player_rift.png",
+      "file": "assets/packed/8d2c6ea5ba11430a.webp",
+      "sourceSize": [
+        512,
+        1040
+      ],
+      "size": [
+        512,
+        1040
+      ],
+      "bytes": 121322
+    },
+    {
+      "source": "assets/sprites/enemy_abyss_0.png",
+      "file": "assets/packed/8c05b16aef8af374.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 26258
+    },
+    {
+      "source": "assets/sprites/enemy_reflector.png",
+      "file": "assets/packed/44aa9d2201e7553e.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 18532
+    },
+    {
+      "source": "assets/sprites/enemy_inferno_1.png",
+      "file": "assets/packed/584a1e4d24f918ae.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 37280
+    },
+    {
+      "source": "assets/sprites/enemy_abyss_1.png",
+      "file": "assets/packed/70a39d0810f0997d.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 31004
+    },
+    {
+      "source": "assets/sprites/player_warden.png",
+      "file": "assets/packed/91b69b4e72ff24d1.webp",
+      "sourceSize": [
+        512,
+        1040
+      ],
+      "size": [
+        512,
+        1040
+      ],
+      "bytes": 118450
+    },
+    {
+      "source": "assets/sprites/enemy_spitter.png",
+      "file": "assets/packed/0df0515797bcb42d.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 17012
+    },
+    {
+      "source": "assets/sprites/player_cartographer.png",
+      "file": "assets/packed/2d4aeb220277d44f.webp",
+      "sourceSize": [
+        512,
+        1040
+      ],
+      "size": [
+        512,
+        1040
+      ],
+      "bytes": 116242
+    },
+    {
+      "source": "assets/sprites/enemy_umbra_2.png",
+      "file": "assets/packed/598758adf9e152f8.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 42648
+    },
+    {
+      "source": "assets/sprites/player_chrono.png",
+      "file": "assets/packed/42b12489426845f5.webp",
+      "sourceSize": [
+        512,
+        1040
+      ],
+      "size": [
+        512,
+        1040
+      ],
+      "bytes": 113992
+    },
+    {
+      "source": "assets/sprites/enemy_slime.png",
+      "file": "assets/packed/741850a15d2ca16b.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 14704
+    },
+    {
+      "source": "assets/sprites/enemy_dune_0_v.png",
+      "file": "assets/packed/32da4635867cc554.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 30384
+    },
+    {
+      "source": "assets/sprites/enemy_scatterer.png",
+      "file": "assets/packed/ce3afd032a501193.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 30392
+    },
+    {
+      "source": "assets/sprites/enemy_glacier_1.png",
+      "file": "assets/packed/a87de6ea0287e34c.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 33044
+    },
+    {
+      "source": "assets/sprites/player_summoner.png",
+      "file": "assets/packed/7afad3e138d32746.webp",
+      "sourceSize": [
+        512,
+        1040
+      ],
+      "size": [
+        512,
+        1040
+      ],
+      "bytes": 116280
+    },
+    {
+      "source": "assets/sprites/player_beast_bear.png",
+      "file": "assets/packed/f1c3b7a6cb4f56d7.webp",
+      "sourceSize": [
+        512,
+        448
+      ],
+      "size": [
+        512,
+        448
+      ],
+      "bytes": 28528
+    },
+    {
+      "source": "assets/sprites/enemy_reef_0_v.png",
+      "file": "assets/packed/8391519aec539fa7.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 40702
+    },
+    {
+      "source": "assets/sprites/enemy_abyss_0_v.png",
+      "file": "assets/packed/8c05b16aef8af374.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 26258
+    },
+    {
+      "source": "assets/sprites/enemy_sentinel.png",
+      "file": "assets/packed/564195332bbdf771.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 40294
+    },
+    {
+      "source": "assets/sprites/enemy_abyss_2.png",
+      "file": "assets/packed/53d297df0cb0e862.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 43272
+    },
+    {
+      "source": "assets/sprites/enemy_shocker.png",
+      "file": "assets/packed/8d36c80abfe6e536.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 39068
+    },
+    {
+      "source": "assets/sprites/enemy_sniper.png",
+      "file": "assets/packed/fe3adb8f33fd2e16.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 16794
+    },
+    {
+      "source": "assets/sprites/enemy_bombardier.png",
+      "file": "assets/packed/c9160e165493f153.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 16080
+    },
+    {
+      "source": "assets/sprites/enemy_umbra_0_v.png",
+      "file": "assets/packed/a7354b63259bddce.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 27992
+    },
+    {
+      "source": "assets/sprites/enemy_dune_0.png",
+      "file": "assets/packed/c4eb9a9aa8208823.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 16132
+    },
+    {
+      "source": "assets/sprites/player_dreamweaver.png",
+      "file": "assets/packed/989517c77f0f84d1.webp",
+      "sourceSize": [
+        512,
+        1040
+      ],
+      "size": [
+        512,
+        1040
+      ],
+      "bytes": 119560
+    },
+    {
+      "source": "assets/sprites/enemy_sky_0_v.png",
+      "file": "assets/packed/4e01721e822f1316.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 34840
+    },
+    {
+      "source": "assets/sprites/enemy_inferno_0.png",
+      "file": "assets/packed/c188cd274686a543.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 19282
+    },
+    {
+      "source": "assets/sprites/enemy_umbra_1.png",
+      "file": "assets/packed/163daa7df48df59e.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 33496
+    },
+    {
+      "source": "assets/sprites/player_beast_eagle.png",
+      "file": "assets/packed/e3f4e0a63fc79a87.webp",
+      "sourceSize": [
+        512,
+        448
+      ],
+      "size": [
+        512,
+        448
+      ],
+      "bytes": 26564
+    },
+    {
+      "source": "assets/sprites/player_sharpshooter.png",
+      "file": "assets/packed/049c5af8ee6f5842.webp",
+      "sourceSize": [
+        512,
+        1040
+      ],
+      "size": [
+        512,
+        1040
+      ],
+      "bytes": 108546
+    },
+    {
+      "source": "assets/sprites/player_beast_wolf.png",
+      "file": "assets/packed/f034d31876df5a9d.webp",
+      "sourceSize": [
+        512,
+        448
+      ],
+      "size": [
+        512,
+        448
+      ],
+      "bytes": 27746
+    },
+    {
+      "source": "assets/sprites/enemy_metro_1_v.png",
+      "file": "assets/packed/91ad65a04def53ab.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 23798
+    },
+    {
+      "source": "assets/sprites/enemy_sky_2.png",
+      "file": "assets/packed/2f74ccb5b0b13136.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 45446
+    },
+    {
+      "source": "assets/sprites/enemy_glacier_0.png",
+      "file": "assets/packed/19163f58aa55692a.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 30254
+    },
+    {
+      "source": "assets/sprites/enemy_spider.png",
+      "file": "assets/packed/bfd0f487a8474d3e.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 20372
+    },
+    {
+      "source": "assets/sprites/enemy_parasite.png",
+      "file": "assets/packed/60aa39b100f128a8.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 26398
+    },
+    {
+      "source": "assets/sprites/enemy_reef_1_v.png",
+      "file": "assets/packed/de14e713874c5b8b.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 36266
+    },
+    {
+      "source": "assets/sprites/player_chef.png",
+      "file": "assets/packed/802e4a8dd222196a.webp",
+      "sourceSize": [
+        512,
+        1040
+      ],
+      "size": [
+        512,
+        1040
+      ],
+      "bytes": 111026
+    },
+    {
+      "source": "assets/sprites/player_monk.png",
+      "file": "assets/packed/74f0e30bb9b99910.webp",
+      "sourceSize": [
+        512,
+        1040
+      ],
+      "size": [
+        512,
+        1040
+      ],
+      "bytes": 98614
+    },
+    {
+      "source": "assets/sprites/enemy_archer.png",
+      "file": "assets/packed/1d178eeb334390d8.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 17636
+    },
+    {
+      "source": "assets/sprites/player_artificer.png",
+      "file": "assets/packed/3e09d806c66c1d62.webp",
+      "sourceSize": [
+        512,
+        1040
+      ],
+      "size": [
+        512,
+        1040
+      ],
+      "bytes": 119764
+    },
+    {
+      "source": "assets/sprites/enemy_metro_2.png",
+      "file": "assets/packed/e273d0c2b31b12ae.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 41956
+    },
+    {
+      "source": "assets/sprites/enemy_inferno_2.png",
+      "file": "assets/packed/2f87955e1f4bdba4.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 45112
+    },
+    {
+      "source": "assets/sprites/enemy_dune_1_v.png",
+      "file": "assets/packed/12bdf25fba0d1e7e.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 32132
+    },
+    {
+      "source": "assets/sprites/enemy_burrower.png",
+      "file": "assets/packed/059c0a71e96d75a8.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 20270
+    },
+    {
+      "source": "assets/sprites/enemy_metro_0.png",
+      "file": "assets/packed/a81f16972e0d2bba.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 18844
+    },
+    {
+      "source": "assets/sprites/player_gunner.png",
+      "file": "assets/packed/ab43289d4ff6e345.webp",
+      "sourceSize": [
+        512,
+        1040
+      ],
+      "size": [
+        512,
+        1040
+      ],
+      "bytes": 109002
+    },
+    {
+      "source": "assets/sprites/player_harrier.png",
+      "file": "assets/packed/98abb8a3773edd90.webp",
+      "sourceSize": [
+        512,
+        1040
+      ],
+      "size": [
+        512,
+        1040
+      ],
+      "bytes": 111172
+    },
+    {
+      "source": "assets/sprites/enemy_sky_0.png",
+      "file": "assets/packed/6799e9ff3ecfc88f.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 26210
+    },
+    {
+      "source": "assets/sprites/enemy_glacier_1_v.png",
+      "file": "assets/packed/a87de6ea0287e34c.webp",
+      "sourceSize": [
+        384,
+        288
+      ],
+      "size": [
+        384,
+        288
+      ],
+      "bytes": 33044
+    },
+    {
+      "source": "assets/codex/MONSTER_ATLAS_V9.png",
+      "file": "assets/packed/40df70bdea2b3d75.webp",
+      "sourceSize": [
+        1860,
+        735
+      ],
+      "size": [
+        1860,
+        735
+      ],
+      "bytes": 101464
+    },
+    {
+      "source": "assets/v17/biome_glacier.png",
+      "file": "assets/packed/64c44c4d9f602198.webp",
+      "sourceSize": [
+        640,
+        400
+      ],
+      "size": [
+        640,
+        400
+      ],
+      "bytes": 7898
+    },
+    {
+      "source": "assets/v17/biome_abyss.png",
+      "file": "assets/packed/2b91df00d284bfc6.webp",
+      "sourceSize": [
+        640,
+        400
+      ],
+      "size": [
+        640,
+        400
+      ],
+      "bytes": 8748
+    },
+    {
+      "source": "assets/v17/biome_reef.png",
+      "file": "assets/packed/366caecd7db094a1.webp",
+      "sourceSize": [
+        640,
+        400
+      ],
+      "size": [
+        640,
+        400
+      ],
+      "bytes": 7450
+    },
+    {
+      "source": "assets/v17/biome_dune.png",
+      "file": "assets/packed/836abe60baf4d420.webp",
+      "sourceSize": [
+        640,
+        400
+      ],
+      "size": [
+        640,
+        400
+      ],
+      "bytes": 4550
+    },
+    {
+      "source": "assets/v17/biome_umbra.png",
+      "file": "assets/packed/88e4fecc8fb11631.webp",
+      "sourceSize": [
+        640,
+        400
+      ],
+      "size": [
+        640,
+        400
+      ],
+      "bytes": 9986
+    },
+    {
+      "source": "assets/v17/biome_inferno.png",
+      "file": "assets/packed/61af9cbc1467789e.webp",
+      "sourceSize": [
+        640,
+        400
+      ],
+      "size": [
+        640,
+        400
+      ],
+      "bytes": 9470
+    },
+    {
+      "source": "assets/v17/biome_metro.png",
+      "file": "assets/packed/eabdb60c97e21905.webp",
+      "sourceSize": [
+        640,
+        400
+      ],
+      "size": [
+        640,
+        400
+      ],
+      "bytes": 28984
+    },
+    {
+      "source": "assets/v17/biome_sky.png",
+      "file": "assets/packed/0f390b73f509572f.webp",
+      "sourceSize": [
+        640,
+        400
+      ],
+      "size": [
+        640,
+        400
+      ],
+      "bytes": 5910
+    },
+    {
+      "source": "assets/motion215/artificer.webp",
+      "file": "assets/packed/1bde59826b632dcf.webp",
+      "sourceSize": [
+        256,
+        90
+      ],
+      "size": [
+        256,
+        90
+      ],
+      "bytes": 8040
+    },
+    {
+      "source": "assets/motion215/dreamweaver.webp",
+      "file": "assets/packed/97550f5e8b5724db.webp",
+      "sourceSize": [
+        256,
+        90
+      ],
+      "size": [
+        256,
+        90
+      ],
+      "bytes": 7438
+    },
+    {
+      "source": "assets/motion215/summoner.webp",
+      "file": "assets/packed/4bb66673e4b14e7d.webp",
+      "sourceSize": [
+        256,
+        90
+      ],
+      "size": [
+        256,
+        90
+      ],
+      "bytes": 8504
+    },
+    {
+      "source": "assets/motion215/beast.webp",
+      "file": "assets/packed/d6aeb2c56c66725b.webp",
+      "sourceSize": [
+        256,
+        90
+      ],
+      "size": [
+        256,
+        90
+      ],
+      "bytes": 9408
+    },
+    {
+      "source": "assets/motion215/chrono.webp",
+      "file": "assets/packed/b5c2a307a3888183.webp",
+      "sourceSize": [
+        256,
+        90
+      ],
+      "size": [
+        256,
+        90
+      ],
+      "bytes": 9186
+    },
+    {
+      "source": "assets/motion215/sharpshooter.webp",
+      "file": "assets/packed/67e74552d11a2b56.webp",
+      "sourceSize": [
+        256,
+        90
+      ],
+      "size": [
+        256,
+        90
+      ],
+      "bytes": 7600
+    },
+    {
+      "source": "assets/motion215/alchemist.webp",
+      "file": "assets/packed/d22c2003bbd05ed2.webp",
+      "sourceSize": [
+        256,
+        90
+      ],
+      "size": [
+        256,
+        90
+      ],
+      "bytes": 9252
+    },
+    {
+      "source": "assets/motion215/cartographer.webp",
+      "file": "assets/packed/e410d302b35593d6.webp",
+      "sourceSize": [
+        256,
+        90
+      ],
+      "size": [
+        256,
+        90
+      ],
+      "bytes": 8232
+    },
+    {
+      "source": "assets/motion215/gunner.webp",
+      "file": "assets/packed/879488408f055e38.webp",
+      "sourceSize": [
+        256,
+        90
+      ],
+      "size": [
+        256,
+        90
+      ],
+      "bytes": 8482
+    },
+    {
+      "source": "assets/motion215/warden.webp",
+      "file": "assets/packed/b435639246599aa0.webp",
+      "sourceSize": [
+        256,
+        90
+      ],
+      "size": [
+        256,
+        90
+      ],
+      "bytes": 8502
+    },
+    {
+      "source": "assets/motion215/chef.webp",
+      "file": "assets/packed/5e73173153d4bb89.webp",
+      "sourceSize": [
+        256,
+        90
+      ],
+      "size": [
+        256,
+        90
+      ],
+      "bytes": 8776
+    },
+    {
+      "source": "assets/motion215/rift.webp",
+      "file": "assets/packed/9fd0c6150385456f.webp",
+      "sourceSize": [
+        256,
+        90
+      ],
+      "size": [
+        256,
+        90
+      ],
+      "bytes": 7454
+    },
+    {
+      "source": "assets/motion215/puppeteer.webp",
+      "file": "assets/packed/be8592d53f90c0fc.webp",
+      "sourceSize": [
+        256,
+        90
+      ],
+      "size": [
+        256,
+        90
+      ],
+      "bytes": 8324
+    },
+    {
+      "source": "assets/motion215/harrier.webp",
+      "file": "assets/packed/7cc61d0bbf78c4e3.webp",
+      "sourceSize": [
+        256,
+        90
+      ],
+      "size": [
+        256,
+        90
+      ],
+      "bytes": 8996
+    },
+    {
+      "source": "assets/motion215/monk.webp",
+      "file": "assets/packed/96666bfa1b7eb30b.webp",
+      "sourceSize": [
+        256,
+        90
+      ],
+      "size": [
+        256,
+        90
+      ],
+      "bytes": 8982
+    },
+    {
+      "source": "assets/art21/stand_summoner.png",
+      "file": "assets/packed/c5c034e9c709a405.webp",
+      "sourceSize": [
+        149,
+        215
+      ],
+      "size": [
+        149,
+        215
+      ],
+      "bytes": 10072
+    },
+    {
+      "source": "assets/art21/weapon_alchemist.png",
+      "file": "assets/packed/ddbf927076401cb9.webp",
+      "sourceSize": [
+        384,
+        320
+      ],
+      "size": [
+        81,
+        101
+      ],
+      "bytes": 3714
+    },
+    {
+      "source": "assets/art21/thumb_snow.webp",
+      "file": "assets/packed/145eb2b29e4a9e97.webp",
+      "sourceSize": [
+        480,
+        270
+      ],
+      "size": [
+        480,
+        270
+      ],
+      "bytes": 19566
+    },
+    {
+      "source": "assets/art21/edge_city.png",
+      "file": "assets/packed/8506b61cef7f10eb.webp",
+      "sourceSize": [
+        768,
+        188
+      ],
+      "size": [
+        768,
+        188
+      ],
+      "bytes": 26246
+    },
+    {
+      "source": "assets/art21/fixture_shelf.png",
+      "file": "assets/packed/c65a96d4c7093263.webp",
+      "sourceSize": [
+        192,
+        224
+      ],
+      "size": [
+        192,
+        224
+      ],
+      "bytes": 3634
+    },
+    {
+      "source": "assets/art21/flora_desert.png",
+      "file": "assets/packed/4851d9d29f1b9f1e.webp",
+      "sourceSize": [
+        180,
+        163
+      ],
+      "size": [
+        180,
+        163
+      ],
+      "bytes": 5646
+    },
+    {
+      "source": "assets/art21/stand_sharpshooter.png",
+      "file": "assets/packed/8b960821fbad2cbd.webp",
+      "sourceSize": [
+        149,
+        215
+      ],
+      "size": [
+        149,
+        215
+      ],
+      "bytes": 8900
+    },
+    {
+      "source": "assets/art21/world_overview.webp",
+      "file": "assets/packed/90abe2f77e2fcef7.webp",
+      "sourceSize": [
+        1166,
+        745
+      ],
+      "size": [
+        1166,
+        745
+      ],
+      "bytes": 188612
+    },
+    {
+      "source": "assets/art21/edge_sky.png",
+      "file": "assets/packed/9937f4f48bc5435c.webp",
+      "sourceSize": [
+        768,
+        188
+      ],
+      "size": [
+        768,
+        188
+      ],
+      "bytes": 26492
+    },
+    {
+      "source": "assets/art21/flora_fungi.png",
+      "file": "assets/packed/91f4097d6bbea176.webp",
+      "sourceSize": [
+        180,
+        163
+      ],
+      "size": [
+        180,
+        163
+      ],
+      "bytes": 5866
+    },
+    {
+      "source": "assets/art21/weapon_chef.png",
+      "file": "assets/packed/f4b18c72b2145320.webp",
+      "sourceSize": [
+        384,
+        320
+      ],
+      "size": [
+        120,
+        208
+      ],
+      "bytes": 7920
+    },
+    {
+      "source": "assets/art21/portrait_warden.png",
+      "file": "assets/packed/11a0a2a4613b127b.webp",
+      "sourceSize": [
+        192,
+        220
+      ],
+      "size": [
+        192,
+        220
+      ],
+      "bytes": 10244
+    },
+    {
+      "source": "assets/art21/attack_jelly.png",
+      "file": "assets/packed/3fa40dd05a92d002.webp",
+      "sourceSize": [
+        178,
+        154
+      ],
+      "size": [
+        178,
+        154
+      ],
+      "bytes": 10542
+    },
+    {
+      "source": "assets/art21/stone_ocean.png",
+      "file": "assets/packed/59d423033fbef59b.webp",
+      "sourceSize": [
+        768,
+        768
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 9914
+    },
+    {
+      "source": "assets/art21/fx_ice.png",
+      "file": "assets/packed/5478746b90484601.webp",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 17074
+    },
+    {
+      "source": "assets/art21/thumb_cave.webp",
+      "file": "assets/packed/46bec2883e42f1de.webp",
+      "sourceSize": [
+        480,
+        270
+      ],
+      "size": [
+        480,
+        270
+      ],
+      "bytes": 11740
+    },
+    {
+      "source": "assets/art21/fx_bloom.png",
+      "file": "assets/packed/35113f7ac8b57318.webp",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 16992
+    },
+    {
+      "source": "assets/art21/fixture_lamp.png",
+      "file": "assets/packed/104d0ba227be6489.webp",
+      "sourceSize": [
+        192,
+        224
+      ],
+      "size": [
+        192,
+        224
+      ],
+      "bytes": 2222
+    },
+    {
+      "source": "assets/art21/fx_mist.png",
+      "file": "assets/packed/e6dda5efec40cbda.webp",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 10558
+    },
+    {
+      "source": "assets/art21/stand_cartographer.png",
+      "file": "assets/packed/fb765ea5d19eee2f.webp",
+      "sourceSize": [
+        149,
+        215
+      ],
+      "size": [
+        149,
+        215
+      ],
+      "bytes": 9942
+    },
+    {
+      "source": "assets/art21/thumb_ocean.webp",
+      "file": "assets/packed/4bac99500c6aebb1.webp",
+      "sourceSize": [
+        480,
+        270
+      ],
+      "size": [
+        480,
+        270
+      ],
+      "bytes": 17584
+    },
+    {
+      "source": "assets/art21/thumb_volcano.webp",
+      "file": "assets/packed/cc068a49a92bc107.webp",
+      "sourceSize": [
+        480,
+        270
+      ],
+      "size": [
+        480,
+        270
+      ],
+      "bytes": 12386
+    },
+    {
+      "source": "assets/art21/flora_crystal.png",
+      "file": "assets/packed/5fcc9c92563ad1db.webp",
+      "sourceSize": [
+        180,
+        163
+      ],
+      "size": [
+        180,
+        163
+      ],
+      "bytes": 5844
+    },
+    {
+      "source": "assets/art21/attack_boss.png",
+      "file": "assets/packed/ba62eee54e1fba8c.webp",
+      "sourceSize": [
+        369,
+        249
+      ],
+      "size": [
+        369,
+        249
+      ],
+      "bytes": 41590
+    },
+    {
+      "source": "assets/art21/thumb_forest.webp",
+      "file": "assets/packed/88fa7443ef0d3d08.webp",
+      "sourceSize": [
+        480,
+        270
+      ],
+      "size": [
+        480,
+        270
+      ],
+      "bytes": 18096
+    },
+    {
+      "source": "assets/art21/stone_crystal.png",
+      "file": "assets/packed/9609286ddfe8f5a6.webp",
+      "sourceSize": [
+        768,
+        768
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 9688
+    },
+    {
+      "source": "assets/art21/monster_boss.png",
+      "file": "assets/packed/ba62eee54e1fba8c.webp",
+      "sourceSize": [
+        369,
+        249
+      ],
+      "size": [
+        369,
+        249
+      ],
+      "bytes": 41590
+    },
+    {
+      "source": "assets/art21/scene_city.webp",
+      "file": "assets/packed/39fd9215210a1cb8.webp",
+      "sourceSize": [
+        1600,
+        900
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 52842
+    },
+    {
+      "source": "assets/art21/flora_shadow.png",
+      "file": "assets/packed/d5293b8a3a11574f.webp",
+      "sourceSize": [
+        180,
+        163
+      ],
+      "size": [
+        180,
+        163
+      ],
+      "bytes": 5924
+    },
+    {
+      "source": "assets/art21/weapon_sharpshooter.png",
+      "file": "assets/packed/4432c0814389dc61.webp",
+      "sourceSize": [
+        384,
+        320
+      ],
+      "size": [
+        301,
+        90
+      ],
+      "bytes": 6794
+    },
+    {
+      "source": "assets/art21/weapon_dreamweaver.png",
+      "file": "assets/packed/741275df46e057bf.webp",
+      "sourceSize": [
+        384,
+        320
+      ],
+      "size": [
+        78,
+        248
+      ],
+      "bytes": 5272
+    },
+    {
+      "source": "assets/art21/scene_volcano.webp",
+      "file": "assets/packed/6b6f59f378b46280.webp",
+      "sourceSize": [
+        1600,
+        900
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 37994
+    },
+    {
+      "source": "assets/art21/edge_desert.png",
+      "file": "assets/packed/5704216686bf49ae.webp",
+      "sourceSize": [
+        768,
+        188
+      ],
+      "size": [
+        768,
+        188
+      ],
+      "bytes": 25348
+    },
+    {
+      "source": "assets/art21/scene_fungi.webp",
+      "file": "assets/packed/645808d2939823f8.webp",
+      "sourceSize": [
+        1600,
+        900
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 60462
+    },
+    {
+      "source": "assets/art21/fixture_workbench.png",
+      "file": "assets/packed/55f529f2680cd141.webp",
+      "sourceSize": [
+        192,
+        224
+      ],
+      "size": [
+        192,
+        224
+      ],
+      "bytes": 3616
+    },
+    {
+      "source": "assets/art21/stand_artificer.png",
+      "file": "assets/packed/170e5c46baa57717.webp",
+      "sourceSize": [
+        149,
+        215
+      ],
+      "size": [
+        149,
+        215
+      ],
+      "bytes": 9144
+    },
+    {
+      "source": "assets/art21/fx_water.png",
+      "file": "assets/packed/5478746b90484601.webp",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 17074
+    },
+    {
+      "source": "assets/art21/weapon_summoner.png",
+      "file": "assets/packed/502a3bdc4aa3fad6.webp",
+      "sourceSize": [
+        384,
+        320
+      ],
+      "size": [
+        98,
+        269
+      ],
+      "bytes": 8726
+    },
+    {
+      "source": "assets/art21/scene_crystal.webp",
+      "file": "assets/packed/ff6c3aeeb660f5b9.webp",
+      "sourceSize": [
+        1600,
+        900
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 56612
+    },
+    {
+      "source": "assets/art21/edge_volcano.png",
+      "file": "assets/packed/22c0e98e0d1240a4.webp",
+      "sourceSize": [
+        768,
+        188
+      ],
+      "size": [
+        768,
+        188
+      ],
+      "bytes": 24880
+    },
+    {
+      "source": "assets/art21/stone_fungi.png",
+      "file": "assets/packed/f244e42833fd7dca.webp",
+      "sourceSize": [
+        768,
+        768
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 9310
+    },
+    {
+      "source": "assets/art21/thumb_coast.webp",
+      "file": "assets/packed/e0e9163a0010fb81.webp",
+      "sourceSize": [
+        480,
+        270
+      ],
+      "size": [
+        480,
+        270
+      ],
+      "bytes": 45518
+    },
+    {
+      "source": "assets/art21/thumb_crystal.webp",
+      "file": "assets/packed/61a63addd017ab3c.webp",
+      "sourceSize": [
+        480,
+        270
+      ],
+      "size": [
+        480,
+        270
+      ],
+      "bytes": 18432
+    },
+    {
+      "source": "assets/art21/thumb_shadow.webp",
+      "file": "assets/packed/fbc4f68028caa2ea.webp",
+      "sourceSize": [
+        480,
+        270
+      ],
+      "size": [
+        480,
+        270
+      ],
+      "bytes": 14032
+    },
+    {
+      "source": "assets/art21/edge_ocean.png",
+      "file": "assets/packed/c991925be05a8c85.webp",
+      "sourceSize": [
+        768,
+        188
+      ],
+      "size": [
+        768,
+        188
+      ],
+      "bytes": 26198
+    },
+    {
+      "source": "assets/art21/weapon_rift.png",
+      "file": "assets/packed/fbc781581c301914.webp",
+      "sourceSize": [
+        384,
+        320
+      ],
+      "size": [
+        78,
+        248
+      ],
+      "bytes": 5176
+    },
+    {
+      "source": "assets/art21/stand_dreamweaver.png",
+      "file": "assets/packed/251acf210b3e842d.webp",
+      "sourceSize": [
+        149,
+        215
+      ],
+      "size": [
+        149,
+        215
+      ],
+      "bytes": 9006
+    },
+    {
+      "source": "assets/art21/skill_0.png",
+      "file": "assets/packed/b576f2770f45e153.webp",
+      "sourceSize": [
+        144,
+        144
+      ],
+      "size": [
+        144,
+        144
+      ],
+      "bytes": 3010
+    },
+    {
+      "source": "assets/art21/stone_desert.png",
+      "file": "assets/packed/5a72f97a0dfd64bb.webp",
+      "sourceSize": [
+        768,
+        768
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 9388
+    },
+    {
+      "source": "assets/art21/stone_city.png",
+      "file": "assets/packed/f0ab6cdcf367607a.webp",
+      "sourceSize": [
+        768,
+        768
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 9670
+    },
+    {
+      "source": "assets/art21/stand_monk.png",
+      "file": "assets/packed/73534bc46634d048.webp",
+      "sourceSize": [
+        149,
+        215
+      ],
+      "size": [
+        149,
+        215
+      ],
+      "bytes": 9732
+    },
+    {
+      "source": "assets/art21/stone_snow.png",
+      "file": "assets/packed/6e15f3e816fa4116.webp",
+      "sourceSize": [
+        768,
+        768
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 11466
+    },
+    {
+      "source": "assets/art21/attack_bird.png",
+      "file": "assets/packed/ed4ffca49197ef07.webp",
+      "sourceSize": [
+        221,
+        170
+      ],
+      "size": [
+        221,
+        170
+      ],
+      "bytes": 11226
+    },
+    {
+      "source": "assets/art21/weapon_beast.png",
+      "file": "assets/packed/d46b3c433275210a.webp",
+      "sourceSize": [
+        384,
+        320
+      ],
+      "size": [
+        119,
+        275
+      ],
+      "bytes": 8940
+    },
+    {
+      "source": "assets/art21/edge_snow.png",
+      "file": "assets/packed/56d13534d9e4c18f.webp",
+      "sourceSize": [
+        768,
+        188
+      ],
+      "size": [
+        768,
+        188
+      ],
+      "bytes": 26228
+    },
+    {
+      "source": "assets/art21/fixture_sofa.png",
+      "file": "assets/packed/053a952d181226b3.webp",
+      "sourceSize": [
+        192,
+        224
+      ],
+      "size": [
+        192,
+        224
+      ],
+      "bytes": 1322
+    },
+    {
+      "source": "assets/art21/scene_sky.webp",
+      "file": "assets/packed/4e525abc42343475.webp",
+      "sourceSize": [
+        1600,
+        900
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 133852
+    },
+    {
+      "source": "assets/art21/stand_chef.png",
+      "file": "assets/packed/99adf41df87248aa.webp",
+      "sourceSize": [
+        149,
+        215
+      ],
+      "size": [
+        149,
+        215
+      ],
+      "bytes": 9802
+    },
+    {
+      "source": "assets/art21/edge_coast.png",
+      "file": "assets/packed/8506b61cef7f10eb.webp",
+      "sourceSize": [
+        768,
+        188
+      ],
+      "size": [
+        768,
+        188
+      ],
+      "bytes": 26246
+    },
+    {
+      "source": "assets/art21/flora_volcano.png",
+      "file": "assets/packed/cf0a9bc33b2adc51.webp",
+      "sourceSize": [
+        180,
+        163
+      ],
+      "size": [
+        180,
+        163
+      ],
+      "bytes": 5542
+    },
+    {
+      "source": "assets/art21/flora_city.png",
+      "file": "assets/packed/11b05a45258ae002.webp",
+      "sourceSize": [
+        180,
+        163
+      ],
+      "size": [
+        180,
+        163
+      ],
+      "bytes": 5850
+    },
+    {
+      "source": "assets/art21/thumb_desert.webp",
+      "file": "assets/packed/9f24708ba56b20d8.webp",
+      "sourceSize": [
+        480,
+        270
+      ],
+      "size": [
+        480,
+        270
+      ],
+      "bytes": 14528
+    },
+    {
+      "source": "assets/art21/fixture_purifier.png",
+      "file": "assets/packed/674ccb1e963965a2.webp",
+      "sourceSize": [
+        192,
+        224
+      ],
+      "size": [
+        192,
+        224
+      ],
+      "bytes": 3720
+    },
+    {
+      "source": "assets/art21/portrait_beast.png",
+      "file": "assets/packed/7e2d22faad8ab243.webp",
+      "sourceSize": [
+        192,
+        220
+      ],
+      "size": [
+        192,
+        220
+      ],
+      "bytes": 10120
+    },
+    {
+      "source": "assets/art21/weapon_artificer.png",
+      "file": "assets/packed/780e4dbc3c45d168.webp",
+      "sourceSize": [
+        384,
+        320
+      ],
+      "size": [
+        103,
+        236
+      ],
+      "bytes": 7390
+    },
+    {
+      "source": "assets/art21/stone_cave.png",
+      "file": "assets/packed/760318fa65887184.webp",
+      "sourceSize": [
+        768,
+        768
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 10592
+    },
+    {
+      "source": "assets/art21/edge_shadow.png",
+      "file": "assets/packed/ced5c3d17c8fd8e6.webp",
+      "sourceSize": [
+        768,
+        188
+      ],
+      "size": [
+        768,
+        188
+      ],
+      "bytes": 26644
+    },
+    {
+      "source": "assets/art21/attack_crab.png",
+      "file": "assets/packed/64c143f9fd13c48a.webp",
+      "sourceSize": [
+        250,
+        153
+      ],
+      "size": [
+        250,
+        153
+      ],
+      "bytes": 14856
+    },
+    {
+      "source": "assets/art21/stone_sky.png",
+      "file": "assets/packed/da293c12c15868bc.webp",
+      "sourceSize": [
+        768,
+        768
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 10344
+    },
+    {
+      "source": "assets/art21/monster_jelly.png",
+      "file": "assets/packed/3fa40dd05a92d002.webp",
+      "sourceSize": [
+        178,
+        154
+      ],
+      "size": [
+        178,
+        154
+      ],
+      "bytes": 10542
+    },
+    {
+      "source": "assets/art21/portrait_artificer.png",
+      "file": "assets/packed/937cbacdec625d77.webp",
+      "sourceSize": [
+        192,
+        220
+      ],
+      "size": [
+        192,
+        220
+      ],
+      "bytes": 10186
+    },
+    {
+      "source": "assets/art21/portrait_chrono.png",
+      "file": "assets/packed/47f22f65d8cf7fbe.webp",
+      "sourceSize": [
+        192,
+        220
+      ],
+      "size": [
+        192,
+        220
+      ],
+      "bytes": 10114
+    },
+    {
+      "source": "assets/art21/portrait_dreamweaver.png",
+      "file": "assets/packed/4fa0076441a8c54f.webp",
+      "sourceSize": [
+        192,
+        220
+      ],
+      "size": [
+        192,
+        220
+      ],
+      "bytes": 10068
+    },
+    {
+      "source": "assets/art21/fx_star.png",
+      "file": "assets/packed/35113f7ac8b57318.webp",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 16992
+    },
+    {
+      "source": "assets/art21/thumb_fungi.webp",
+      "file": "assets/packed/cc7d5cc3eb5a4581.webp",
+      "sourceSize": [
+        480,
+        270
+      ],
+      "size": [
+        480,
+        270
+      ],
+      "bytes": 19436
+    },
+    {
+      "source": "assets/art21/fx_crescent.png",
+      "file": "assets/packed/59924b48d169b3fa.webp",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 12422
+    },
+    {
+      "source": "assets/art21/fixture_fridge.png",
+      "file": "assets/packed/91e59af42c19e7b5.webp",
+      "sourceSize": [
+        192,
+        224
+      ],
+      "size": [
+        192,
+        224
+      ],
+      "bytes": 3162
+    },
+    {
+      "source": "assets/art21/stand_alchemist.png",
+      "file": "assets/packed/42ca8357a9654b25.webp",
+      "sourceSize": [
+        149,
+        215
+      ],
+      "size": [
+        149,
+        215
+      ],
+      "bytes": 10160
+    },
+    {
+      "source": "assets/art21/stand_puppeteer.png",
+      "file": "assets/packed/2985f65838fcce5e.webp",
+      "sourceSize": [
+        149,
+        215
+      ],
+      "size": [
+        149,
+        215
+      ],
+      "bytes": 9896
+    },
+    {
+      "source": "assets/art21/weapon_harrier.png",
+      "file": "assets/packed/72af3960821abf2c.webp",
+      "sourceSize": [
+        384,
+        320
+      ],
+      "size": [
+        104,
+        260
+      ],
+      "bytes": 10784
+    },
+    {
+      "source": "assets/art21/skill_1.png",
+      "file": "assets/packed/7a1656a109dcb19e.webp",
+      "sourceSize": [
+        144,
+        144
+      ],
+      "size": [
+        144,
+        144
+      ],
+      "bytes": 3716
+    },
+    {
+      "source": "assets/art21/portrait_rift.png",
+      "file": "assets/packed/1556606b86d065f0.webp",
+      "sourceSize": [
+        192,
+        220
+      ],
+      "size": [
+        192,
+        220
+      ],
+      "bytes": 10102
+    },
+    {
+      "source": "assets/art21/stand_gunner.png",
+      "file": "assets/packed/8d6f93924a830a1e.webp",
+      "sourceSize": [
+        149,
+        215
+      ],
+      "size": [
+        149,
+        215
+      ],
+      "bytes": 9596
+    },
+    {
+      "source": "assets/art21/weapon_cartographer.png",
+      "file": "assets/packed/253557ec273ba2bf.webp",
+      "sourceSize": [
+        384,
+        320
+      ],
+      "size": [
+        98,
+        269
+      ],
+      "bytes": 8810
+    },
+    {
+      "source": "assets/art21/fixture_radio.png",
+      "file": "assets/packed/16741a9509e512da.webp",
+      "sourceSize": [
+        192,
+        224
+      ],
+      "size": [
+        192,
+        224
+      ],
+      "bytes": 3974
+    },
+    {
+      "source": "assets/art21/scene_ocean.webp",
+      "file": "assets/packed/3b24136b483b8414.webp",
+      "sourceSize": [
+        1600,
+        900
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 55898
+    },
+    {
+      "source": "assets/art21/fixture_terminal.png",
+      "file": "assets/packed/16741a9509e512da.webp",
+      "sourceSize": [
+        192,
+        224
+      ],
+      "size": [
+        192,
+        224
+      ],
+      "bytes": 3974
+    },
+    {
+      "source": "assets/art21/scene_desert.webp",
+      "file": "assets/packed/5d1c99a622538059.webp",
+      "sourceSize": [
+        1600,
+        900
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 44450
+    },
+    {
+      "source": "assets/art21/stone_volcano.png",
+      "file": "assets/packed/b368c6a4e1aee66a.webp",
+      "sourceSize": [
+        768,
+        768
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 9048
+    },
+    {
+      "source": "assets/art21/fixture_locker.png",
+      "file": "assets/packed/91e59af42c19e7b5.webp",
+      "sourceSize": [
+        192,
+        224
+      ],
+      "size": [
+        192,
+        224
+      ],
+      "bytes": 3162
+    },
+    {
+      "source": "assets/art21/weapon_chrono.png",
+      "file": "assets/packed/c97cb116d23480af.webp",
+      "sourceSize": [
+        384,
+        320
+      ],
+      "size": [
+        98,
+        269
+      ],
+      "bytes": 8660
+    },
+    {
+      "source": "assets/art21/flora_sky.png",
+      "file": "assets/packed/776e4680bcac36c0.webp",
+      "sourceSize": [
+        180,
+        163
+      ],
+      "size": [
+        180,
+        163
+      ],
+      "bytes": 5928
+    },
+    {
+      "source": "assets/art21/attack_golem.png",
+      "file": "assets/packed/f8c0d0d5ad6c8a2a.webp",
+      "sourceSize": [
+        277,
+        161
+      ],
+      "size": [
+        277,
+        161
+      ],
+      "bytes": 17382
+    },
+    {
+      "source": "assets/art21/fx_bolt.png",
+      "file": "assets/packed/5478746b90484601.webp",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 17074
+    },
+    {
+      "source": "assets/art21/scene_cave.webp",
+      "file": "assets/packed/65c8e4ea00ec5387.webp",
+      "sourceSize": [
+        1600,
+        900
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 34758
+    },
+    {
+      "source": "assets/art21/skill_2.png",
+      "file": "assets/packed/ca2037c294eec5cd.webp",
+      "sourceSize": [
+        144,
+        144
+      ],
+      "size": [
+        144,
+        144
+      ],
+      "bytes": 2906
+    },
+    {
+      "source": "assets/art21/skill_3.png",
+      "file": "assets/packed/8604cd225e1738b9.webp",
+      "sourceSize": [
+        144,
+        144
+      ],
+      "size": [
+        144,
+        144
+      ],
+      "bytes": 4064
+    },
+    {
+      "source": "assets/art21/portrait_gunner.png",
+      "file": "assets/packed/5afb3b13ea01174d.webp",
+      "sourceSize": [
+        192,
+        220
+      ],
+      "size": [
+        192,
+        220
+      ],
+      "bytes": 10338
+    },
+    {
+      "source": "assets/art21/thumb_city.webp",
+      "file": "assets/packed/a7ab8e302fa57bb0.webp",
+      "sourceSize": [
+        480,
+        270
+      ],
+      "size": [
+        480,
+        270
+      ],
+      "bytes": 17636
+    },
+    {
+      "source": "assets/art21/portrait_sharpshooter.png",
+      "file": "assets/packed/e584c5d4a0c5ff88.webp",
+      "sourceSize": [
+        192,
+        220
+      ],
+      "size": [
+        192,
+        220
+      ],
+      "bytes": 10302
+    },
+    {
+      "source": "assets/art21/thumb_sky.webp",
+      "file": "assets/packed/a73d359ed364c189.webp",
+      "sourceSize": [
+        480,
+        270
+      ],
+      "size": [
+        480,
+        270
+      ],
+      "bytes": 43896
+    },
+    {
+      "source": "assets/art21/skill_4.png",
+      "file": "assets/packed/01dcaacac6ad5596.webp",
+      "sourceSize": [
+        144,
+        144
+      ],
+      "size": [
+        144,
+        144
+      ],
+      "bytes": 2856
+    },
+    {
+      "source": "assets/art21/weapon_monk.png",
+      "file": "assets/packed/0883f70585239972.webp",
+      "sourceSize": [
+        384,
+        320
+      ],
+      "size": [
+        78,
+        71
+      ],
+      "bytes": 3780
+    },
+    {
+      "source": "assets/art21/edge_fungi.png",
+      "file": "assets/packed/f8c2397fe884396c.webp",
+      "sourceSize": [
+        768,
+        188
+      ],
+      "size": [
+        768,
+        188
+      ],
+      "bytes": 26400
+    },
+    {
+      "source": "assets/art21/fx_arrow.png",
+      "file": "assets/packed/57bf11ad1e7d3c5e.webp",
+      "sourceSize": [
+        256,
+        128
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 7334
+    },
+    {
+      "source": "assets/art21/weapon_gunner.png",
+      "file": "assets/packed/dd6a19216a44bf10.webp",
+      "sourceSize": [
+        384,
+        320
+      ],
+      "size": [
+        179,
+        68
+      ],
+      "bytes": 4570
+    },
+    {
+      "source": "assets/art21/stone_forest.png",
+      "file": "assets/packed/57974f4f408de046.webp",
+      "sourceSize": [
+        768,
+        768
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 9868
+    },
+    {
+      "source": "assets/art21/portrait_alchemist.png",
+      "file": "assets/packed/8e405b2a760f550f.webp",
+      "sourceSize": [
+        192,
+        220
+      ],
+      "size": [
+        192,
+        220
+      ],
+      "bytes": 10310
+    },
+    {
+      "source": "assets/art21/monster_crab.png",
+      "file": "assets/packed/64c143f9fd13c48a.webp",
+      "sourceSize": [
+        250,
+        153
+      ],
+      "size": [
+        250,
+        153
+      ],
+      "bytes": 14856
+    },
+    {
+      "source": "assets/art21/flora_cave.png",
+      "file": "assets/packed/b712898e18944474.webp",
+      "sourceSize": [
+        180,
+        163
+      ],
+      "size": [
+        180,
+        163
+      ],
+      "bytes": 5884
+    },
+    {
+      "source": "assets/art21/portrait_monk.png",
+      "file": "assets/packed/1810280fac214934.webp",
+      "sourceSize": [
+        192,
+        220
+      ],
+      "size": [
+        192,
+        220
+      ],
+      "bytes": 10192
+    },
+    {
+      "source": "assets/art21/portrait_chef.png",
+      "file": "assets/packed/24fa4469ca357f01.webp",
+      "sourceSize": [
+        192,
+        220
+      ],
+      "size": [
+        192,
+        220
+      ],
+      "bytes": 10278
+    },
+    {
+      "source": "assets/art21/stone_shadow.png",
+      "file": "assets/packed/b431e37b8ec51484.webp",
+      "sourceSize": [
+        768,
+        768
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 9138
+    },
+    {
+      "source": "assets/art21/scene_shadow.webp",
+      "file": "assets/packed/e0d281c266a76ac2.webp",
+      "sourceSize": [
+        1600,
+        900
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 42884
+    },
+    {
+      "source": "assets/art21/flora_forest.png",
+      "file": "assets/packed/bcf2b15bff44490c.webp",
+      "sourceSize": [
+        180,
+        163
+      ],
+      "size": [
+        180,
+        163
+      ],
+      "bytes": 5870
+    },
+    {
+      "source": "assets/art21/flora_coast.png",
+      "file": "assets/packed/11b05a45258ae002.webp",
+      "sourceSize": [
+        180,
+        163
+      ],
+      "size": [
+        180,
+        163
+      ],
+      "bytes": 5850
+    },
+    {
+      "source": "assets/art21/portrait_puppeteer.png",
+      "file": "assets/packed/73f7b708749fd13d.webp",
+      "sourceSize": [
+        192,
+        220
+      ],
+      "size": [
+        192,
+        220
+      ],
+      "bytes": 10114
+    },
+    {
+      "source": "assets/art21/monster_bird.png",
+      "file": "assets/packed/ed4ffca49197ef07.webp",
+      "sourceSize": [
+        221,
+        170
+      ],
+      "size": [
+        221,
+        170
+      ],
+      "bytes": 11226
+    },
+    {
+      "source": "assets/art21/monster_golem.png",
+      "file": "assets/packed/f8c0d0d5ad6c8a2a.webp",
+      "sourceSize": [
+        277,
+        161
+      ],
+      "size": [
+        277,
+        161
+      ],
+      "bytes": 17382
+    },
+    {
+      "source": "assets/art21/fx_impact.png",
+      "file": "assets/packed/35113f7ac8b57318.webp",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 16992
+    },
+    {
+      "source": "assets/art21/stand_chrono.png",
+      "file": "assets/packed/3fb7f03de69c484c.webp",
+      "sourceSize": [
+        149,
+        215
+      ],
+      "size": [
+        149,
+        215
+      ],
+      "bytes": 10584
+    },
+    {
+      "source": "assets/art21/fixture_stove.png",
+      "file": "assets/packed/55f529f2680cd141.webp",
+      "sourceSize": [
+        192,
+        224
+      ],
+      "size": [
+        192,
+        224
+      ],
+      "bytes": 3616
+    },
+    {
+      "source": "assets/art21/scene_snow.webp",
+      "file": "assets/packed/5a0f88d360b7602c.webp",
+      "sourceSize": [
+        1600,
+        900
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 57836
+    },
+    {
+      "source": "assets/art21/portrait_cartographer.png",
+      "file": "assets/packed/49b63534d2dba7ec.webp",
+      "sourceSize": [
+        192,
+        220
+      ],
+      "size": [
+        192,
+        220
+      ],
+      "bytes": 10276
+    },
+    {
+      "source": "assets/art21/stone_coast.png",
+      "file": "assets/packed/f0ab6cdcf367607a.webp",
+      "sourceSize": [
+        768,
+        768
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 9670
+    },
+    {
+      "source": "assets/art21/stand_warden.png",
+      "file": "assets/packed/6d0acceeb85380ea.webp",
+      "sourceSize": [
+        149,
+        215
+      ],
+      "size": [
+        149,
+        215
+      ],
+      "bytes": 8646
+    },
+    {
+      "source": "assets/art21/flora_ocean.png",
+      "file": "assets/packed/b2214a8acf0dab89.webp",
+      "sourceSize": [
+        180,
+        163
+      ],
+      "size": [
+        180,
+        163
+      ],
+      "bytes": 5860
+    },
+    {
+      "source": "assets/art21/fixture_bed.png",
+      "file": "assets/packed/b316f7f7581b3bc4.webp",
+      "sourceSize": [
+        192,
+        224
+      ],
+      "size": [
+        192,
+        224
+      ],
+      "bytes": 2130
+    },
+    {
+      "source": "assets/art21/stand_beast.png",
+      "file": "assets/packed/10cb27c6214c2d95.webp",
+      "sourceSize": [
+        149,
+        215
+      ],
+      "size": [
+        149,
+        215
+      ],
+      "bytes": 10852
+    },
+    {
+      "source": "assets/art21/scene_coast.webp",
+      "file": "assets/packed/6778d55769a635ec.webp",
+      "sourceSize": [
+        1600,
+        900
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 152278
+    },
+    {
+      "source": "assets/art21/fixture_map.png",
+      "file": "assets/packed/b24a541d4eee8519.webp",
+      "sourceSize": [
+        192,
+        224
+      ],
+      "size": [
+        192,
+        224
+      ],
+      "bytes": 3088
+    },
+    {
+      "source": "assets/art21/weapon_warden.png",
+      "file": "assets/packed/2a3a654f794f7eb7.webp",
+      "sourceSize": [
+        384,
+        320
+      ],
+      "size": [
+        78,
+        272
+      ],
+      "bytes": 5770
+    },
+    {
+      "source": "assets/art21/flora_snow.png",
+      "file": "assets/packed/66f9204f8c35ee0f.webp",
+      "sourceSize": [
+        180,
+        163
+      ],
+      "size": [
+        180,
+        163
+      ],
+      "bytes": 5882
+    },
+    {
+      "source": "assets/art21/edge_forest.png",
+      "file": "assets/packed/287f34b6635893c9.webp",
+      "sourceSize": [
+        768,
+        188
+      ],
+      "size": [
+        768,
+        188
+      ],
+      "bytes": 26360
+    },
+    {
+      "source": "assets/art21/stand_harrier.png",
+      "file": "assets/packed/7fc72dca998340fd.webp",
+      "sourceSize": [
+        149,
+        215
+      ],
+      "size": [
+        149,
+        215
+      ],
+      "bytes": 9156
+    },
+    {
+      "source": "assets/art21/edge_crystal.png",
+      "file": "assets/packed/547da7484a2c9986.webp",
+      "sourceSize": [
+        768,
+        188
+      ],
+      "size": [
+        768,
+        188
+      ],
+      "bytes": 26468
+    },
+    {
+      "source": "assets/art21/portrait_summoner.png",
+      "file": "assets/packed/987bca8a4dac70fb.webp",
+      "sourceSize": [
+        192,
+        220
+      ],
+      "size": [
+        192,
+        220
+      ],
+      "bytes": 10172
+    },
+    {
+      "source": "assets/art21/portrait_harrier.png",
+      "file": "assets/packed/d2c3299e1aed0da6.webp",
+      "sourceSize": [
+        192,
+        220
+      ],
+      "size": [
+        192,
+        220
+      ],
+      "bytes": 10064
+    },
+    {
+      "source": "assets/art21/stand_rift.png",
+      "file": "assets/packed/1f7dcb5f1eab6f47.webp",
+      "sourceSize": [
+        149,
+        215
+      ],
+      "size": [
+        149,
+        215
+      ],
+      "bytes": 7864
+    },
+    {
+      "source": "assets/art21/edge_cave.png",
+      "file": "assets/packed/71329e54921c82d4.webp",
+      "sourceSize": [
+        768,
+        188
+      ],
+      "size": [
+        768,
+        188
+      ],
+      "bytes": 26390
+    },
+    {
+      "source": "assets/art21/scene_forest.webp",
+      "file": "assets/packed/8ce89885ef3094f5.webp",
+      "sourceSize": [
+        1600,
+        900
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 54838
+    },
+    {
+      "source": "assets/art21/weapon_puppeteer.png",
+      "file": "assets/packed/b048e600f2c3ba36.webp",
+      "sourceSize": [
+        384,
+        320
+      ],
+      "size": [
+        103,
+        243
+      ],
+      "bytes": 11416
+    },
+    {
+      "source": "assets/sanctuary/fixture_medbay.png",
+      "file": "assets/packed/c09a87d0b0d34a46.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 1034
+    },
+    {
+      "source": "assets/sanctuary/fixture_cabinet.png",
+      "file": "assets/packed/a0b97f9c7dcdf0e2.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 1308
+    },
+    {
+      "source": "assets/sanctuary/house_r14.png",
+      "file": "assets/packed/43d01bb97f37ae7c.webp",
+      "sourceSize": [
+        460,
+        310
+      ],
+      "size": [
+        460,
+        310
+      ],
+      "bytes": 16944
+    },
+    {
+      "source": "assets/sanctuary/fixture_shelf.png",
+      "file": "assets/packed/4b22c002e6c0e4ab.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 1238
+    },
+    {
+      "source": "assets/sanctuary/house_r51.png",
+      "file": "assets/packed/9cfef0aa431b6b1c.webp",
+      "sourceSize": [
+        435,
+        290
+      ],
+      "size": [
+        435,
+        290
+      ],
+      "bytes": 15978
+    },
+    {
+      "source": "assets/sanctuary/fixture_lamp.png",
+      "file": "assets/packed/ce57bd0456cabc1a.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 706
+    },
+    {
+      "source": "assets/sanctuary/fixture_recycler.png",
+      "file": "assets/packed/c763fac8a77fc11e.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 998
+    },
+    {
+      "source": "assets/sanctuary/fixture_greenhouse.png",
+      "file": "assets/packed/c20aa7aad8876281.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 1862
+    },
+    {
+      "source": "assets/sanctuary/biome_night.png",
+      "file": "assets/packed/2e36eb667295f826.webp",
+      "sourceSize": [
+        800,
+        500
+      ],
+      "size": [
+        800,
+        500
+      ],
+      "bytes": 7316
+    },
+    {
+      "source": "assets/sanctuary/fixture_workbench.png",
+      "file": "assets/packed/e8f23e5f2dc6ecf9.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 1314
+    },
+    {
+      "source": "assets/sanctuary/house_r11.png",
+      "file": "assets/packed/42992c8da327c592.webp",
+      "sourceSize": [
+        695,
+        360
+      ],
+      "size": [
+        695,
+        360
+      ],
+      "bytes": 25668
+    },
+    {
+      "source": "assets/sanctuary/house_e09.png",
+      "file": "assets/packed/b759ed6f49838731.webp",
+      "sourceSize": [
+        560,
+        375
+      ],
+      "size": [
+        560,
+        375
+      ],
+      "bytes": 23034
+    },
+    {
+      "source": "assets/sanctuary/fixture_sofa.png",
+      "file": "assets/packed/aca877cb97475c91.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 822
+    },
+    {
+      "source": "assets/sanctuary/fixture_purifier.png",
+      "file": "assets/packed/a2631867d32abfb1.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 848
+    },
+    {
+      "source": "assets/sanctuary/house_r35.png",
+      "file": "assets/packed/28dfd99934e332b7.webp",
+      "sourceSize": [
+        605,
+        380
+      ],
+      "size": [
+        605,
+        380
+      ],
+      "bytes": 23820
+    },
+    {
+      "source": "assets/sanctuary/house_e05.png",
+      "file": "assets/packed/46ee97d89b64a7e0.webp",
+      "sourceSize": [
+        525,
+        350
+      ],
+      "size": [
+        525,
+        350
+      ],
+      "bytes": 18284
+    },
+    {
+      "source": "assets/sanctuary/fixture_fridge.png",
+      "file": "assets/packed/ca0f9d8848cc5433.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 916
+    },
+    {
+      "source": "assets/sanctuary/fixture_radio.png",
+      "file": "assets/packed/4fe7777ec27228b3.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 950
+    },
+    {
+      "source": "assets/sanctuary/fixture_terminal.png",
+      "file": "assets/packed/7f8d80c50d6c745c.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 840
+    },
+    {
+      "source": "assets/sanctuary/fixture_locker.png",
+      "file": "assets/packed/e53c4a3153f4ff3c.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 720
+    },
+    {
+      "source": "assets/sanctuary/house_r40.png",
+      "file": "assets/packed/466439a8b791023a.webp",
+      "sourceSize": [
+        470,
+        310
+      ],
+      "size": [
+        470,
+        310
+      ],
+      "bytes": 17350
+    },
+    {
+      "source": "assets/sanctuary/house_r21.png",
+      "file": "assets/packed/9af3b753965095d8.webp",
+      "sourceSize": [
+        470,
+        300
+      ],
+      "size": [
+        470,
+        300
+      ],
+      "bytes": 17008
+    },
+    {
+      "source": "assets/sanctuary/house_r26.png",
+      "file": "assets/packed/830d4cc8bf463891.webp",
+      "sourceSize": [
+        590,
+        350
+      ],
+      "size": [
+        590,
+        350
+      ],
+      "bytes": 19700
+    },
+    {
+      "source": "assets/sanctuary/house_r32.png",
+      "file": "assets/packed/2f3f4dc14c6b0f04.webp",
+      "sourceSize": [
+        460,
+        310
+      ],
+      "size": [
+        460,
+        310
+      ],
+      "bytes": 17536
+    },
+    {
+      "source": "assets/sanctuary/house_e14.png",
+      "file": "assets/packed/e9775fa3b8c1178f.webp",
+      "sourceSize": [
+        600,
+        410
+      ],
+      "size": [
+        600,
+        410
+      ],
+      "bytes": 25966
+    },
+    {
+      "source": "assets/sanctuary/biome_coast.png",
+      "file": "assets/packed/f9970912ea5e5e61.webp",
+      "sourceSize": [
+        800,
+        500
+      ],
+      "size": [
+        800,
+        500
+      ],
+      "bytes": 11004
+    },
+    {
+      "source": "assets/sanctuary/fixture_telescope.png",
+      "file": "assets/packed/02cd7c98592c05b9.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 1452
+    },
+    {
+      "source": "assets/sanctuary/fixture_generator.png",
+      "file": "assets/packed/6b16e991dc77e276.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 1444
+    },
+    {
+      "source": "assets/sanctuary/fixture_stove.png",
+      "file": "assets/packed/2479beb05d8b03fb.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 1544
+    },
+    {
+      "source": "assets/sanctuary/house_r00.png",
+      "file": "assets/packed/8620bcdd04527db3.webp",
+      "sourceSize": [
+        450,
+        310
+      ],
+      "size": [
+        450,
+        310
+      ],
+      "bytes": 17396
+    },
+    {
+      "source": "assets/sanctuary/fixture_bed.png",
+      "file": "assets/packed/05a4f49c6dd5150c.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 776
+    },
+    {
+      "source": "assets/sanctuary/fixture_map.png",
+      "file": "assets/packed/3bb9848fd111c17b.webp",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "size": [
+        96,
+        96
+      ],
+      "bytes": 1250
+    },
+    {
+      "source": "assets/sanctuary/house_e00.png",
+      "file": "assets/packed/a485c1416ed14588.webp",
+      "sourceSize": [
+        625,
+        325
+      ],
+      "size": [
+        625,
+        325
+      ],
+      "bytes": 20364
+    },
+    {
+      "source": "assets/sanctuary/house_r16.png",
+      "file": "assets/packed/55268742482515e5.webp",
+      "sourceSize": [
+        480,
+        340
+      ],
+      "size": [
+        480,
+        340
+      ],
+      "bytes": 17654
+    },
+    {
+      "source": "assets/sanctuary/biome_forest.png",
+      "file": "assets/packed/2f496d8648c09f61.webp",
+      "sourceSize": [
+        800,
+        500
+      ],
+      "size": [
+        800,
+        500
+      ],
+      "bytes": 14342
+    },
+    {
+      "source": "assets/sanctuary/house_r45.png",
+      "file": "assets/packed/78c9e40cde1c46ea.webp",
+      "sourceSize": [
+        525,
+        340
+      ],
+      "size": [
+        525,
+        340
+      ],
+      "bytes": 18624
+    },
+    {
+      "source": "assets/sanctuary/house_r04.png",
+      "file": "assets/packed/6aa64c58e3514600.webp",
+      "sourceSize": [
+        465,
+        280
+      ],
+      "size": [
+        465,
+        280
+      ],
+      "bytes": 16640
+    },
+    {
+      "source": "assets/sanctuary/house_r37.png",
+      "file": "assets/packed/58eb756e10dde955.webp",
+      "sourceSize": [
+        515,
+        325
+      ],
+      "size": [
+        515,
+        325
+      ],
+      "bytes": 17694
+    },
+    {
+      "source": "assets/sanctuary/house_r27.png",
+      "file": "assets/packed/74505960b9a41759.webp",
+      "sourceSize": [
+        590,
+        280
+      ],
+      "size": [
+        590,
+        280
+      ],
+      "bytes": 18618
+    },
+    {
+      "source": "assets/ui/collect_crest.png",
+      "file": "assets/packed/356ac4bb9a625078.webp",
+      "sourceSize": [
+        576,
+        72
+      ],
+      "size": [
+        576,
+        72
+      ],
+      "bytes": 17470
+    },
+    {
+      "source": "assets/ui/collect_element.png",
+      "file": "assets/packed/e1909538b8aa2778.webp",
+      "sourceSize": [
+        576,
+        72
+      ],
+      "size": [
+        576,
+        72
+      ],
+      "bytes": 16920
+    },
+    {
+      "source": "assets/ui/collect_mobility.png",
+      "file": "assets/packed/17a1be8ecbcfff4b.webp",
+      "sourceSize": [
+        576,
+        72
+      ],
+      "size": [
+        576,
+        72
+      ],
+      "bytes": 17624
+    },
+    {
+      "source": "assets/ui/map_icons.png",
+      "file": "assets/packed/5ec2ff62ac12ff37.webp",
+      "sourceSize": [
+        256,
+        64
+      ],
+      "size": [
+        256,
+        64
+      ],
+      "bytes": 2528
+    },
+    {
+      "source": "assets/ui/WORLD_MAP_V9.png",
+      "file": "assets/packed/3dc5e8cc233db37e.webp",
+      "sourceSize": [
+        1200,
+        1000
+      ],
+      "size": [
+        1200,
+        1000
+      ],
+      "bytes": 37936
+    },
+    {
+      "source": "assets/ui/collect_memory.png",
+      "file": "assets/packed/49b80de16eb377f6.webp",
+      "sourceSize": [
+        576,
+        72
+      ],
+      "size": [
+        576,
+        72
+      ],
+      "bytes": 16070
+    },
+    {
+      "source": "assets/ui/collect_shelter.png",
+      "file": "assets/packed/8afb04929b854d8a.webp",
+      "sourceSize": [
+        576,
+        72
+      ],
+      "size": [
+        576,
+        72
+      ],
+      "bytes": 16278
+    },
+    {
+      "source": "assets/ui/collect_life.png",
+      "file": "assets/packed/5c709f0135816b44.webp",
+      "sourceSize": [
+        576,
+        72
+      ],
+      "size": [
+        576,
+        72
+      ],
+      "bytes": 15684
+    },
+    {
+      "source": "assets/art213/banner.png",
+      "file": "assets/packed/d9dd688eb34b0268.webp",
+      "sourceSize": [
+        79,
+        152
+      ],
+      "size": [
+        79,
+        152
+      ],
+      "bytes": 3830
+    },
+    {
+      "source": "assets/art213/residue_swap.png",
+      "file": "assets/packed/b0f4487e16f09b66.webp",
+      "sourceSize": [
+        200,
+        125
+      ],
+      "size": [
+        200,
+        125
+      ],
+      "bytes": 19180
+    },
+    {
+      "source": "assets/art213/residue_water.png",
+      "file": "assets/packed/ba203a9392b3819e.webp",
+      "sourceSize": [
+        88,
+        67
+      ],
+      "size": [
+        88,
+        67
+      ],
+      "bytes": 5576
+    },
+    {
+      "source": "assets/art213/moss_ledge.png",
+      "file": "assets/packed/c83c87d3f58d256b.webp",
+      "sourceSize": [
+        295,
+        109
+      ],
+      "size": [
+        295,
+        109
+      ],
+      "bytes": 16906
+    },
+    {
+      "source": "assets/art213/residue_shadow.png",
+      "file": "assets/packed/167f51a5431452de.webp",
+      "sourceSize": [
+        96,
+        67
+      ],
+      "size": [
+        96,
+        67
+      ],
+      "bytes": 5460
+    },
+    {
+      "source": "assets/art213/relic_stone.png",
+      "file": "assets/packed/7a4f36e5ffa69184.webp",
+      "sourceSize": [
+        70,
+        121
+      ],
+      "size": [
+        70,
+        121
+      ],
+      "bytes": 3802
+    },
+    {
+      "source": "assets/art213/residue_ice.png",
+      "file": "assets/packed/36ce583a4e2596bb.webp",
+      "sourceSize": [
+        90,
+        67
+      ],
+      "size": [
+        90,
+        67
+      ],
+      "bytes": 5614
+    },
+    {
+      "source": "assets/art213/world_concept.webp",
+      "file": "assets/packed/c837a5e764f614be.webp",
+      "sourceSize": [
+        1672,
+        941
+      ],
+      "size": [
+        1279,
+        720
+      ],
+      "bytes": 324598
+    },
+    {
+      "source": "assets/art213/residue_lightning.png",
+      "file": "assets/packed/c7c74680a333a16d.webp",
+      "sourceSize": [
+        97,
+        67
+      ],
+      "size": [
+        97,
+        67
+      ],
+      "bytes": 5556
+    },
+    {
+      "source": "assets/art213/hanging_platform.png",
+      "file": "assets/packed/77abbf4e1249513e.webp",
+      "sourceSize": [
+        148,
+        84
+      ],
+      "size": [
+        148,
+        84
+      ],
+      "bytes": 5930
+    },
+    {
+      "source": "assets/art213/residue_light.png",
+      "file": "assets/packed/ab8ce5004796e1ad.webp",
+      "sourceSize": [
+        87,
+        67
+      ],
+      "size": [
+        87,
+        67
+      ],
+      "bytes": 4584
+    },
+    {
+      "source": "assets/art213/coast_sky.webp",
+      "file": "assets/packed/dc584ff72daefa28.webp",
+      "sourceSize": [
+        588,
+        263
+      ],
+      "size": [
+        588,
+        263
+      ],
+      "bytes": 51822
+    },
+    {
+      "source": "assets/art213/crystal_spikes.png",
+      "file": "assets/packed/62a0e9f3d2293df6.webp",
+      "sourceSize": [
+        152,
+        62
+      ],
+      "size": [
+        152,
+        62
+      ],
+      "bytes": 4900
+    },
+    {
+      "source": "assets/vfx/element_wind.png",
+      "file": "assets/packed/c88e7fd86de9c8f5.webp",
+      "sourceSize": [
+        576,
+        72
+      ],
+      "size": [
+        576,
+        72
+      ],
+      "bytes": 7904
+    },
+    {
+      "source": "assets/vfx/element_shadow.png",
+      "file": "assets/packed/60ece5d5ae0405ab.webp",
+      "sourceSize": [
+        576,
+        72
+      ],
+      "size": [
+        576,
+        72
+      ],
+      "bytes": 6128
+    },
+    {
+      "source": "assets/vfx/slash.png",
+      "file": "assets/packed/420657abd04eeffe.webp",
+      "sourceSize": [
+        896,
+        112
+      ],
+      "size": [
+        896,
+        112
+      ],
+      "bytes": 7362
+    },
+    {
+      "source": "assets/vfx/element_water.png",
+      "file": "assets/packed/e515aa3f8dfa3f15.webp",
+      "sourceSize": [
+        576,
+        72
+      ],
+      "size": [
+        576,
+        72
+      ],
+      "bytes": 6142
+    },
+    {
+      "source": "assets/vfx/element_earth.png",
+      "file": "assets/packed/c2196126c864d258.webp",
+      "sourceSize": [
+        576,
+        72
+      ],
+      "size": [
+        576,
+        72
+      ],
+      "bytes": 5772
+    },
+    {
+      "source": "assets/vfx/hit.png",
+      "file": "assets/packed/613ef07a03d8c3b0.webp",
+      "sourceSize": [
+        768,
+        96
+      ],
+      "size": [
+        768,
+        96
+      ],
+      "bytes": 13374
+    },
+    {
+      "source": "assets/vfx/ring.png",
+      "file": "assets/packed/d6bec4ed71abca1f.webp",
+      "sourceSize": [
+        1024,
+        128
+      ],
+      "size": [
+        1024,
+        128
+      ],
+      "bytes": 14690
+    },
+    {
+      "source": "assets/vfx/element_light.png",
+      "file": "assets/packed/ad7a981bc66577c2.webp",
+      "sourceSize": [
+        576,
+        72
+      ],
+      "size": [
+        576,
+        72
+      ],
+      "bytes": 11234
+    },
+    {
+      "source": "assets/vfx/element_gravity.png",
+      "file": "assets/packed/d5be95c88233e1ed.webp",
+      "sourceSize": [
+        576,
+        72
+      ],
+      "size": [
+        576,
+        72
+      ],
+      "bytes": 11058
+    },
+    {
+      "source": "assets/vfx/element_ice.png",
+      "file": "assets/packed/7d1ab301060b86c7.webp",
+      "sourceSize": [
+        576,
+        72
+      ],
+      "size": [
+        576,
+        72
+      ],
+      "bytes": 6224
+    },
+    {
+      "source": "assets/vfx/element_lightning.png",
+      "file": "assets/packed/ba9c10ceb1a84d07.webp",
+      "sourceSize": [
+        576,
+        72
+      ],
+      "size": [
+        576,
+        72
+      ],
+      "bytes": 6336
+    },
+    {
+      "source": "assets/vfx/element_nature.png",
+      "file": "assets/packed/a904c3c673675127.webp",
+      "sourceSize": [
+        576,
+        72
+      ],
+      "size": [
+        576,
+        72
+      ],
+      "bytes": 4996
+    },
+    {
+      "source": "assets/vfx/element_fire.png",
+      "file": "assets/packed/d3458c8af755f0f3.webp",
+      "sourceSize": [
+        576,
+        72
+      ],
+      "size": [
+        576,
+        72
+      ],
+      "bytes": 5006
+    },
+    {
+      "source": "assets/backgrounds/v9/tide_near.png",
+      "file": "assets/packed/90c80177510a36b9.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 7208
+    },
+    {
+      "source": "assets/backgrounds/v9/lighthouse_far.png",
+      "file": "assets/packed/9e6e4e86a59c3e00.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 3444
+    },
+    {
+      "source": "assets/backgrounds/v9/reactor_far.png",
+      "file": "assets/packed/24df51c49fd00d95.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 3246
+    },
+    {
+      "source": "assets/backgrounds/v9/market_mid.png",
+      "file": "assets/packed/26262e57ac3e1e14.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 8650
+    },
+    {
+      "source": "assets/backgrounds/v9/lighthouse_mid.png",
+      "file": "assets/packed/5e825895604898ab.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 9638
+    },
+    {
+      "source": "assets/backgrounds/v9/roots_near.png",
+      "file": "assets/packed/0cb759138a2e94a8.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 6374
+    },
+    {
+      "source": "assets/backgrounds/v9/market_near.png",
+      "file": "assets/packed/8e55916564b6c100.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 5924
+    },
+    {
+      "source": "assets/backgrounds/v9/tide_mid.png",
+      "file": "assets/packed/46c0ff61eacffefb.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 10366
+    },
+    {
+      "source": "assets/backgrounds/v9/market_far.png",
+      "file": "assets/packed/0243b150e6c36001.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 3794
+    },
+    {
+      "source": "assets/backgrounds/v9/tide_far.png",
+      "file": "assets/packed/e5ae0138c06b537e.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 4136
+    },
+    {
+      "source": "assets/backgrounds/v9/lighthouse_near.png",
+      "file": "assets/packed/e267c721ae545415.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 6660
+    },
+    {
+      "source": "assets/backgrounds/v9/canopy_far.png",
+      "file": "assets/packed/5bcc1ca73867b638.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 3748
+    },
+    {
+      "source": "assets/backgrounds/v9/archive_far.png",
+      "file": "assets/packed/8f4523502271ffc4.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 2808
+    },
+    {
+      "source": "assets/backgrounds/v9/reactor_mid.png",
+      "file": "assets/packed/8bfb30343cdc6a57.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 8388
+    },
+    {
+      "source": "assets/backgrounds/v9/archive_mid.png",
+      "file": "assets/packed/1a9e584dcbf19fb3.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 9110
+    },
+    {
+      "source": "assets/backgrounds/v9/canopy_mid.png",
+      "file": "assets/packed/a56521613bbe0b16.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 8974
+    },
+    {
+      "source": "assets/backgrounds/v9/roots_far.png",
+      "file": "assets/packed/283faf08cdb309d3.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 2864
+    },
+    {
+      "source": "assets/backgrounds/v9/canopy_near.png",
+      "file": "assets/packed/06903199f08b254e.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 6840
+    },
+    {
+      "source": "assets/backgrounds/v9/secret_far.png",
+      "file": "assets/packed/95a7f2def0aab348.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 3050
+    },
+    {
+      "source": "assets/backgrounds/v9/archive_near.png",
+      "file": "assets/packed/1cf34d0768cc59a5.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 6168
+    },
+    {
+      "source": "assets/backgrounds/v9/reactor_near.png",
+      "file": "assets/packed/54605c5b857a293f.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 5194
+    },
+    {
+      "source": "assets/backgrounds/v9/secret_mid.png",
+      "file": "assets/packed/632f873ab19a98b4.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 8852
+    },
+    {
+      "source": "assets/backgrounds/v9/secret_near.png",
+      "file": "assets/packed/edbdbcab7a5de191.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 5518
+    },
+    {
+      "source": "assets/backgrounds/v9/roots_mid.png",
+      "file": "assets/packed/b1e6f83fd427ebd0.webp",
+      "sourceSize": [
+        640,
+        360
+      ],
+      "size": [
+        640,
+        360
+      ],
+      "bytes": 9724
+    }
+  ]
+}

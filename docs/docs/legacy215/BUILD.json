@@ -1,0 +1,35 @@
+{
+  "game": "澄界 / Living Atlas",
+  "build": "21.5.0",
+  "date": "2026-09-22",
+  "entry": "index.html",
+  "standalone": "Provided separately; rebuild with python tools/build_singlefile.py",
+  "rooms": 300,
+  "jobs": 15,
+  "skills": 90,
+  "elements": 10,
+  "runtimeImageCatalogKeys": 486,
+  "initialCoreAliasKeys": 111,
+  "initialUniqueDecodedImages": 108,
+  "swap": {
+    "groundRequired": false,
+    "rechargeSeconds": 1.25,
+    "capacityByRank": [
+      1,
+      1,
+      2,
+      3,
+      3
+    ],
+    "sharedConsumption": true,
+    "recastRefills": false,
+    "keys": {
+      "swapNow": "D",
+      "recastAnchor": "S"
+    }
+  },
+  "animation": "Continuous shared-vertex painted limb meshes, fixed bone lengths, distance-driven locomotion, actual hit-pulse alignment, grip-based weapon transforms. Not separately hand-drawn frames.",
+  "fullHumanPlaythrough": false,
+  "allDeviceFPSGuarantee": false,
+  "multiplayerRetested": false
+}
