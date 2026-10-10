@@ -1,3 +1,4 @@
+
 /* Native pixel motifs: no AI illustration masks, no external runtime assets.
    Background ornaments never participate in collision; bright ledges do. */
 (()=>{'use strict';const P=ES9_ENGINE.Game.prototype,D=ES19,C=ES9,TAU=Math.PI*2,cx=o=>o.x+(o.w||0)/2,cy=o=>o.y+(o.h||0)/2;
@@ -70,3 +71,4 @@ const effects=P.drawEffects;P.drawEffects=function(ctx){effects.call(this,ctx);c
  if(f.buffs.bubble>time){ctx.save();ctx.strokeStyle='#97e8df';ctx.fillStyle='#78c6c522';ctx.beginPath();ctx.arc(f.buffs.bubbleX,f.buffs.bubbleY,160,0,TAU);ctx.fill();ctx.stroke();this.vText(ctx,'補氧泡 '+Math.ceil(f.buffs.bubble-time)+'s',f.buffs.bubbleX,f.buffs.bubbleY-174,'#b9ece5',12);ctx.restore();}
 };
 })();
+

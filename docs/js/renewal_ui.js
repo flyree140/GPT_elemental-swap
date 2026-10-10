@@ -1,3 +1,4 @@
+
 /* V18 presentation. Stable skill slots, explicit short/long actions,
  * nine world rules, four independent elemental decisions and a real world map.
  * No third party runtime, fonts, CDN or generated illustration dependency.
@@ -92,3 +93,4 @@ const bind=P.bindUI;P.bindUI=function(){
 const globalInput=P.updateGlobalInput;P.updateGlobalInput=function(){if(this.key('exitSchool',true)&&this.nInit().tutorial){this.nEndTutorial();this.input.pressed.delete(this.keys.exitSchool);}globalInput.call(this);};
 P.havenTravel11=function(id){if(!this.progress.shelters[id]){this.say('尚未抵達此避難所。',2);return false;}return this.xTravel(id);};
 })();
+

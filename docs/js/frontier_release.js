@@ -1,3 +1,4 @@
+
 /* Release integration: small UI fixes, save ownership and entry point. */
 (()=>{'use strict';const P=ES9_ENGINE.Game.prototype,$=s=>document.querySelector(s);
 const open=P.fOpenAtlas;P.fOpenAtlas=function(...args){open.apply(this,args);this.fMapDetail();};
@@ -23,7 +24,7 @@ const build=P.buildWorld;P.buildWorld=function(){build.call(this);const f=this.f
 };
 // Preserve V18's exact world-coordinate behavior while finding an above-relief camp arrival.
 const travel=P.xTravel;P.xTravel=function(id,force=false){const ok=travel.call(this,id,force);const r=this.roomById.get(id);if(ok&&r?.frontier19){const p=this.player,y=this.fGroundY(r,p.x,p.w);const q=this.vLanding(p.x,y-p.h-4,p.w,p.h);if(q){p.x=q.x;p.y=q.y;this.n18.lastSafe={x:p.x,y:p.y,room:r.id};}}return ok;};
-P.fValidateImport=function(raw){if(!raw||typeof raw!=='object'||Array.isArray(raw)||!raw.mastery||!Object.hasOwn(C.CLASSES,raw.classId))throw Error('不是有效的 V17–V19 遊戲存檔');const text=JSON.stringify(raw);if(text.length>2e6)throw Error('存檔過大');return JSON.parse(text,(k,v)=>['__proto__','constructor','prototype'].includes(k)?undefined:v);};
+P.fValidateImport=function(raw){if(!raw||typeof raw!=='object'||Array.isArray(raw)||!raw.mastery||!Object.hasOwn(C.CLASSES,raw.classId))throw Error('不是有效的 V17–V21 遊戲存檔');const text=JSON.stringify(raw);if(text.length>2e6)throw Error('存檔過大');return JSON.parse(text,(k,v)=>['__proto__','constructor','prototype'].includes(k)?undefined:v);};
 P.fImportToStorage=function(raw){const s=this.fValidateImport(raw);const old=localStorage.getItem('es19_progress');if(old)localStorage.setItem('es19_backup_before_import',old);if(s.schema19===19){localStorage.setItem('es19_progress',JSON.stringify(s));}else{localStorage.removeItem('es19_progress');if(s.schema18===18)localStorage.setItem('es18_progress',JSON.stringify(s));else{localStorage.setItem('es10_progress',JSON.stringify(s));localStorage.removeItem('es18_progress');}}return true;};
 const bind=P.bindUI;P.bindUI=function(){bind.call(this);
  $('#exportM').onclick=()=>{const a=document.createElement('a'),u=URL.createObjectURL(new Blob([JSON.stringify(this.fSaveSnapshot(),null,2)],{type:'application/json'}));a.href=u;a.download='elemental-swap-v19-save.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);};
@@ -36,3 +37,4 @@ const mini=P.fDrawMinimap;P.fDrawMinimap=function(){mini.call(this);const cv=$('
 };
 })();
 (()=>{'use strict';const P=ES9_ENGINE.Game.prototype;const render=P.xRender;P.xRender=function(){render.call(this);document.querySelector('#expeditionTitle').textContent='生境圖譜 · 遠征工坊';};})();
+

@@ -1,3 +1,4 @@
+
 /*
  * V16 — 因果工房 / 四組「真的改規則」的視界
  * ============================================================================
@@ -156,7 +157,7 @@ P.vMakeEcho=function(){const v=this.vision16,arr=v.path.filter(s=>s.layer===this
  }prev=s;}
  if(actions.length)this.vEmit('echoMade',{actions:actions.length,rails:v.rails.length});
 };
-P.vReplayHit=function(a){const v=this.vision16,ratio=this.vStore().branches.causal==='B'?.50:.42;
+P.vReplayHit=function(a){const v=this.vision16,ratio=.4;
  if(a.kind==='projectile'){v.echoShots.push({...a,id:this.id(),left:3,hit:new Set()});return;}
  this._vReplay=true;const prior=this._vAttackLayer;this._vAttackLayer=a.layer;
  try{for(const e of this.enemies){if(e.dead||!this.vCanHit(e,a.layer,a.element))continue;
@@ -210,7 +211,7 @@ P.damageEnemy=function(e,dmg,kx=0,ky=0,def={}){const v=this.vInit(),ctx=def.mast
  if(source==='echo')this.vEmit('echoHit',{enemy:e.id});
  if(cross){this.vEmit('crossHit',{enemy:e.id});this.vBurst(cx(e),cy(e),'#d1a1ff',105);}
  if(e.v16ExposedUntil>this.time&&source!=='echo')this.vEmit('exposedHit');
- const last=e.v16LastHit;if(last&&last.source!==source&&this.time-last.t<.55&&this.time>v.convergenceGate){
+ const last=e.v16LastHit;if(!this._vReplay&&source!=='echo'&&last?.source!=='echo'&&last&&last.source!==source&&this.time-last.t<.55&&this.time>v.convergenceGate){
   v.convergenceGate=this.time+.8;v.convergenceUntil=this.time+1.2;this.player.airDashes=Math.max(this.player.airDashes,1);e.stun=Math.max(e.stun,.3);this.vEmit('converge');this.say('交會 CONVERGENCE｜不同來源命中，空中 Dash +1',1.4,'#ffe3a0');
  }
  e.v16LastHit={source,t:this.time};
@@ -445,10 +446,12 @@ P.update=function(dt,ts){const v=this.vInit();this.vReleaseCold();this.vCatchFro
  const [w,h]=this.vDims(v.mode);if(this.player.w!==w||this.player.h!==h){this.player.x=cx(this.player)-w/2;this.player.y+=this.player.h-h;this.player.w=w;this.player.h=h;}
  update.call(this,dt,ts);if(this.modalM()||this.paused)return;
  this.vLayerPressure();this.vTickPlans(dt);this.vTickMaterials(dt);this.vSample();
+ if(this.tickEcho218)this.tickEcho218(dt);else {
  if(v.echo){const e=v.echo,t=this.time-e.start,at=e.origin+t;const candidates=e.path.filter(s=>s.at<=at);e.pose=candidates.at(-1)||e.path[0];while(e.index<e.actions.length&&e.actions[e.index].at<=at)this.vReplayHit(e.actions[e.index++]);if(t>e.duration+.15)v.echo=null;}
- const ratio=this.vStore().branches.causal==='B'?.50:.42;
+ const ratio=.4;
  for(const s of v.echoShots){s.left-=dt;s.vy+=(s.gravity||0)*dt;s.x+=s.vx*dt;s.y+=s.vy*dt;for(const e of this.enemies)if(!e.dead&&!s.hit.has(e.id)&&this.vCanHit(e,s.layer,s.element)&&hit(s,e)){s.hit.add(e.id);this._vReplay=true;try{this.damageEnemy(e,s.damage*ratio,sg(s.vx)*70,-65,{v16Source:'echo',v16Layer:s.layer,isEcho:true,master:{power:1,element:s.element||null},kd:3,br:8});}finally{this._vReplay=false;}s.left=0;break;}}
- v.echoShots=v.echoShots.filter(s=>s.left>0);v.rails=v.rails.filter(s=>s.until>this.time);for(const f of v.fx)f.t-=dt;v.fx=v.fx.filter(f=>f.t>0);v.transition=Math.max(0,(v.transition||0)-dt);this.vLessonTick();this.vHUD();
+ v.echoShots=v.echoShots.filter(s=>s.left>0);}
+ v.rails=v.rails.filter(s=>s.until>this.time);for(const f of v.fx)f.t-=dt;v.fx=v.fx.filter(f=>f.t>0);v.transition=Math.max(0,(v.transition||0)-dt);this.vLessonTick();this.vHUD();
 };
 
 // ── 新鍵不覆蓋方向鍵、Z/X、C/V/B、Q、數字元素。hit-stop 內也保留切換。 ──
@@ -569,3 +572,4 @@ P.render=function(){const ctx=this.ctx,w=this.viewW,h=this.viewH,v=this.vInit(),
 };
 window.ES16_RUNTIME={normal,layer};
 })();
+

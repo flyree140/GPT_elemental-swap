@@ -1,3 +1,4 @@
+
 /*
  * V11「歸燈聚落」— V10 的相容擴充，不替換戰鬥引擎、78 房或 120 技能。
  * art:     tools/draw_sanctuaries.py → assets/sanctuary/*.png
@@ -294,3 +295,4 @@ P.bindUI=function(){oldBind.call(this);$('#havenButton').onclick=()=>this.openJo
 };
 window.ES11_HAVEN={fixtures:N,actions:ACT,art:ART};
 })();
+

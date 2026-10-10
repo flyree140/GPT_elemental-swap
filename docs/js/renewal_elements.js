@@ -1,3 +1,4 @@
+
 /* Four independent A/B tiers. A build snapshots every choice when created.
  * Tier modules never overwrite the previous tier's shape, behavior or geometry.
  */
@@ -70,3 +71,4 @@ const hurt=P.hurtPlayer;P.hurtPlayer=function(d,kx,ky,source,dot){const n=this.n
 // Keep progression text literal and consistent with the implementations above.
 D.tierExtras.fire[1][1]='燃燒敵人把火種傳给 200px 內最多兩名敵人。';D.tierExtras.lightning[2][1]='雷線／雷池結束 2 秒後，原處再留一次 3 秒餘電。';D.tierExtras.earth[2][1]='場域結束 2 秒後留下 7 秒臨時岩台。';D.tierExtras.ice[2][1]='結束 2 秒後，原處留下 6 秒無傷冰床。';D.tierExtras.wind[2][1]='風場結束 2 秒後留下 5 秒氣流台。';D.tierExtras.light[2][1]='場域結束 2 秒後留下 6 秒光橋。';D.tierExtras.shadow[2][1]='場域消失 2 秒後留下 5 秒影踏台。';D.tierExtras.nature[2][1]='結束 2 秒後原地再生一次 3 秒治療菌床。';D.tierExtras.gravity[2][1]='場消失 2 秒後，原處重新出現一次 3 秒奇點。';D.tierExtras.gravity[0][3]='保留原主場，再疊加沿兩端連線指向終點的牽引。';
 })();
+

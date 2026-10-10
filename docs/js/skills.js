@@ -1,3 +1,4 @@
+
 /* V10 技能資料。由 tools/create_mastery_data.py 重建。 */
 window.ES10_SKILLS = {
   "rift": [
@@ -3098,3 +3099,4 @@ window.ES10_SKILLS = {
     }
   ]
 };
+

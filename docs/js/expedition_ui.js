@@ -1,3 +1,4 @@
+
 /* V17 UI / pixel scene renderer / multi-pointer controls. No external assets. */
 (()=>{'use strict';
 const D=ES17,C=ES9,P=ES9_ENGINE.Game.prototype,SK=Object.fromEntries(Object.values(ES10_SKILLS).flat().map(s=>[s.id,s]));
@@ -131,3 +132,4 @@ const foreground17=P.drawForeground;P.drawForeground=function(ctx,w,h){const r=t
  if(b==='metro'&&this.time%7>5){ctx.strokeStyle=this.time%7>5.5?'#ffc59d':'#bfdedf';ctx.lineWidth=4;ctx.setLineDash([10,14]);ctx.beginPath();ctx.moveTo(r.x,r.floorY-8);ctx.lineTo(r.x+r.w,r.floorY-8);ctx.stroke();}
  ctx.restore();};
 })();
+

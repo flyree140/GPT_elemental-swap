@@ -1,3 +1,4 @@
+
 /*
  * Elemental Swap V9 — Organic Metroidvania configuration
  * ---------------------------------------------------------------------------
@@ -119,3 +120,4 @@ window.ES9 = {
     shelf:{name:'書架／錄影帶',effect:'解鎖一組職業接招教學。'},sofa:{name:'沙發',effect:'休息並重置全部技能冷卻。'},lamp:{name:'避難燈',effect:'照亮暗室與隱藏平台。'}
   }
 };
+

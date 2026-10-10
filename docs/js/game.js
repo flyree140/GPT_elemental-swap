@@ -1,3 +1,4 @@
+
 /*
  * Elemental Swap V9 — Organic World / Command Lab
  * ============================================================================
@@ -68,7 +69,7 @@ const NPC_ROLES=[
 
 class Game{
  constructor(){
-  this.canvas=$('#game');this.ctx=this.canvas.getContext('2d');this.ctx.imageSmoothingEnabled=false;this.input=new Input();this.sfx=new Synth();this.keys=this.loadKeys();
+  this.canvas=$('#game');this.ctx=this.canvas.getContext('2d');if(!this.ctx)throw new Error('瀏覽器無法建立 Canvas 2D 畫布。請使用 Chrome、Edge、Firefox 或 Safari。');this.ctx.imageSmoothingEnabled=false;this.input=new Input();this.sfx=new Synth();this.keys=this.loadKeys();
   this.time=0;this.last=performance.now();this.paused=false;this.viewW=C.VIEW_W;this.viewH=C.VIEW_H;this.camera={x:clamp(C.START_X-C.VIEW_W*.42,0,C.WORLD_W-C.VIEW_W),y:clamp(C.START_Y-C.VIEW_H*.68,0,C.WORLD_H-C.VIEW_H)};
   this.shake=0;this.hitStop=0;this.flash=0;this.damageFlash=0;this.nextId=1;this.message={text:'',t:0,color:'#70ded9'};this.combo={hits:0,damage:0,t:0,best:0};this.commandLabel='';this.commandT=0;
   this.rooms=[];this.roomById=new Map();this.platforms=[];this.ladders=[];this.rings=[];this.gates=[];this.puzzles=[];this.furniture=[];this.npcs=[];this.collectibles=[];this.crates=[];
@@ -77,7 +78,7 @@ class Game{
   this.progress=this.loadProgress();this.assets=this.loadAssets();this.player=this.makePlayer();this.network=new ES9Network();
   this.buildWorld();this.bindUI();this.bindNetwork();this.resize();addEventListener('resize',()=>this.resize());addEventListener('keydown',()=>this.sfx.ensure(),{once:true});
   this.say('避難所安全區｜先用方向鍵移動，再練 Z、X 與 1→1 換位。',5);
-  requestAnimationFrame(t=>this.loop(t));
+  this.bootReady=false;this.ready=this.prepareAssets21().then(()=>{this.bootReady=true;this.last=performance.now();this.frameHandle=requestAnimationFrame(t=>this.loop(t));return this;}).catch(err=>{this.bootError=err;window.ES21_DIAGNOSTICS?.fail(err);throw err;});this.ready.catch(()=>{});
  }
  id(){return this.nextId++}
  loadKeys(){try{return Object.assign({},C.DEFAULT_KEYS,JSON.parse(localStorage.getItem('es9_keys')||'{}'));}catch{return{...C.DEFAULT_KEYS}}}
@@ -292,7 +293,12 @@ Game.prototype.spawnEnemy=function(type,x,floorY,opts={}){
 /* --------------------------------------------------------------------------
  * LOOP / PHYSICS / MOVEMENT
  * -------------------------------------------------------------------------- */
-Game.prototype.loop=function(ts){let dt=Math.min(.033,(ts-this.last)/1000||0);this.last=ts;if(this.hitStop>0){this.hitStop-=dt;dt*=.08;}if(!this.paused)this.update(dt,ts);this.render();this.input.end();requestAnimationFrame(t=>this.loop(t));};
+Game.prototype.loop=function(ts){
+ if(!this.bootReady||this.runtimeFault21)return;
+ let dt=Math.min(.033,Math.max(0,(ts-this.last)/1000||0));this.last=ts;
+ try{if(this.hitStop>0){this.hitStop-=dt;dt*=.08;}if(!this.paused)this.update(dt,ts);this.render();this.input.end();this.frameHandle=requestAnimationFrame(t=>this.loop(t));}
+ catch(error){this.runtimeFault21=error;this.input.end();window.ES21_DIAGNOSTICS?.fail(error);}
+};
 
 Game.prototype.update=function(dt,ts){
  this.time+=dt;this.progress.playSeconds+=dt;this.message.t=Math.max(0,this.message.t-dt);this.commandT=Math.max(0,this.commandT-dt);this.combo.t-=dt;if(this.combo.t<=0)this.combo={hits:0,damage:0,t:0,best:this.combo.best};this.shake=Math.max(0,this.shake-dt*35);this.flash=Math.max(0,this.flash-dt*2.8);this.damageFlash=Math.max(0,this.damageFlash-dt*3.5);
@@ -1041,3 +1047,4 @@ addEventListener('DOMContentLoaded',()=>{const game=new Game();window.ElementalS
  heal:()=>{game.player.hp=game.player.maxHp;game.player.shield=35;},class:id=>game.changeClass(id),element:id=>{const i=C.ELEMENTS.findIndex(e=>e.id===id);if(i>=0)game.elementPress(i);},solve:id=>game.solvePuzzleById(id),state:()=>game
  }};});
 })();
+

@@ -1,3 +1,4 @@
+
 /* V19 living frontier: local geometry, ecology, research and useful equipment.
    World coordinates remain authoritative. No room-boundary teleports. */
 (()=>{'use strict';
@@ -146,3 +147,4 @@ C.DEFAULT_KEYS.quickItem='KeyG';const keys=P.loadKeys;P.loadKeys=function(){cons
 // Allow larger codex while keeping prototype-pollution protections of the existing normalizer.
 const normalize=window.ES17_NORMALIZE;window.ES17_NORMALIZE=function(v){const n=normalize(v);for(const [id,q]of Object.entries(v?.codex||{}))if(C.ENEMIES[id]&&q&&typeof q==='object')n.codex[id]={seen:true,kills:clamp(+q.kills||0,0,1e7),first:clamp(+q.first||0,0,1e9)};return n;};
 })();
+

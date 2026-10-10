@@ -1,3 +1,4 @@
+
 /* V18 / 澄界重構 — authored data. No CDN, no generated skill clones. */
 (()=>{'use strict';
 const C=window.ES9,W=window.ES9_WORLD;
@@ -47,3 +48,4 @@ ES17.races.sonic.desc='150px 內敵人與敵彈慢至 68%；緩時圈可進一�
 W.rooms=W.rooms.filter(r=>!r.id.startsWith('t_'));
 W.edges=W.edges.filter(e=>!e.a.startsWith('t_')&&!e.b.startsWith('t_'));
 })();
+

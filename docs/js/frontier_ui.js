@@ -1,3 +1,4 @@
+
 /* V19 atlas and journal. Map, minimap and route all project REAL game coordinates. */
 (()=>{'use strict';const P=ES9_ENGINE.Game.prototype,C=ES9,D=ES19,W=ES9_WORLD,X=ES17;
 const $=s=>document.querySelector(s),esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),clamp=(v,a,b)=>Math.max(a,Math.min(b,v)),cx=o=>o.x+(o.w||0)/2,cy=o=>o.y+(o.h||0)/2;
@@ -66,3 +67,4 @@ const bind=P.bindUI;P.bindUI=function(){bind.call(this);const frame=$('.game-fra
  $('#codexSummary').insertAdjacentHTML('afterend','<div id="codexControls19"></div>');$('#visionLive>small').textContent='V19 / NINE WORLDS · LIVING ATLAS';$('#expeditionPanel .expedition-heading small').textContent='LIVING ATLAS / FIELD JOURNAL 019';$('#deckIndicator').title='命中普攻幫助技能回復；揮空不回復。';this.renderMap();this.fMapDetail();this.renderCodex();this.fDrawMinimap();
 };
 })();
+

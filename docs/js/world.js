@@ -1,3 +1,4 @@
+
 window.ES9_WORLD = {
   "version": "10.0.0-mastery-east-expansion",
   "width": 25600,
@@ -2274,3 +2275,4 @@ window.ES9_WORLD = {
     }
   ]
 };
+

@@ -1,3 +1,4 @@
+
 /* Integration invariants: input ownership, local environments, safe state changes. */
 (()=>{'use strict';const P=ES9_ENGINE.Game.prototype,C=ES9,D=ES18,cx=o=>o.x+(o.w||0)/2,cy=o=>o.y+(o.h||0)/2;
 // The original loop lost pointer releases occurring during hit-stop. Capture a
@@ -34,3 +35,4 @@ P.vOpen=function(){this.closeModalsM();const panel=document.getElementById('visi
 P.vEnter=function(id){const aliases={forecast:'past',thermal:'heavy',scale:'elastic',slice:'inner'};if(id==='boss')return this.xTravel('v16_boss',true);return this.nStartTutorial('rule',aliases[id]||id||'echo');};
 P.vLeave=function(){return this.nEndTutorial();};P.vLessonTick=function(){};
 })();
+

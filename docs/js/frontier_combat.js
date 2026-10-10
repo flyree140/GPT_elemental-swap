@@ -1,3 +1,4 @@
+
 /* V19: visually and mechanically different commands; shorter, earned cooldowns.
    Enemy warnings lock their targets before firing. No hidden player movement. */
 (()=>{'use strict';const P=ES9_ENGINE.Game.prototype,D=ES19,C=ES9,ATT=ES9_ENGINE.ATT;
@@ -128,3 +129,4 @@ const brain=P.enemyBrain;P.enemyBrain=function(e,dt,dx,dy,ad,dir){if(!e.frontier
 const damage=P.damageEnemy;P.damageEnemy=function(e,dmg,kx=0,ky=0,def={}){if(e.frontier19){const frontal=(cx(this.player)-cx(e))*(e.dir||-1)>0;const protectedShell=['shield','mirror'].includes(e.fPrimary)||(e.fShieldUntil||0)>this.time;if(protectedShell&&frontal&&e.armorBreak<=0&&!['break','quake'].includes(def.shape19))dmg*=.48;if(e.xBoss){kx*=.12;ky=0;}const before=e.hp;damage.call(this,e,dmg,kx,ky,def);if(e.hp<before&&e.breakStun>0){e.fWindup=0;e.fLocked=null;e.telegraph=null;e.fAttackAt=this.time+e.breakStun+.8;}}else damage.call(this,e,dmg,kx,ky,def);};
 P.fTickHazards=function(dt){const f=this.fInit(),p=this.player;for(const h of f.hazards){if(h.until<this.time||h.at>this.time||h.layer!==this.vLayer())continue;if(h.kind==='pull'){if(hit(p,h)&&!this.xHas('vectorGyro'))p.vx+=Math.sign(cx(h)-cx(p))*210*dt;continue;}if(!h.hit&&hit(p,h)){this.hurtPlayer(h.damage,Math.sign(cx(p)-cx(h))*85,-80,h.owner);h.hit=true;}}f.hazards=f.hazards.filter(h=>h.until>this.time);};
 })();
+

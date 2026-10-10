@@ -1,3 +1,4 @@
+
 /* V17 gameplay extension. Plain scripts, no build server or CDN required.
  * Simulation, cooldowns, respawns and crops use game time; menus pause them.
  * All effects are bounded and use the original collision / damage pipeline. */
@@ -349,3 +350,4 @@ const moving17=P.updateMovingObjects;P.updateMovingObjects=function(dt){const al
 const training17=P.startTraining;P.startTraining=function(id){if(!C.CLASSES[id])return;this.vResetTransient();this.xInit().fields=[];this.x17.links=[];this.x17.portals=[];return training17.call(this,id);};
 window.ES17_GAMEPLAY={pointSegment};
 })();
+

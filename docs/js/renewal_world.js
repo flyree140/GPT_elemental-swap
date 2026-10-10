@@ -1,3 +1,4 @@
+
 /* V18 terrain, world-coordinate transitions and nine physical world rules.
  * Chambers and corridors are AIR carved into a single bedrock field (32px cells).
  * Walking never calls travel/teleport. Rendering and collision use the same mesh.
@@ -158,3 +159,4 @@ const elements=P.updateElements;P.updateElements=function(dt){const mode=this.vI
  if(mode==='elastic')for(const {s,vx,vy,stuck}of olds)if(s.t>0&&s.stuck&&!stuck&&(s.bounces18||0)<4){s.stuck=false;s.bounces18=(s.bounces18||0)+1;s.vx=-vx*.88;s.vy=-Math.max(120,Math.abs(vy)*.85);s.y-=18;}
 };
 })();
+

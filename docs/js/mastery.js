@@ -1,3 +1,4 @@
+
 /*
  * V10「共鳴研習」：建立在 V9.1 上，不替換原畫風、52 房原圖或 17 種怪物。
  * ─────────────────────────────────────────────────────────────────────────
@@ -707,3 +708,4 @@ P.drawBackground=function(ctx,w,h){const r=this.roomById.get(this.currentRoomId)
 // 原版音效保留；技能長連擊時不疊加全螢幕閃白。
 window.ES10_MASTER={skills:SKILLS,schools:SCHOOLS,practice:PRACTICE,normalMaster};
 })();
+

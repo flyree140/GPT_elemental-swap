@@ -1,3 +1,4 @@
+
 /* Optional PeerJS two-player layer. Single-player works when PeerJS is unavailable. */
 (function(){
   class ES9Network{
@@ -25,3 +26,4 @@
  P.host=function(){this.emit('status','準備連線元件…');ready().then(()=>host.call(this)).catch(e=>this.emit('error',e.message));};
  P.join=function(id){if(!id){this.emit('error','請輸入房間代碼。');return;}this.emit('status','準備連線元件…');ready().then(()=>join.call(this,id)).catch(e=>this.emit('error',e.message));};
 })();
+

@@ -1,3 +1,4 @@
+
 /* Authored, action-verified onboarding. Sandbox loadouts never overwrite the save. */
 (()=>{'use strict';const P=ES9_ENGINE.Game.prototype,C=ES9,D=ES18,SK=ES10_MASTER.skills,$=s=>document.querySelector(s),cx=o=>o.x+o.w/2,cy=o=>o.y+o.h/2;
 const event=P.nEvent;P.nEvent=function(type,value){event.call(this,type,value);this.n18.events.at(-1).seq=++this.n18.eventSeq|| (this.n18.eventSeq=1);};
@@ -83,3 +84,4 @@ P.renderSchools=function(){$('#schoolPanel h2').textContent='澄界實作庭｜�
 P.startTraining=function(cls){return this.nStartTutorial('job',cls);};P.endTraining=function(){return this.nEndTutorial();};
 const bind=P.bindUI;P.bindUI=function(){bind.call(this);$('#schoolButton').onclick=()=>this.openSchools();$('#schoolPanel p').textContent='十五職各六階段實作。所有短按、長按與機制都會檢查實際操作，不只是閱讀文字。';};
 })();
+

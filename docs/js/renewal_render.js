@@ -1,3 +1,4 @@
+
 /* V18 draws exactly the same ground mesh that collision uses. No image service. */
 (()=>{'use strict';
 const P=ES9_ENGINE.Game.prototype,C=ES9,D=ES18,TAU=Math.PI*2,cx=o=>o.x+(o.w||0)/2,cy=o=>o.y+(o.h||0)/2,clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
@@ -71,3 +72,4 @@ P.nDrawAim=function(ctx){const n=this.nInit(),p=this.player,h=Object.values(n.ho
  else{circle(ctx,at.x,at.y,32);ctx.stroke();ctx.beginPath();ctx.moveTo(origin.x,origin.y);ctx.lineTo(at.x,at.y);ctx.stroke();ctx.fillRect(at.x-10,at.y-1,20,2);ctx.fillRect(at.x-1,at.y-10,2,20);}
  ctx.setLineDash([]);this.vText(ctx,(ch?'長按就緒':'短按準備')+' · '+s.name,origin.x,origin.y-80,col,12);ctx.restore();};
 })();
+

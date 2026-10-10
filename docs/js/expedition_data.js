@@ -1,3 +1,4 @@
+
 /* V17 遠征資料：所有名稱、機制、配方與數值均為本遊戲設計。
  * 不替換 V16 原世界；新增資料由 expedition.js 接上既有引擎。 */
 (()=>{'use strict';
@@ -11,3 +12,4 @@ W.rooms.push(...[{"id":"x17_glacier_0","name":"永晝冰原・歸燈前哨","x":
 for(const b of Object.values(ES17.biomes)){W.regions.push({id:'x17_'+b.id,name:b.name,color:b.color,palette:b.palette,y0:0,y1:17000,objective:b.rule});W.shelters.push('x17_'+b.id+'_0');}
 W.width=C.WORLD_W=62400;W.height=C.WORLD_H=17000;C.VERSION=ES17.version;C.DEFAULT_KEYS.skill4='KeyN';C.DEFAULT_KEYS.skill5='KeyF';C.DEFAULT_KEYS.expedition='KeyO';delete C.DEFAULT_KEYS.deck;delete C.ACTION_LABELS.deck;Object.assign(C.ACTION_LABELS,{skill4:'第四技能 N',skill5:'第五技能 F',expedition:'遠征／種族／元素／製作'});
 })();
+

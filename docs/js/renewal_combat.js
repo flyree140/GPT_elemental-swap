@@ -1,3 +1,4 @@
+
 /* V18 authored combat. Five stable keys, six skills/job, no implicit follow-up.
  * Short press is released before the threshold; long press adds a named modifier
  * to that SAME skill. Cooldown starts only on successful release.
@@ -23,12 +24,12 @@ P.nHit=function(e,damage,opts={}){if(e.dead||!this.vCanHit(e,opts.layer||this.vL
 };
 P.nArea=function(x,y,r,damage,opts={}){const list=this.enemies.filter(e=>!e.dead&&Math.hypot(cx(e)-x,cy(e)-y)<r&&this.vCanHit(e,opts.layer||this.vLayer(),opts.element));for(const e of list)this.nHit(e,damage,opts);
  this.nFX(opts.visual||'ring',x,y,r,C.ELEMENTS.find(e=>e.id===opts.element)?.color||C.CLASSES[this.player.classId].accent,{label:opts.name||this._nCasting?.name});
- if(damage&&!opts.echo)this.vRecord({kind:'circle',x,y,r,damage,dir:this.player.dir,element:opts.element,layer:this.vLayer()});return list;
+ if(damage&&!this._vReplay)this.vRecord({kind:'circle',x,y,r,damage,dir:this.player.dir,element:opts.element,layer:this.vLayer()});return list;
 };
 P.nRay=function(a,b,damage,opts={}){let end={...b};if(!opts.ignoreWalls){const steps=Math.max(1,Math.ceil(Math.hypot(b.x-a.x,b.y-a.y)/18));const box={x:Math.min(a.x,b.x),y:Math.min(a.y,b.y),w:Math.abs(a.x-b.x)+1,h:Math.abs(a.y-b.y)+1};const solids=this.activePlatforms(box).filter(s=>!s.oneWay);for(let i=1;i<=steps;i++){const t=i/steps,q={x:a.x+(b.x-a.x)*t-2,y:a.y+(b.y-a.y)*t-2,w:4,h:4};if(solids.some(s=>hit(q,s))){end={x:q.x,y:q.y};break;}}}
  const all=this.enemies.filter(e=>!e.dead&&this.vCanHit(e,opts.layer||this.vLayer(),opts.element)&&seg(cx(e),cy(e),a,end)<(opts.width||20)+Math.min(e.w,e.h)*.45).sort((x,y)=>Math.hypot(cx(x)-a.x,cy(x)-a.y)-Math.hypot(cx(y)-a.x,cy(y)-a.y)).slice(0,opts.pierce||99);
  for(const e of all)this.nHit(e,damage,opts);this.nFX('beam',a.x,a.y,1,opts.color||C.ELEMENTS.find(e=>e.id===opts.element)?.color||'#ddd4ff',{x2:end.x,y2:end.y,label:opts.name||this._nCasting?.name,width:opts.width||14});
- if(damage&&!opts.echo)this.vRecord({kind:'line18',a:{...a},b:{...end},damage,width:opts.width||20,element:opts.element,layer:this.vLayer(),pierce:opts.pierce});return all;
+ if(damage&&!this._vReplay)this.vRecord({kind:'line18',a:{...a},b:{...end},damage,width:opts.width||20,element:opts.element,layer:this.vLayer(),pierce:opts.pierce});return all;
 };
 const replay=P.vReplayHit;P.vReplayHit=function(a){if(a.kind!=='line18')return replay.call(this,a);this._vReplay=true;try{return this.nRay(a.a,a.b,a.damage*(this.vStore().branches.causal==='B'?.5:.42),{element:a.element,layer:a.layer,width:a.width,pierce:a.pierce,echo:true,color:'#ffd17e',name:'既視感・原位重播'});}finally{this._vReplay=false;}};
 P.nObject=function(type,x,y,opts={}){const n=this.nInit();const o={id:this.id(),type,x,y,w:0,h:0,until:this.time+(opts.duration||8),tick:this.time,layer:this.vLayer(),classId:this.player.classId,label:opts.label||this._nCasting?.name||'',element:opts.element||this._nCasting?.element||'light',...opts};n.objects.push(o);if(n.objects.length>72)n.objects.shift();return o;};
@@ -255,7 +256,7 @@ P.nTickCombat=function(dt){const n=this.nInit(),p=this.player,j=this.nJob(),mode
  for(const b of n.shots){if(b.until<=this.time)continue;const from={x:b.x,y:b.y};b.vy+=b.gravity*dt*(mode==='heavy'?2.15:1);b.x+=b.vx*dt;b.y+=b.vy*dt;let impact=false;
   const steps=Math.max(1,Math.ceil(Math.hypot(b.x-from.x,b.y-from.y)/12));const solids=this.activePlatforms({x:Math.min(b.x,from.x)-8,y:Math.min(b.y,from.y)-8,w:Math.abs(b.x-from.x)+16,h:Math.abs(b.y-from.y)+16});for(let k=1;k<=steps;k++){const t=k/steps,q={x:from.x+(b.x-from.x)*t-6,y:from.y+(b.y-from.y)*t-6,w:12,h:12};if(solids.some(s=>hit(q,s))){b.x=q.x;b.y=q.y;impact=true;break;}}
   if(b.intercept)for(const s of this.enemyShots)if(s.t>0&&seg(cx(s),cy(s),from,b)<55){s.t=0;this.nEvent('intercept','projectile');}
-  for(const e of this.enemies){if(e.dead||b.hits.has(e.id)||!this.vCanHit(e,b.layer,b.element)||seg(cx(e),cy(e),from,b)>Math.max(e.w,e.h)*.48+9)continue;b.hits.add(e.id);this.nHit(e,b.damage,{element:b.element,armor:b.armor,skill:b.skill,layer:b.layer});if(!b.pierce||b.hits.size>b.pierce)impact=true;}
+  for(const e of this.enemies){if(e.dead||b.hits.has(e.id)||!this.vCanHit(e,b.layer,b.element)||seg(cx(e),cy(e),from,b)>Math.max(e.w,e.h)*.48+9)continue;b.hits.add(e.id);this.nHit(e,b.damage,{element:b.element,armor:b.armor,skill:b.skill,layer:b.layer,projectile218:true});if(!b.pierce||b.hits.size>b.pierce)impact=true;}
   if(impact){if(b.flask){this.xField(b.element,b.x,b.y,b.r,6,{damage:3,source18:b.skill});this.nEvent('flask',b.element);}if(mode==='elastic'&&(b.bounces||0)<3&&!b.flask){b.bounces=(b.bounces||0)+1;b.vx*=-.85;b.vy=-Math.abs(b.vy)*.8-100;b.y-=18;}else b.until=0;}
   if(b.return18&&!b.returned&&this.time>b.until-2){b.vx*=-1;b.vy*=-1;b.returned=true;b.hits.clear();}
  }
@@ -268,3 +269,4 @@ P.xElementBranch=function(id,b,tier=1){const q=this.xState().elements[id];tier=+
 // was another hidden displacement. All tier effects are local, visible fields.
 window.ES18_COMBAT={segmentDistance:seg};
 })();
+

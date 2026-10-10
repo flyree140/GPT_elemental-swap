@@ -1,3 +1,4 @@
+
 /* V16 / 視界資料。只新增房間及規則，不重排 V11 世界、不引入 MP。
  * 新資料命名空間 ES16；房間座標可改，必須同步下方 layout 和相鄰邊。
  */
@@ -44,3 +45,4 @@ for(const [id,name,x,y,w,h,kind,palette]of rooms)W.rooms.push({id:'v16_'+id,name
 const links=[['e00','v16_hub','corridor'],['v16_hub','v16_echo','corridor'],['v16_echo','v16_forecast','climb'],['v16_forecast','v16_thermal','climb'],['v16_thermal','v16_scale','grapple'],['v16_scale','v16_slice','climb'],['v16_slice','v16_boss','grapple']];
 for(const [a,b,kind]of links)W.edges.push({a,b,kind,label:'視界支環'});
 })();
+
