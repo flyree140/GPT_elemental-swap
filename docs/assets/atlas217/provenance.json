@@ -1,0 +1,50 @@
+[
+  {
+    "id": "world",
+    "source": "ChatGPT Image 2026年9月18日 下午09_42_55 (2).png",
+    "source_sha256": "dca8f4c6b261c964c1014970509f0c64fb70d95ecc6c2d9f3baff5c34267901f",
+    "output": "assets/atlas217/reference_world.webp",
+    "process": "User-supplied reference; WebP compression, no newly drawn content."
+  },
+  {
+    "id": "character",
+    "source": "ChatGPT Image 2026年9月18日 下午09_42_55 (3).png",
+    "source_sha256": "014edc8a17c4899009bf36083a0d0039e449163ae40ec87ead7ab9ef4f2d871a",
+    "output": "assets/atlas217/reference_character.webp",
+    "process": "User-supplied reference; WebP compression, no newly drawn content."
+  },
+  {
+    "id": "coast",
+    "source": "ChatGPT Image 2026年9月18日 下午09_42_56 (4).png",
+    "source_sha256": "3e05818090f9811a4e1826a73a656621ed1e467a7480c01639d05adb1a63a70c",
+    "output": "assets/atlas217/reference_coast.webp",
+    "process": "User-supplied reference; WebP compression, no newly drawn content."
+  },
+  {
+    "id": "skills",
+    "source": "ChatGPT Image 2026年9月18日 下午09_42_57 (5).png",
+    "source_sha256": "e2186d5df020a5aadfbf9b2d5c5dd3944538c10ed4aadf2bbf115a0aa3a4c5e9",
+    "output": "assets/atlas217/reference_skills.webp",
+    "process": "User-supplied reference; WebP compression, no newly drawn content."
+  },
+  {
+    "id": "gameplay",
+    "source": "ChatGPT Image 2026年9月18日 下午09_42_55 (1).png",
+    "source_sha256": "e35d3ab0316e533b6d799c48141f31be6a3e563672251aabaf16e2c5d5b2d1b9",
+    "output": "assets/atlas217/reference_gameplay.webp",
+    "process": "User-supplied reference; WebP compression, no newly drawn content."
+  },
+  {
+    "id": "worldview",
+    "source": "ChatGPT Image 2026年9月23日 下午10_41_02 (1).png",
+    "source_sha256": "044d8eaa8f338d975e29c106fb48dd9c1e851875c30b73a0b1ab20cfd06ce304",
+    "output": "assets/atlas217/reference_worldview.webp",
+    "process": "User-supplied reference; WebP compression, no newly drawn content."
+  },
+  {
+    "id": "hero",
+    "output": "assets/atlas217/hero.webp",
+    "base": "assets/entropy216/hero.webp",
+    "process": "59 unique inherited full-body frames. Disconnected adjacent figures and cyan divider fragments removed. light aliases cut (2); heavy reorders cross (4). No newly hand-drawn animation."
+  }
+]

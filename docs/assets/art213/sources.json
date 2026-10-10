@@ -1,0 +1,145 @@
+{
+  "hanging_platform": {
+    "source": "user-supplied V21.3 reference",
+    "crop": [
+      813,
+      509,
+      961,
+      593
+    ],
+    "size": [
+      148,
+      84
+    ]
+  },
+  "moss_ledge": {
+    "source": "user-supplied V21.3 reference",
+    "crop": [
+      476,
+      475,
+      771,
+      584
+    ],
+    "size": [
+      295,
+      109
+    ]
+  },
+  "banner": {
+    "source": "user-supplied V21.3 reference",
+    "crop": [
+      1476,
+      355,
+      1555,
+      507
+    ],
+    "size": [
+      79,
+      152
+    ]
+  },
+  "crystal_spikes": {
+    "source": "user-supplied V21.3 reference",
+    "crop": [
+      1132,
+      757,
+      1284,
+      819
+    ],
+    "size": [
+      152,
+      62
+    ]
+  },
+  "relic_stone": {
+    "source": "user-supplied V21.3 reference",
+    "crop": [
+      571,
+      611,
+      641,
+      732
+    ],
+    "size": [
+      70,
+      121
+    ]
+  },
+  "residue_lightning": {
+    "source": "user-supplied V21.3 reference",
+    "crop": [
+      747,
+      802,
+      844,
+      869
+    ],
+    "size": [
+      97,
+      67
+    ]
+  },
+  "residue_ice": {
+    "source": "user-supplied V21.3 reference",
+    "crop": [
+      850,
+      802,
+      940,
+      869
+    ],
+    "size": [
+      90,
+      67
+    ]
+  },
+  "residue_light": {
+    "source": "user-supplied V21.3 reference",
+    "crop": [
+      950,
+      802,
+      1037,
+      869
+    ],
+    "size": [
+      87,
+      67
+    ]
+  },
+  "residue_shadow": {
+    "source": "user-supplied V21.3 reference",
+    "crop": [
+      1044,
+      802,
+      1140,
+      869
+    ],
+    "size": [
+      96,
+      67
+    ]
+  },
+  "residue_water": {
+    "source": "user-supplied V21.3 reference",
+    "crop": [
+      1149,
+      802,
+      1237,
+      869
+    ],
+    "size": [
+      88,
+      67
+    ]
+  },
+  "residue_swap": {
+    "source": "user-supplied V21.3 reference",
+    "crop": [
+      1247,
+      450,
+      1447,
+      575
+    ],
+    "size": [
+      200,
+      125
+    ]
+  }
+}

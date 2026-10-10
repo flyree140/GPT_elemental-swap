@@ -1,0 +1,180 @@
+{
+  "scene_coast": {
+    "source": "ChatGPT Image 2026年9月17日 下午04_45_03 (4).png",
+    "crop": [
+      448,
+      81,
+      1120,
+      398
+    ],
+    "resampled": true
+  },
+  "scene_sky": {
+    "source": "ChatGPT Image 2026年9月17日 下午04_45_03 (2).png",
+    "crop": [
+      875,
+      5,
+      1287,
+      246
+    ],
+    "resampled": true
+  },
+  "scene_forest": {
+    "source": "ChatGPT Image 2026年9月13日 下午08_07_41 (3).png",
+    "crop": [
+      1199,
+      647,
+      1430,
+      750
+    ],
+    "resampled": true
+  },
+  "scene_fungi": {
+    "source": "ChatGPT Image 2026年9月17日 下午04_34_27 (2).png",
+    "crop": [
+      655,
+      842,
+      866,
+      956
+    ],
+    "resampled": true
+  },
+  "scene_ocean": {
+    "source": "ChatGPT Image 2026年9月17日 下午04_34_27 (2).png",
+    "crop": [
+      223,
+      842,
+      430,
+      956
+    ],
+    "resampled": true
+  },
+  "scene_desert": {
+    "source": "ChatGPT Image 2026年9月17日 下午04_34_27 (2).png",
+    "crop": [
+      17,
+      843,
+      208,
+      956
+    ],
+    "resampled": true
+  },
+  "scene_snow": {
+    "source": "ChatGPT Image 2026年9月17日 下午04_34_27 (2).png",
+    "crop": [
+      442,
+      843,
+      648,
+      956
+    ],
+    "resampled": true
+  },
+  "scene_volcano": {
+    "source": "ChatGPT Image 2026年9月17日 下午04_34_26 (1).png",
+    "crop": [
+      1390,
+      541,
+      1520,
+      654
+    ],
+    "resampled": true
+  },
+  "scene_city": {
+    "source": "ChatGPT Image 2026年9月17日 下午04_34_27 (2).png",
+    "crop": [
+      877,
+      842,
+      1078,
+      956
+    ],
+    "resampled": true
+  },
+  "scene_shadow": {
+    "source": "ChatGPT Image 2026年9月17日 下午04_34_27 (2).png",
+    "crop": [
+      1312,
+      842,
+      1520,
+      956
+    ],
+    "resampled": true
+  },
+  "scene_cave": {
+    "source": "ChatGPT Image 2026年9月17日 下午04_34_27 (2).png",
+    "crop": [
+      1091,
+      842,
+      1299,
+      956
+    ],
+    "resampled": true
+  },
+  "scene_crystal": {
+    "source": "ChatGPT Image 2026年9月17日 下午04_34_27 (2).png",
+    "crop": [
+      441,
+      843,
+      648,
+      956
+    ],
+    "resampled": true
+  },
+  "monster_crab": {
+    "source": "ChatGPT Image 2026年9月17日 下午04_45_02 (1).png",
+    "crop": [
+      10,
+      126,
+      244,
+      263
+    ],
+    "mask": "silhouette + teal-background extraction"
+  },
+  "monster_jelly": {
+    "source": "ChatGPT Image 2026年9月17日 下午04_45_02 (1).png",
+    "crop": [
+      766,
+      130,
+      928,
+      268
+    ],
+    "mask": "silhouette + teal-background extraction"
+  },
+  "monster_golem": {
+    "source": "ChatGPT Image 2026年9月17日 下午04_45_02 (1).png",
+    "crop": [
+      31,
+      439,
+      292,
+      584
+    ],
+    "mask": "silhouette + teal-background extraction"
+  },
+  "monster_bird": {
+    "source": "ChatGPT Image 2026年9月17日 下午04_45_02 (1).png",
+    "crop": [
+      738,
+      431,
+      943,
+      585
+    ],
+    "mask": "silhouette + teal-background extraction"
+  },
+  "monster_boss": {
+    "source": "ChatGPT Image 2026年9月17日 下午04_45_02 (1).png",
+    "crop": [
+      98,
+      766,
+      451,
+      999
+    ],
+    "mask": "silhouette + teal-background extraction"
+  },
+  "_release_notes": {
+    "rendered_assets": 156,
+    "scene_source": "User-supplied reference crops, resampled; not newly painted high-resolution backgrounds.",
+    "character_source": "Shared painted base with layered costume, headgear and weapon variants for 15 professions.",
+    "animation": "Continuous skeletal interpolation, inverse kinematics and cloth deformation.",
+    "monster_source": "Five reference-derived art families shared across gameplay species and boss variants.",
+    "fixtures": "Programmatic vector/painted composites."
+  }
+}
